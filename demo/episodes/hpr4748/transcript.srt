@@ -1,0 +1,1147 @@
+1
+00:00:05,710 --> 00:00:12,710
+This is Hacker Public Radio Episode 4748 for Wednesday 14 October 2026.
+
+2
+00:00:12,710 --> 00:00:17,710
+Today's show is entitled Programmable Logic Controls Episode 5.
+
+3
+00:00:17,710 --> 00:00:21,710
+It is hosted by Whiskey Jack and is about 21 minutes long.
+
+4
+00:00:21,710 --> 00:00:27,710
+It carries a clean flag. The summary is a brief overview of industrial control systems.
+
+5
+00:00:27,710 --> 00:00:42,900
+Introduction
+
+6
+00:00:42,900 --> 00:00:46,900
+This is the fifth episode in an eight-part series.
+
+7
+00:00:46,900 --> 00:00:55,900
+In the previous two episodes, we looked at the Alan Bradley PLC2 and the Siemens S5 series of PLCs.
+
+8
+00:00:55,900 --> 00:01:01,900
+In those episodes, we mentioned IOModules, but didn't really go into any detail on them.
+
+9
+00:01:01,900 --> 00:01:08,900
+Instead, we looked at the CPU units and focused on things from the programmer's perspective.
+
+10
+00:01:08,900 --> 00:01:17,600
+In this episode, we will look at the I.O. modules, what they are, how they work, and the purpose that they serve in the system.
+
+11
+00:01:17,600 --> 00:01:28,800
+In addition to this, I will discuss machine safety systems, and also claims made by certain people about cybersecurity and industrial safety.
+
+12
+00:01:28,800 --> 00:01:35,800
+What is I.O.? First though, we must address the question of what I.O. is.
+
+13
+00:01:35,800 --> 00:01:42,360
+While the CPU module may run the program, in order for the program to do anything useful,
+
+14
+00:01:42,360 --> 00:01:46,820
+it must interact with the real world outside the PLC.
+
+15
+00:01:46,820 --> 00:01:51,720
+It must sense the state of the machine it is controlling through inputs, and it must affect
+
+16
+00:01:51,720 --> 00:01:55,240
+the operation of the machine through outputs.
+
+17
+00:01:55,240 --> 00:01:57,500
+A simple example.
+
+18
+00:01:57,500 --> 00:02:02,880
+Let's take a very simple example to try to make the above a bit more tangible.
+
+19
+00:02:02,880 --> 00:02:09,080
+assuming we wish to press two parts together, such as pressing a bearing into a housing.
+
+20
+00:02:09,080 --> 00:02:13,260
+This is a very common industrial process.
+
+21
+00:02:13,260 --> 00:02:18,120
+Let us assume we have the following items which connect to the inputs.
+
+22
+00:02:18,120 --> 00:02:25,680
+An emergency stop circuit, a safety system to protect the operator, a part present sensor
+
+23
+00:02:25,680 --> 00:02:31,680
+used to detect that the housing was correctly placed in the tooling, another part present
+
+24
+00:02:31,680 --> 00:02:37,280
+sensor used to detect that the bearing was correctly placed in the tooling.
+
+25
+00:02:37,280 --> 00:02:44,080
+A sensor which indicates the hydraulic cylinder is fully retracted, another sensor which indicates
+
+26
+00:02:44,080 --> 00:02:49,720
+the hydraulic cylinder is fully extended and the part was fully pressed home, a button
+
+27
+00:02:49,720 --> 00:02:55,240
+which the operator uses to initiate the press cycle, another button which the operator can
+
+28
+00:02:55,240 --> 00:02:59,800
+use to abort the press cycle in the event of a fault.
+
+29
+00:02:59,800 --> 00:03:05,520
+We also have the following items which connect to the outputs, a hydraulic valve with two
+
+30
+00:03:05,520 --> 00:03:11,880
+solenoids down and up, a pilot light which tells the operator that the cycle was completed
+
+31
+00:03:11,880 --> 00:03:17,520
+successfully and the part is good, a pilot light which tells the operator that the cycle
+
+32
+00:03:17,520 --> 00:03:21,560
+was not completed successfully and the part is bad.
+
+33
+00:03:21,560 --> 00:03:26,440
+This gives us a total of 8 inputs and 4 outputs.
+
+34
+00:03:26,440 --> 00:03:32,400
+A typical, very small PLC would be suitable for this application.
+
+35
+00:03:32,400 --> 00:03:37,920
+The PLC program would look at the state of the inputs and apply the necessary logic to
+
+36
+00:03:37,920 --> 00:03:42,040
+turn the outputs on or off at the appropriate time.
+
+37
+00:03:42,040 --> 00:03:49,000
+As you can see, what makes the PLC useful is its ability to control I.O.
+
+38
+00:03:49,000 --> 00:03:56,040
+Small PLCs typically have a limited amount of I.O. built into the same package as the CPU
+
+39
+00:03:56,040 --> 00:03:59,480
+and can be used as is right out of the box.
+
+40
+00:03:59,480 --> 00:04:03,780
+Medium to large PLCs will interface to racks of IO,
+
+41
+00:04:03,780 --> 00:04:06,280
+and the number of IO points can be in the dozens
+
+42
+00:04:06,280 --> 00:04:08,600
+to hundreds and even the thousands.
+
+43
+00:04:09,680 --> 00:04:14,000
+Types of IO, the above example is very simple.
+
+44
+00:04:14,000 --> 00:04:17,040
+There are in fact many types of IO.
+
+45
+00:04:17,040 --> 00:04:19,440
+I will outline the most common ones here.
+
+46
+00:04:20,520 --> 00:04:23,400
+The first is digital IO.
+
+47
+00:04:23,400 --> 00:04:26,800
+This is overwhelmingly the most common type.
+
+48
+00:04:26,800 --> 00:04:30,720
+Digital I.O. are basic on-off signals.
+
+49
+00:04:30,720 --> 00:04:35,040
+A digital input will detect if a switch is on or off.
+
+50
+00:04:35,040 --> 00:04:39,320
+A digital output will turn a relay or valve on or off.
+
+51
+00:04:40,720 --> 00:04:43,360
+Digital I.O. comes in three main types,
+
+52
+00:04:43,360 --> 00:04:46,640
+categorized by the type of electronic device used.
+
+53
+00:04:46,640 --> 00:04:50,160
+These are AC, relay, and DC.
+
+54
+00:04:50,160 --> 00:04:56,720
+ACIO was the earliest type but is largely faded away by now.
+
+55
+00:04:56,720 --> 00:05:00,000
+This works with 100 to 120 volts AC.
+
+56
+00:05:00,000 --> 00:05:03,300
+or 230 volts AC.
+
+57
+00:05:04,120 --> 00:05:07,580
+Inputs detect the presence or absence of these voltages
+
+58
+00:05:08,100 --> 00:05:11,060
+and outputs output these voltages when turned on.
+
+59
+00:05:12,160 --> 00:05:16,280
+The relay logic that the PLCs replaced was largely driven
+
+60
+00:05:16,280 --> 00:05:19,340
+by these voltages so being able to interface
+
+61
+00:05:19,340 --> 00:05:23,040
+with existing systems was an important design consideration
+
+62
+00:05:23,180 --> 00:05:24,540
+for early PLCs.
+
+63
+00:05:24,540 --> 00:05:33,540
+Relay outputs were an alternative to the tri-act devices used for solid-state AC outputs.
+
+64
+00:05:33,540 --> 00:05:37,420
+These were very small relays built into the output modules.
+
+65
+00:05:37,420 --> 00:05:42,700
+Their main attraction was they were usually somewhat cheaper than solid-state outputs.
+
+66
+00:05:42,700 --> 00:05:48,940
+However, they suffered from being much less durable and had a shorter life.
+
+67
+00:05:48,940 --> 00:05:56,640
+By the 1980s and 90s AC and relay IO had been largely replaced in new applications by
+
+68
+00:05:56,640 --> 00:05:59,380
+24 volts DC.
+
+69
+00:05:59,380 --> 00:06:04,860
+This allowed for more compact and less expensive control wiring and fewer electrical safety
+
+70
+00:06:04,860 --> 00:06:06,540
+concerns.
+
+71
+00:06:06,540 --> 00:06:11,640
+Both inputs and outputs worked with 24 volts DC.
+
+72
+00:06:11,640 --> 00:06:18,100
+All of the standard sensors, solenoid valves, relays, push buttons, lights and pretty much
+
+73
+00:06:18,100 --> 00:06:24,160
+all other devices were designed to be compatible with 24 volts DC.
+
+74
+00:06:24,160 --> 00:06:29,420
+In cases where you had a large motor contact or relay or large solenoid valves
+
+75
+00:06:29,420 --> 00:06:33,320
+which required higher voltages for practical reasons,
+
+76
+00:06:33,320 --> 00:06:39,160
+an additional interposing relay could be used to amplify the control signal.
+
+77
+00:06:39,160 --> 00:06:45,760
+IOModules or cards came in 8, 16, and 32 point sizes,
+
+78
+00:06:45,760 --> 00:06:50,480
+and there are modules which combine both inputs and outputs in a single module.
+
+79
+00:06:50,480 --> 00:06:53,560
+Analog I.O.
+
+80
+00:06:53,560 --> 00:07:00,240
+As well as simple on-off voltages, PLCs could also work with variable voltages where the actual
+
+81
+00:07:00,240 --> 00:07:06,960
+voltage or current represents a measurable value such as temperature or dimension.
+
+82
+00:07:06,960 --> 00:07:09,800
+These are known as analog values.
+
+83
+00:07:09,800 --> 00:07:17,180
+These could be inputs or outputs and are known as analog inputs or analog outputs.
+
+84
+00:07:17,180 --> 00:07:19,420
+The simplest is voltage.
+
+85
+00:07:19,420 --> 00:07:28,560
+The most common standard voltage ranges are 0 to 10 volts plus or minus 10 volts 0 to 5
+
+86
+00:07:28,560 --> 00:07:32,300
+volts 1 to 5 volts.
+
+87
+00:07:32,300 --> 00:07:34,060
+Another type is current.
+
+88
+00:07:34,060 --> 00:07:39,660
+This is where the amount of current rather than the level of the voltage is what is significant.
+
+89
+00:07:39,660 --> 00:07:46,160
+Current has an advantage over voltage in that it is less affected by resistance losses
+
+90
+00:07:46,160 --> 00:07:53,080
+in long wiring runs and is also less prone to being influenced by electrical noise due
+
+91
+00:07:53,080 --> 00:07:56,340
+to the lower impedance.
+
+92
+00:07:56,340 --> 00:08:05,280
+The most common standard current ranges are 4 to 20 milliamps and 0 to 20 milliamps.
+
+93
+00:08:05,280 --> 00:08:09,160
+Another common type is thermocouple inputs.
+
+94
+00:08:09,160 --> 00:08:14,720
+These have special circuitry built into them to interface with thermocouple devices, which
+
+95
+00:08:14,720 --> 00:08:20,280
+are a common device used to measure temperature by measuring the voltage generated when two
+
+96
+00:08:20,280 --> 00:08:25,720
+dissimilar metals are heated in contact with each other.
+
+97
+00:08:25,720 --> 00:08:31,720
+Serial communications A number of PLCs have serial communications ports, mainly used to
+
+98
+00:08:31,720 --> 00:08:36,640
+interface with things like label printers or barcode readers.
+
+99
+00:08:36,640 --> 00:08:41,960
+Some of these even have basic interpreters built into them, mainly to allow for better string
+
+100
+00:08:41,960 --> 00:08:45,360
+formatting or parsing.
+
+101
+00:08:45,360 --> 00:08:51,560
+Another category of IO are Servo and Stepper Motor Controllers.
+
+102
+00:08:51,560 --> 00:08:57,560
+Another type are Counter Timer Modules, which allow for high-speed counting of events, or
+
+103
+00:08:57,560 --> 00:09:05,280
+very precise timing of events in hardware, or interfacing with rotary or linear encoders.
+
+104
+00:09:05,280 --> 00:09:11,120
+are measuring devices which have a series of very small but precise marks which interrupt
+
+105
+00:09:11,120 --> 00:09:16,720
+beams of light when they move, allowing measurements to be made.
+
+106
+00:09:16,720 --> 00:09:24,120
+Many PLCs also support some sort of networking. I won't go into any detail on that here,
+
+107
+00:09:24,120 --> 00:09:30,720
+but will instead address this area in another episode. However, network ports may be built
+
+108
+00:09:30,720 --> 00:09:37,420
+into the CPU or may reside in separate network I-O modules.
+
+109
+00:09:37,420 --> 00:09:42,220
+As well as the preceding, there are many other specialty modules which you won't bother
+
+110
+00:09:42,220 --> 00:09:44,980
+to describe here.
+
+111
+00:09:44,980 --> 00:09:48,340
+Operator Panels The original operator panels were arrays
+
+112
+00:09:48,340 --> 00:09:55,260
+of push buttons, pilot lights, and other basic operator controls mounted in boxes for an operator
+
+113
+00:09:55,260 --> 00:09:58,140
+to interact with the machine.
+
+114
+00:09:58,140 --> 00:10:00,140
+on these were replaced by special.
+
+115
+00:10:00,000 --> 00:10:05,400
+Virtual-T electronic devices which were also known as operator panels as they serve the
+
+116
+00:10:05,400 --> 00:10:08,040
+same function.
+
+117
+00:10:08,040 --> 00:10:13,940
+Modern operator panels are screens and keypads which are used to display information to an
+
+118
+00:10:13,940 --> 00:10:19,160
+operator or to allow data to be entered into the PLC.
+
+119
+00:10:19,160 --> 00:10:24,840
+While not strictly speaking a type of I.O., operator panels typically look like I.O. to
+
+120
+00:10:24,840 --> 00:10:27,960
+the PLC CPU.
+
+121
+00:10:27,960 --> 00:10:34,280
+on a touchscreen may be effectively the same thing as actual hardware buttons from the PLC's
+
+122
+00:10:34,280 --> 00:10:40,760
+perspective, and analog values output to the operator panel for display are like hardware
+
+123
+00:10:40,760 --> 00:10:49,680
+analog devices. All of these data are mapped to memory locations in the PLC with the details
+
+124
+00:10:49,680 --> 00:10:56,040
+of how this is done varying according to the make and model of PLC.
+
+125
+00:10:56,040 --> 00:11:02,080
+I won't go into any detail on this, as this could be a separate subject on its own.
+
+126
+00:11:02,080 --> 00:11:08,840
+Generally though, you would use software to create screens to display on the operator panel.
+
+127
+00:11:08,840 --> 00:11:13,880
+The indicators and buttons defined in your screens would be mapped to addresses in the
+
+128
+00:11:13,880 --> 00:11:18,080
+PLC, either directly or indirectly.
+
+129
+00:11:18,080 --> 00:11:22,820
+This configuration would then be downloaded into the operator panel.
+
+130
+00:11:22,820 --> 00:11:29,980
+Your PLC program could then interact with the operator panel using ordinary ladder logic.
+
+131
+00:11:29,980 --> 00:11:35,620
+Safety Systems Up to now I have mentioned only PLCs in any detail.
+
+132
+00:11:35,620 --> 00:11:41,460
+There is however more to a complete machine control system than just a PLC.
+
+133
+00:11:41,460 --> 00:11:44,700
+One of these is safety systems.
+
+134
+00:11:44,700 --> 00:11:50,300
+I will leave out historical safety systems and just focus on modern ones.
+
+135
+00:11:50,300 --> 00:11:57,140
+I will also leave out large process industries involving things like boilers or chemical reactors
+
+136
+00:11:57,140 --> 00:12:03,940
+and just focus on assembly operations in industries such as automobiles, appliances and other similar
+
+137
+00:12:03,940 --> 00:12:05,460
+things.
+
+138
+00:12:05,460 --> 00:12:12,070
+This won't be a tutorial on safety design, just a very brief overview.
+
+139
+00:12:12,070 --> 00:12:19,470
+An industrial machine must be designed with safety as one of its fundamental design principles.
+
+140
+00:12:19,470 --> 00:12:25,330
+If the machine cannot be operated safely, then it cannot be put into use.
+
+141
+00:12:25,330 --> 00:12:30,430
+Safety must take into account the operators, bystanders, and maintainers.
+
+142
+00:12:30,430 --> 00:12:35,690
+You must assume that people will be inattentive or make mistakes.
+
+143
+00:12:35,690 --> 00:12:41,750
+You must also assume that the PLC program will have bugs and the electronics will fail
+
+144
+00:12:41,750 --> 00:12:46,230
+in a state which could cause a hazard if it is permitted to.
+
+145
+00:12:46,230 --> 00:12:53,950
+In other words, the PLC and your PLC program are not part of the safety system.
+
+146
+00:12:53,950 --> 00:13:01,270
+The safety system will decide when the PLC will be permitted to act and when it will not.
+
+147
+00:13:01,270 --> 00:13:07,990
+The PLC in turn must monitor the safety system in order to understand when it can and cannot
+
+148
+00:13:07,990 --> 00:13:09,710
+act.
+
+149
+00:13:09,710 --> 00:13:15,950
+Your PLC program must take this into account so that it can differentiate between not being
+
+150
+00:13:15,950 --> 00:13:22,430
+able to act because the safety system has decided it is not safe to cycle versus there
+
+151
+00:13:22,430 --> 00:13:27,450
+being something wrong with the machine which prevents it from operating.
+
+152
+00:13:27,450 --> 00:13:30,430
+A few basic safety devices.
+
+153
+00:13:30,430 --> 00:13:33,750
+Here are a few basic safety devices.
+
+154
+00:13:33,750 --> 00:13:36,030
+I will not attempt to be comprehensive.
+
+155
+00:13:36,030 --> 00:13:42,350
+Rather, I am just giving a few common examples so that you will understand the environment
+
+156
+00:13:42,350 --> 00:13:45,870
+in which the PLC can operate.
+
+157
+00:13:45,870 --> 00:13:52,570
+Emergency Stop Circuit. A basic element of nearly all industrial machines is some sort
+
+158
+00:13:52,570 --> 00:13:59,250
+of Emergency Stop Circuit. When the on button is pressed, a relay will close and hold itself
+
+159
+00:13:59,250 --> 00:14:05,150
+on. This will enable power to the machine, including the compressed air supply if there
+
+160
+00:14:05,150 --> 00:14:12,550
+is one. If the stop or e-stop button is pressed, the relay will open and remove energy from
+
+161
+00:14:12,550 --> 00:14:18,950
+the machine, rendering it safe. If the electrical power supply to the machine goes off, due
+
+162
+00:14:18,950 --> 00:14:24,870
+to, for example, the building losing electrical power, the emergency stop circuit will also
+
+163
+00:14:24,870 --> 00:14:34,010
+drop out or open and remain off until the start button is pressed again. Well, every
+
+164
+00:14:34,010 --> 00:14:40,010
+or nearly every machine will have an emergency stop circuit. It is often not sufficient on
+
+165
+00:14:40,010 --> 00:14:47,090
+its own. In other words, it is necessary, but not always sufficient.
+
+166
+00:14:47,090 --> 00:14:53,430
+Guard switches. Equipment hazards must be enclosed by protective guarding. Moveable
+
+167
+00:14:53,430 --> 00:14:59,330
+guards such as access doors must be interlocked with the safety circuit, such that when the
+
+168
+00:14:59,330 --> 00:15:00,330
+The guard is open.
+
+169
+00:15:00,000 --> 00:15:03,080
+and the machine is rendered safe.
+
+170
+00:15:00,330 --> 00:15:01,330
+The guard is open.
+
+171
+00:15:01,330 --> 00:15:02,330
+The guard is open.
+
+172
+00:15:02,330 --> 00:15:03,330
+The guard is open.
+
+173
+00:15:03,080 --> 00:15:06,720
+To achieve this, there will be safety-rated switches
+
+174
+00:15:03,330 --> 00:15:04,330
+The guard is open.
+
+175
+00:15:04,330 --> 00:15:05,330
+The guard is open.
+
+176
+00:15:05,330 --> 00:15:06,330
+The guard is open.
+
+177
+00:15:06,330 --> 00:15:07,330
+The guard is open.
+
+178
+00:15:06,720 --> 00:15:09,340
+on each access door, which are connected
+
+179
+00:15:07,330 --> 00:15:08,330
+The guard is open.
+
+180
+00:15:08,330 --> 00:15:09,330
+The guard is open.
+
+181
+00:15:09,330 --> 00:15:10,330
+The guard is open.
+
+182
+00:15:09,340 --> 00:15:11,480
+to the safety circuits of the machine.
+
+183
+00:15:10,330 --> 00:15:11,330
+The guard is open.
+
+184
+00:15:11,330 --> 00:15:12,330
+The guard is open.
+
+185
+00:15:12,330 --> 00:15:13,330
+The guard is open.
+
+186
+00:15:13,200 --> 00:15:15,360
+To hand control.
+
+187
+00:15:13,330 --> 00:15:14,330
+The guard is open.
+
+188
+00:15:14,330 --> 00:15:15,330
+The guard is open.
+
+189
+00:15:15,330 --> 00:15:16,330
+The guard is open.
+
+190
+00:15:15,360 --> 00:15:19,120
+Another common safety circuit is to hand control,
+
+191
+00:15:16,330 --> 00:15:17,330
+The guard is open.
+
+192
+00:15:17,330 --> 00:15:18,330
+The guard is open.
+
+193
+00:15:18,330 --> 00:15:19,330
+The guard is open.
+
+194
+00:15:19,120 --> 00:15:21,680
+often called anti-tidydown,
+
+195
+00:15:19,330 --> 00:15:20,330
+The guard is open.
+
+196
+00:15:20,330 --> 00:15:21,330
+The guard is open.
+
+197
+00:15:21,330 --> 00:15:22,330
+The guard is open.
+
+198
+00:15:21,680 --> 00:15:24,560
+although that latter phrase actually describes
+
+199
+00:15:22,330 --> 00:15:23,330
+The guard is open.
+
+200
+00:15:23,330 --> 00:15:24,330
+The guard is open.
+
+201
+00:15:24,330 --> 00:15:25,330
+The guard is open.
+
+202
+00:15:24,560 --> 00:15:26,440
+one of the design principles,
+
+203
+00:15:25,330 --> 00:15:26,330
+The guard is open.
+
+204
+00:15:26,330 --> 00:15:27,330
+The guard is open.
+
+205
+00:15:26,440 --> 00:15:28,880
+rather than being the proper name.
+
+206
+00:15:27,330 --> 00:15:28,330
+The guard is open.
+
+207
+00:15:28,880 --> 00:15:34,500
+With two hand control, the operator station will have two large buttons, which the operator
+
+208
+00:15:34,500 --> 00:15:40,740
+must press simultaneously and hold to enable the machine to operate.
+
+209
+00:15:40,740 --> 00:15:45,420
+With both hands on the buttons, you know where the operator's hands are.
+
+210
+00:15:45,420 --> 00:15:51,740
+The operator must remove both hands from the buttons in order to enable the circuit again.
+
+211
+00:15:51,740 --> 00:15:56,820
+If one button remains closed and the operator attempts to activate the machine again with
+
+212
+00:15:56,820 --> 00:16:02,440
+the other button that the safety circuit will detect this and refuse to enable the machine
+
+213
+00:16:02,440 --> 00:16:07,120
+again until both buttons are deactivated.
+
+214
+00:16:07,120 --> 00:16:10,120
+This is the anti-tie-down feature.
+
+215
+00:16:10,120 --> 00:16:16,640
+The operator cannot tie one button down and cycle the machine repeatedly with just the other
+
+216
+00:16:16,640 --> 00:16:17,740
+button.
+
+217
+00:16:17,740 --> 00:16:23,460
+The buttons will be connected to a special relay which monitors and self-tests to ensure
+
+218
+00:16:23,460 --> 00:16:26,180
+it operates correctly.
+
+219
+00:16:26,180 --> 00:16:32,820
+The PLC will monitor an auxiliary contact on this relay so that it knows when to start
+
+220
+00:16:32,820 --> 00:16:39,580
+its sequence of operation, but the redundant safety contacts on the relay lie in between
+
+221
+00:16:39,580 --> 00:16:44,540
+the PLC and whatever hazards are being guarded against.
+
+222
+00:16:44,540 --> 00:16:52,220
+The safety device has ultimate control over whether the machine moves or not.
+
+223
+00:16:52,220 --> 00:16:59,640
+light curtain. Another basic safety device is the light curtain. This has a series of
+
+224
+00:16:59,640 --> 00:17:05,640
+closely spaced light beams across the opening which forms the operator's access to the
+
+225
+00:17:05,640 --> 00:17:12,900
+working area of the machine. If one of these light beams is interrupted, the light curtain
+
+226
+00:17:12,900 --> 00:17:18,640
+controller will not permit the machine to move. Light curtains can usually be used in
+
+227
+00:17:18,640 --> 00:17:25,360
+places where two hand control systems can be used. They have an advantage over two hand control
+
+228
+00:17:25,360 --> 00:17:30,640
+in that the operator can be performing other tasks while the machine is cycling instead
+
+229
+00:17:30,640 --> 00:17:36,920
+of being occupied with holding the two hand control buttons down. This allows for productivity
+
+230
+00:17:36,920 --> 00:17:42,280
+improvements which can usually more than pay for the higher cost of the light curtain compared
+
+231
+00:17:42,280 --> 00:17:46,140
+to simple to hand control.
+
+232
+00:17:46,140 --> 00:17:47,900
+Other devices.
+
+233
+00:17:47,900 --> 00:17:53,900
+There are many other safety devices, many of which address niche applications.
+
+234
+00:17:53,900 --> 00:17:58,680
+I won't bother listing any more than I have so far, however, as you should understand
+
+235
+00:17:58,680 --> 00:18:02,280
+the basic principles by now.
+
+236
+00:18:02,280 --> 00:18:04,440
+Safety PLCs.
+
+237
+00:18:04,440 --> 00:18:11,360
+There are special safety PLCs which have redundant CPUs which monitor one another and which have
+
+238
+00:18:11,360 --> 00:18:16,640
+redundant, mutually interlocked I.O. and which runs safety reviewed software.
+
+239
+00:18:16,640 --> 00:18:23,080
+Anything connected to a safety PLC must itself be safety rated if it could affect
+
+240
+00:18:23,080 --> 00:18:28,080
+the safety of the machine. However, these are quite rare and only used in
+
+241
+00:18:28,080 --> 00:18:33,800
+certain special industries. These are normally used in places where some
+
+242
+00:18:33,800 --> 00:18:39,560
+programmed sequence of operations is required to render a system safe. This is
+
+243
+00:18:39,560 --> 00:18:44,880
+more commonly found in places such as oil refineries, chemical plants, or electric power
+
+244
+00:18:44,880 --> 00:18:50,450
+generating plants than in typical factories.
+
+245
+00:18:50,450 --> 00:18:52,950
+Safety and Cybersecurity
+
+246
+00:18:52,950 --> 00:18:58,670
+This is a good place to bring up the question of safety and cybersecurity.
+
+247
+00:18:58,670 --> 00:19:03,790
+There have been a number of articles in the IT press recently about how PLCs could be
+
+248
+00:19:03,790 --> 00:19:09,830
+indirectly affected by computer viruses and how this could cause dangerous safety problems
+
+249
+00:19:09,830 --> 00:19:12,830
+in manufacturing equipment.
+
+250
+00:19:12,830 --> 00:19:19,150
+The premise is that they found security holes in software which runs on personal computers
+
+251
+00:19:19,150 --> 00:19:25,350
+running Windows operating systems which are used to do things like record production data.
+
+252
+00:19:25,350 --> 00:19:29,790
+There are a number of software systems which are designed for this purpose although SCADA
+
+253
+00:19:29,790 --> 00:19:33,710
+systems are usually the ones mentioned.
+
+254
+00:19:33,710 --> 00:19:38,550
+I will briefly describe SCADA systems in a later episode.
+
+255
+00:19:38,550 --> 00:19:44,270
+For our purposes here, however, just understand it as specialized industrial software that
+
+256
+00:19:44,270 --> 00:19:51,310
+runs on a PC and conducts monitoring and display using data from a PLC that it is networked
+
+257
+00:19:51,310 --> 00:19:53,750
+to.
+
+258
+00:19:53,750 --> 00:19:59,290
+According to these security researchers, a virus could exploit these security holes to send
+
+259
+00:19:59,290 --> 00:20:00,470
+and commands to the
+
+260
+00:20:00,000 --> 00:20:06,360
+PLC and cause it to do arbitrary things which could cause injury or death.
+
+261
+00:20:06,360 --> 00:20:14,180
+The PLCs being referred to in these instances are ordinary PLCs, not safety PLCs.
+
+262
+00:20:14,180 --> 00:20:19,740
+I find these claims to be highly implausible for reasons that I have stated above when
+
+263
+00:20:19,740 --> 00:20:22,220
+describing safety systems.
+
+264
+00:20:22,220 --> 00:20:28,160
+An ordinary PLC is not a safety device and so the safety of the machine should not be
+
+265
+00:20:28,160 --> 00:20:35,320
+affected by malfunctioning PLC regardless of whether any viruses were involved or not.
+
+266
+00:20:35,320 --> 00:20:41,700
+I have seen PLC's malfunction due to memory corruption errors, but these posed loss of
+
+267
+00:20:41,700 --> 00:20:45,260
+production problems, not safety problems.
+
+268
+00:20:45,260 --> 00:20:51,280
+A malfunctioning PLC may cause property damage to the machine and loss of money, but the
+
+269
+00:20:51,280 --> 00:20:56,980
+control system of which the PLC is only a part should not permit it to pose a hazard
+
+270
+00:20:56,980 --> 00:21:04,400
+to personnel. I have not seen any of these security researchers offer any plausible
+
+271
+00:21:04,400 --> 00:21:11,020
+mechanism by which their claims of safety problems may be realized. As a result of this,
+
+272
+00:21:11,020 --> 00:21:18,160
+I take all such claims with a very, very, very large grain of salt.
+
+273
+00:21:18,160 --> 00:21:22,840
+Conclusion In this episode, we look at the IO modules,
+
+274
+00:21:22,840 --> 00:21:28,120
+what they are, how they work, and the purpose that they serve in the system.
+
+275
+00:21:28,120 --> 00:21:34,760
+In addition to this, we discussed machine safety systems and also claims made by certain people
+
+276
+00:21:34,760 --> 00:21:39,320
+about cybersecurity and industrial safety.
+
+277
+00:21:39,320 --> 00:21:45,080
+In the next episode, I will cover networking, including a detailed look at one industrial
+
+278
+00:21:45,080 --> 00:21:49,760
+network protocol called Modbus.
+
+279
+00:21:49,760 --> 00:21:54,200
+This has been the fifth episode in an eight part series.
+
+280
+00:21:54,200 --> 00:21:59,720
+You have been listening to the Hacker Public Radio podcast at hackerpublicradio.org.
+
+281
+00:21:59,720 --> 00:22:03,800
+Today's show was contributed by a HBR listener like yourself.
+
+282
+00:22:03,800 --> 00:22:09,360
+If you ever thought of recording a podcast, then visit the HBR site to find out how easy
+
+283
+00:22:09,360 --> 00:22:10,720
+it really is.
+
+284
+00:22:10,720 --> 00:22:17,420
+Hosting for HBR has been kindly provided by Anomisthost.com, the internet archive,
+
+285
+00:22:17,420 --> 00:22:22,700
+on net and the HDR community content delivery network.
+
+286
+00:22:22,700 --> 00:22:27,620
+Unless otherwise stated, today's show is released under a Creative Commons
+
+287
+00:22:27,620 --> 00:22:32,060
+Attribution, share alike, 4.0 international life.

@@ -1,0 +1,1036 @@
+{
+ "episode": "hpr4743",
+ "duration_s": 941.28,
+ "segments": [
+  {
+   "start": 5.71,
+   "end": 13.21,
+   "text": "This is Hacker Public Radio Episode 4743 for Wednesday, the 7th of October, 2026."
+  },
+  {
+   "start": 13.21,
+   "end": 15.81,
+   "text": "Today's show is entitled WL Copy."
+  },
+  {
+   "start": 15.81,
+   "end": 19.61,
+   "text": "It is hosted by Clow2 and is about 14 minutes long."
+  },
+  {
+   "start": 19.61,
+   "end": 21.51,
+   "text": "It carries a clean flag."
+  },
+  {
+   "start": 21.51,
+   "end": 25.31,
+   "text": "The summary is copy and paste from the terminal in Wayland."
+  },
+  {
+   "start": 25.31,
+   "end": 45.44,
+   "text": "Hi, my name is Clow2 and I'm going to talk about WL-copy."
+  },
+  {
+   "start": 45.44,
+   "end": 50.34,
+   "text": "It's a command on Linux specifically for a Wayland desktop."
+  },
+  {
+   "start": 50.34,
+   "end": 54.02,
+   "text": "if you need to copy something from a terminal prompt."
+  },
+  {
+   "start": 54.02,
+   "end": 57.06,
+   "text": "So when you spend a lot of time in a Linux terminal,"
+  },
+  {
+   "start": 57.06,
+   "end": 63.14,
+   "text": "it can become rather laborious to take your hand off the keyboard to like grab the mouse."
+  },
+  {
+   "start": 63.14,
+   "end": 66.58,
+   "text": "It seems like not that far of a distance, actually it's probably like what?"
+  },
+  {
+   "start": 66.58,
+   "end": 69.94,
+   "text": "19 centimeters away or something, but it feels so bad."
+  },
+  {
+   "start": 69.94,
+   "end": 73.7,
+   "text": "But it does seem like we always are copying stuff on the computer."
+  },
+  {
+   "start": 73.7,
+   "end": 78.74,
+   "text": "That's just some that's that's that's one of the that's a workflow that is a tried and true"
+  },
+  {
+   "start": 78.74,
+   "end": 83.78,
+   "text": "method for interacting with the computer and generally for making your life more efficient."
+  },
+  {
+   "start": 83.78,
+   "end": 88.9,
+   "text": "If you really think about it, I guess, in theory, there would be either there's not we probably copy"
+  },
+  {
+   "start": 88.9,
+   "end": 95.7,
+   "text": "and paste a lot more than we have to in theory. If you wanted to, I don't know, type in a URL in"
+  },
+  {
+   "start": 96.26,
+   "end": 100.98,
+   "text": "you could you could manually do that every single time. Now, you're not going to do that"
+  },
+  {
+   "start": 100.98,
+   "end": 106.82,
+   "text": "because we've got copy and paste. So my point is that we really, really lean on copying and"
+  },
+  {
+   "start": 106.82,
+   "end": 110.88,
+   "text": "and pasting to make life on a computer more efficient."
+  },
+  {
+   "start": 110.88,
+   "end": 114.36,
+   "text": "But that efficiency suffers if you are"
+  },
+  {
+   "start": 114.36,
+   "end": 117.72,
+   "text": "disinclined to copy and paste for any reason,"
+  },
+  {
+   "start": 117.72,
+   "end": 120.32,
+   "text": "for instance, moving your hand from your keyboard"
+  },
+  {
+   "start": 120.32,
+   "end": 121.16,
+   "text": "to your mouse."
+  },
+  {
+   "start": 121.16,
+   "end": 124.36,
+   "text": "There are lots of different ways to copy and paste text"
+  },
+  {
+   "start": 124.36,
+   "end": 125.28,
+   "text": "in a terminal."
+  },
+  {
+   "start": 125.28,
+   "end": 129.8,
+   "text": "And one of those ways is WL-copy."
+  },
+  {
+   "start": 129.8,
+   "end": 131.6,
+   "text": "This is gonna sound familiar to you"
+  },
+  {
+   "start": 131.6,
+   "end": 133.84,
+   "text": "if you've ever used X-clip."
+  },
+  {
+   "start": 133.84,
+   "end": 137.92,
+   "text": "but I'm gonna start by talking about WL Copy specifically."
+  },
+  {
+   "start": 137.92,
+   "end": 142.24,
+   "text": "WL Copy, that WL-Copy is a terminal command"
+  },
+  {
+   "start": 142.24,
+   "end": 146.64,
+   "text": "that allows you to copy things from various places"
+  },
+  {
+   "start": 146.64,
+   "end": 149.72,
+   "text": "on your computer to your system clipboard."
+  },
+  {
+   "start": 149.72,
+   "end": 153.28,
+   "text": "But you can do this without ever leaving your Linux terminal,"
+  },
+  {
+   "start": 153.28,
+   "end": 155.44,
+   "text": "without ever using a mouse."
+  },
+  {
+   "start": 155.44,
+   "end": 160.44,
+   "text": "Specifically, WL-Copy is part of the WL-Clipboard package,"
+  },
+  {
+   "start": 160.44,
+   "end": 165.32,
+   "text": "package which is a utility for the Wayland graphics server. You may or may not be"
+  },
+  {
+   "start": 165.32,
+   "end": 171.28,
+   "text": "using a Wayland graphics desktop or rather a Wayland desktop. You might be"
+  },
+  {
+   "start": 171.28,
+   "end": 177.92,
+   "text": "using a desktop or a system that is using the old X-window system. I am on"
+  },
+  {
+   "start": 177.92,
+   "end": 182.4,
+   "text": "Slackware, I don't use Wayland but at work I do use Wayland. I'm on Fedora at"
+  },
+  {
+   "start": 182.4,
+   "end": 187.38,
+   "text": "work and that's a Wayland desktop. In case you don't know I will tell you that"
+  },
+  {
+   "start": 187.38,
+   "end": 195.78,
+   "text": "Wayland is a layer on the Linux operating system that provides everything you see on your screen after"
+  },
+  {
+   "start": 195.78,
+   "end": 204.02,
+   "text": "you've logged in to your system. It's the graphic display layer on a Linux operating system computer,"
+  },
+  {
+   "start": 204.02,
+   "end": 212.02,
+   "text": "unless you're using the old graphics server, which was called x11 from x.org. But many Linux"
+  },
+  {
+   "start": 212.02,
+   "end": 217.3,
+   "text": "systems are headed in the direction of Wayland because that's where the development is happening."
+  },
+  {
+   "start": 217.38,
+   "end": 223.3,
+   "text": "So you might be on a wayland desktop now or you might find yourself on a wayland desktop eventually"
+  },
+  {
+   "start": 223.3,
+   "end": 226.74,
+   "text": "So in order to get wl-copy on your computer"
+  },
+  {
+   "start": 226.74,
+   "end": 236.26,
+   "text": "You must install the wl-clipboard package and that'll give you wl-copy for copying and wl-paste for you guessed it"
+  },
+  {
+   "start": 236.5,
+   "end": 238.98,
+   "text": "pasting all right so to install that package"
+  },
+  {
+   "start": 239.62,
+   "end": 245.54,
+   "text": "First you would want to guarantee or verify rather that you are on a wayland system"
+  },
+  {
+   "start": 245.54,
+   "end": 249.14,
+   "text": "And the way that I know to do this is to do in a terminal echo,"
+  },
+  {
+   "start": 249.14,
+   "end": 255.66,
+   "text": "dollar sign, echo space, dollar sign, all capital X, D, G, underscore session,"
+  },
+  {
+   "start": 255.66,
+   "end": 256.62,
+   "text": "underscore type."
+  },
+  {
+   "start": 256.66,
+   "end": 260.7,
+   "text": "And that will return Wayland if you are on a Wayland system."
+  },
+  {
+   "start": 260.74,
+   "end": 267.38,
+   "text": "It is possible to be on a Wayland desktop and still run X 11 applications."
+  },
+  {
+   "start": 267.42,
+   "end": 272.98,
+   "text": "So because X can be emulated within Wayland quite seamlessly."
+  },
+  {
+   "start": 272.98,
+   "end": 280.38,
+   "text": "So you might, if you haven't looked lately, you might be on Wayland even though maybe you don't think about it."
+  },
+  {
+   "start": 280.38,
+   "end": 287.48,
+   "text": "So check that out just to make sure that you're on Wayland before you bother trying to get WL-copy on your system."
+  },
+  {
+   "start": 287.48,
+   "end": 294.88,
+   "text": "As I say, the WL-copy command itself is probably not what you're going to be installing."
+  },
+  {
+   "start": 294.88,
+   "end": 298.48,
+   "text": "You're going to install WL-clipboard."
+  },
+  {
+   "start": 298.48,
+   "end": 299.98,
+   "text": "At least that's what it is on..."
+  },
+  {
+   "start": 300.0,
+   "end": 302.7,
+   "text": "on Fedora and I think Debian."
+  },
+  {
+   "start": 302.7,
+   "end": 306.14,
+   "text": "So that's probably what it is on whatever you're running."
+  },
+  {
+   "start": 306.14,
+   "end": 308.7,
+   "text": "Anyway, using WLCopy, once it's been installed,"
+  },
+  {
+   "start": 308.7,
+   "end": 312.18,
+   "text": "you can use the WLCopy command to copy data"
+  },
+  {
+   "start": 312.18,
+   "end": 313.26,
+   "text": "to your clipboard."
+  },
+  {
+   "start": 313.26,
+   "end": 315.54,
+   "text": "Anything you copy to your system clipboard"
+  },
+  {
+   "start": 315.54,
+   "end": 317.78,
+   "text": "is available everywhere on your system."
+  },
+  {
+   "start": 317.78,
+   "end": 319.74,
+   "text": "This is the system clipboard."
+  },
+  {
+   "start": 319.74,
+   "end": 322.66,
+   "text": "You can copy data from one file, from a terminal,"
+  },
+  {
+   "start": 322.66,
+   "end": 325.34,
+   "text": "without ever opening that file, as it were,"
+  },
+  {
+   "start": 325.34,
+   "end": 327.42,
+   "text": "in like a window of its own."
+  },
+  {
+   "start": 327.42,
+   "end": 331.58,
+   "text": "And then you can paste that data into another application or into another file."
+  },
+  {
+   "start": 331.86,
+   "end": 335.74,
+   "text": "That doesn't mean that WL-copy is the only way to do this."
+  },
+  {
+   "start": 336.14,
+   "end": 340.06,
+   "text": "But for now, suppose that it's the workflow that you're looking for."
+  },
+  {
+   "start": 340.14,
+   "end": 346.46,
+   "text": "So to copy an arbitrary string to your clipboard using WL-copy,"
+  },
+  {
+   "start": 346.54,
+   "end": 351.58,
+   "text": "you would do WL-copy quote, hello world, close quote."
+  },
+  {
+   "start": 352.3,
+   "end": 355.78,
+   "text": "And now the string hello world is in your system clipboard."
+  },
+  {
+   "start": 355.78,
+   "end": 362.02,
+   "text": "You can navigate to any other window on your desktop, right click and select paste and press"
+  },
+  {
+   "start": 362.02,
+   "end": 366.14,
+   "text": "Ctrl V and you get hello world pasted from your clipboard."
+  },
+  {
+   "start": 366.14,
+   "end": 369.54,
+   "text": "That's just like a normal copy and paste."
+  },
+  {
+   "start": 369.54,
+   "end": 374.62,
+   "text": "Alternatively, you can just press Ctrl Shift V there in your terminal to paste the string"
+  },
+  {
+   "start": 374.62,
+   "end": 376.66,
+   "text": "back into your terminal."
+  },
+  {
+   "start": 376.66,
+   "end": 380.42,
+   "text": "Your terminal won't know what to do with it because there's no command called hello space"
+  },
+  {
+   "start": 380.42,
+   "end": 383.14,
+   "text": "world, but you can do that."
+  },
+  {
+   "start": 383.14,
+   "end": 388.1,
+   "text": "Now that's the most basic example of what you could do with WLCopy."
+  },
+  {
+   "start": 388.1,
+   "end": 394.02,
+   "text": "So more realistically, you're probably going to want to copy, for instance, output of a"
+  },
+  {
+   "start": 394.02,
+   "end": 396.24,
+   "text": "command with WLCopy."
+  },
+  {
+   "start": 396.24,
+   "end": 397.24,
+   "text": "This is very handy."
+  },
+  {
+   "start": 397.24,
+   "end": 398.24,
+   "text": "I use this all."
+  },
+  {
+   "start": 398.24,
+   "end": 399.58,
+   "text": "Well, I use this a lot."
+  },
+  {
+   "start": 399.58,
+   "end": 401.1,
+   "text": "There's another thing that I use all the time."
+  },
+  {
+   "start": 401.1,
+   "end": 404.02,
+   "text": "But anyway, so this can be useful in shell scripts."
+  },
+  {
+   "start": 404.02,
+   "end": 406.62,
+   "text": "So you can use WLCopy in a shell script."
+  },
+  {
+   "start": 406.62,
+   "end": 411.46,
+   "text": "So for example, if you're generating output with the expectation that the output is"
+  },
+  {
+   "start": 411.46,
+   "end": 417.1,
+   "text": "then meant to be inserted somewhere else on your system, you can just add that final step"
+  },
+  {
+   "start": 417.1,
+   "end": 422.06,
+   "text": "rather than spitting out the result of a command into a terminal and then forcing yourself to"
+  },
+  {
+   "start": 422.06,
+   "end": 427.18,
+   "text": "go and select it and then right click and then copy and then do all the other things."
+  },
+  {
+   "start": 427.18,
+   "end": 432.1,
+   "text": "You can just copy it instantly to your clipboard just by running that command."
+  },
+  {
+   "start": 432.1,
+   "end": 433.5,
+   "text": "That I use all the time."
+  },
+  {
+   "start": 433.5,
+   "end": 439.58,
+   "text": "Suppose your workplace uses two-factor authentication and you prefer to use a command rather than"
+  },
+  {
+   "start": 439.58,
+   "end": 442.82,
+   "text": "in a hardware key or a smartphone app."
+  },
+  {
+   "start": 442.82,
+   "end": 447.5,
+   "text": "For instance, the password command,"
+  },
+  {
+   "start": 447.5,
+   "end": 451.82,
+   "text": "pass P-A-S-S, space OTP generates a token."
+  },
+  {
+   "start": 451.82,
+   "end": 455.56,
+   "text": "So when you type pass OTP, it outputs a token"
+  },
+  {
+   "start": 455.56,
+   "end": 458.42,
+   "text": "and you'd normally have to select it from your terminal"
+  },
+  {
+   "start": 458.42,
+   "end": 460.1,
+   "text": "and right click and copy it"
+  },
+  {
+   "start": 460.1,
+   "end": 463.22,
+   "text": "and then paste it into whatever thing on your work,"
+  },
+  {
+   "start": 463.22,
+   "end": 466.34,
+   "text": "you know, whatever thing in your work intranet"
+  },
+  {
+   "start": 466.34,
+   "end": 467.58,
+   "text": "needed that token."
+  },
+  {
+   "start": 467.58,
+   "end": 472.22,
+   "text": "Well, with WL copy, you can just send the output of pass OTP"
+  },
+  {
+   "start": 472.22,
+   "end": 473.58,
+   "text": "straight to your clipboard."
+  },
+  {
+   "start": 473.58,
+   "end": 478.58,
+   "text": "So for example, pass OTP example.com pipe WL-copy."
+  },
+  {
+   "start": 479.14,
+   "end": 481.26,
+   "text": "It does everything all in one."
+  },
+  {
+   "start": 481.26,
+   "end": 485.46,
+   "text": "Well, most of two thirds of the workflow is done in one command."
+  },
+  {
+   "start": 485.46,
+   "end": 490.46,
+   "text": "So that's generating the OTP token for that domain example.com."
+  },
+  {
+   "start": 491.26,
+   "end": 495.26,
+   "text": "And then because it's a pipe, it sends the output to WL-copy"
+  },
+  {
+   "start": 495.26,
+   "end": 497.1,
+   "text": "and now it's in your system clipboard."
+  },
+  {
+   "start": 497.1,
+   "end": 503.42,
+   "text": "And so now you can just go to your, you know, whatever thing on your internet on your intranet"
+  },
+  {
+   "start": 503.42,
+   "end": 509.26,
+   "text": "requires that token and paste it in. So two steps instead of, I don't know more. You can also copy"
+  },
+  {
+   "start": 509.26,
+   "end": 515.82,
+   "text": "data from a file with WLCopy. You don't have to type in arbitrary strings or even pipe something"
+  },
+  {
+   "start": 515.82,
+   "end": 522.22,
+   "text": "into it. You can just copy the contents of a file using WLDash copy with a redirect symbol."
+  },
+  {
+   "start": 522.22,
+   "end": 530.54,
+   "text": "So for instance, wl-copy less than symbol example.txt puts everything that was in example.txt"
+  },
+  {
+   "start": 531.18,
+   "end": 537.66,
+   "text": "into wlcopy or rather into your system clipboard. So for instance, you can do this like literally,"
+  },
+  {
+   "start": 538.78,
+   "end": 545.98,
+   "text": "you can follow along echo quote, this is an example file, close quote redirect to example.txt."
+  },
+  {
+   "start": 545.98,
+   "end": 552.3,
+   "text": "Okay, so now if you do a cat on example.txt, you see this is an example file."
+  },
+  {
+   "start": 552.3,
+   "end": 560.14,
+   "text": "Yep, okay. So then wl-copy redirect, except this time a less than symbol, example.txt,"
+  },
+  {
+   "start": 560.14,
+   "end": 565.18,
+   "text": "and then wl-paste, and then in your terminal you see this is an example file."
+  },
+  {
+   "start": 565.18,
+   "end": 572.06,
+   "text": "It doesn't have to be just text either. Text is easy for us to sort of see in a terminal environment,"
+  },
+  {
+   "start": 572.06,
+   "end": 579.58,
+   "text": "but you can copy a jpeg image. So wl-copy redirect, you know, less than symbol, example.jpeg."
+  },
+  {
+   "start": 579.58,
+   "end": 585.66,
+   "text": "Now your system clip word has a jpeg in it and you could copy that into a graphic application or"
+  },
+  {
+   "start": 585.66,
+   "end": 591.58,
+   "text": "whatever accepts images. Now, if all of that sounds really cool, but you're realizing that you're still"
+  },
+  {
+   "start": 591.58,
+   "end": 597.82,
+   "text": "on Slackware and you're not running Wayland yet, and how could you do cool things like this"
+  },
+  {
+   "start": 597.82,
+   "end": 599.82,
+   "text": "on an X11 graphic."
+  },
+  {
+   "start": 600.0,
+   "end": 601.6,
+   "text": "Display, you're in luck."
+  },
+  {
+   "start": 601.6,
+   "end": 606.04,
+   "text": "WL copy is just sort of building upon what already has existed"
+  },
+  {
+   "start": 606.04,
+   "end": 608.4,
+   "text": "with an application called XClip."
+  },
+  {
+   "start": 608.4,
+   "end": 610.76,
+   "text": "XClip probably is on your system"
+  },
+  {
+   "start": 610.76,
+   "end": 613.52,
+   "text": "if you're running an X11 graphics display."
+  },
+  {
+   "start": 613.52,
+   "end": 616.16,
+   "text": "I don't remember where XClip comes from."
+  },
+  {
+   "start": 616.16,
+   "end": 620.32,
+   "text": "I don't think it's X11 utils, but maybe it is, I don't know."
+  },
+  {
+   "start": 620.32,
+   "end": 622.24,
+   "text": "Either way, it's probably on your system,"
+  },
+  {
+   "start": 622.24,
+   "end": 624.36,
+   "text": "and if not, you can find it and install it."
+  },
+  {
+   "start": 624.36,
+   "end": 626.92,
+   "text": "But it's the same kind of deal."
+  },
+  {
+   "start": 626.92,
+   "end": 632.68,
+   "text": "It's a little, I guess, I guess clunkier in a way sort of or different."
+  },
+  {
+   "start": 632.68,
+   "end": 634.48,
+   "text": "I shouldn't say it's clunky because it's not."
+  },
+  {
+   "start": 634.76,
+   "end": 640.64,
+   "text": "Anyway, here's to do the same thing like echo quote hello world close quote"
+  },
+  {
+   "start": 640.66,
+   "end": 645.64,
+   "text": "pipe X clip dash I you have to do a space dash I for input."
+  },
+  {
+   "start": 645.92,
+   "end": 652.92,
+   "text": "So X clip unlike WLCopy X clip has a dash I for in and a dash O for out"
+  },
+  {
+   "start": 652.92,
+   "end": 656.74,
+   "text": "rather than a separate command for WLCopy and WlPaste."
+  },
+  {
+   "start": 656.74,
+   "end": 660.16,
+   "text": "You could argue probably that WLCopy and WlPaste"
+  },
+  {
+   "start": 660.16,
+   "end": 664.1,
+   "text": "adhere a little bit closer to the Linux philosophy of doing one thing and doing it well."
+  },
+  {
+   "start": 664.1,
+   "end": 666.9,
+   "text": "XClip is doing two things and doing it well."
+  },
+  {
+   "start": 666.9,
+   "end": 671.06,
+   "text": "Anyway, to copy the contents of a file, you can use the redirect trick as well."
+  },
+  {
+   "start": 671.06,
+   "end": 674.76,
+   "text": "So XClip space-i redirect less than Zumble."
+  },
+  {
+   "start": 674.76,
+   "end": 680.46,
+   "text": "Example.txt, now you've got the contents of example.txt in your system clipboard."
+  },
+  {
+   "start": 680.46,
+   "end": 688.22,
+   "text": "And you can extract something from that system clipboard with xclip-o for output and that spits out in this case"
+  },
+  {
+   "start": 688.22,
+   "end": 694.06,
+   "text": "Hello world or whatever the contents of example.txt were and then you know"
+  },
+  {
+   "start": 694.06,
+   "end": 698.96,
+   "text": "I mean that's there are yet more ways to interact with with text in a terminal"
+  },
+  {
+   "start": 698.96,
+   "end": 703.86,
+   "text": "And I don't need to tell you that or maybe I do and and some of those are like, you know"
+  },
+  {
+   "start": 703.86,
+   "end": 707.66,
+   "text": "Control K to cut and I think all D to delete a word"
+  },
+  {
+   "start": 707.66,
+   "end": 711.22,
+   "text": "but then control Y to yank it back from the kill ring and so on."
+  },
+  {
+   "start": 711.22,
+   "end": 714.1,
+   "text": "So there's a bunch of shortcuts that you can use."
+  },
+  {
+   "start": 714.1,
+   "end": 718.74,
+   "text": "Now those things may or may not interact with your system clipboard."
+  },
+  {
+   "start": 718.74,
+   "end": 724.0,
+   "text": "There are different settings that you could choose to make them talk to the system clipboard"
+  },
+  {
+   "start": 724.0,
+   "end": 727.3,
+   "text": "or rather a system clipboard to keep track of those things."
+  },
+  {
+   "start": 727.3,
+   "end": 729.98,
+   "text": "So it kind of all sort of depends."
+  },
+  {
+   "start": 729.98,
+   "end": 737.74,
+   "text": "and XClip, WL Copy, WL Paste, those aren't the only ways to do, you know, to make text"
+  },
+  {
+   "start": 737.74,
+   "end": 740.1,
+   "text": "disappear and then reappear in another place."
+  },
+  {
+   "start": 740.1,
+   "end": 743.54,
+   "text": "However, it is a very sort of global way of doing it."
+  },
+  {
+   "start": 743.54,
+   "end": 750.58,
+   "text": "WL Copy, if you're on Wayland, XClip, if you're on X11, these act exactly like your right-clicking"
+  },
+  {
+   "start": 750.58,
+   "end": 754.38,
+   "text": "and you're copying and you're right-clicking, you're pasting, you're your control C and"
+  },
+  {
+   "start": 754.38,
+   "end": 756.42,
+   "text": "control V and so on."
+  },
+  {
+   "start": 756.42,
+   "end": 757.66,
+   "text": "It's going to the same place."
+  },
+  {
+   "start": 757.66,
+   "end": 763.82,
+   "text": "interacting with the same data and and it's the workflows is rather malleable like that. So if"
+  },
+  {
+   "start": 763.82,
+   "end": 770.22,
+   "text": "you've got something open and you decide, oh, I would quite like to copy that string. So maybe you"
+  },
+  {
+   "start": 770.22,
+   "end": 776.62,
+   "text": "copy it and then you realize, oh, I actually want that string in my terminal. Well, that's okay, you"
+  },
+  {
+   "start": 776.62,
+   "end": 783.34,
+   "text": "can do wl dash paste. And you get the thing that you just copied because again, it's all looking at"
+  },
+  {
+   "start": 783.34,
+   "end": 788.62,
+   "text": "your system clipboard. So it does feel quite unified if that's how you're sort of seeing your"
+  },
+  {
+   "start": 788.62,
+   "end": 796.7,
+   "text": "system. If you're frequently juggling information from date from terminal to some other application,"
+  },
+  {
+   "start": 796.7,
+   "end": 804.14,
+   "text": "then WL clip or X clip dash I or dash O, depending on what you're doing, can and WL paste can, you know,"
+  },
+  {
+   "start": 804.14,
+   "end": 810.54,
+   "text": "they fit right into that same system. Whereas some other methods might have internal sort of"
+  },
+  {
+   "start": 810.54,
+   "end": 815.7,
+   "text": "of kill rings and things like that that don't talk to other applications as much, or that"
+  },
+  {
+   "start": 815.7,
+   "end": 820.5,
+   "text": "maybe aren't as flexible in terms of the kind of data that they can easily accept. So WL"
+  },
+  {
+   "start": 820.5,
+   "end": 826.14,
+   "text": "copy and WL paste have really been really useful for me. I've used them for I'm using"
+  },
+  {
+   "start": 826.14,
+   "end": 831.18,
+   "text": "them for OTP. One time token things, what does OTP stand for? I don't know. Oh, one time"
+  },
+  {
+   "start": 831.18,
+   "end": 838.7,
+   "text": "password. I'm using them for that. I use it for some URL generation tasks that I have"
+  },
+  {
+   "start": 838.7,
+   "end": 846.78,
+   "text": "to do because I'm parsing series of strings and stringing them together into URLs quite"
+  },
+  {
+   "start": 846.78,
+   "end": 851.34,
+   "text": "frequently. So when I do that, all I have to do is run a script. I paste in the string"
+  },
+  {
+   "start": 851.34,
+   "end": 856.62,
+   "text": "that I the series of strings that I need to be strong together, do some TR and some said"
+  },
+  {
+   "start": 856.62,
+   "end": 861.82,
+   "text": "stuff to it, and then just copy it straight back into my system clipboard, and then I can"
+  },
+  {
+   "start": 861.82,
+   "end": 865.94,
+   "text": "paste it back into the application I need to paste it into little things like that. It's"
+  },
+  {
+   "start": 865.94,
+   "end": 872.94,
+   "text": "It's just that little extra step of not having to select text and copy it before I go to paste"
+  },
+  {
+   "start": 872.94,
+   "end": 873.94,
+   "text": "it."
+  },
+  {
+   "start": 873.94,
+   "end": 877.5,
+   "text": "I've already selected the text once, I've pasted it in my terminal, and it just feels like"
+  },
+  {
+   "start": 877.5,
+   "end": 878.94,
+   "text": "a full round trip."
+  },
+  {
+   "start": 878.94,
+   "end": 883.82,
+   "text": "I copy and then I paste once and then all I have to do is then paste again."
+  },
+  {
+   "start": 883.82,
+   "end": 887.22,
+   "text": "So it's not a copy, paste, process, copy, paste."
+  },
+  {
+   "start": 887.22,
+   "end": 889.02,
+   "text": "It's a copy, paste, process, paste."
+  },
+  {
+   "start": 889.02,
+   "end": 890.02,
+   "text": "Really, really nice."
+  },
+  {
+   "start": 890.02,
+   "end": 895.7,
+   "text": "So that's those commands, WL-copy or WL-clipboard for the package."
+  },
+  {
+   "start": 895.7,
+   "end": 899.78,
+   "text": "full package and of course if you're not on Whalen, check out X-Clip. Thanks for listening."
+  },
+  {
+   "start": 899.78,
+   "end": 899.94,
+   "text": "Talk to you soon."
+  },
+  {
+   "start": 900.0,
+   "end": 927.0,
+   "text": "you next time."
+  },
+  {
+   "start": 930.0,
+   "end": 934.62,
+   "text": "As otherwise stated, today's show is released under a Creative Commons"
+  },
+  {
+   "start": 934.62,
+   "end": 939.62,
+   "text": "attribution share alike for a point of international life."
+  }
+ ]
+}

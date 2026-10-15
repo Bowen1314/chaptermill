@@ -1,0 +1,751 @@
+{
+ "episode": "hpr4740",
+ "duration_s": 790.73,
+ "segments": [
+  {
+   "start": 5.71,
+   "end": 12.71,
+   "text": "This is Hacker Public Radio Episode 4740 for Friday 2 October 2026."
+  },
+  {
+   "start": 12.71,
+   "end": 17.71,
+   "text": "Today's show is entitled, Robert A. Heinlein in the 1960s."
+  },
+  {
+   "start": 17.71,
+   "end": 20.71,
+   "text": "It is part of the series Science Fiction and Fantasy."
+  },
+  {
+   "start": 20.71,
+   "end": 24.71,
+   "text": "It is hosted by Ahuka and is about 12 minutes long."
+  },
+  {
+   "start": 24.71,
+   "end": 30.71,
+   "text": "It carries a clean flag. The summary is, in the 1960s Heinlein reached his peak."
+  },
+  {
+   "start": 30.71,
+   "end": 43.7,
+   "text": "Hello, this is Hoka. Welcome to You to Hacker Public Radio in another exciting episode."
+  },
+  {
+   "start": 43.7,
+   "end": 49.02,
+   "text": "exciting episode in our science fiction and fantasy series, continuing our look at"
+  },
+  {
+   "start": 49.02,
+   "end": 56.66,
+   "text": "Heinlein and now taking a look at what he did in the 1960s. Now Heinlein had"
+  },
+  {
+   "start": 56.66,
+   "end": 62.7,
+   "text": "interests that he tended to keep hidden in the early years while he was"
+  },
+  {
+   "start": 62.7,
+   "end": 66.98,
+   "text": "establishing himself as a writer, particularly as he was feeding the lucrative"
+  },
+  {
+   "start": 66.98,
+   "end": 73.22,
+   "text": "juvenile market. These included things like sex, nudism, and unusual"
+  },
+  {
+   "start": 73.22,
+   "end": 76.78,
+   "text": "political and religious views."
+  },
+  {
+   "start": 76.78,
+   "end": 82.26,
+   "text": "But when Scripner's rejected Starship Troopers, he not only abandoned writing juveniles, but"
+  },
+  {
+   "start": 82.26,
+   "end": 85.74,
+   "text": "decided he could be a lot more open about his views."
+  },
+  {
+   "start": 85.74,
+   "end": 89.58,
+   "text": "And this resulted in his most famous novel."
+  },
+  {
+   "start": 89.58,
+   "end": 94.82,
+   "text": "This is the one novel that people who are not science fiction fans are likely to have read,"
+  },
+  {
+   "start": 94.82,
+   "end": 97.46,
+   "text": "particularly in the 1960s."
+  },
+  {
+   "start": 97.46,
+   "end": 103.62,
+   "text": "And I am referring, of course, to Stranger in a Strange Land, 1961."
+  },
+  {
+   "start": 103.62,
+   "end": 108.3,
+   "text": "Now this novel won just about every award possible."
+  },
+  {
+   "start": 108.3,
+   "end": 114.22,
+   "text": "Hugo, Locust, Prometheus, it was the first science fiction novel to crack the New York"
+  },
+  {
+   "start": 114.22,
+   "end": 120.02,
+   "text": "Times bestseller list, and the Library of Congress named it one of the 88 books that"
+  },
+  {
+   "start": 120.02,
+   "end": 122.12,
+   "text": "shaped America."
+  },
+  {
+   "start": 122.12,
+   "end": 127.94,
+   "text": "and it even introduced a new word to the English language, grok."
+  },
+  {
+   "start": 127.94,
+   "end": 133.78,
+   "text": "The stranger in the title is Valentine Michael Smith, an infant born to one of the astronauts,"
+  },
+  {
+   "start": 133.78,
+   "end": 136.34,
+   "text": "and then raised by Martians."
+  },
+  {
+   "start": 136.34,
+   "end": 141.14,
+   "text": "He is brought back to Earth by a later mission, and his adventures in this strange land are"
+  },
+  {
+   "start": 141.14,
+   "end": 144.22,
+   "text": "what the book is mostly about."
+  },
+  {
+   "start": 144.22,
+   "end": 150.34,
+   "text": "But in so doing, Heinlein writes a satire on religion, and also, espouses a very different"
+  },
+  {
+   "start": 150.34,
+   "end": 155.86,
+   "text": "approach to love and sexuality, then was considered proper at the time."
+  },
+  {
+   "start": 155.86,
+   "end": 160.82,
+   "text": "And this attracted the hippies of the 1960s, for whom it became a Bible,"
+  },
+  {
+   "start": 160.82,
+   "end": 166.22,
+   "text": "much to the annoyance of Heinlein, who did not appreciate them knocking on his door."
+  },
+  {
+   "start": 166.22,
+   "end": 170.22,
+   "text": "Now the book had the original title of the heretic,"
+  },
+  {
+   "start": 170.22,
+   "end": 175.86,
+   "text": "and was intended to challenge social norms about religion and monogamy."
+  },
+  {
+   "start": 175.86,
+   "end": 180.3,
+   "text": "Heinlein's own take on the reaction to the novel was that he was surprised"
+  },
+  {
+   "start": 180.3,
+   "end": 186.1,
+   "text": "that some readers thought the book described how he believed society should be organized,"
+  },
+  {
+   "start": 186.1,
+   "end": 187.1,
+   "text": "explaining,"
+  },
+  {
+   "start": 187.1,
+   "end": 193.1,
+   "text": "I was not giving answers. I was trying to shake the reader loose from preconceptions"
+  },
+  {
+   "start": 193.1,
+   "end": 197.74,
+   "text": "and induce him to think for himself along new and fresh lines."
+  },
+  {
+   "start": 197.74,
+   "end": 202.26,
+   "text": "In consequence, each reader gets something different out of the book because he"
+  },
+  {
+   "start": 202.26,
+   "end": 204.18,
+   "text": "himself supplies the answers."
+  },
+  {
+   "start": 204.18,
+   "end": 207.22,
+   "text": "It's an invitation to think, not to believe."
+  },
+  {
+   "start": 207.22,
+   "end": 215.5,
+   "text": "This book also exemplifies the characters that Heinlein managed to put into most of his stories."
+  },
+  {
+   "start": 215.5,
+   "end": 225.5,
+   "text": "Michael is the naive young man who needs to learn better, and Jubal Harshaw is the wise old man who becomes his mentor."
+  },
+  {
+   "start": 225.5,
+   "end": 232.93,
+   "text": "Then, Podkain of Mars, 1963."
+  },
+  {
+   "start": 232.93,
+   "end": 239.65,
+   "text": "The hero went to this book, Podkain is a teenage girl, who was invited along with her"
+  },
+  {
+   "start": 239.65,
+   "end": 245.65,
+   "text": "younger brother on a luxury cruise with their uncle Tom from their home on Mars to go to the"
+  },
+  {
+   "start": 245.65,
+   "end": 247.57,
+   "text": "earth."
+  },
+  {
+   "start": 247.57,
+   "end": 254.97,
+   "text": "We learn along the way that Mars was once a prison colony, kind of like Australia, and"
+  },
+  {
+   "start": 254.97,
+   "end": 258.97,
+   "text": "that Podkain's family are of Maori ancestry."
+  },
+  {
+   "start": 258.97,
+   "end": 263.93,
+   "text": "In the United States at least, the sweet count is colored and reflects Heinlein's subversion"
+  },
+  {
+   "start": 263.93,
+   "end": 267.65,
+   "text": "of racist ideas in his works."
+  },
+  {
+   "start": 267.65,
+   "end": 274.21,
+   "text": "Much of the travelogue on the luxury liner reflects Heinlein's own experiences as depicted"
+  },
+  {
+   "start": 274.21,
+   "end": 280.41,
+   "text": "in his nonfiction book, Tramp Royale, which covers his own world's cruises."
+  },
+  {
+   "start": 280.41,
+   "end": 286.09,
+   "text": "But old Uncle Tom is actually a diplomat using the kids as cover."
+  },
+  {
+   "start": 286.09,
+   "end": 291.41,
+   "text": "And they get kidnapped by people who want him to take a certain position that talks to"
+  },
+  {
+   "start": 291.41,
+   "end": 293.89,
+   "text": "be held at Luna."
+  },
+  {
+   "start": 293.89,
+   "end": 299.37,
+   "text": "Podkane's brother Clark is portrayed as a genius but lacking certain qualities of empathy."
+  },
+  {
+   "start": 300.0,
+   "end": 303.24,
+   "text": "and in the end he manages to get her killed."
+  },
+  {
+   "start": 303.24,
+   "end": 309.29,
+   "text": "The publisher rejected this ending and insisted on one where she lived."
+  },
+  {
+   "start": 309.29,
+   "end": 313.53,
+   "text": "Later Heinlein published a version with both endings and invited people to vote on which"
+  },
+  {
+   "start": 313.53,
+   "end": 318.61,
+   "text": "one they preferred, and the one where she died won."
+  },
+  {
+   "start": 318.61,
+   "end": 324.21,
+   "text": "Heinlein's own objection was that it was like changing the ending to Romeo and Juliet into"
+  },
+  {
+   "start": 324.21,
+   "end": 328.01,
+   "text": "one in which they both lived happily ever after."
+  },
+  {
+   "start": 328.01,
+   "end": 334.2,
+   "text": "Since then, the book has been published with Heinlein's preferred ending."
+  },
+  {
+   "start": 334.2,
+   "end": 338.64,
+   "text": "Warfins of the Sky, 1963."
+  },
+  {
+   "start": 338.64,
+   "end": 345.74,
+   "text": "This is basically a couple of novellas from 1941 put together as a complete novel."
+  },
+  {
+   "start": 345.74,
+   "end": 351.96,
+   "text": "The first novella, universe, was recognized by the science fiction writers of America by"
+  },
+  {
+   "start": 351.96,
+   "end": 357.96,
+   "text": "including it in their volume, the science fiction hall of fame volume 2."
+  },
+  {
+   "start": 357.96,
+   "end": 363.16,
+   "text": "This is a story about a generation ship, i.e. a ship that will take generations to arrive"
+  },
+  {
+   "start": 363.16,
+   "end": 366.56,
+   "text": "due to the speed of light limit."
+  },
+  {
+   "start": 366.56,
+   "end": 371.96,
+   "text": "In this case, the people who understood what this was all about are long dead, and we learned"
+  },
+  {
+   "start": 371.96,
+   "end": 377.56,
+   "text": "that at one point there was a mutiny and that the ship's officers were killed."
+  },
+  {
+   "start": 377.56,
+   "end": 382.96,
+   "text": "In universe, the descendants of the remaining people think the ship is all there is as it"
+  },
+  {
+   "start": 382.96,
+   "end": 386.08,
+   "text": "is the universe to them."
+  },
+  {
+   "start": 386.08,
+   "end": 391.12,
+   "text": "In the second novella, common sense, a few people find some of the old records and work"
+  },
+  {
+   "start": 391.12,
+   "end": 394.04,
+   "text": "out what the situation is."
+  },
+  {
+   "start": 394.04,
+   "end": 399.6,
+   "text": "Then seeing a star growing larger ahead of them, they take a lifeboat and land on a habitable"
+  },
+  {
+   "start": 399.6,
+   "end": 402.8,
+   "text": "moon of a giant planet."
+  },
+  {
+   "start": 402.8,
+   "end": 408.8,
+   "text": "This is part of the future history, as Riesling and his Green Hills of Earth are brought up,"
+  },
+  {
+   "start": 408.8,
+   "end": 414.0,
+   "text": "and it is also referred to in Time Enough for Love when it is revealed that this ship"
+  },
+  {
+   "start": 414.0,
+   "end": 419.8,
+   "text": "is the sister ship to the one the Howard family stole in Methusel's children."
+  },
+  {
+   "start": 419.8,
+   "end": 425.6,
+   "text": "But being that this is from 1941, this is not show the polish and mastery of Heinlein's"
+  },
+  {
+   "start": 425.6,
+   "end": 430.98,
+   "text": "other works of the 1960s."
+  },
+  {
+   "start": 430.98,
+   "end": 436.82,
+   "text": "And then this Glory Road published in 1963."
+  },
+  {
+   "start": 436.82,
+   "end": 440.98,
+   "text": "Some stories make you wonder if they're fantasy or if they are science fiction, and this is"
+  },
+  {
+   "start": 440.98,
+   "end": 441.98,
+   "text": "one of them."
+  },
+  {
+   "start": 441.98,
+   "end": 447.66,
+   "text": "Of course, Heinlein would just call it speculative fiction and not worry about it."
+  },
+  {
+   "start": 447.66,
+   "end": 452.58,
+   "text": "A former soldier has just been discharged from a war in Southeast Asia."
+  },
+  {
+   "start": 452.58,
+   "end": 459.02,
+   "text": "The country is not mentioned, but this is 1963, and Vietnam was just bubbling up in the people's"
+  },
+  {
+   "start": 459.02,
+   "end": 460.9,
+   "text": "consciousness."
+  },
+  {
+   "start": 460.9,
+   "end": 465.94,
+   "text": "With nothing to do, he meets up with a gorgeous woman who invites him on a quest."
+  },
+  {
+   "start": 465.94,
+   "end": 471.34,
+   "text": "This takes them to other worlds and involves a certain amount of sword play, culminating in"
+  },
+  {
+   "start": 471.34,
+   "end": 477.9,
+   "text": "sword fight against Cyrano de Bergerac. The woman turns out to be the Empress of many"
+  },
+  {
+   "start": 477.9,
+   "end": 484.82,
+   "text": "worlds and the quest was to retrieve the egg of the phoenix, a cybernetic device containing"
+  },
+  {
+   "start": 484.82,
+   "end": 490.66,
+   "text": "the memories and personalities of most of her predecessors, and now she has to absorb"
+  },
+  {
+   "start": 490.66,
+   "end": 497.78,
+   "text": "all of this, which is fine for her but leaves our hero pretty useless. Finally he goes looking"
+  },
+  {
+   "start": 497.78,
+   "end": 500.98,
+   "text": "for another quest."
+  },
+  {
+   "start": 500.98,
+   "end": 506.74,
+   "text": "This is a really good novel, who was nominated for a Hugo, but it lost out to Clifford Simack's"
+  },
+  {
+   "start": 506.74,
+   "end": 507.74,
+   "text": "way station."
+  },
+  {
+   "start": 507.74,
+   "end": 511.24,
+   "text": "We'll probably get to discussing Simack at some point."
+  },
+  {
+   "start": 511.24,
+   "end": 517.46,
+   "text": "He was an important writer with a distinct style."
+  },
+  {
+   "start": 517.46,
+   "end": 521.82,
+   "text": "Then Farnham's Freehold, 1964."
+  },
+  {
+   "start": 521.82,
+   "end": 528.54,
+   "text": "This novel attempts to be a satire on race relations, in my view it is a failure."
+  },
+  {
+   "start": 528.54,
+   "end": 535.86,
+   "text": "A nuclear war happens, and a group of people in a fallout shelter find they have been transported"
+  },
+  {
+   "start": 535.86,
+   "end": 540.26,
+   "text": "into the future, or is it an alternative universe?"
+  },
+  {
+   "start": 540.26,
+   "end": 545.5,
+   "text": "In any event, the war pretty much destroyed the societies of the northern hemisphere,"
+  },
+  {
+   "start": 545.5,
+   "end": 550.58,
+   "text": "leaving things open for the Africans and other Southerners to become dominant."
+  },
+  {
+   "start": 550.58,
+   "end": 555.78,
+   "text": "And of course, the blacks enslaved the rights and reenact the worst excesses of Antebellum"
+  },
+  {
+   "start": 555.78,
+   "end": 560.94,
+   "text": "American south. So let's just say when I'm in the mood to go back and reread"
+  },
+  {
+   "start": 560.94,
+   "end": 569.66,
+   "text": "some Highline, this is not one I pick. But then there's the Moon is a harsh"
+  },
+  {
+   "start": 569.66,
+   "end": 579.16,
+   "text": "mistress 1966. This is one of Highline's best novels set on a lunar colony. The"
+  },
+  {
+   "start": 579.16,
+   "end": 584.4,
+   "text": "moon has been used as a penal colony, but of course most of the people there now"
+  },
+  {
+   "start": 584.4,
+   "end": 588.64,
+   "text": "now are descendants of the people originally exiled there."
+  },
+  {
+   "start": 588.64,
+   "end": 594.24,
+   "text": "The warden runs things, but as long as the grain shipments are on schedule, he doesn't"
+  },
+  {
+   "start": 594.24,
+   "end": 597.88,
+   "text": "bother much with the affairs of the loonies."
+  },
+  {
+   "start": 597.88,
+   "end": 599.64,
+   "text": "The background here is fascinating."
+  },
+  {
+   "start": 600.0,
+   "end": 604.0,
+   "text": "Describing a nearly anarchic society."
+  },
+  {
+   "start": 604.0,
+   "end": 610.0,
+   "text": "Men outnumber women two to one, leading to some interesting marriage customs,"
+  },
+  {
+   "start": 610.0,
+   "end": 615.0,
+   "text": "including something called line marriage, which is a type of group marriage."
+  },
+  {
+   "start": 615.0,
+   "end": 622.0,
+   "text": "The wise old man role is played by Professor Bernardo de la Paz, also known as prof,"
+  },
+  {
+   "start": 622.0,
+   "end": 629.0,
+   "text": "while the young man he mentors is Manuel Okele Davis, otherwise known as Manny."
+  },
+  {
+   "start": 629.0,
+   "end": 634.2,
+   "text": "Manny is a computer technician who discovers the big mainframe computer that runs everything"
+  },
+  {
+   "start": 634.2,
+   "end": 643.8,
+   "text": "has become sentient. And since the computer has the acronym H-O-L-M-E-S, or Holmes, he names it"
+  },
+  {
+   "start": 643.8,
+   "end": 651.8,
+   "text": "Mycroft Holmes, Mike for short, who is Sherlock's smarter brother. They all become involved in a"
+  },
+  {
+   "start": 651.8,
+   "end": 657.56,
+   "text": "revolution against the Earth government, which in theory the revolution is led by the"
+  },
+  {
+   "start": 657.56,
+   "end": 663.56,
+   "text": "but in fact it's led by Mike. Since he's a computer and keeps his sentience a secret,"
+  },
+  {
+   "start": 663.56,
+   "end": 668.56,
+   "text": "he creates a persona called Adam Celine to be the figurehead."
+  },
+  {
+   "start": 668.56,
+   "end": 675.94,
+   "text": "I said that the background of this lunar colony is fascinating in itself,"
+  },
+  {
+   "start": 675.94,
+   "end": 678.94,
+   "text": "but the book is also a discourse on the nature of government,"
+  },
+  {
+   "start": 678.94,
+   "end": 681.94,
+   "text": "libertarianism, and what it means to be free."
+  },
+  {
+   "start": 681.94,
+   "end": 686.94,
+   "text": "That was something Heinlein was prone to do, and it did not always work well."
+  },
+  {
+   "start": 686.94,
+   "end": 692.78,
+   "text": "work well. In some of his last works, he tended to pontificate in a way that left the story behind."
+  },
+  {
+   "start": 693.74,
+   "end": 700.73,
+   "text": "But in this novel, the story is interesting all the way through. This is the novel that popularized"
+  },
+  {
+   "start": 700.73,
+   "end": 707.05,
+   "text": "the acronym TANSTAFL, which is short for, there ain't no such thing as a free lunch,"
+  },
+  {
+   "start": 707.05,
+   "end": 714.33,
+   "text": "and it is the motto of the loonies. Hazel Stone from the Rolling Stones appears here as a 12-year-old"
+  },
+  {
+   "start": 714.33,
+   "end": 720.25,
+   "text": "girl involved in a revolution, and both she and Mike also appear in later works of Highline."
+  },
+  {
+   "start": 721.21,
+   "end": 727.45,
+   "text": "I can recommend this book highly. This novel won a Hugo award, that's the one by the fans,"
+  },
+  {
+   "start": 728.25,
+   "end": 733.13,
+   "text": "was nominated for a Nebula award, that's the science fiction writers,"
+  },
+  {
+   "start": 733.85,
+   "end": 741.93,
+   "text": "was named one of the top 10 novels in the Locust Pole and won the Prometheus Hall of Fame award."
+  },
+  {
+   "start": 741.93,
+   "end": 750.57,
+   "text": "So, with that, this is Ahuka for Hacker Public Radio signing off, and as always encouraging you to support free software. Bye bye!"
+  },
+  {
+   "start": 750.57,
+   "end": 758.15,
+   "text": "Listening to Hacker Public Radio at HackerPublicRadio.org"
+  },
+  {
+   "start": 758.15,
+   "end": 762.39,
+   "text": "Today's show was contributed by a HBO listener like yourself."
+  },
+  {
+   "start": 762.39,
+   "end": 769.83,
+   "text": "If you ever thought of recording podcasts, you click on our contribute link to find out how easy it really is."
+  },
+  {
+   "start": 769.83,
+   "end": 773.19,
+   "text": "Hosting for HBR has been kindly provided by"
+  },
+  {
+   "start": 773.19,
+   "end": 775.19,
+   "text": "and honesthost.com"
+  },
+  {
+   "start": 775.19,
+   "end": 778.19,
+   "text": "the internet archive at rsync.net"
+  },
+  {
+   "start": 778.19,
+   "end": 781.87,
+   "text": "On this advice status, today's show is released under"
+  },
+  {
+   "start": 781.87,
+   "end": 783.43,
+   "text": "Creative Commons"
+  },
+  {
+   "start": 783.43,
+   "end": 787.43,
+   "text": "attribution 4.0 international license"
+  }
+ ]
+}

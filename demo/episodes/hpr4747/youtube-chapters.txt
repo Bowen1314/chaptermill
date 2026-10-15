@@ -1,0 +1,9 @@
+00:00 Introduction and Series Update
+02:14 Motivation: Replacing Missing 'cat'
+04:03 Core Functionality of 'cat'
+05:42 Limitations of Standard Utilities
+09:32 Testing Potential Replacements
+21:07 Close but Not Perfect: sed and grep
+22:02 Best Options for Text Files
+23:42 Building a Workaround Script
+25:27 Conclusion and Future Topics

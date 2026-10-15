@@ -1,0 +1,220 @@
+{
+ "runs": [
+  {
+   "catalog_id": "catalog-hpr-20261015",
+   "status": "COMPLETED",
+   "wall_clock_s": 2632.7,
+   "spent_usd": 0.079324,
+   "activities_scheduled": {
+    "fetch_feed": 1,
+    "download_audio": 9,
+    "probe_audio": 9,
+    "transcribe_chunk": 55,
+    "merge_transcript": 9,
+    "llm_turn": 72,
+    "read_transcript": 42,
+    "search_transcript": 38,
+    "validate_notes": 11,
+    "write_outputs": 7
+   },
+   "activity_attempts": {
+    "fetch_feed": 2,
+    "download_audio": 9,
+    "probe_audio": 9,
+    "transcribe_chunk": 60,
+    "merge_transcript": 9,
+    "llm_turn": 73,
+    "read_transcript": 42,
+    "search_transcript": 38,
+    "validate_notes": 14,
+    "write_outputs": 7
+   },
+   "retried_attempts_by_activity": {
+    "fetch_feed": 1,
+    "transcribe_chunk": 5,
+    "llm_turn": 1,
+    "validate_notes": 3
+   },
+   "activity_final_timeouts": {},
+   "workflow_task_timeouts": 20,
+   "workflow_task_failures": 1,
+   "ledger": {
+    "http_calls_sent": 74,
+    "completions_ok": 74,
+    "unique_completions": 74,
+    "duplicate_completions": 0,
+    "sent_without_outcome": 0,
+    "injected_faults": 0,
+    "http_errors": {},
+    "timeouts": 0,
+    "usd": 0.124925,
+    "prompt_tokens": 598149,
+    "completion_tokens": 8825
+   },
+   "episodes": [
+    {
+     "key": "hpr4749",
+     "status": "done",
+     "error": ""
+    },
+    {
+     "key": "hpr4748",
+     "status": "done",
+     "error": ""
+    },
+    {
+     "key": "hpr4747",
+     "status": "done",
+     "error": ""
+    },
+    {
+     "key": "hpr4746",
+     "status": "done",
+     "error": ""
+    },
+    {
+     "key": "hpr4745",
+     "status": "failed",
+     "error": "agent gave no valid notes in 10 turns"
+    },
+    {
+     "key": "hpr4744",
+     "status": "failed",
+     "error": "agent gave no valid notes in 10 turns"
+    },
+    {
+     "key": "hpr4743",
+     "status": "done",
+     "error": ""
+    },
+    {
+     "key": "hpr4742",
+     "status": "done",
+     "error": ""
+    },
+    {
+     "key": "hpr4740",
+     "status": "done",
+     "error": ""
+    }
+   ],
+   "retries": [
+    {
+     "activity": "fetch_feed",
+     "attempt": 2,
+     "last_failure": "activity StartToClose timeout",
+     "workflow": "catalog-hpr-20261015"
+    },
+    {
+     "activity": "transcribe_chunk",
+     "attempt": 2,
+     "last_failure": "activity Heartbeat timeout",
+     "workflow": "catalog-hpr-20261015--hpr4748"
+    },
+    {
+     "activity": "transcribe_chunk",
+     "attempt": 3,
+     "last_failure": "activity Heartbeat timeout",
+     "workflow": "catalog-hpr-20261015--hpr4749"
+    },
+    {
+     "activity": "transcribe_chunk",
+     "attempt": 2,
+     "last_failure": "activity Heartbeat timeout",
+     "workflow": "catalog-hpr-20261015--hpr4748"
+    },
+    {
+     "activity": "transcribe_chunk",
+     "attempt": 2,
+     "last_failure": "activity Heartbeat timeout",
+     "workflow": "catalog-hpr-20261015--hpr4749"
+    },
+    {
+     "activity": "llm_turn",
+     "attempt": 2,
+     "last_failure": "activity Heartbeat timeout",
+     "workflow": "catalog-hpr-20261015--hpr4749"
+    },
+    {
+     "activity": "validate_notes",
+     "attempt": 4,
+     "last_failure": "activity StartToClose timeout",
+     "workflow": "catalog-hpr-20261015--hpr4749"
+    }
+   ]
+  },
+  {
+   "catalog_id": "catalog-hpr-20261015b",
+   "status": "COMPLETED",
+   "wall_clock_s": 25.8,
+   "spent_usd": 0.006583,
+   "activities_scheduled": {
+    "fetch_feed": 1,
+    "download_audio": 2,
+    "probe_audio": 2,
+    "transcribe_chunk": 15,
+    "merge_transcript": 2,
+    "llm_turn": 20,
+    "search_transcript": 10,
+    "read_transcript": 12,
+    "validate_notes": 2,
+    "write_outputs": 2
+   },
+   "activity_attempts": {
+    "fetch_feed": 1,
+    "download_audio": 2,
+    "probe_audio": 2,
+    "transcribe_chunk": 15,
+    "merge_transcript": 2,
+    "llm_turn": 20,
+    "search_transcript": 10,
+    "read_transcript": 12,
+    "validate_notes": 2,
+    "write_outputs": 2
+   },
+   "retried_attempts_by_activity": {},
+   "activity_final_timeouts": {},
+   "workflow_task_timeouts": 0,
+   "workflow_task_failures": 0,
+   "ledger": {
+    "http_calls_sent": 74,
+    "completions_ok": 74,
+    "unique_completions": 74,
+    "duplicate_completions": 0,
+    "sent_without_outcome": 0,
+    "injected_faults": 0,
+    "http_errors": {},
+    "timeouts": 0,
+    "usd": 0.124925,
+    "prompt_tokens": 598149,
+    "completion_tokens": 8825
+   },
+   "episodes": [
+    {
+     "key": "hpr4745",
+     "status": "done",
+     "error": ""
+    },
+    {
+     "key": "hpr4744",
+     "status": "done",
+     "error": ""
+    }
+   ],
+   "retries": []
+  }
+ ],
+ "ledger": {
+  "http_calls_sent": 74,
+  "completions_ok": 74,
+  "unique_completions": 74,
+  "duplicate_completions": 0,
+  "sent_without_outcome": 0,
+  "injected_faults": 0,
+  "http_errors": {},
+  "timeouts": 0,
+  "usd": 0.124925,
+  "prompt_tokens": 598149,
+  "completion_tokens": 8825
+ }
+}

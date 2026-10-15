@@ -1,0 +1,60 @@
+{
+ "reference": "Hacker Public Radio's published per-episode transcripts (method not documented)",
+ "episodes": {
+  "hpr4740": {
+   "ref_words": 1852,
+   "our_words": 1837,
+   "edits": 190,
+   "difference_pct": 10.3
+  },
+  "hpr4742": {
+   "ref_words": 7584,
+   "our_words": 6800,
+   "edits": 1124,
+   "difference_pct": 14.8
+  },
+  "hpr4743": {
+   "ref_words": 2554,
+   "our_words": 2494,
+   "edits": 291,
+   "difference_pct": 11.4
+  },
+  "hpr4744": {
+   "ref_words": 5571,
+   "our_words": 5486,
+   "edits": 774,
+   "difference_pct": 13.9
+  },
+  "hpr4745": {
+   "ref_words": 7129,
+   "our_words": 7018,
+   "edits": 1441,
+   "difference_pct": 20.2
+  },
+  "hpr4746": {
+   "ref_words": 2102,
+   "our_words": 2048,
+   "edits": 214,
+   "difference_pct": 10.2
+  },
+  "hpr4747": {
+   "ref_words": 3009,
+   "our_words": 2937,
+   "edits": 176,
+   "difference_pct": 5.8
+  },
+  "hpr4748": {
+   "ref_words": 2986,
+   "our_words": 3098,
+   "edits": 271,
+   "difference_pct": 9.1
+  },
+  "hpr4749": {
+   "ref_words": 6683,
+   "our_words": 6600,
+   "edits": 505,
+   "difference_pct": 7.6
+  }
+ },
+ "overall_difference_pct": 12.6
+}

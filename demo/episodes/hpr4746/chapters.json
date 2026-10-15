@@ -1,0 +1,34 @@
+{
+ "version": "1.2.0",
+ "chapters": [
+  {
+   "startTime": 0.0,
+   "title": "Introduction and Satirical Critique"
+  },
+  {
+   "startTime": 130.0,
+   "title": "Defining Monotone: Pitch and Expression"
+  },
+  {
+   "startTime": 191.0,
+   "title": "Audio Processing and Sample Selection"
+  },
+  {
+   "startTime": 382.0,
+   "title": "Why HPR Sounds Monotone: Solo vs. Conversational Formats"
+  },
+  {
+   "startTime": 444.0,
+   "title": "Analyzing Semantic and Emotional Range"
+  },
+  {
+   "startTime": 569.0,
+   "title": "Mixed Results and Broader Implications"
+  },
+  {
+   "startTime": 693.0,
+   "title": "Reflections on Satire and Community"
+  }
+ ],
+ "title": "HPR4746: Monotone"
+}

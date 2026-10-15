@@ -1,0 +1,6 @@
+00:00 Introduction
+01:08 Understanding I/O Modules
+04:14 Types of I/O: Digital and Analog
+08:20 Specialty I/O and Operator Panels
+11:29 Machine Safety Systems
+18:52 Safety and Cybersecurity Claims

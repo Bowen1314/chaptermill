@@ -1,0 +1,2331 @@
+{
+ "episode": "hpr4744",
+ "duration_s": 1992.26,
+ "segments": [
+  {
+   "start": 5.71,
+   "end": 12.79,
+   "text": "This is Hacker Public Radio Episode 4744 for Thursday 8th October 2026."
+  },
+  {
+   "start": 12.79,
+   "end": 16.91,
+   "text": "Today's show is entitled, HBR Beer Garden 21 Mild."
+  },
+  {
+   "start": 16.91,
+   "end": 19.07,
+   "text": "It is part of the series Beverages."
+  },
+  {
+   "start": 19.07,
+   "end": 22.79,
+   "text": "It is hosted by Kevy and is about 32 minutes long."
+  },
+  {
+   "start": 22.79,
+   "end": 24.71,
+   "text": "It carries a clean flag."
+  },
+  {
+   "start": 24.71,
+   "end": 28.63,
+   "text": "The summary is Kevy, Paul and Dave talk about Mild Ale."
+  },
+  {
+   "start": 28.63,
+   "end": 55.8,
+   "text": "Hello and welcome to another exciting, phenomenally exciting episode of Hacker Public Radio."
+  },
+  {
+   "start": 55.8,
+   "end": 58.5,
+   "text": "And this is the HPR Beer Garden."
+  },
+  {
+   "start": 58.5,
+   "end": 63.5,
+   "text": "My name is Dave and I am joined this time around by two"
+  },
+  {
+   "start": 63.5,
+   "end": 67.4,
+   "text": "Partners in Beer, Beer is in Crime, Crime is in Beer, I don't know, whatever."
+  },
+  {
+   "start": 67.4,
+   "end": 69.5,
+   "text": "No, no, there's no tenants occurring here, sir."
+  },
+  {
+   "start": 69.5,
+   "end": 71.6,
+   "text": "No crimes committed."
+  },
+  {
+   "start": 72.5,
+   "end": 74.5,
+   "text": "So, well, as you just heard, we have got Kevin."
+  },
+  {
+   "start": 74.5,
+   "end": 76.1,
+   "text": "So, hello, Kevin, how are you?"
+  },
+  {
+   "start": 76.1,
+   "end": 77.5,
+   "text": "Hello, hello, hello."
+  },
+  {
+   "start": 77.5,
+   "end": 81.2,
+   "text": "I am way better than the last record of you recordings of the beer garden."
+  },
+  {
+   "start": 81.2,
+   "end": 83.2,
+   "text": "So, yes, I'm on the mend finally."
+  },
+  {
+   "start": 83.2,
+   "end": 84.3,
+   "text": "Excellent."
+  },
+  {
+   "start": 84.3,
+   "end": 88.04,
+   "text": "And we're also joined again by Paul Hallo Paul."
+  },
+  {
+   "start": 88.04,
+   "end": 91.38,
+   "text": "Good evening, both of you and thanks for having me back."
+  },
+  {
+   "start": 91.38,
+   "end": 93.84,
+   "text": "We've told you before, you're not getting away."
+  },
+  {
+   "start": 93.84,
+   "end": 96.0,
+   "text": "I was going to say you're not leaving."
+  },
+  {
+   "start": 96.0,
+   "end": 98.1,
+   "text": "You may scave off the odd one or two."
+  },
+  {
+   "start": 98.1,
+   "end": 99.5,
+   "text": "Hotel California, isn't it?"
+  },
+  {
+   "start": 99.5,
+   "end": 100.5,
+   "text": "Absolutely."
+  },
+  {
+   "start": 100.5,
+   "end": 101.5,
+   "text": "Yeah, exactly."
+  },
+  {
+   "start": 101.5,
+   "end": 104.12,
+   "text": "So, you mean, Dave just came on for one episode of Tux Jam?"
+  },
+  {
+   "start": 104.12,
+   "end": 105.12,
+   "text": "Yes."
+  },
+  {
+   "start": 105.12,
+   "end": 108.48,
+   "text": "It is absolutely true."
+  },
+  {
+   "start": 108.48,
+   "end": 110.6,
+   "text": "And in fact, I think I've just had an anniversary,"
+  },
+  {
+   "start": 110.6,
+   "end": 113.2,
+   "text": "but I'm not allowed to know how long it is now."
+  },
+  {
+   "start": 113.2,
+   "end": 125.12,
+   "text": "So yeah. Anyway, so on this episode, we are going to be reviewing the beer style known as mild."
+  },
+  {
+   "start": 126.0,
+   "end": 133.04,
+   "text": "Now, I thought incorrectly that mild just meant that it was maybe low ABV, it tasted okay,"
+  },
+  {
+   "start": 133.04,
+   "end": 137.6,
+   "text": "whatever, I don't know. But apparently it is a bit more detailed than that. And so"
+  },
+  {
+   "start": 137.6,
+   "end": 144.16,
+   "text": "kebby who has been studying and researching endlessly for the last, I don't know what, five, six minutes."
+  },
+  {
+   "start": 144.16,
+   "end": 147.0,
+   "text": "We'll tell us more. Maybe a longer than that."
+  },
+  {
+   "start": 147.0,
+   "end": 150.44,
+   "text": "Accusations. I'm hurt. I take this seriously."
+  },
+  {
+   "start": 150.44,
+   "end": 154.92,
+   "text": "I know you do. I know you do. And you've got to say, this is not like my job. I don't take that seriously."
+  },
+  {
+   "start": 154.92,
+   "end": 161.44,
+   "text": "No, no. And everybody appreciates the sacrifice that I think that everybody makes on this show to make you what it is."
+  },
+  {
+   "start": 161.44,
+   "end": 164.4,
+   "text": "So tell us about Miles, please, kebby."
+  },
+  {
+   "start": 164.4,
+   "end": 169.36,
+   "text": "Right, before we actually delve into the history of Miledale, I think it's worth noting one thing,"
+  },
+  {
+   "start": 169.36,
+   "end": 177.04,
+   "text": "we have actually looked all very, very briefly at this style before. Very briefly, in the third"
+  },
+  {
+   "start": 177.04,
+   "end": 182.72,
+   "text": "episode of the Bea garden, we need to cast our minds back to episode 4, 4, 8, 3, and in this episode"
+  },
+  {
+   "start": 182.72,
+   "end": 190.96,
+   "text": "was Porter, and we pointed out, remember Porter had the unfortunate name of entire butt when it first"
+  },
+  {
+   "start": 190.96,
+   "end": 194.32,
+   "text": "started because it was a mix of three different beers."
+  },
+  {
+   "start": 194.32,
+   "end": 195.32,
+   "text": "Yeah."
+  },
+  {
+   "start": 195.32,
+   "end": 200.36,
+   "text": "Mild is actually the young beer that was used in the makeup"
+  },
+  {
+   "start": 200.36,
+   "end": 201.36,
+   "text": "of Porter."
+  },
+  {
+   "start": 201.36,
+   "end": 203.32,
+   "text": "Oh, there we go."
+  },
+  {
+   "start": 203.32,
+   "end": 204.32,
+   "text": "OK."
+  },
+  {
+   "start": 204.32,
+   "end": 206.6,
+   "text": "I was really kind of, whoa, I did not know this."
+  },
+  {
+   "start": 206.6,
+   "end": 208.0,
+   "text": "So that one shocked me."
+  },
+  {
+   "start": 208.0,
+   "end": 209.16,
+   "text": "Or surprised me."
+  },
+  {
+   "start": 209.16,
+   "end": 213.4,
+   "text": "So the mild that we know today, though, is quite different from the one that was produced"
+  },
+  {
+   "start": 213.4,
+   "end": 214.96,
+   "text": "in the 18th century."
+  },
+  {
+   "start": 214.96,
+   "end": 220.44,
+   "text": "The beer got its name mild because it's unaged."
+  },
+  {
+   "start": 220.44,
+   "end": 225.8,
+   "text": "And this means that it had no time to develop a bitter taste relative to other beers."
+  },
+  {
+   "start": 225.8,
+   "end": 231.32,
+   "text": "So mild at that point was not talking about strength as these could vary very wildly."
+  },
+  {
+   "start": 231.32,
+   "end": 237.12,
+   "text": "The colour could be anything from pale straw to jet black."
+  },
+  {
+   "start": 237.12,
+   "end": 241.12,
+   "text": "So how did the beer become the style that it is today?"
+  },
+  {
+   "start": 241.12,
+   "end": 246.84,
+   "text": "And for this, although it's a lot older than this, what defines mild today relates directly"
+  },
+  {
+   "start": 246.84,
+   "end": 253.24,
+   "text": "to two events, both of which happened in the early 20th century, and the first takes place in Liverpool,"
+  },
+  {
+   "start": 253.24,
+   "end": 260.36,
+   "text": "and more precisely, in the working-class areas that housed many of the Irish workers. Guinness was"
+  },
+  {
+   "start": 260.36,
+   "end": 265.8,
+   "text": "then, as it remains now, a hugely popular drink with the Irish, and indeed, the hugely popular"
+  },
+  {
+   "start": 265.8,
+   "end": 271.48,
+   "text": "all the world around. But it was also a far higher price than the other beers that were available"
+  },
+  {
+   "start": 271.48,
+   "end": 278.36,
+   "text": "at the time. The Robert Kane brewery attempted to grab this market by using a young beer to"
+  },
+  {
+   "start": 278.36,
+   "end": 285.48,
+   "text": "keep the price down and heavily primate with dark molasses from the nearby Tate and Lyle"
+  },
+  {
+   "start": 285.48,
+   "end": 292.36,
+   "text": "warehouses. This gave the beer both a sweet note and as it was also unfiltered so that the sugar"
+  },
+  {
+   "start": 292.36,
+   "end": 299.08,
+   "text": "residue was left in the beer it gave a pint that provided both refreshment and nourishment for a"
+  },
+  {
+   "start": 299.08,
+   "end": 300.08,
+   "text": "low-paid wask."
+  },
+  {
+   "start": 300.0,
+   "end": 306.6,
+   "text": "The fact that the beer was also very dark and had a similar appearance to Guinness meant that it was an"
+  },
+  {
+   "start": 306.6,
+   "end": 313.56,
+   "text": "instant hit with the Irish workers in particular. So that covers the colour, but what about the strength?"
+  },
+  {
+   "start": 313.56,
+   "end": 321.96,
+   "text": "Because mild beers are usually, when you can find them, between 3 and 4% ABV."
+  },
+  {
+   "start": 321.96,
+   "end": 328.12,
+   "text": "But again, this was not always the case. And for this, we need to look at the effects of the wars,"
+  },
+  {
+   "start": 328.12,
+   "end": 333.8,
+   "text": "but particularly the second world war. The beer had been taxed to high heaven in the first world"
+  },
+  {
+   "start": 333.8,
+   "end": 338.28,
+   "text": "war to the point that it became so expensive that basically the common man couldn't afford"
+  },
+  {
+   "start": 338.28,
+   "end": 344.44,
+   "text": "anything over 3% and even then the people were being ripped off. But the attitude started to change"
+  },
+  {
+   "start": 344.44,
+   "end": 351.0,
+   "text": "in the 30s and the temperance movement had become so hard line that it lost its general popularity"
+  },
+  {
+   "start": 351.0,
+   "end": 357.8,
+   "text": "with the common people and a disastrous marking campaign at the start of World War II"
+  },
+  {
+   "start": 357.8,
+   "end": 364.44,
+   "text": "suggesting that pub landlords and those who enjoy beer were Nazis, the people of Britain actually turned"
+  },
+  {
+   "start": 364.44,
+   "end": 370.28,
+   "text": "away from their message and the pub became the focal point of the community, especially"
+  },
+  {
+   "start": 370.28,
+   "end": 376.36,
+   "text": "throughout World War II at a time when there was very few luxuries. It became, at this point,"
+  },
+  {
+   "start": 376.36,
+   "end": 383.64,
+   "text": "more common for families to attend and news and statements were often read out at public houses first"
+  },
+  {
+   "start": 383.64,
+   "end": 389.88,
+   "text": "to keep the people in the loop. With trips to the pub becoming more frequent and more numerous as"
+  },
+  {
+   "start": 389.88,
+   "end": 396.84,
+   "text": "families rather than just men, there was a call for good quality but moderate ABV beer."
+  },
+  {
+   "start": 396.84,
+   "end": 401.8,
+   "text": "Rashing in stone meant that many ingredients were difficult to source, so the breweries focused on"
+  },
+  {
+   "start": 401.8,
+   "end": 411.08,
+   "text": "what they could get. And this is what became mild today. A dark-colored beer with a moderate ABV."
+  },
+  {
+   "start": 411.08,
+   "end": 418.28,
+   "text": "This became so popular during and after the war that in the 1950s and 60s,"
+  },
+  {
+   "start": 418.28,
+   "end": 426.44,
+   "text": "mild was the biggest selling beer in Britain overtaking bitter and at its height was 70% of all the"
+  },
+  {
+   "start": 426.44,
+   "end": 433.0,
+   "text": "draft beer sold in England was mild. But with innovation and as time went on, people wanted to try"
+  },
+  {
+   "start": 433.0,
+   "end": 440.04,
+   "text": "out new things and by the 1970s, mild was seen as an old thing that was now past its best."
+  },
+  {
+   "start": 440.04,
+   "end": 447.0,
+   "text": "It dropped off so quickly that by 1980 its share had fallen to under 10% nationally."
+  },
+  {
+   "start": 447.0,
+   "end": 451.24,
+   "text": "It is still sold today, but certainly not anywhere near that level."
+  },
+  {
+   "start": 451.8,
+   "end": 455.72,
+   "text": "And also as my co-host found out you will need to go on hunt for it."
+  },
+  {
+   "start": 455.72,
+   "end": 461.8,
+   "text": "Whilst the majority of large breweries have given up on it, many of the English microbreweries"
+  },
+  {
+   "start": 461.8,
+   "end": 465.32,
+   "text": "will produce at least a seasonal mild."
+  },
+  {
+   "start": 465.32,
+   "end": 468.36,
+   "text": "The name itself, and I find this one actually quite interesting,"
+  },
+  {
+   "start": 468.36,
+   "end": 473.56,
+   "text": "a conveyory quite wild leek when you go around Britain. And whilst they're not identical,"
+  },
+  {
+   "start": 473.56,
+   "end": 480.52,
+   "text": "they share the same base flavour and process. Now, throughout England, the word mild is used,"
+  },
+  {
+   "start": 480.52,
+   "end": 487.56,
+   "text": "except in the northeast, where they call it scotch. No idea why. But I have actually come across"
+  },
+  {
+   "start": 487.56,
+   "end": 493.24,
+   "text": "that. This was a new castle I can see come across this. I saw the winter pub and you know the"
+  },
+  {
+   "start": 493.24,
+   "end": 499.24,
+   "text": "Maccunes export, the red with a cavalier on it. Exactly the same, but it was blue, and it said"
+  },
+  {
+   "start": 499.24,
+   "end": 503.32,
+   "text": "scotch, and of course I thought immediately, we heavy, I'll have a pint of that. No, when I go"
+  },
+  {
+   "start": 503.32,
+   "end": 508.92,
+   "text": "as a pint of mild, which is completely opposite of what we have, in Scotland, you would always have"
+  },
+  {
+   "start": 508.92,
+   "end": 514.6,
+   "text": "it referred to as light, a pint of light, and it's actually not uncommon and still in our pubs here."
+  },
+  {
+   "start": 515.16,
+   "end": 521.56,
+   "text": "Maybe not in trendy city centre places, it's either called light or 60 shuling. In Wales,"
+  },
+  {
+   "start": 521.56,
+   "end": 528.04,
+   "text": "I am believed from my research it is very often called black supposed to mild. That concludes my"
+  },
+  {
+   "start": 528.04,
+   "end": 535.32,
+   "text": "research. Although one thing I did think of that is how recent rise in the number of very low"
+  },
+  {
+   "start": 535.32,
+   "end": 542.36,
+   "text": "alcohol beers, not zeros, but low alcohol beers. So if this actually continues, could there yet be"
+  },
+  {
+   "start": 542.36,
+   "end": 548.2,
+   "text": "a serious comeback for mild outside of just the current niche market? Well, I'll do it and see."
+  },
+  {
+   "start": 548.2,
+   "end": 555.8,
+   "text": "Excellent, yeah, lots to unpack from there. I'm surprised to be honest, but no, it's good."
+  },
+  {
+   "start": 555.8,
+   "end": 561.88,
+   "text": "Thank you for doing that. My pleasure. Right. Any questions, Paul, from that? Because I'm going"
+  },
+  {
+   "start": 561.88,
+   "end": 567.32,
+   "text": "to... No questions, no, I'm just looking. I'm actually looking on the internet now to see about"
+  },
+  {
+   "start": 567.32,
+   "end": 573.4,
+   "text": "Wells having a black mile. There's lots of Welsh dark traditional mile-dale, but I can't see one"
+  },
+  {
+   "start": 573.4,
+   "end": 579.0,
+   "text": "which causes half black. But if we come to talk about my journeys to try and find a bottle"
+  },
+  {
+   "start": 579.0,
+   "end": 586.76,
+   "text": "earlier on today, it might be the similar though, like it's a pint of light in Scotland, but"
+  },
+  {
+   "start": 586.76,
+   "end": 592.36,
+   "text": "I don't know any that actually call it light in the name. Yeah, yeah, exactly. It might be more"
+  },
+  {
+   "start": 592.36,
+   "end": 597.64,
+   "text": "regional nickname. You're right. And maybe they call it dark and when they market it, but actually"
+  },
+  {
+   "start": 597.64,
+   "end": 600.04,
+   "text": "it's what would be referred to locally to."
+  },
+  {
+   "start": 600.0,
+   "end": 606.88,
+   "text": "is black. Maybe that's the case. I can confirm that one about the northeast and I can confirm"
+  },
+  {
+   "start": 606.88,
+   "end": 611.6,
+   "text": "the Scottish one. I could not confirm that one about Wales, but it's from a reliable source."
+  },
+  {
+   "start": 612.64,
+   "end": 618.56,
+   "text": "Fair enough. Right. Well, in which case, I think we should probably get on and start cracking"
+  },
+  {
+   "start": 618.56,
+   "end": 624.64,
+   "text": "open some vessels. So Paul, would you do the honours and lead us in the ceremony or cracking"
+  },
+  {
+   "start": 624.64,
+   "end": 632.4,
+   "text": "open of a beer. Well, I would, Dave, if I had one. Oh, yeah, you don't have one, do you?"
+  },
+  {
+   "start": 632.4,
+   "end": 639.32,
+   "text": "Oh, OK. Have you got anything? I have. I actually tipped off by Kevry. I actually got"
+  },
+  {
+   "start": 639.32,
+   "end": 647.2,
+   "text": "a Guinness on the basis that when it all started, Guinness was the challenge beer. So not"
+  },
+  {
+   "start": 647.2,
+   "end": 653.24,
+   "text": "very exciting in terms of originality, but I shall crack my Guinness and see if we can"
+  },
+  {
+   "start": 653.24,
+   "end": 658.04,
+   "text": "You might should be able to hear this because it's in a tin, so it'll have a widget in the bottom, probably."
+  },
+  {
+   "start": 658.04,
+   "end": 659.8,
+   "text": "I was going to say, watch the widget on your keyboard."
+  },
+  {
+   "start": 659.8,
+   "end": 660.28,
+   "text": "Yes."
+  },
+  {
+   "start": 660.28,
+   "end": 662.36,
+   "text": "I'm waiting to feel that glasses."
+  },
+  {
+   "start": 662.36,
+   "end": 663.0,
+   "text": "Oh my word."
+  },
+  {
+   "start": 665.08,
+   "end": 665.56,
+   "text": "Yeah."
+  },
+  {
+   "start": 665.56,
+   "end": 667.8,
+   "text": "We are already into a port."
+  },
+  {
+   "start": 667.8,
+   "end": 670.84,
+   "text": "Well, it is out of the fridge, Kevin."
+  },
+  {
+   "start": 670.84,
+   "end": 672.76,
+   "text": "I don't know if you drink your Guinness out of the fridge."
+  },
+  {
+   "start": 674.2,
+   "end": 678.68,
+   "text": "I don't normally, but of course, a lot of pubs these days have Guinness in..."
+  },
+  {
+   "start": 678.68,
+   "end": 681.32,
+   "text": "What do they call it? Guinness ice or something or Guinness?"
+  },
+  {
+   "start": 681.32,
+   "end": 688.76,
+   "text": "Guinness Extra Cold usually. Yeah, it's very cold, but I quite like proper Guinness at a proper temperature."
+  },
+  {
+   "start": 689.32,
+   "end": 697.8,
+   "text": "So it's not surprisingly looks like Guinness. It's got a Guinness head and yeah, smells like Guinness."
+  },
+  {
+   "start": 697.8,
+   "end": 702.28,
+   "text": "Then it's probably, you can just see Paul there, see the tour path and the monocle, he's looking"
+  },
+  {
+   "start": 702.28,
+   "end": 708.12,
+   "text": "down and I was having mild, he's got the proper stuff. Anyway, so there you are, I've been just a"
+  },
+  {
+   "start": 708.12,
+   "end": 713.88,
+   "text": "comment on Finding Mile. So I did think today that there's a couple of places in Chester,"
+  },
+  {
+   "start": 713.88,
+   "end": 718.72,
+   "text": "which is near where I live, where they carry a good selection of beer. But in the end, I"
+  },
+  {
+   "start": 718.72,
+   "end": 725.2,
+   "text": "have tried every supermarket within Chester, mold and in between. I've tried the specialist"
+  },
+  {
+   "start": 725.2,
+   "end": 730.56,
+   "text": "beer shops in Chester. I've been to a couple of ale houses that often have a random selection"
+  },
+  {
+   "start": 730.56,
+   "end": 736.08,
+   "text": "of different beers. And none of them have any mild. Some of them say when they call"
+  },
+  {
+   "start": 736.08,
+   "end": 740.32,
+   "text": "at their stock list. We do have these miles, but not in stock at the moment. Like you said,"
+  },
+  {
+   "start": 740.32,
+   "end": 746.24,
+   "text": "Kevin, maybe Cesar's little mild is a thing. Generally at the moment, I was quite shocked"
+  },
+  {
+   "start": 746.24,
+   "end": 750.4,
+   "text": "actually to see how many of them, even though they're all independent, carry the same range of beer."
+  },
+  {
+   "start": 750.96,
+   "end": 755.6,
+   "text": "You don't really have the selection on the high street that you would expect to have,"
+  },
+  {
+   "start": 755.6,
+   "end": 759.76,
+   "text": "not round here anyway. Perhaps in a bigger city like Manchester, it's better."
+  },
+  {
+   "start": 759.76,
+   "end": 766.48,
+   "text": "But yeah, so I will make sure next time that I am better prepared and buy from the internet."
+  },
+  {
+   "start": 766.48,
+   "end": 768.66,
+   "text": "So I have something interesting to share."
+  },
+  {
+   "start": 768.66,
+   "end": 769.66,
+   "text": "Fair enough."
+  },
+  {
+   "start": 769.66,
+   "end": 770.66,
+   "text": "Shall I go next?"
+  },
+  {
+   "start": 770.66,
+   "end": 771.66,
+   "text": "Yep, fine."
+  },
+  {
+   "start": 771.66,
+   "end": 772.66,
+   "text": "Okay."
+  },
+  {
+   "start": 772.66,
+   "end": 773.66,
+   "text": "Right."
+  },
+  {
+   "start": 773.66,
+   "end": 775.66,
+   "text": "So this has also come out of the fridge."
+  },
+  {
+   "start": 775.66,
+   "end": 776.66,
+   "text": "Oh, well, why?"
+  },
+  {
+   "start": 776.66,
+   "end": 779.46,
+   "text": "About an hour and 20 minutes ago."
+  },
+  {
+   "start": 779.46,
+   "end": 780.46,
+   "text": "Oh."
+  },
+  {
+   "start": 780.46,
+   "end": 789.26,
+   "text": "Because apparently you're supposed to enjoy a mild at around about 10 to 12 degrees."
+  },
+  {
+   "start": 789.26,
+   "end": 790.74,
+   "text": "Now, in this house-"
+  },
+  {
+   "start": 790.74,
+   "end": 792.1,
+   "text": "Yeah, that's room temperature up here."
+  },
+  {
+   "start": 792.1,
+   "end": 794.66,
+   "text": "No, yeah, maybe there, yes."
+  },
+  {
+   "start": 794.66,
+   "end": 797.62,
+   "text": "But here, room temperature's in the mid-30s,"
+  },
+  {
+   "start": 797.62,
+   "end": 799.02,
+   "text": "and that's not nice."
+  },
+  {
+   "start": 799.02,
+   "end": 804.02,
+   "text": "So, I was advised not to have a mild straight out of the fridge"
+  },
+  {
+   "start": 804.66,
+   "end": 806.9,
+   "text": "because it'll suppress all the flavours"
+  },
+  {
+   "start": 806.9,
+   "end": 809.98,
+   "text": "and also the little bit of viscosity,"
+  },
+  {
+   "start": 809.98,
+   "end": 812.54,
+   "text": "a little bit of smooth mouth feel"
+  },
+  {
+   "start": 812.54,
+   "end": 814.1,
+   "text": "that you'll lose by having it in the fridge."
+  },
+  {
+   "start": 814.1,
+   "end": 819.1,
+   "text": "So, it is quite cold, but it is not chill, not like icy."
+  },
+  {
+   "start": 819.26,
+   "end": 823.96,
+   "text": "I have chosen at under a recommendation, Banks' Mile."
+  },
+  {
+   "start": 823.96,
+   "end": 824.76,
+   "text": "There's a shock."
+  },
+  {
+   "start": 824.76,
+   "end": 825.52,
+   "text": "Are you all expecting that?"
+  },
+  {
+   "start": 825.52,
+   "end": 825.92,
+   "text": "Where are you, Kevin?"
+  },
+  {
+   "start": 825.92,
+   "end": 828.32,
+   "text": "No, not at all."
+  },
+  {
+   "start": 828.32,
+   "end": 829.92,
+   "text": "Where do you find that?"
+  },
+  {
+   "start": 829.92,
+   "end": 834.96,
+   "text": "Not telling, because it wasn't at the local shop."
+  },
+  {
+   "start": 834.96,
+   "end": 840.36,
+   "text": "Very much like, like Paul, it was next to impossible to find anything that was vaguely"
+  },
+  {
+   "start": 840.36,
+   "end": 841.36,
+   "text": "mild."
+  },
+  {
+   "start": 841.36,
+   "end": 845.64,
+   "text": "So I had to resort to online ordering."
+  },
+  {
+   "start": 845.64,
+   "end": 852.88,
+   "text": "Anyway, Banks is mild is, I don't understand why Banks is B-A-N-K-S apostrophe-S because"
+  },
+  {
+   "start": 852.88,
+   "end": 855.3,
+   "text": "that's grammatically incorrect."
+  },
+  {
+   "start": 855.3,
+   "end": 861.56,
+   "text": "But it is a smooth and full bodied with a multi-warming and slightly fruity taste."
+  },
+  {
+   "start": 861.56,
+   "end": 863.04,
+   "text": "It says on the can."
+  },
+  {
+   "start": 863.04,
+   "end": 871.88,
+   "text": "It comes in at 3.5% and I have here a 500 milliliter can, which I'm going to put into"
+  },
+  {
+   "start": 871.88,
+   "end": 874.12,
+   "text": "my dimpled plank glass."
+  },
+  {
+   "start": 874.12,
+   "end": 876.72,
+   "text": "Oh, let's open it."
+  },
+  {
+   "start": 876.72,
+   "end": 878.6,
+   "text": "Ooh, that is sweet."
+  },
+  {
+   "start": 878.6,
+   "end": 882.0,
+   "text": "Ooh, well it's multi, certainly."
+  },
+  {
+   "start": 882.0,
+   "end": 884.88,
+   "text": "I'm not getting anything, anything fruity out of the aroma."
+  },
+  {
+   "start": 884.88,
+   "end": 886.68,
+   "text": "Let me just put it in the glass."
+  },
+  {
+   "start": 886.68,
+   "end": 888.48,
+   "text": "I don't know who to get much of a sound out of it."
+  },
+  {
+   "start": 888.48,
+   "end": 891.48,
+   "text": "All right, now I've got a head size of Bournemouth, hang on."
+  },
+  {
+   "start": 891.48,
+   "end": 892.48,
+   "text": "Ha ha ha."
+  },
+  {
+   "start": 892.48,
+   "end": 893.48,
+   "text": "Ha ha ha."
+  },
+  {
+   "start": 893.48,
+   "end": 895.2,
+   "text": "What's your keyboard?"
+  },
+  {
+   "start": 895.2,
+   "end": 896.84,
+   "text": "People ask me on a regular basis,"
+  },
+  {
+   "start": 896.84,
+   "end": 899.32,
+   "text": "Dave, what aren't you working in a bar?"
+  },
+  {
+   "start": 899.32,
+   "end": 900.16,
+   "text": "That's the reason."
+  },
+  {
+   "start": 900.0,
+   "end": 907.0,
+   "text": "and I'm not working. I think if I poured a beer with a head that size, I would probably"
+  },
+  {
+   "start": 907.0,
+   "end": 908.0,
+   "text": "be looking for another job."
+  },
+  {
+   "start": 908.0,
+   "end": 910.44,
+   "text": "Then you just go and you start out."
+  },
+  {
+   "start": 910.44,
+   "end": 913.2,
+   "text": "Or working in Germany pulling pills."
+  },
+  {
+   "start": 913.2,
+   "end": 915.2,
+   "text": "Yes, or Czech Republic."
+  },
+  {
+   "start": 915.2,
+   "end": 916.2,
+   "text": "Yeah."
+  },
+  {
+   "start": 916.2,
+   "end": 917.2,
+   "text": "Right."
+  },
+  {
+   "start": 917.2,
+   "end": 918.4,
+   "text": "Do you know what?"
+  },
+  {
+   "start": 918.4,
+   "end": 920.64,
+   "text": "That smells like my teenage years."
+  },
+  {
+   "start": 920.64,
+   "end": 923.04,
+   "text": "And I realized that is a really nasty comparison."
+  },
+  {
+   "start": 923.04,
+   "end": 925.84,
+   "text": "I do apologize for saying that."
+  },
+  {
+   "start": 925.84,
+   "end": 930.88,
+   "text": "That definitely reminds me of the beers I used to drink when I was in my late teens early"
+  },
+  {
+   "start": 930.88,
+   "end": 936.16,
+   "text": "twenties. I can't remember that I said this on the show or not, but one of my early poisons"
+  },
+  {
+   "start": 936.16,
+   "end": 946.0,
+   "text": "was Courage Best. Oh, yeah. But I have had many post-cribbage tournament courage best hangover."
+  },
+  {
+   "start": 947.2,
+   "end": 954.08,
+   "text": "Is that back in the 70s, Dave? No, I know it would have been 90s. Yeah, it would have been the"
+  },
+  {
+   "start": 954.08,
+   "end": 960.72,
+   "text": "1990s. Very early 1990s but still the 1990s. Right, I'm not getting a lot out of the glass either."
+  },
+  {
+   "start": 960.72,
+   "end": 966.88,
+   "text": "It's sweet, it's multi, I've got that and not much else. Let's try it and see what I get from there."
+  },
+  {
+   "start": 967.92,
+   "end": 973.68,
+   "text": "Didn't expect that. Oh, definitely not. Right, okay. So I've got the multiness, I've got the"
+  },
+  {
+   "start": 973.68,
+   "end": 980.72,
+   "text": "sweetness in there. It is a nice, it's not thick at all, but it has a substance to it, which is"
+  },
+  {
+   "start": 980.72,
+   "end": 986.16,
+   "text": "really pleasant. It is a little bit on the bitter side, which I was not expecting at all."
+  },
+  {
+   "start": 987.12,
+   "end": 993.68,
+   "text": "But that kind of sits on the top bitterness rather than an ingrained bitterness, which"
+  },
+  {
+   "start": 994.24,
+   "end": 997.92,
+   "text": "is there is an aftertaste, it's still going to is hanging around for a bit, the bitterness,"
+  },
+  {
+   "start": 997.92,
+   "end": 1003.52,
+   "text": "that's all I've got left. 25 seconds after having taken a swing. But flavour wise,"
+  },
+  {
+   "start": 1003.52,
+   "end": 1013.64,
+   "text": "I'm not really picking anything up specifically. It says on the can a slightly fruity taste."
+  },
+  {
+   "start": 1013.64,
+   "end": 1019.4,
+   "text": "And yes, there is a fruitiness there, but I could not begin to articulate it. I couldn't"
+  },
+  {
+   "start": 1019.4,
+   "end": 1020.4,
+   "text": "tell you what it was from."
+  },
+  {
+   "start": 1020.4,
+   "end": 1024.8,
+   "text": "Do you think it's too cold? Because a lot of these dark beers are fruity. You get that"
+  },
+  {
+   "start": 1024.8,
+   "end": 1026.8,
+   "text": "bitterness from the fruit of it's too cold."
+  },
+  {
+   "start": 1026.8,
+   "end": 1031.24,
+   "text": "There's nothing on the outside of the glass. So I don't think that's too cold at all."
+  },
+  {
+   "start": 1031.24,
+   "end": 1032.52,
+   "text": "It's a good question though."
+  },
+  {
+   "start": 1032.52,
+   "end": 1034.24,
+   "text": "Or you've no humidity."
+  },
+  {
+   "start": 1034.24,
+   "end": 1036.28,
+   "text": "Oh, well that's entirely possible as well."
+  },
+  {
+   "start": 1036.28,
+   "end": 1038.24,
+   "text": "No, it is humid in here."
+  },
+  {
+   "start": 1039.24,
+   "end": 1043.24,
+   "text": "No, I'm not getting much in the way of any discernible flavour from it."
+  },
+  {
+   "start": 1043.24,
+   "end": 1046.24,
+   "text": "That's not to say it's not flavourful because it is nice."
+  },
+  {
+   "start": 1046.24,
+   "end": 1047.24,
+   "text": "It really does taste nice."
+  },
+  {
+   "start": 1047.24,
+   "end": 1049.24,
+   "text": "The bitterness is not out of place."
+  },
+  {
+   "start": 1049.24,
+   "end": 1055.24,
+   "text": "It was unexpected given what Kevin said about the beer being a younger beer."
+  },
+  {
+   "start": 1056.24,
+   "end": 1058.24,
+   "text": "Well, put it this way."
+  },
+  {
+   "start": 1058.24,
+   "end": 1060.24,
+   "text": "I do have a second one here on the table."
+  },
+  {
+   "start": 1060.24,
+   "end": 1063.2,
+   "text": "and it will be opened. So I will take that as a win."
+  },
+  {
+   "start": 1063.2,
+   "end": 1069.28,
+   "text": "So one question about younger beer, Kevin. So these days, obviously modern brewing techniques,"
+  },
+  {
+   "start": 1069.28,
+   "end": 1075.12,
+   "text": "do you think it's still young relative to other ails and so on? Or do you think that now,"
+  },
+  {
+   "start": 1076.48,
+   "end": 1082.88,
+   "text": "from what we spoke about this during the laggering episode, the fact that so many laggers now aren't"
+  },
+  {
+   "start": 1082.88,
+   "end": 1090.08,
+   "text": "even called laggers because they've not been cold stored. So I wonder if that's maybe half"
+  },
+  {
+   "start": 1090.08,
+   "end": 1095.84,
+   "text": "the reason for the decline, just the fact that we can make Beersian a case of two days"
+  },
+  {
+   "start": 1095.84,
+   "end": 1099.44,
+   "text": "and ship them out. That was the advantage of it, it was cheap."
+  },
+  {
+   "start": 1102.24,
+   "end": 1110.0,
+   "text": "I don't know. It's funny how it's kept considerably better in Scotland than it has in England,"
+  },
+  {
+   "start": 1110.0,
+   "end": 1114.56,
+   "text": "or wheels by the signs of it. Because the 7080 Schilling, which is like a"
+  },
+  {
+   "start": 1114.56,
+   "end": 1119.6,
+   "text": "a scotch equivalent of butter, it's all but vanished. You can still get it, but again,"
+  },
+  {
+   "start": 1119.6,
+   "end": 1123.92,
+   "text": "it's from specialist shops, whereas a lot of Scottish pubs, if you go in and see us for"
+  },
+  {
+   "start": 1123.92,
+   "end": 1128.8,
+   "text": "a pint of light, pint of 60, they tend to still have it. Like I said, maybe not the modern ones,"
+  },
+  {
+   "start": 1128.8,
+   "end": 1132.32,
+   "text": "the trendy ones, but when the heck of I be modern and trendy, even my younger days,"
+  },
+  {
+   "start": 1132.32,
+   "end": 1137.36,
+   "text": "I was not modern and trendy. I always like beer, not lager. So yeah."
+  },
+  {
+   "start": 1138.08,
+   "end": 1143.36,
+   "text": "But on the subject of modern and trendy, I've got a beer from Heritage Brewing,"
+  },
+  {
+   "start": 1143.36,
+   "end": 1152.96,
+   "text": "with a colab with sunken nave and it is 1950s a Burton Ruby mild. Oh, coming in at 4.2 taste of"
+  },
+  {
+   "start": 1152.96,
+   "end": 1160.88,
+   "text": "history. So I am looking forward to this one. It says, in tiny letters, this delicious historic mild"
+  },
+  {
+   "start": 1160.88,
+   "end": 1167.76,
+   "text": "takes inspiration from an old recipe from a well-known Burton brewery, rich ruby in colour with hints"
+  },
+  {
+   "start": 1167.76,
+   "end": 1175.52,
+   "text": "of caramel, it's full of flavour and well-balanced, a collaboration with Sunken Nave who are as"
+  },
+  {
+   "start": 1175.52,
+   "end": 1181.28,
+   "text": "passionate about heritage recipes as we are. They say this like it's a bad thing, this beer is"
+  },
+  {
+   "start": 1181.28,
+   "end": 1187.6,
+   "text": "bottled conditioned and contains the sediment, please pour carefully. I will say I'm going to open"
+  },
+  {
+   "start": 1187.6,
+   "end": 1193.36,
+   "text": "it carefully because this could result in me losing a keyboard, but I just noticed as well though,"
+  },
+  {
+   "start": 1193.36,
+   "end": 1200.16,
+   "text": "This is handwritten. It was bottled on the 30th of a..."
+  },
+  {
+   "start": 1200.0,
+   "end": 1208.16,
+   "text": "the 30th November last year and it's guile number 1168. But that's been handwritten on"
+  },
+  {
+   "start": 1208.16,
+   "end": 1212.36,
+   "text": "the label. So these probably are quite limited."
+  },
+  {
+   "start": 1212.36,
+   "end": 1214.68,
+   "text": "Right. Should you be opening it?"
+  },
+  {
+   "start": 1214.68,
+   "end": 1220.12,
+   "text": "Yes, because it's for this. What's the point of keeping up? Who's going to pay up for it"
+  },
+  {
+   "start": 1220.12,
+   "end": 1221.28,
+   "text": "for a bottle of a hilt?"
+  },
+  {
+   "start": 1221.28,
+   "end": 1226.04,
+   "text": "Are you surprised? Well, actually, I don't know. I think that I sold you two quite a bit"
+  },
+  {
+   "start": 1226.04,
+   "end": 1232.6,
+   "text": "I'm not too active, it's coming up, but not too active."
+  },
+  {
+   "start": 1232.6,
+   "end": 1238.04,
+   "text": "Oh no, a lot lighter than I was expecting, much more than the way of a brawn."
+  },
+  {
+   "start": 1238.04,
+   "end": 1242.44,
+   "text": "It's head ruby, but I think it's more like copper brawn."
+  },
+  {
+   "start": 1242.44,
+   "end": 1244.24,
+   "text": "Pretty active on the head though."
+  },
+  {
+   "start": 1244.24,
+   "end": 1248.08,
+   "text": "I don't know if it's so bad now."
+  },
+  {
+   "start": 1248.08,
+   "end": 1249.68,
+   "text": "I knew it was going to be..."
+  },
+  {
+   "start": 1249.68,
+   "end": 1252.84,
+   "text": "Oh, that does smell old."
+  },
+  {
+   "start": 1252.84,
+   "end": 1254.64,
+   "text": "Bottle conditioning for you."
+  },
+  {
+   "start": 1254.64,
+   "end": 1258.2,
+   "text": "That just reminds me, no, but the style though."
+  },
+  {
+   "start": 1258.2,
+   "end": 1262.84,
+   "text": "That reminds me of like being next to my grandfather when I was young and now in a beer."
+  },
+  {
+   "start": 1262.84,
+   "end": 1272.28,
+   "text": "Oh yes, that is lovely, multi, slightly boozier said than I would get at 4%, 4.2."
+  },
+  {
+   "start": 1272.28,
+   "end": 1275.36,
+   "text": "There's a, yeah, there's a got toasted caramel in there."
+  },
+  {
+   "start": 1275.36,
+   "end": 1278.56,
+   "text": "I don't think I'm getting much fruit, but I didn't promise fruit either, did it?"
+  },
+  {
+   "start": 1279.36,
+   "end": 1281.44,
+   "text": "Ooh, try to be greedy."
+  },
+  {
+   "start": 1281.44,
+   "end": 1282.56,
+   "text": "Was that a head say?"
+  },
+  {
+   "start": 1282.56,
+   "end": 1283.36,
+   "text": "I just saw."
+  },
+  {
+   "start": 1283.36,
+   "end": 1283.96,
+   "text": "Yes."
+  },
+  {
+   "start": 1283.96,
+   "end": 1285.24,
+   "text": "It was a keyboard save."
+  },
+  {
+   "start": 1285.24,
+   "end": 1286.48,
+   "text": "Keyboard save."
+  },
+  {
+   "start": 1286.48,
+   "end": 1288.56,
+   "text": "Gonna take a picture of this before I forget."
+  },
+  {
+   "start": 1288.56,
+   "end": 1289.96,
+   "text": "Oh, yeah."
+  },
+  {
+   "start": 1289.96,
+   "end": 1290.72,
+   "text": "I've drunk mine."
+  },
+  {
+   "start": 1290.72,
+   "end": 1291.04,
+   "text": "Right."
+  },
+  {
+   "start": 1291.04,
+   "end": 1293.36,
+   "text": "That is still..."
+  },
+  {
+   "start": 1293.36,
+   "end": 1294.04,
+   "text": "You're fine, Paul."
+  },
+  {
+   "start": 1294.04,
+   "end": 1294.96,
+   "text": "You've got another four."
+  },
+  {
+   "start": 1294.96,
+   "end": 1296.52,
+   "text": "Actually, sorry, another three."
+  },
+  {
+   "start": 1296.52,
+   "end": 1297.4,
+   "text": "The pity is a fine."
+  },
+  {
+   "start": 1297.4,
+   "end": 1300.08,
+   "text": "You don't need to worry too much."
+  },
+  {
+   "start": 1300.08,
+   "end": 1300.92,
+   "text": "Right."
+  },
+  {
+   "start": 1300.92,
+   "end": 1302.08,
+   "text": "Cheers."
+  },
+  {
+   "start": 1302.08,
+   "end": 1302.88,
+   "text": "Cheers."
+  },
+  {
+   "start": 1302.88,
+   "end": 1305.56,
+   "text": "Not as sweet as I'm used to from a light,"
+  },
+  {
+   "start": 1305.56,
+   "end": 1307.24,
+   "text": "but a very pleasant beer."
+  },
+  {
+   "start": 1307.24,
+   "end": 1308.6,
+   "text": "Multi..."
+  },
+  {
+   "start": 1308.6,
+   "end": 1310.32,
+   "text": "I'm not getting the toffee, which is annoying."
+  },
+  {
+   "start": 1310.32,
+   "end": 1313.88,
+   "text": "I got that kind of toffee-ish burnt caramel scent, but I'm not getting that."
+  },
+  {
+   "start": 1313.88,
+   "end": 1316.44,
+   "text": "It is sweet, but it's a sweet from the vaults."
+  },
+  {
+   "start": 1316.44,
+   "end": 1319.28,
+   "text": "If you had told me that was a bitter, I'd have believed you."
+  },
+  {
+   "start": 1319.28,
+   "end": 1322.32,
+   "text": "It's not as bitter as bitter, but it's almost..."
+  },
+  {
+   "start": 1322.32,
+   "end": 1324.96,
+   "text": "It's a fact that it's not really good. The sweetness I was expecting."
+  },
+  {
+   "start": 1324.96,
+   "end": 1326.12,
+   "text": "Hmm."
+  },
+  {
+   "start": 1326.12,
+   "end": 1330.64,
+   "text": "That's a very sessionable, very drinkable."
+  },
+  {
+   "start": 1330.64,
+   "end": 1333.6,
+   "text": "You could imagine being in the pub and being on that all day,"
+  },
+  {
+   "start": 1333.6,
+   "end": 1334.64,
+   "text": "that kind of way."
+  },
+  {
+   "start": 1334.64,
+   "end": 1337.6,
+   "text": "It's not got any particular strong flavour."
+  },
+  {
+   "start": 1337.6,
+   "end": 1340.08,
+   "text": "That would be ideal for somebody."
+  },
+  {
+   "start": 1340.08,
+   "end": 1347.24,
+   "text": "Hot day. It's a slightly thicker body than I used to as well for a light or a mild. I'm also calling it light."
+  },
+  {
+   "start": 1347.24,
+   "end": 1352.52,
+   "text": "It's mild style looking at quite a bit more carbonation as well than a standard mild."
+  },
+  {
+   "start": 1352.52,
+   "end": 1360.04,
+   "text": "As probably an example, it did say it's a throwback to the 50s. That probably is a very close 50s mild."
+  },
+  {
+   "start": 1360.04,
+   "end": 1363.28,
+   "text": "Not that I was around then myself."
+  },
+  {
+   "start": 1363.28,
+   "end": 1364.8,
+   "text": "Not quite."
+  },
+  {
+   "start": 1364.8,
+   "end": 1365.8,
+   "text": "No."
+  },
+  {
+   "start": 1365.8,
+   "end": 1372.2,
+   "text": "Hmm, okay. It sounds to me as though the bitterness experience is the same as what I'm"
+  },
+  {
+   "start": 1372.2,
+   "end": 1378.08,
+   "text": "getting here from this one. And yeah, I'm kind of taken back by the fact that you said"
+  },
+  {
+   "start": 1378.08,
+   "end": 1385.04,
+   "text": "as part of your review that the mild style is based on the fact that it is a very young"
+  },
+  {
+   "start": 1385.04,
+   "end": 1390.0,
+   "text": "beer, which prevents a lot of the bitterness coming through. So clearly it doesn't stop"
+  },
+  {
+   "start": 1390.0,
+   "end": 1395.0,
+   "text": "all of it. I mean, how how hoppy is a is a mild, typically?"
+  },
+  {
+   "start": 1395.0,
+   "end": 1398.92,
+   "text": "at all, there shouldn't be any hope. But it's not a hoppy bitterness though, it's not a hoppy"
+  },
+  {
+   "start": 1398.92,
+   "end": 1404.76,
+   "text": "bitterness. But in saying that though, as Paul already pointed out, the fact that"
+  },
+  {
+   "start": 1404.76,
+   "end": 1411.88,
+   "text": "brews can be made so quickly anyway, almost negates the whole point of this beer. It was"
+  },
+  {
+   "start": 1411.88,
+   "end": 1417.24,
+   "text": "something that could be made quickly, cheaply, for a low price for the working man, it was a working man."
+  },
+  {
+   "start": 1417.24,
+   "end": 1424.6,
+   "text": "But I guess the result was a beer flavour type, which would then still give it validity today"
+  },
+  {
+   "start": 1424.6,
+   "end": 1426.96,
+   "text": "if people wanted to have that type of flavour."
+  },
+  {
+   "start": 1426.96,
+   "end": 1432.64,
+   "text": "Absolutely. Actually, I don't want to rub it in, but that was my choice of one of four"
+  },
+  {
+   "start": 1432.64,
+   "end": 1438.84,
+   "text": "miles I had to. I shed it to the co-op actually, I got one locally, both the mild from the"
+  },
+  {
+   "start": 1438.84,
+   "end": 1442.64,
+   "text": "co-op. No, it's called Dalke, both the mild."
+  },
+  {
+   "start": 1442.64,
+   "end": 1446.72,
+   "text": "From the co-operative, I got that off a shelf. The other three I ordered online."
+  },
+  {
+   "start": 1446.72,
+   "end": 1451.72,
+   "text": "I suspect if I have found brains dark, that might have classified as a mile."
+  },
+  {
+   "start": 1451.72,
+   "end": 1455.72,
+   "text": "So anyway, I will look again next time I'm in the shop."
+  },
+  {
+   "start": 1455.72,
+   "end": 1457.72,
+   "text": "That's it. But no one's seen that."
+  },
+  {
+   "start": 1457.72,
+   "end": 1462.72,
+   "text": "Like I said, there was a reason I told you to get Guinness because it did relate into the story."
+  },
+  {
+   "start": 1462.72,
+   "end": 1467.72,
+   "text": "If you saw it being poured, or a pint of 60 or light in Scotland, certainly,"
+  },
+  {
+   "start": 1467.72,
+   "end": 1472.72,
+   "text": "and you saw them side by side with a Guinness, unless somebody swirled it,"
+  },
+  {
+   "start": 1472.72,
+   "end": 1479.68,
+   "text": "you would not know the difference very very very similar appearance in the ad essentially i mean"
+  },
+  {
+   "start": 1479.68,
+   "end": 1486.48,
+   "text": "maybe not quite as the head will go and say that the darkness may be so yes sir can see yourself"
+  },
+  {
+   "start": 1486.48,
+   "end": 1494.72,
+   "text": "in the picture looks at it yes yes the osu is not quite as dark is it no mine's definitely more"
+  },
+  {
+   "start": 1494.72,
+   "end": 1496.72,
+   "text": "I can't a Marky Brown"
+  },
+  {
+   "start": 1496.72,
+   "end": 1498.8,
+   "text": "There's some oh you're actually the same"
+  },
+  {
+   "start": 1500.0,
+   "end": 1501.0,
+   "text": "It's a lot lighter."
+  },
+  {
+   "start": 1501.0,
+   "end": 1502.0,
+   "text": "Blah, lighter, yeah."
+  },
+  {
+   "start": 1502.0,
+   "end": 1503.0,
+   "text": "We can see it better."
+  },
+  {
+   "start": 1503.0,
+   "end": 1505.56,
+   "text": "Well, if I meant it's not black as well as me, yeah."
+  },
+  {
+   "start": 1505.56,
+   "end": 1508.64,
+   "text": "Compared to, there's a reason they called the black stuff."
+  },
+  {
+   "start": 1508.64,
+   "end": 1509.64,
+   "text": "Yeah."
+  },
+  {
+   "start": 1509.64,
+   "end": 1515.92,
+   "text": "I'm just having a look in my local area to see where all the co-ops have gone."
+  },
+  {
+   "start": 1515.92,
+   "end": 1522.8,
+   "text": "We used to have a huge, huge co-op about four miles from here."
+  },
+  {
+   "start": 1522.8,
+   "end": 1526.12,
+   "text": "I got shut down and turned it to a home bargain."
+  },
+  {
+   "start": 1526.12,
+   "end": 1528.64,
+   "text": "Although they're normally good for beers as well."
+  },
+  {
+   "start": 1528.64,
+   "end": 1535.84,
+   "text": "co-op got stung didn't it in 2008 with the financial crash and there was certainly some"
+  },
+  {
+   "start": 1535.84,
+   "end": 1539.76,
+   "text": "disinvestment in some of their stores after that because there were quite a few stores"
+  },
+  {
+   "start": 1539.76,
+   "end": 1544.72,
+   "text": "cross country closed down or changed to other companies like home bargains."
+  },
+  {
+   "start": 1544.72,
+   "end": 1551.32,
+   "text": "Yeah, absolutely. But this does seem to be quite a few small, like smaller out of town"
+  },
+  {
+   "start": 1551.32,
+   "end": 1556.16,
+   "text": "or bust on top. Yeah, village co-ops or yeah, yeah, village co-ops, yeah, that kind of"
+  },
+  {
+   "start": 1556.16,
+   "end": 1562.96,
+   "text": "thing. So there's this one, quite a big one, actually, it's got a car park. So that's a good excuse to go visit."
+  },
+  {
+   "start": 1562.96,
+   "end": 1568.96,
+   "text": "Yeah, it's funny that it didn't seem to affect Scotland at all. I don't know was it just more"
+  },
+  {
+   "start": 1568.96,
+   "end": 1575.68,
+   "text": "with a more prominent people, we're just, well, to be honest, the co-op isn't a lot of places"
+  },
+  {
+   "start": 1575.68,
+   "end": 1581.92,
+   "text": "where they're the only ones. So we've got a lot of big stores up here. I think we're one of the"
+  },
+  {
+   "start": 1581.92,
+   "end": 1587.84,
+   "text": "the biggest Scotland here on the island. Right. Okay. Is it co-op or the cooperative?"
+  },
+  {
+   "start": 1587.84,
+   "end": 1590.88,
+   "text": "Are there different things? Yes. I didn't know there were different things"
+  },
+  {
+   "start": 1590.88,
+   "end": 1596.88,
+   "text": "percussive. Well, some of them rebranded, some of them didn't because the co-ops, they're regional."
+  },
+  {
+   "start": 1596.88,
+   "end": 1601.76,
+   "text": "So the regional co-opritives or the regional co-ops, because there's the Midlands co-op."
+  },
+  {
+   "start": 1601.76,
+   "end": 1606.48,
+   "text": "We're, I think, we're central co-op. There's quite a few different organisations"
+  },
+  {
+   "start": 1606.48,
+   "end": 1612.72,
+   "text": "around the co-op. It's just like a large-scale multi-franchise thing."
+  },
+  {
+   "start": 1612.72,
+   "end": 1617.52,
+   "text": "Right. Actually, I must admit, out-co-op do they are quite good for beers,"
+  },
+  {
+   "start": 1617.52,
+   "end": 1622.88,
+   "text": "but they also the co-ops own brand stuff. Most of it's made by Robinson's. They're the ones who make"
+  },
+  {
+   "start": 1623.6,
+   "end": 1627.68,
+   "text": "the dog-bought things. They're famous for old Tom. But this one actually isn't. This"
+  },
+  {
+   "start": 1627.68,
+   "end": 1632.16,
+   "text": "dog-boughtie is made by fine ails, which is North of Scotland."
+  },
+  {
+   "start": 1632.16,
+   "end": 1638.0,
+   "text": "Lock fine. Excellent. Yes. So, right. So, what are we going to score these?"
+  },
+  {
+   "start": 1638.0,
+   "end": 1640.32,
+   "text": "Well, I mean, firstly, poor, how's your Guinness?"
+  },
+  {
+   "start": 1640.32,
+   "end": 1644.88,
+   "text": "Ah, Guinness is like Guinness. Fantastic. That's really good."
+  },
+  {
+   "start": 1644.88,
+   "end": 1649.76,
+   "text": "Look at him looking, Dennis knows that is terrible. Get yourself back to work, boys. Come on."
+  },
+  {
+   "start": 1654.16,
+   "end": 1659.04,
+   "text": "Okay, so for the Banks, Banks' mild, I've felt wrong saying that,"
+  },
+  {
+   "start": 1659.04,
+   "end": 1666.04,
+   "text": "Banks is mild. Like I said, I was surprised at how bitter it was, but certainly isn't unpleasant."
+  },
+  {
+   "start": 1666.04,
+   "end": 1671.04,
+   "text": "I think I would have preferred, oh hang on, we might have a live additional review."
+  },
+  {
+   "start": 1671.04,
+   "end": 1677.04,
+   "text": "Oh, it's a nod. Thank you very much. Well, it's a nod from my eldest, so that's a good sign."
+  },
+  {
+   "start": 1677.04,
+   "end": 1684.04,
+   "text": "Yeah, so like I say, it is bitter. There's not really a lot of flavour, discernible flavour, I should say to it."
+  },
+  {
+   "start": 1684.04,
+   "end": 1688.92,
+   "text": "to it, but in and of itself, it is actually a really nice"
+  },
+  {
+   "start": 1688.96,
+   "end": 1691.52,
+   "text": "ale and I will be opening the second one very shortly."
+  },
+  {
+   "start": 1693.08,
+   "end": 1699.4,
+   "text": "So given all of that, I think I would have to rate this a fairly"
+  },
+  {
+   "start": 1699.4,
+   "end": 1701.8,
+   "text": "safe seven out of 10."
+  },
+  {
+   "start": 1702.2,
+   "end": 1703.28,
+   "text": "How about you?"
+  },
+  {
+   "start": 1703.68,
+   "end": 1707.4,
+   "text": "As far as scoring goes, I'm finding difficult because it's"
+  },
+  {
+   "start": 1707.4,
+   "end": 1709.8,
+   "text": "apparently nice beer."
+  },
+  {
+   "start": 1710.48,
+   "end": 1711.68,
+   "text": "But that's pretty much all this."
+  },
+  {
+   "start": 1711.68,
+   "end": 1718.48,
+   "text": "It's a table beer, but again, it says, I shouldn't be surprised because it says this is based in the 1950s."
+  },
+  {
+   "start": 1718.48,
+   "end": 1723.6,
+   "text": "And if you're basing it on a beer that was popular with a pure generation,"
+  },
+  {
+   "start": 1723.6,
+   "end": 1729.28,
+   "text": "whether it's hard, by war times, then you're not going to get the base to the base."
+  },
+  {
+   "start": 1729.28,
+   "end": 1734.8,
+   "text": "It's nice. It's a table beer to me. This would be an ideal one to put in the middle of the table."
+  },
+  {
+   "start": 1734.8,
+   "end": 1739.52,
+   "text": "I'm a picture of it, and everybody just kind of slipping out of it."
+  },
+  {
+   "start": 1739.52,
+   "end": 1745.82,
+   "text": "This would be ideal, my summer's day for anybody that doesn't want to drink lager, it's still light enough."
+  },
+  {
+   "start": 1745.92,
+   "end": 1750.62,
+   "text": "It's got an odd bitterness that I'm not used to when drinking this style of beer."
+  },
+  {
+   "start": 1750.72,
+   "end": 1756.82,
+   "text": "It's not an extreme bitterness, but it's there. It's a lot more bitter. It's not as sweet as I would expect."
+  },
+  {
+   "start": 1756.92,
+   "end": 1760.92,
+   "text": "I think I'm going to go down the route of a six. Six editing."
+  },
+  {
+   "start": 1761.02,
+   "end": 1763.92,
+   "text": "Oh, okay. Not terrible, but I wouldn't buy it again."
+  },
+  {
+   "start": 1764.02,
+   "end": 1767.02,
+   "text": "I completely understand what you mean by a table beer."
+  },
+  {
+   "start": 1767.02,
+   "end": 1779.02,
+   "text": "Right. We have had feedback. We have. We have. So we had some feedback on episode 14, which"
+  },
+  {
+   "start": 1779.02,
+   "end": 1787.02,
+   "text": "is the one where we reviewed the super strong lager. And it was who commented? Where's it"
+  },
+  {
+   "start": 1787.02,
+   "end": 1793.86,
+   "text": "say you commented? Or the dude commented on the post with the heading favorite Molt Lickers"
+  },
+  {
+   "start": 1793.86,
+   "end": 1798.66,
+   "text": "super strong largas. And the dude said, don't know how they're sold in Europe, but in the"
+  },
+  {
+   "start": 1798.66,
+   "end": 1799.94,
+   "text": "USA we drink that stuff."
+  },
+  {
+   "start": 1800.0,
+   "end": 1808.32,
+   "text": "in 40 ounce bottles like men, LMAO, although sadly they switched to making the bottles out"
+  },
+  {
+   "start": 1808.32,
+   "end": 1812.04,
+   "text": "of plastic which ruins the taste, totally with you there."
+  },
+  {
+   "start": 1812.04,
+   "end": 1818.24,
+   "text": "In college my go-to's were hurricanes which were $1.99 per 40 ounce and Mickey's which"
+  },
+  {
+   "start": 1818.24,
+   "end": 1824.68,
+   "text": "were in 40 ounce or smaller wide-mout bottle shaped like Angrenade's which yes I played"
+  },
+  {
+   "start": 1824.68,
+   "end": 1829.68,
+   "text": "baseball with. That's an image I need to play with."
+  },
+  {
+   "start": 1830.84,
+   "end": 1833.36,
+   "text": "Anyway, love the series guys and can't wait until you cover"
+  },
+  {
+   "start": 1833.36,
+   "end": 1838.84,
+   "text": "Cream Ale, own brackets recommend Genesey Cream Ale"
+  },
+  {
+   "start": 1838.84,
+   "end": 1842.26,
+   "text": "since it's the essential brand for the style clothes brackets."
+  },
+  {
+   "start": 1842.26,
+   "end": 1844.76,
+   "text": "So thank you the dude for that comment."
+  },
+  {
+   "start": 1844.76,
+   "end": 1846.68,
+   "text": "We shall add Cream Ale."
+  },
+  {
+   "start": 1846.68,
+   "end": 1849.48,
+   "text": "I'm not sure what, I've been told we won't,"
+  },
+  {
+   "start": 1849.48,
+   "end": 1850.64,
+   "text": "won't I, Cream Ale?"
+  },
+  {
+   "start": 1850.64,
+   "end": 1852.12,
+   "text": "We won't, I'll tell you why."
+  },
+  {
+   "start": 1852.12,
+   "end": 1853.0,
+   "text": "I did look at that."
+  },
+  {
+   "start": 1853.0,
+   "end": 1856.96,
+   "text": "I thought initially he was talking about, remember we had the coldest"
+  },
+  {
+   "start": 1856.96,
+   "end": 1859.84,
+   "text": "creamiel calfries, Kilkenny, that kind of style?"
+  },
+  {
+   "start": 1860.68,
+   "end": 1862.24,
+   "text": "No, that's not what he means at all."
+  },
+  {
+   "start": 1862.64,
+   "end": 1865.76,
+   "text": "It's a style that is exclusive to America."
+  },
+  {
+   "start": 1866.2,
+   "end": 1866.52,
+   "text": "Right."
+  },
+  {
+   "start": 1866.64,
+   "end": 1867.4,
+   "text": "Is that a good thing?"
+  },
+  {
+   "start": 1867.4,
+   "end": 1870.32,
+   "text": "It's basically similar, like a paleo over here."
+  },
+  {
+   "start": 1870.4,
+   "end": 1872.56,
+   "text": "It's a bit between a paleo and a laga."
+  },
+  {
+   "start": 1872.76,
+   "end": 1876.56,
+   "text": "The reason I'm saying it's not likely is because I spent two hours"
+  },
+  {
+   "start": 1876.56,
+   "end": 1881.08,
+   "text": "looking for anywhere within Europe that would deliver them here."
+  },
+  {
+   "start": 1881.08,
+   "end": 1887.76,
+   "text": "Because of Europe have it listed as a style, but when you click on it, it says none."
+  },
+  {
+   "start": 1887.76,
+   "end": 1889.56,
+   "text": "They've never had one in stock."
+  },
+  {
+   "start": 1889.56,
+   "end": 1891.52,
+   "text": "It's not even the outer stock or previous stock."
+  },
+  {
+   "start": 1891.52,
+   "end": 1892.12,
+   "text": "Got it."
+  },
+  {
+   "start": 1892.12,
+   "end": 1897.24,
+   "text": "So I think the chances are, unless somebody comes over and brings us them from America,"
+  },
+  {
+   "start": 1897.24,
+   "end": 1898.8,
+   "text": "I think the chances are very slim."
+  },
+  {
+   "start": 1898.8,
+   "end": 1902.96,
+   "text": "I am sorry, we will keep a lookout, but just don't hold your breath, solemnly."
+  },
+  {
+   "start": 1902.96,
+   "end": 1903.8,
+   "text": "Understood."
+  },
+  {
+   "start": 1903.8,
+   "end": 1904.08,
+   "text": "Right."
+  },
+  {
+   "start": 1904.08,
+   "end": 1907.76,
+   "text": "I didn't know whether that was a personal distaste thing, but no, it's not."
+  },
+  {
+   "start": 1907.76,
+   "end": 1910.16,
+   "text": "It's a we just can't get it kind of thing."
+  },
+  {
+   "start": 1910.16,
+   "end": 1910.76,
+   "text": "Yeah."
+  },
+  {
+   "start": 1910.76,
+   "end": 1915.0,
+   "text": "Okay, that's fair enough. Excellent. I'm not aware of any other feedback."
+  },
+  {
+   "start": 1915.0,
+   "end": 1917.8,
+   "text": "No, that's the only one I had listed as well. No, fair enough."
+  },
+  {
+   "start": 1917.8,
+   "end": 1921.96,
+   "text": "Ok, Ducky's. So Dave, what beer styles are coming up?"
+  },
+  {
+   "start": 1921.96,
+   "end": 1930.44,
+   "text": "Ooh, right. So the next ones we have coming up are the Bitter Style, Pale Ale and Trap Hist,"
+  },
+  {
+   "start": 1930.44,
+   "end": 1935.4,
+   "text": "which I am particularly looking forward to. Oh, yes. Those are the next ones."
+  },
+  {
+   "start": 1935.4,
+   "end": 1938.6,
+   "text": "Very good. So does anybody else have anything to add?"
+  },
+  {
+   "start": 1938.6,
+   "end": 1945.32,
+   "text": "I do not. Not for me, Cavill. Join in tomorrow for another exciting episode of..."
+  },
+  {
+   "start": 1945.32,
+   "end": 1951.56,
+   "text": "Hacker... Public... Radio!"
+  },
+  {
+   "start": 1951.56,
+   "end": 1957.56,
+   "text": "You have been listening to the Hacker Public Radio podcast at hicapublicradio.org."
+  },
+  {
+   "start": 1957.56,
+   "end": 1961.64,
+   "text": "Today's show was contributed by a HBR listener like yourself."
+  },
+  {
+   "start": 1961.64,
+   "end": 1968.28,
+   "text": "If you ever thought of recording a podcast, then visit the HBR site to find out how easy it really is."
+  },
+  {
+   "start": 1968.6,
+   "end": 1975.52,
+   "text": "Hosting for HBR has been kindly provided by Anomisthost.com, the Internet Archive, our"
+  },
+  {
+   "start": 1975.52,
+   "end": 1980.76,
+   "text": "sync.net and the HBR Community Content Delivery Network."
+  },
+  {
+   "start": 1980.76,
+   "end": 1986.72,
+   "text": "Unless otherwise stated, today's show is released under a Creative Commons attribution"
+  },
+  {
+   "start": 1986.72,
+   "end": 1990.2,
+   "text": "share alike, 4.0 international license."
+  }
+ ]
+}

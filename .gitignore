@@ -1,0 +1,13 @@
+.env
+*.env
+data/
+data-*/
+_site/
+__pycache__/
+*.pyc
+.venv/
+*.egg-info/
+.pytest_cache/
+spend_ledger.jsonl
+PROGRESS.md
+docs/

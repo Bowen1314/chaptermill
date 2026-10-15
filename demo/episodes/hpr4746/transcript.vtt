@@ -1,0 +1,451 @@
+WEBVTT
+
+00:00:05.710 --> 00:00:12.710
+This is Hacker Public Radio Episode 4746 from onday 12th October 2026.
+
+00:00:12.710 --> 00:00:15.710
+Today's show is entitled, Monotone.
+
+00:00:15.710 --> 00:00:19.710
+It is the 40th show of Lee, and is about 12 minutes long.
+
+00:00:19.710 --> 00:00:21.710
+It carries a clean flag.
+
+00:00:21.710 --> 00:00:25.710
+The summary is, lead us some audio and textual analysis in Python.
+
+00:00:25.710 --> 00:00:41.890
+Hi, I'm Lee.
+
+00:00:41.890 --> 00:00:44.890
+Today I'm going to start talking about some satire,
+
+00:00:44.890 --> 00:00:48.890
+then move on to some computer-based audio and semantic analysis.
+
+00:00:48.890 --> 00:00:53.750
+and finally tried to draw some sort of conclusion linking the two.
+
+00:00:53.750 --> 00:00:59.270
+End-gate.com is a satirical tech blog that basically reads what the Hacker News website
+
+00:00:59.270 --> 00:01:05.990
+is posting, then reposts it with a sarcastic comment. In July I saw a repost on Mastodon
+
+00:01:05.990 --> 00:01:11.550
+mentioning Hacker Public Radio. Apparently HBR has been mentioned on Hacker News and therefore
+
+00:01:11.550 --> 00:01:18.310
+fell victim to the end-gated treatment. There were two main assertions. First the HPR
+
+00:01:18.310 --> 00:01:25.470
+is hosted by some in quotes, tech wizards with emojis, and I'll leave that one alone
+
+00:01:25.470 --> 00:01:30.670
+as it's clearly true considering contributors like my dear old mum where she talked about
+
+00:01:30.670 --> 00:01:36.730
+being a Telax operator in the 1970s and my blue-haired Dutch friend, Beno, who goes around
+
+00:01:36.730 --> 00:01:42.390
+cycling and playing Pokemon Go on this iPhone. The second assertion was that the content
+
+00:01:42.390 --> 00:01:47.590
+and delivery is extremely modern-time, while the mix of shows is incoherent in quotes
+
+00:01:47.590 --> 00:01:53.590
+a cacophony, and finally the dearth of eager new contributors was mentioned. As that's
+
+00:01:53.590 --> 00:01:58.390
+old territory from previous discussions on the topic, I also leave that subject be for
+
+00:01:58.390 --> 00:02:04.950
+now. What was most interesting to me was the assertion of monotonicity, since it was referred
+
+00:02:04.950 --> 00:02:10.350
+to more than once in the tweet. This certainly sounded like something worth investigating,
+
+00:02:10.350 --> 00:02:15.710
+as to me this sounded like an accurate impression, but I couldn't now down it's exact veracity.
+
+00:02:15.710 --> 00:02:19.030
+But how would we test this impression?
+
+00:02:19.030 --> 00:02:24.070
+As it turned out, monotone is a slippery word, as it can refer to both the sound of someone's
+
+00:02:24.070 --> 00:02:29.830
+speech, as well as a range of expression, both in sentiment and semantics.
+
+00:02:29.830 --> 00:02:33.550
+For me, the easiest area to tackle first was sound, though.
+
+00:02:33.550 --> 00:02:37.910
+As you probably are well aware, sound is a wive that travels through the air and consists
+
+00:02:37.910 --> 00:02:40.350
+of a mixture of different frequencies.
+
+00:02:40.350 --> 00:02:46.230
+At any instant, we can both perceive whether the pitch of someone's voice is high or low,
+
+00:02:46.230 --> 00:02:48.910
+as well as how much variation there is.
+
+00:02:48.910 --> 00:02:52.410
+It turns out this is also something a computer can measure.
+
+00:02:52.410 --> 00:02:56.870
+If the variation in pitch is scanned, then we call that speech monotone.
+
+00:02:56.870 --> 00:02:59.750
+Okay, so how would I begin?
+
+00:02:59.750 --> 00:03:04.410
+I couldn't just examine Hackapublic radio, episode audio, and isolation, as that would
+
+00:03:04.410 --> 00:03:06.270
+give me no point of comparison.
+
+00:03:06.270 --> 00:03:11.950
+Luckily, I had handy downloads from other podcasts, Darknet Diaries, Destination Linux,
+
+00:03:11.950 --> 00:03:14.830
+the Bugcast, Linux Matters and Smothers.
+
+00:03:14.830 --> 00:03:19.630
+My first task was choosing what episodes or sections of episodes to compare.
+
+00:03:19.630 --> 00:03:23.630
+Rather than analyse every single episode, which could be hundreds of gigabytes of audio
+
+00:03:23.630 --> 00:03:28.030
+data, it was more practical to systematically select a random sample.
+
+00:03:28.030 --> 00:03:32.750
+Also, to keep this grounded in more or less recent times, for what I think was the longest
+
+00:03:32.750 --> 00:03:39.310
+running podcast APR, I limited the research to just episodes later than 3000.
+
+00:03:39.310 --> 00:03:44.270
+Then rather than just feeding these episodes into an audio analyzer, I needed to be selective
+
+00:03:44.270 --> 00:03:49.510
+so as not to include stuff that's not talking like static noise and music. Thankfully, a
+
+00:03:49.510 --> 00:03:54.870
+whole Linux to noise ratio can be calculated for audio samples. And this metric let me filter
+
+00:03:54.870 --> 00:04:00.230
+out parts of just noise. Then the music detector algorithm could be used to filter out jingles
+
+00:04:00.230 --> 00:04:06.710
+and such. To help get just speech I could also apply a technical voice activity detection,
+
+00:04:06.710 --> 00:04:10.310
+which triggers when it hears talking versus any other kind of sound.
+
+00:04:10.310 --> 00:04:15.870
+Now the frequency data I was getting had to be converted from hertz, which varies logarithmically
+
+00:04:15.870 --> 00:04:22.430
+with pitch to semitones, which change linearly with pitch. Thus we could get a real meaningful
+
+00:04:22.430 --> 00:04:27.830
+and fair measurement of how audibly monotone the speech was. For the speech clip sampled
+
+00:04:27.830 --> 00:04:34.370
+in every episode a medium pitch was derived as well as a statistical measure of the variation
+
+00:04:34.370 --> 00:04:39.710
+in the pitch. This technique allowed a range of different people to be fairly compared,
+
+00:04:39.710 --> 00:04:43.750
+whatever their baseline pitch was, which for a mouse beaker for example you might expect
+
+00:04:43.750 --> 00:04:49.510
+to be lower. And guess what, the raw data from this experiment does bear out the initial
+
+00:04:49.510 --> 00:04:55.990
+assertion, speech in HP and I tend to be significantly more one-a-tane. But finding a statistical
+
+00:04:55.990 --> 00:04:59.350
+differences one thing. Understanding why it was there is another.
+
+00:05:00.000 --> 00:05:03.240
+I considered several explanations.
+
+00:05:03.240 --> 00:05:07.160
+First what came to mind was that tech hobbyist communities might have a higher prevalence of
+
+00:05:07.160 --> 00:05:12.720
+neurodivergent contributors, but we might imagine have less expressive speech.
+
+00:05:12.720 --> 00:05:17.600
+Well this did not bear out, literature on the subject, if anything suggests autistic people
+
+00:05:17.600 --> 00:05:20.960
+can on the whole have a wider pitch range in their speech.
+
+00:05:20.960 --> 00:05:22.800
+This actually surprised me.
+
+00:05:22.800 --> 00:05:25.440
+They're not considered whether acts are played apart.
+
+00:05:25.440 --> 00:05:27.960
+The difference between American or British contributors.
+
+00:05:27.960 --> 00:05:31.560
+Why, anecdotally, that seemed a plausible factor.
+
+00:05:31.560 --> 00:05:35.680
+I could not find much real evidence about this.
+
+00:05:35.680 --> 00:05:40.320
+Then also another factor that there are contributors using English as a second language.
+
+00:05:40.320 --> 00:05:44.280
+Actually, this is plausible since there is evidence that there is generally less pitch
+
+00:05:44.280 --> 00:05:46.520
+variation in that case.
+
+00:05:46.520 --> 00:05:51.320
+But this scenario does not seem to account for the majority of shows.
+
+00:05:51.320 --> 00:05:55.120
+Other demographic factors such as age and gender will possible candidates that might
+
+00:05:55.120 --> 00:06:00.480
+contribute in some way to the observed result. And while yes I considered these factors,
+
+00:06:00.480 --> 00:06:05.200
+I am clear in my own mind that it's totally okay for different communities to have different
+
+00:06:05.200 --> 00:06:10.720
+demographics. Understanding why something is observed is not the same as saying what should
+
+00:06:10.720 --> 00:06:16.400
+be observed. But after considering all those things, the simplest explanation seemed not
+
+00:06:16.400 --> 00:06:22.640
+to be who was recording but how the podcast was recorded. Research on speech shows that a
+
+00:06:22.640 --> 00:06:28.000
+a person reading from notes naturally has a flat pitch pattern than two or more people
+
+00:06:28.000 --> 00:06:31.880
+having a live conversation. And we would indeed know that while there are interviews
+
+00:06:31.880 --> 00:06:36.840
+and conversations in HPR, there are also a lot of episodes like this one with one person
+
+00:06:36.840 --> 00:06:42.120
+expanding on their chosen topic. This contrasted to the comparison podcast that were often
+
+00:06:42.120 --> 00:06:47.800
+consistently to or more hosts speaking. I did go down the rabbit hole trying to prove
+
+00:06:47.800 --> 00:06:52.840
+how many hosts per HPI episode there was, without having to listen to everyone in the
+
+00:06:52.840 --> 00:06:58.080
+sample. First I tried scanning metadata and transcripts, then even applying clustering
+
+00:06:58.080 --> 00:07:03.640
+techniques to the sound. What I did discover was that even solo shows often appear to have
+
+00:07:03.640 --> 00:07:07.880
+more than one contributor because noise and other artifacts were being picked up as a
+
+00:07:07.880 --> 00:07:12.640
+distinct audio source. In the end I gave this up and just accepted what I knew in the first
+
+00:07:12.640 --> 00:07:18.160
+place a lot of shows are silo recordings. In any case this had answered any part of my
+
+00:07:18.160 --> 00:07:24.480
+original question, yes the audio is more one-at-one, but what about the words and ideas themselves?
+
+00:07:24.480 --> 00:07:29.400
+How could I tell if these dominant leads had just a single, subject and flat sentiment,
+
+00:07:29.400 --> 00:07:32.400
+whether they represented a range of themes and emotions?
+
+00:07:32.400 --> 00:07:38.100
+Well to start with I needed textual transcripts, thankfully the website already provided fairly
+
+00:07:38.100 --> 00:07:42.900
+good ones, but just in case I needed to derive my own, a tool like Whisper could do a reasonable
+
+00:07:42.900 --> 00:07:48.500
+job of converting speech to text. I'll qualify this by saying the quality of transcription
+
+00:07:48.500 --> 00:07:53.820
+is dependent on the source audio, and even then, proper nouns especially often be misheard.
+
+00:07:53.820 --> 00:07:58.740
+But once I had the text I saw there were actually a lot of different properties and
+
+00:07:58.740 --> 00:08:04.300
+metrics that could be potentially applied. One of them is wording beddings, which are
+
+00:08:04.300 --> 00:08:09.380
+often used in AI and can represent words in the multi-dimensional vector space, where similar
+
+00:08:09.380 --> 00:08:14.060
+meaning words are close to each other. So with this technique, how scared the words were
+
+00:08:14.060 --> 00:08:19.140
+in this space would indicate what range of different meanings were contained. There was
+
+00:08:19.140 --> 00:08:24.780
+also variation in sentence length, variation in grammar and sentence structure, there's
+
+00:08:24.780 --> 00:08:31.300
+emotional tone that can be measured with sentiment scoring algorithms, there's how often a narrative
+
+00:08:31.300 --> 00:08:36.420
+uses words that pivot in a different direction like however or on the other hand.
+
+00:08:36.420 --> 00:08:42.180
+How often does the person ask questions whether rhetorical or to another speaker?
+
+00:08:42.180 --> 00:08:46.300
+There's also how compressible the text is. Text with lots of structural patterns that
+
+00:08:46.300 --> 00:08:53.740
+compress as well is seen as containing less original and unique ideas and linguistic variety.
+
+00:08:53.740 --> 00:08:58.020
+So for reference material to be used as a point of comparison, I was best not to use
+
+00:08:58.020 --> 00:09:03.100
+a large body of multi-host shows I had before. Also I didn't necessarily have transcripts for
+
+00:09:03.100 --> 00:09:08.220
+those. Instead I used TED Talk which are publicly available and do have transcripts.
+
+00:09:08.220 --> 00:09:13.180
+So after applying all this analysis the results were mixed. So it turned out, HPR episodes
+
+00:09:13.180 --> 00:09:18.900
+did register as having less emotional swing and more repeated vocab and phrasing. On the
+
+00:09:18.900 --> 00:09:23.540
+other hand the range of topics or themes covered by episode tended to be much greater for the
+
+00:09:23.540 --> 00:09:29.200
+the HPR shows. The conclusion is, while the delivery tends to be perhaps more flat, what
+
+00:09:29.200 --> 00:09:34.060
+is talked about is not just narrowing minded or stuck on one topic, if anything, the reverse
+
+00:09:34.060 --> 00:09:40.040
+is true. What's my impression of this whole process? I did get to use a lot of interesting
+
+00:09:40.040 --> 00:09:46.160
+tools, predominantly open source libraries available for the Python programming language.
+
+00:09:46.160 --> 00:09:50.440
+Python is a tool of choice for lots of data scientists, as it has a lot of math, stats
+
+00:09:50.440 --> 00:09:55.000
+the machine learning libraries and it can work at a high level defining the actual task being
+
+00:09:55.000 --> 00:09:59.960
+performed in straightforward code that can interface with low level libraries that crunch
+
+00:10:00.000 --> 00:10:02.680
+large amounts of data efficiently.
+
+00:10:02.680 --> 00:10:07.920
+In the code I used for this analysis was Librosa for basic audio analysis, then Parcel
+
+00:10:07.920 --> 00:10:15.320
+Math, Phonetics and WebRTC, VOD for voice detection, ScienceKit Learn or SK Learn for
+
+00:10:15.320 --> 00:10:21.000
+Pattern Detection, Spacy for Understanding Natural Language, Let's Curricionous for Tracking
+
+00:10:21.000 --> 00:10:27.360
+Bret for Vocabulary and Vader Sentiment for Detecting Emotional Variation.
+
+00:10:27.360 --> 00:10:31.800
+And if the hoodlies libraries are also often used common python modules or packages such
+
+00:10:31.800 --> 00:10:36.480
+as NumPy, SciPy, Mapplotlib and Pandas.
+
+00:10:36.480 --> 00:10:41.720
+In any case I'll try to put some code snippets from the scripts I ran in the show notes.
+
+00:10:41.720 --> 00:10:45.520
+So let's get back to the veracity of the original critique.
+
+00:10:45.520 --> 00:10:50.280
+Ironically the same human that lets us poke fun at big hype, read and startups and industry
+
+00:10:50.280 --> 00:10:55.040
+goings on has been aimed at something that is almost the exact opposite of what engaging
+
+00:10:55.040 --> 00:11:02.160
+normally targets. For one, the project is non-commercial, not a Silicon Valley startup at all. The
+
+00:11:02.160 --> 00:11:07.160
+project encourages anyone to contribute audio about anything tech related that deeply interests
+
+00:11:07.160 --> 00:11:12.920
+them which leads to a neglected mix of content. The modern time drawing tribe comes from the
+
+00:11:12.920 --> 00:11:18.040
+idea of amateur volunteers recording rather than just polished professional podcasters,
+
+00:11:18.040 --> 00:11:22.760
+so the audio quality and presentation wildly varies, something that the satire ruthlessly
+
+00:11:22.760 --> 00:11:29.460
+exaggerates. Going back to the no new contributors issue, the project operates on the volunteer
+
+00:11:29.460 --> 00:11:33.760
+queue. Regular hosts drop off and new hosts come in sporadically. They're an actual
+
+00:11:33.760 --> 00:11:40.560
+hyathesis in a decades long life cycle of ups and downs. Also there's a difference between
+
+00:11:40.560 --> 00:11:45.240
+inclusivity and engagement. There's a real friction involved in the motivation and effort
+
+00:11:45.240 --> 00:11:49.840
+needed to pick up a mic, record something, edit it and put it out there. This can be
+
+00:11:49.840 --> 00:11:55.800
+intimidating for passive listeners, however welcoming in the community is.
+
+00:11:55.800 --> 00:12:01.280
+My eventual takeaway is this satire brand relies on zero sentimentality. When this way
+
+00:12:01.280 --> 00:12:06.080
+of seeing the world is applied to high-flying startups and arrogant tech founders, the cynicism
+
+00:12:06.080 --> 00:12:11.280
+lands well. When aimed at what might be argued to be an innocent, volunteer-run labour of
+
+00:12:11.280 --> 00:12:16.240
+love, it comes across as a bit harsh, but that's the indiscriminate nature of a satirical
+
+00:12:16.240 --> 00:12:23.240
+lens at work. And to be honest, I think in today's world we need satire more than ever.
+
+00:12:46.240 --> 00:12:51.440
+our LinkedInnet and the HBR Community Content Delivery Network.
+
+00:12:51.440 --> 00:12:56.800
+Unless otherwise stated, today's show is released under a Creative Commons
+
+00:12:56.800 --> 00:13:01.240
+attribution share a light 4.0 international life.

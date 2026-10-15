@@ -1,0 +1,3696 @@
+{
+ "episode": "hpr4749",
+ "duration_s": 2346.82,
+ "segments": [
+  {
+   "start": 5.84,
+   "end": 13.08,
+   "text": "This is Hacker Public Radio Episode 4749 for Thursday 15 October 2026."
+  },
+  {
+   "start": 13.08,
+   "end": 18.92,
+   "text": "Today's show is entitled Murph Gives a Presentation Talk about Hacker Public Radio at the OLF Conference."
+  },
+  {
+   "start": 18.92,
+   "end": 22.72,
+   "text": "It is hosted by Murph and is about 38 minutes long."
+  },
+  {
+   "start": 22.72,
+   "end": 24.64,
+   "text": "It carries a clean flag."
+  },
+  {
+   "start": 24.64,
+   "end": 31.36,
+   "text": "The summary is Murph Talks about Hacker Public Radio at the Open Leber Free Conference in Columbus, Ohio in December."
+  },
+  {
+   "start": 31.36,
+   "end": 46.8,
+   "text": "Thanks folks, appreciate it."
+  },
+  {
+   "start": 46.8,
+   "end": 49.04,
+   "text": "Sorry, still getting things going here."
+  },
+  {
+   "start": 49.04,
+   "end": 52.04,
+   "text": "Hey, I should remember my password."
+  },
+  {
+   "start": 52.04,
+   "end": 61.76,
+   "text": "Well, I hurried things along and just to ground us in the schedule while I take Murph"
+  },
+  {
+   "start": 61.76,
+   "end": 64.04,
+   "text": "off the spot."
+  },
+  {
+   "start": 64.04,
+   "end": 69.44,
+   "text": "Murph has an hour slot, so we should likely have some time for Q&A."
+  },
+  {
+   "start": 69.44,
+   "end": 74.76,
+   "text": "I'm going to keep us on track though and get our next speaker on at 5 PM."
+  },
+  {
+   "start": 74.76,
+   "end": 78.04,
+   "text": "So if you have questions, share them in Slack or save them to the end."
+  },
+  {
+   "start": 78.04,
+   "end": 79.04,
+   "text": "Thanks, Murph."
+  },
+  {
+   "start": 79.04,
+   "end": 80.04,
+   "text": "Hi there."
+  },
+  {
+   "start": 80.04,
+   "end": 83.84,
+   "text": "So, hacker public radio, this is just where we're going with this."
+  },
+  {
+   "start": 83.84,
+   "end": 88.04,
+   "text": "If anybody wants the slides, they're at MurphnJ.neosities.org."
+  },
+  {
+   "start": 88.04,
+   "end": 91.84,
+   "text": "There are a lot of URLs in there and there's QR code for it."
+  },
+  {
+   "start": 91.84,
+   "end": 94.4,
+   "text": "So, who am I?"
+  },
+  {
+   "start": 94.4,
+   "end": 95.92,
+   "text": "I'm right."
+  },
+  {
+   "start": 95.92,
+   "end": 98.64,
+   "text": "The good introduction notwithstanding."
+  },
+  {
+   "start": 98.64,
+   "end": 99.64,
+   "text": "I'm Murph."
+  },
+  {
+   "start": 99.64,
+   "end": 101.8,
+   "text": "I am a long time HPR listener."
+  },
+  {
+   "start": 101.8,
+   "end": 104.16,
+   "text": "I'm a longer time free software enthusiast."
+  },
+  {
+   "start": 104.16,
+   "end": 109.16,
+   "text": "Until very recently, I had not submitted any shows to HPR,"
+  },
+  {
+   "start": 109.48,
+   "end": 112.28,
+   "text": "but I had to because I'm giving a talk on HPR."
+  },
+  {
+   "start": 112.28,
+   "end": 113.64,
+   "text": "So now I'm up to three."
+  },
+  {
+   "start": 113.64,
+   "end": 115.88,
+   "text": "I only owe Ken 17 more shows,"
+  },
+  {
+   "start": 115.88,
+   "end": 120.44,
+   "text": "which at the rate, at the length of podcasts I do"
+  },
+  {
+   "start": 120.44,
+   "end": 123.38,
+   "text": "will consist of maybe a half an hour of podcasting time."
+  },
+  {
+   "start": 123.38,
+   "end": 124.84,
+   "text": "All 17 shows combined."
+  },
+  {
+   "start": 125.96,
+   "end": 128.04,
+   "text": "Again, slides are available."
+  },
+  {
+   "start": 128.04,
+   "end": 129.88,
+   "text": "Oh, and I'm currently employed"
+  },
+  {
+   "start": 129.88,
+   "end": 131.92,
+   "text": "as a Linux systems administrator"
+  },
+  {
+   "start": 131.92,
+   "end": 134.76,
+   "text": "as a shock to no one here, I'm sure."
+  },
+  {
+   "start": 134.76,
+   "end": 137.64,
+   "text": "So, what is Hacker Public Radio?"
+  },
+  {
+   "start": 137.64,
+   "end": 141.12,
+   "text": "Hacker Public Radio is a community podcast."
+  },
+  {
+   "start": 141.12,
+   "end": 144.64,
+   "text": "It is produced exclusively by the community."
+  },
+  {
+   "start": 144.64,
+   "end": 146.16,
+   "text": "And from the website, I'm gonna quote it here."
+  },
+  {
+   "start": 146.16,
+   "end": 147.64,
+   "text": "Our shows are produced by listeners like you"
+  },
+  {
+   "start": 147.64,
+   "end": 150.52,
+   "text": "and can be on any topics that are of interest to hackers."
+  },
+  {
+   "start": 150.52,
+   "end": 152.76,
+   "text": "And just to clear the air,"
+  },
+  {
+   "start": 152.76,
+   "end": 154.24,
+   "text": "when I'm talking about hackers,"
+  },
+  {
+   "start": 154.24,
+   "end": 156.72,
+   "text": "I'm talking about the classical want to learn"
+  },
+  {
+   "start": 156.72,
+   "end": 159.04,
+   "text": "about how systems work, want to explore systems,"
+  },
+  {
+   "start": 159.04,
+   "end": 160.4,
+   "text": "want to teach people about systems,"
+  },
+  {
+   "start": 160.4,
+   "end": 164.3,
+   "text": "not the guy in the hoodie and the guy Fox mask, Jack, and your credit card numbers, that's"
+  },
+  {
+   "start": 164.3,
+   "end": 169.38,
+   "text": "not what we're talking about. We're talking about people that want to explore systems."
+  },
+  {
+   "start": 169.38,
+   "end": 173.52,
+   "text": "It's dedicated sharing knowledge. Been running for, I have almost 20 years here. I believe we"
+  },
+  {
+   "start": 173.52,
+   "end": 178.74,
+   "text": "have crossed the threshold of 20 years since then in various forms, entirely community driven."
+  },
+  {
+   "start": 178.74,
+   "end": 184.12,
+   "text": "While we have janitors that keep things running and keep the process going, they do not determine"
+  },
+  {
+   "start": 184.12,
+   "end": 190.1,
+   "text": "what goes on the podcast, the community determines what goes on the podcast."
+  },
+  {
+   "start": 190.1,
+   "end": 194.62,
+   "text": "Policy decisions happen on the mailing list and the matrix and anyone can join it."
+  },
+  {
+   "start": 194.62,
+   "end": 198.1,
+   "text": "Everyone in this room could join it today and give Ken a heart attack."
+  },
+  {
+   "start": 198.1,
+   "end": 200.98,
+   "text": "But you could do it today."
+  },
+  {
+   "start": 200.98,
+   "end": 205.86,
+   "text": "And by default, they're all creative comments, all the shows."
+  },
+  {
+   "start": 205.86,
+   "end": 207.78,
+   "text": "Going too fast."
+  },
+  {
+   "start": 207.78,
+   "end": 208.78,
+   "text": "What can you find there?"
+  },
+  {
+   "start": 208.78,
+   "end": 210.94,
+   "text": "All this can slow it down."
+  },
+  {
+   "start": 210.94,
+   "end": 211.94,
+   "text": "Anything."
+  },
+  {
+   "start": 211.94,
+   "end": 212.94,
+   "text": "Anything and everything."
+  },
+  {
+   "start": 212.94,
+   "end": 217.94,
+   "text": "music, programming, tracking your health, video games,"
+  },
+  {
+   "start": 217.94,
+   "end": 220.58,
+   "text": "literature, there's actually been a long running science"
+  },
+  {
+   "start": 220.58,
+   "end": 225.58,
+   "text": "fiction series going on which I found personally fascinating."
+  },
+  {
+   "start": 227.62,
+   "end": 232.62,
+   "text": "Security, there was a long running series on urban camping"
+  },
+  {
+   "start": 232.86,
+   "end": 235.46,
+   "text": "by Clothoo that was really interesting."
+  },
+  {
+   "start": 235.46,
+   "end": 238.7,
+   "text": "That was just something to look forward to all the time."
+  },
+  {
+   "start": 238.7,
+   "end": 242.02,
+   "text": "Home repair, legal issues, free and open source software."
+  },
+  {
+   "start": 242.02,
+   "end": 244.34,
+   "text": "And if you're saying, hey, why is he talking about this"
+  },
+  {
+   "start": 244.34,
+   "end": 248.22,
+   "text": "at the former Ohio Linux Fest, don't worry."
+  },
+  {
+   "start": 248.22,
+   "end": 249.82,
+   "text": "There's plenty of Linux."
+  },
+  {
+   "start": 249.82,
+   "end": 251.46,
+   "text": "There's lots of Linux."
+  },
+  {
+   "start": 251.46,
+   "end": 255.14,
+   "text": "You'll find Linux in there."
+  },
+  {
+   "start": 255.14,
+   "end": 260.26,
+   "text": "And if you go to listen and you say, hey, this thing doesn't"
+  },
+  {
+   "start": 260.26,
+   "end": 263.38,
+   "text": "interest me, or this guy sounds like he's from New York"
+  },
+  {
+   "start": 263.38,
+   "end": 266.38,
+   "text": "and he talks too fast and he's got an easily voice, just skip"
+  },
+  {
+   "start": 266.38,
+   "end": 267.14,
+   "text": "one."
+  },
+  {
+   "start": 267.14,
+   "end": 269.98,
+   "text": "Every episode is different."
+  },
+  {
+   "start": 269.98,
+   "end": 273.94,
+   "text": "There, in and amongst the suggestions is no host"
+  },
+  {
+   "start": 273.94,
+   "end": 278.1,
+   "text": "should be doing a show more than once every two weeks or so."
+  },
+  {
+   "start": 278.1,
+   "end": 279.1,
+   "text": "I think they've modified that."
+  },
+  {
+   "start": 279.1,
+   "end": 282.58,
+   "text": "It's like every seven episodes or 10 episodes, something like that."
+  },
+  {
+   "start": 282.58,
+   "end": 285.22,
+   "text": "But the general gist is you're not hearing the same person"
+  },
+  {
+   "start": 285.22,
+   "end": 290.74,
+   "text": "day after day doing the same thing."
+  },
+  {
+   "start": 290.74,
+   "end": 291.66,
+   "text": "How to listen."
+  },
+  {
+   "start": 291.66,
+   "end": 293.98,
+   "text": "Oh, by the way, we're QR code heavy here."
+  },
+  {
+   "start": 293.98,
+   "end": 297.06,
+   "text": "So either download the slides or take lots of pictures."
+  },
+  {
+   "start": 297.06,
+   "end": 298.38,
+   "text": "There's lots of stuff here."
+  },
+  {
+   "start": 298.38,
+   "end": 300.06,
+   "text": "So you can go directly to the way."
+  },
+  {
+   "start": 300.0,
+   "end": 305.98,
+   "text": "page and listen by just clicking a button if you like at the main page. You can subscribe"
+  },
+  {
+   "start": 305.98,
+   "end": 311.5,
+   "text": "through RSS, which is what I've done for a million years. Real easy, it's a simple RSS"
+  },
+  {
+   "start": 311.5,
+   "end": 318.74,
+   "text": "feed. You could also go to archive.org and subscribe from there or just dig through episodes"
+  },
+  {
+   "start": 318.74,
+   "end": 324.78,
+   "text": "and search and find them through there. And it's also available on all or most of the"
+  },
+  {
+   "start": 324.78,
+   "end": 332.58,
+   "text": "big mainstream platforms, be it your horrible phone provider of choice, or your horrible"
+  },
+  {
+   "start": 332.58,
+   "end": 340.18,
+   "text": "music provider of choice. The podcast is available on most of the commercial services as well,"
+  },
+  {
+   "start": 340.18,
+   "end": 342.78,
+   "text": "because it's creative comments and people can put it up there. Whether it's official"
+  },
+  {
+   "start": 342.78,
+   "end": 348.18,
+   "text": "or not, you can find it. But these are the easy ways to find that you're getting just"
+  },
+  {
+   "start": 348.18,
+   "end": 354.36,
+   "text": "the thing and not supporting a giant horrible corporation. Unless you want to. Hey, whatever"
+  },
+  {
+   "start": 354.36,
+   "end": 359.42,
+   "text": "you like. So once you've been listening for a while, once you've gone through found something"
+  },
+  {
+   "start": 359.42,
+   "end": 365.24,
+   "text": "you like, and then you've subscribed, you can then start to participate and you don't have"
+  },
+  {
+   "start": 365.24,
+   "end": 371.04,
+   "text": "to start right off the bat doing podcasts, join the mailing list. Most of the time, it's"
+  },
+  {
+   "start": 371.04,
+   "end": 377.22,
+   "text": "not very busy. Once in a while, something will happen to generate some traffic. But even then,"
+  },
+  {
+   "start": 377.22,
+   "end": 380.56,
+   "text": "I mean, you guys have been on busy mailing list. This is not a busy mailing list at"
+  },
+  {
+   "start": 380.56,
+   "end": 382.14,
+   "text": "it's worst, you know, what were there?"
+  },
+  {
+   "start": 382.14,
+   "end": 384.54,
+   "text": "Maybe two dozen posts over the course of a month."
+  },
+  {
+   "start": 384.54,
+   "end": 388.1,
+   "text": "I mean, that was an outrage."
+  },
+  {
+   "start": 389.0,
+   "end": 391.26,
+   "text": "So the mailing list, if you like email,"
+  },
+  {
+   "start": 391.26,
+   "end": 392.7,
+   "text": "there is a matrix room."
+  },
+  {
+   "start": 392.7,
+   "end": 394.74,
+   "text": "That's a place where a lot of stuff happens."
+  },
+  {
+   "start": 396.42,
+   "end": 398.54,
+   "text": "You can also follow them on the Fediverse."
+  },
+  {
+   "start": 401.66,
+   "end": 404.34,
+   "text": "Oh, okay, the top one, my QR card broke."
+  },
+  {
+   "start": 404.34,
+   "end": 405.94,
+   "text": "So the one in the upper left corner is missing,"
+  },
+  {
+   "start": 405.94,
+   "end": 407.06,
+   "text": "because for some reason it broke,"
+  },
+  {
+   "start": 407.06,
+   "end": 408.74,
+   "text": "and I have no idea what the heck happened there."
+  },
+  {
+   "start": 408.74,
+   "end": 410.54,
+   "text": "So the one in the upper right is the matrix room."
+  },
+  {
+   "start": 410.54,
+   "end": 414.34,
+   "text": "The one in the lower right is the Fediverse page."
+  },
+  {
+   "start": 414.34,
+   "end": 416.22,
+   "text": "If you want to join the mailing list,"
+  },
+  {
+   "start": 416.22,
+   "end": 419.5,
+   "text": "if you just go to hackerpublicradio.com or .org,"
+  },
+  {
+   "start": 419.5,
+   "end": 420.7,
+   "text": "the list is easy enough to find"
+  },
+  {
+   "start": 420.7,
+   "end": 422.38,
+   "text": "there's a big RSS button there."
+  },
+  {
+   "start": 422.38,
+   "end": 425.42,
+   "text": "And then there's all kinds of other ways to get on."
+  },
+  {
+   "start": 425.42,
+   "end": 427.18,
+   "text": "There's IRC, there's a Facebook page."
+  },
+  {
+   "start": 427.18,
+   "end": 431.02,
+   "text": "There's a LinkedIn page if you're a LinkedIn person."
+  },
+  {
+   "start": 431.02,
+   "end": 432.02,
+   "text": "There's plenty of them."
+  },
+  {
+   "start": 432.02,
+   "end": 434.7,
+   "text": "So what now?"
+  },
+  {
+   "start": 434.7,
+   "end": 438.62,
+   "text": "You start listening, you've jumped on the list,"
+  },
+  {
+   "start": 438.62,
+   "end": 440.66,
+   "text": "you decide you have something to say."
+  },
+  {
+   "start": 440.66,
+   "end": 443.9,
+   "text": "Now, if you want to share that, do it,"
+  },
+  {
+   "start": 443.9,
+   "end": 446.18,
+   "text": "because you know what keeps the show going?"
+  },
+  {
+   "start": 446.18,
+   "end": 448.82,
+   "text": "You, the listeners, the contributors,"
+  },
+  {
+   "start": 448.82,
+   "end": 454.1,
+   "text": "because the way it's set up, if the show runs out of episodes,"
+  },
+  {
+   "start": 454.1,
+   "end": 455.42,
+   "text": "it ends."
+  },
+  {
+   "start": 455.42,
+   "end": 456.82,
+   "text": "This has an end point."
+  },
+  {
+   "start": 456.82,
+   "end": 458.94,
+   "text": "We don't know where it is, but it has an end point."
+  },
+  {
+   "start": 458.94,
+   "end": 462.18,
+   "text": "If people stop contributing shows, the show will end."
+  },
+  {
+   "start": 462.18,
+   "end": 467.54,
+   "text": "So if you have something, say it."
+  },
+  {
+   "start": 467.54,
+   "end": 468.54,
+   "text": "I'll submit a show."
+  },
+  {
+   "start": 468.54,
+   "end": 472.28,
+   "text": "So, give me one second here."
+  },
+  {
+   "start": 472.28,
+   "end": 474.08,
+   "text": "Ah, okay."
+  },
+  {
+   "start": 474.08,
+   "end": 479.52,
+   "text": "So there are a couple pages on the site to describe how to do it, but I found the startup"
+  },
+  {
+   "start": 479.52,
+   "end": 482.76,
+   "text": "process a little funny, so I'm going to give a little extra information in here."
+  },
+  {
+   "start": 482.76,
+   "end": 488.76,
+   "text": "So you can click on hub.hackerpublicradio.com, calendar.php, which is horrible."
+  },
+  {
+   "start": 488.76,
+   "end": 490.16,
+   "text": "I don't know why I did that."
+  },
+  {
+   "start": 490.16,
+   "end": 493.72,
+   "text": "Or you can click schedule, but don't do that yet."
+  },
+  {
+   "start": 493.72,
+   "end": 495.44,
+   "text": "Go to the record page."
+  },
+  {
+   "start": 495.44,
+   "end": 497.44,
+   "text": "Record first."
+  },
+  {
+   "start": 497.44,
+   "end": 501.4,
+   "text": "And it's funny, I gave this talk at the Hope Conference, and I started talking about this,"
+  },
+  {
+   "start": 501.4,
+   "end": 506.04,
+   "text": "and I said, okay, before you record, think."
+  },
+  {
+   "start": 506.04,
+   "end": 511.0,
+   "text": "And none other than Jason Scott jumped up out of the audience and said, no!"
+  },
+  {
+   "start": 511.0,
+   "end": 513.36,
+   "text": "Just record, don't think."
+  },
+  {
+   "start": 513.36,
+   "end": 516.84,
+   "text": "And I went, okay, I can't do that."
+  },
+  {
+   "start": 516.84,
+   "end": 520.16,
+   "text": "That is beyond my skill set to just start like that."
+  },
+  {
+   "start": 520.16,
+   "end": 522.56,
+   "text": "But I'm going to adjust my thing."
+  },
+  {
+   "start": 522.56,
+   "end": 523.56,
+   "text": "Think to taste."
+  },
+  {
+   "start": 523.56,
+   "end": 524.56,
+   "text": "You know?"
+  },
+  {
+   "start": 524.56,
+   "end": 527.92,
+   "text": "As much thought as you need, that's what you should do."
+  },
+  {
+   "start": 527.92,
+   "end": 531.56,
+   "text": "So if you have a computer, which you probably do,"
+  },
+  {
+   "start": 531.56,
+   "end": 534.8,
+   "text": "use the audio recording software of your choice."
+  },
+  {
+   "start": 534.8,
+   "end": 538.12,
+   "text": "If you don't know, triodacity, it works reasonably well."
+  },
+  {
+   "start": 538.12,
+   "end": 539.6,
+   "text": "If you don't like the way they've been going,"
+  },
+  {
+   "start": 539.6,
+   "end": 542.88,
+   "text": "things use tenacity if you know about such things."
+  },
+  {
+   "start": 542.88,
+   "end": 544.68,
+   "text": "Whatever, doesn't matter."
+  },
+  {
+   "start": 544.68,
+   "end": 547.2,
+   "text": "Here or you can use your phone, you can use anything."
+  },
+  {
+   "start": 547.2,
+   "end": 553.88,
+   "text": "Here are the suggested settings if you are setting this up."
+  },
+  {
+   "start": 553.88,
+   "end": 556.64,
+   "text": "Sample rate of 44.1 kilohertz, which is very standard."
+  },
+  {
+   "start": 556.64,
+   "end": 558.6,
+   "text": "You may as well do it mono because they're squishing it down"
+  },
+  {
+   "start": 558.6,
+   "end": 559.72,
+   "text": "to mono anyway."
+  },
+  {
+   "start": 559.72,
+   "end": 563.24,
+   "text": "And save it in a FLAC format if you can."
+  },
+  {
+   "start": 563.24,
+   "end": 566.04,
+   "text": "If you have an option to export as FLAC, that would be your"
+  },
+  {
+   "start": 566.04,
+   "end": 568.64,
+   "text": "best one because that doesn't add compression."
+  },
+  {
+   "start": 568.64,
+   "end": 571.24,
+   "text": "And then if they edit it in any way, it causes less"
+  },
+  {
+   "start": 571.24,
+   "end": 572.96,
+   "text": "problems in the long run."
+  },
+  {
+   "start": 572.96,
+   "end": 575.44,
+   "text": "There are more details about this on the web page, but that's"
+  },
+  {
+   "start": 575.44,
+   "end": 576.8,
+   "text": "the short answer."
+  },
+  {
+   "start": 576.8,
+   "end": 579.88,
+   "text": "Before you record, try these things."
+  },
+  {
+   "start": 579.88,
+   "end": 580.96,
+   "text": "Don't bother doing it in stereo."
+  },
+  {
+   "start": 580.96,
+   "end": 583.84,
+   "text": "They squish it down to mono anyway."
+  },
+  {
+   "start": 583.84,
+   "end": 588.84,
+   "text": "Okay, so before, so you've recorded your show, you have a show about a thing."
+  },
+  {
+   "start": 588.84,
+   "end": 594.48,
+   "text": "A little bit of information because the way the page sets up, it goes through a few steps"
+  },
+  {
+   "start": 594.48,
+   "end": 597.12,
+   "text": "and all of a sudden you need some information about this."
+  },
+  {
+   "start": 597.12,
+   "end": 599.64,
+   "text": "So I'm going to tell you what you need first."
+  },
+  {
+   "start": 599.64,
+   "end": 601.64,
+   "text": "when I was..."
+  },
+  {
+   "start": 600.0,
+   "end": 604.32,
+   "text": "I went through this, and like I say, I didn't record one until very recently, so I saw this process,"
+  },
+  {
+   "start": 604.32,
+   "end": 608.16,
+   "text": "and I got to the page where you do your thing, and I'm like, ooh, they want all this information,"
+  },
+  {
+   "start": 608.16,
+   "end": 610.6,
+   "text": "I wasn't ready for this, I'm going to get you ready for this."
+  },
+  {
+   "start": 610.6,
+   "end": 616.12,
+   "text": "Now, so the workflow was a little funny, we're going to prep you for this."
+  },
+  {
+   "start": 616.12,
+   "end": 624.68,
+   "text": "The minimum information you need is a title, a summary, and preferably some kind of show notes."
+  },
+  {
+   "start": 624.68,
+   "end": 627.64,
+   "text": "It doesn't have to be detailed, doesn't have to be long, but you have to think about this,"
+  },
+  {
+   "start": 627.64,
+   "end": 629.68,
+   "text": "okay, this is the part you've got to think a little bit."
+  },
+  {
+   "start": 629.68,
+   "end": 633.76,
+   "text": "You have to have that stuff ready for when you go to submit."
+  },
+  {
+   "start": 633.76,
+   "end": 636.88,
+   "text": "And I happened to when I did it, I had everything typed out"
+  },
+  {
+   "start": 636.88,
+   "end": 639.28,
+   "text": "and ready, so I was just like, oh, here's what I was going"
+  },
+  {
+   "start": 639.28,
+   "end": 641.04,
+   "text": "to say anyway, and I cut and pasted it in there."
+  },
+  {
+   "start": 641.04,
+   "end": 643.2,
+   "text": "But if you don't have that, that may be challenging."
+  },
+  {
+   "start": 643.2,
+   "end": 645.44,
+   "text": "So have that ready ahead of time."
+  },
+  {
+   "start": 645.44,
+   "end": 649.48,
+   "text": "So once you have recorded your podcast and saved it,"
+  },
+  {
+   "start": 649.48,
+   "end": 650.76,
+   "text": "you should save it too."
+  },
+  {
+   "start": 650.76,
+   "end": 652.6,
+   "text": "Record it and save it."
+  },
+  {
+   "start": 652.6,
+   "end": 655.24,
+   "text": "Get this little bit of information."
+  },
+  {
+   "start": 655.24,
+   "end": 659.0,
+   "text": "Then, oh, optional information before we go further."
+  },
+  {
+   "start": 659.0,
+   "end": 661.16,
+   "text": "This is stuff, an email address, and if you say,"
+  },
+  {
+   "start": 661.16,
+   "end": 663.32,
+   "text": "I don't want to give them my email address, you don't have to."
+  },
+  {
+   "start": 663.32,
+   "end": 666.12,
+   "text": "But if there's a problem with the podcast, they can't contact you."
+  },
+  {
+   "start": 666.12,
+   "end": 669.68,
+   "text": "So come up with an email address if you wish."
+  },
+  {
+   "start": 669.68,
+   "end": 672.4,
+   "text": "A name or handle, a gravatar if you wish,"
+  },
+  {
+   "start": 672.4,
+   "end": 674.84,
+   "text": "or you can upload an image instead of that."
+  },
+  {
+   "start": 674.84,
+   "end": 677.08,
+   "text": "They ask for a short profile."
+  },
+  {
+   "start": 677.08,
+   "end": 678.4,
+   "text": "How short is up to you?"
+  },
+  {
+   "start": 678.4,
+   "end": 679.4,
+   "text": "I don't know."
+  },
+  {
+   "start": 679.4,
+   "end": 680.88,
+   "text": "I did podcasts that were a minute and a half."
+  },
+  {
+   "start": 680.88,
+   "end": 685.0,
+   "text": "So short is definitely fuzzy."
+  },
+  {
+   "start": 685.0,
+   "end": 686.8,
+   "text": "Shows are CC Bias A."
+  },
+  {
+   "start": 686.8,
+   "end": 689.4,
+   "text": "Hey, I'm gonna throw a question to the two over there."
+  },
+  {
+   "start": 689.4,
+   "end": 692.42,
+   "text": "Can you change it from CC BISA anymore?"
+  },
+  {
+   "start": 692.42,
+   "end": 694.94,
+   "text": "There's a drop down for it though, which always confused,"
+  },
+  {
+   "start": 694.94,
+   "end": 696.36,
+   "text": "what's that?"
+  },
+  {
+   "start": 696.36,
+   "end": 697.58,
+   "text": "I don't know if they fixed it."
+  },
+  {
+   "start": 697.58,
+   "end": 702.48,
+   "text": "Okay, so I'm gonna say shows are always CC BISA."
+  },
+  {
+   "start": 702.48,
+   "end": 705.24,
+   "text": "That's the terms that they use for their distribution."
+  },
+  {
+   "start": 707.92,
+   "end": 711.24,
+   "text": "So it becomes a hostage negotiation at that point."
+  },
+  {
+   "start": 711.24,
+   "end": 712.32,
+   "text": "Okay, thank you."
+  },
+  {
+   "start": 712.32,
+   "end": 715.12,
+   "text": "I always wanna check this and I haven't submitted one"
+  },
+  {
+   "start": 715.12,
+   "end": 717.68,
+   "text": "since I had that question, so I couldn't change that."
+  },
+  {
+   "start": 717.68,
+   "end": 720.28,
+   "text": "So thank you for that."
+  },
+  {
+   "start": 720.28,
+   "end": 726.14,
+   "text": "So he just verified that the CCB-ISA is negotiable,"
+  },
+  {
+   "start": 726.14,
+   "end": 728.6,
+   "text": "but you can't just like something else right off the bat."
+  },
+  {
+   "start": 728.6,
+   "end": 732.16,
+   "text": "You have to talk to them ahead of time."
+  },
+  {
+   "start": 732.16,
+   "end": 735.56,
+   "text": "And if you think you're going to make a series out of this,"
+  },
+  {
+   "start": 735.56,
+   "end": 738.2,
+   "text": "say you have three podcasts in your head that"
+  },
+  {
+   "start": 738.2,
+   "end": 742.04,
+   "text": "span a certain subject, you can make it a series."
+  },
+  {
+   "start": 742.04,
+   "end": 744.76,
+   "text": "There's a drop down for series, or you can create a new one."
+  },
+  {
+   "start": 744.76,
+   "end": 747.52,
+   "text": "So if you know for a fact, if you're already ready to go,"
+  },
+  {
+   "start": 747.52,
+   "end": 749.84,
+   "text": "and you say, oh, I have three things I want to talk about."
+  },
+  {
+   "start": 749.84,
+   "end": 751.08,
+   "text": "Think about making it a series that"
+  },
+  {
+   "start": 751.08,
+   "end": 753.32,
+   "text": "will help people find the other episodes in the series."
+  },
+  {
+   "start": 753.32,
+   "end": 759.39,
+   "text": "So if you have a thing and a question from the crowd."
+  },
+  {
+   "start": 759.39,
+   "end": 760.19,
+   "text": "Oh, thank you."
+  },
+  {
+   "start": 760.19,
+   "end": 761.95,
+   "text": "You can contribute to existing series."
+  },
+  {
+   "start": 761.95,
+   "end": 764.51,
+   "text": "So if you see something, oh, my thing slots into this perfectly."
+  },
+  {
+   "start": 764.51,
+   "end": 765.59,
+   "text": "You can jump into there."
+  },
+  {
+   "start": 765.59,
+   "end": 767.31,
+   "text": "Sorry, I didn't think to mention that."
+  },
+  {
+   "start": 767.31,
+   "end": 770.75,
+   "text": "And I like this, you can put tags in the description"
+  },
+  {
+   "start": 770.75,
+   "end": 771.75,
+   "text": "if you like."
+  },
+  {
+   "start": 771.75,
+   "end": 774.71,
+   "text": "Put tags in the description the way they say."
+  },
+  {
+   "start": 774.71,
+   "end": 776.55,
+   "text": "And people will more easily, when"
+  },
+  {
+   "start": 776.55,
+   "end": 778.75,
+   "text": "they are searching for things on your subject,"
+  },
+  {
+   "start": 778.75,
+   "end": 780.27,
+   "text": "they're more likely to find you."
+  },
+  {
+   "start": 780.27,
+   "end": 781.59,
+   "text": "But all this stuff is optional."
+  },
+  {
+   "start": 781.59,
+   "end": 784.51,
+   "text": "It's just the stuff on this page that you must have."
+  },
+  {
+   "start": 784.51,
+   "end": 786.67,
+   "text": "This is the non-negotiable stuff."
+  },
+  {
+   "start": 786.67,
+   "end": 788.47,
+   "text": "This is all fairly negotiable."
+  },
+  {
+   "start": 790.07,
+   "end": 792.47,
+   "text": "Okay, after you've recorded,"
+  },
+  {
+   "start": 792.47,
+   "end": 795.95,
+   "text": "you're ready to start this process, which is a little funny."
+  },
+  {
+   "start": 795.95,
+   "end": 798.71,
+   "text": "So you go to the homepage, click the upload button."
+  },
+  {
+   "start": 798.71,
+   "end": 800.47,
+   "text": "You don't click the upload button anymore."
+  },
+  {
+   "start": 800.47,
+   "end": 802.11,
+   "text": "It's funny, I changed the graphic"
+  },
+  {
+   "start": 802.11,
+   "end": 804.35,
+   "text": "and I didn't change the text, I should have done that."
+  },
+  {
+   "start": 804.35,
+   "end": 805.55,
+   "text": "Click the schedule button."
+  },
+  {
+   "start": 805.55,
+   "end": 808.39,
+   "text": "That's where you get started with this."
+  },
+  {
+   "start": 808.39,
+   "end": 809.83,
+   "text": "Now you're going to select a date."
+  },
+  {
+   "start": 809.83,
+   "end": 813.07,
+   "text": "Now this is in the past, but what you were going to see is going to be in the future."
+  },
+  {
+   "start": 813.07,
+   "end": 818.23,
+   "text": "It'll start from today-ish and go into the future, and you can see that there are, I was"
+  },
+  {
+   "start": 818.23,
+   "end": 819.23,
+   "text": "about to scroll down."
+  },
+  {
+   "start": 819.23,
+   "end": 820.23,
+   "text": "This is a picture."
+  },
+  {
+   "start": 820.23,
+   "end": 822.11,
+   "text": "Can't scroll down."
+  },
+  {
+   "start": 822.11,
+   "end": 827.35,
+   "text": "You're seeing all of the slots that are available in the future, and you can see from that point"
+  },
+  {
+   "start": 827.35,
+   "end": 833.35,
+   "text": "in time a couple of weeks up there, HPR 4357 is available, upload now, and you can see"
+  },
+  {
+   "start": 833.35,
+   "end": 837.15,
+   "text": "it's highlighted because that's where I believe I uploaded my first episode, I think is that"
+  },
+  {
+   "start": 837.15,
+   "end": 838.15,
+   "text": "number."
+  },
+  {
+   "start": 838.15,
+   "end": 842.21,
+   "text": "Either that or I'd chicken down and canceled it and did it again, but that's possible."
+  },
+  {
+   "start": 842.21,
+   "end": 844.59,
+   "text": "So what you're going to do is you're going to look for a site."
+  },
+  {
+   "start": 844.59,
+   "end": 849.01,
+   "text": "Now you can pick a site anywhere in the next couple of months."
+  },
+  {
+   "start": 849.01,
+   "end": 851.95,
+   "text": "You can schedule ahead."
+  },
+  {
+   "start": 851.95,
+   "end": 856.07,
+   "text": "But keep in mind, you must have it recorded already."
+  },
+  {
+   "start": 856.07,
+   "end": 860.09,
+   "text": "You can't reserve a spot and say, I'm going to record it two weeks from then."
+  },
+  {
+   "start": 860.09,
+   "end": 863.55,
+   "text": "With the slight exception, if you have something that really needs to be timely and you really"
+  },
+  {
+   "start": 863.55,
+   "end": 867.51,
+   "text": "need to reserve it, you can negotiate with the community and they might work with you"
+  },
+  {
+   "start": 867.51,
+   "end": 874.63,
+   "text": "on that. But in general, if you have it recorded, you can schedule it months in advance so you"
+  },
+  {
+   "start": 874.63,
+   "end": 879.99,
+   "text": "can pick your spot. And of course, if you want a spot, the sooner in advance you do it, the"
+  },
+  {
+   "start": 879.99,
+   "end": 884.87,
+   "text": "more likely you are to get the date. If you go to pick one two weeks from now, your pickings"
+  },
+  {
+   "start": 884.87,
+   "end": 892.03,
+   "text": "get kind of slim as I found out at one point. Okay, confirmation steps. So once you've selected"
+  },
+  {
+   "start": 892.03,
+   "end": 899.07,
+   "text": "your date, it asks, now this you have to have an email address because they email you once"
+  },
+  {
+   "start": 899.07,
+   "end": 899.99,
+   "text": "you pick the date."
+  },
+  {
+   "start": 900.0,
+   "end": 904.72,
+   "text": "It reserves that date and sends you an email with a link to submit the show."
+  },
+  {
+   "start": 904.72,
+   "end": 909.18,
+   "text": "It's a little cumbersome, but I'm sure that's to prevent bots and spammers and that sort"
+  },
+  {
+   "start": 909.18,
+   "end": 910.18,
+   "text": "of stuff."
+  },
+  {
+   "start": 910.18,
+   "end": 915.14,
+   "text": "So you'll get an email that looks something like this, and you can see blah blah blah request,"
+  },
+  {
+   "start": 915.14,
+   "end": 918.56,
+   "text": "and you'll get there'll be a big key of gobbledygook at the end there."
+  },
+  {
+   "start": 918.56,
+   "end": 924.24,
+   "text": "And that will give you 15 minutes to open the link and start the show, mind you."
+  },
+  {
+   "start": 924.24,
+   "end": 926.12,
+   "text": "Remember I said you have to have that stuff ready in advance?"
+  },
+  {
+   "start": 926.12,
+   "end": 927.12,
+   "text": "Yeah, 15 minutes."
+  },
+  {
+   "start": 927.12,
+   "end": 928.64,
+   "text": "You got to click that and get the thing."
+  },
+  {
+   "start": 928.64,
+   "end": 933.14,
+   "text": "So if you haven't thought about your show notes yet, you might want to have considered"
+  },
+  {
+   "start": 933.14,
+   "end": 934.44,
+   "text": "that in advance."
+  },
+  {
+   "start": 934.44,
+   "end": 938.16,
+   "text": "So once you click that link, you're going to see a page that looks like that, probably"
+  },
+  {
+   "start": 938.16,
+   "end": 941.92,
+   "text": "with better graphics at the top, but the page looks primarily the same."
+  },
+  {
+   "start": 941.92,
+   "end": 943.92,
+   "text": "And you can see there's a lot there."
+  },
+  {
+   "start": 943.92,
+   "end": 945.68,
+   "text": "But these are all the things I already talked about."
+  },
+  {
+   "start": 945.68,
+   "end": 949.72,
+   "text": "You don't have to worry about exactly what, because we've got name, the Gravatar."
+  },
+  {
+   "start": 949.72,
+   "end": 953.12,
+   "text": "So this is all the stuff I talked about earlier."
+  },
+  {
+   "start": 953.12,
+   "end": 956.36,
+   "text": "And it's all laid out, and you upload it."
+  },
+  {
+   "start": 956.36,
+   "end": 959.0,
+   "text": "And if your podcast is long, it may take a while to upload."
+  },
+  {
+   "start": 959.0,
+   "end": 960.36,
+   "text": "Don't keep it in refresh."
+  },
+  {
+   "start": 960.36,
+   "end": 962.36,
+   "text": "That will screw it up."
+  },
+  {
+   "start": 962.36,
+   "end": 966.0,
+   "text": "But if your podcast is short, it only takes a couple minutes."
+  },
+  {
+   "start": 966.0,
+   "end": 969.24,
+   "text": "So any questions so far?"
+  },
+  {
+   "start": 969.24,
+   "end": 970.24,
+   "text": "No?"
+  },
+  {
+   "start": 970.24,
+   "end": 971.24,
+   "text": "Okay."
+  },
+  {
+   "start": 971.24,
+   "end": 972.24,
+   "text": "I'm going to keep rolling."
+  },
+  {
+   "start": 972.24,
+   "end": 974.08,
+   "text": "There will be plenty of time."
+  },
+  {
+   "start": 974.08,
+   "end": 975.08,
+   "text": "Oh my God."
+  },
+  {
+   "start": 975.08,
+   "end": 976.08,
+   "text": "15 minutes in."
+  },
+  {
+   "start": 976.08,
+   "end": 978.48,
+   "text": "There will be plenty of time for questions at the end."
+  },
+  {
+   "start": 978.48,
+   "end": 981.46,
+   "text": "Trust me."
+  },
+  {
+   "start": 981.46,
+   "end": 982.74,
+   "text": "So now you wait."
+  },
+  {
+   "start": 982.74,
+   "end": 983.74,
+   "text": "The episode is uploaded."
+  },
+  {
+   "start": 983.74,
+   "end": 985.74,
+   "text": "You have to wait."
+  },
+  {
+   "start": 985.74,
+   "end": 992.32,
+   "text": "Oh, the page will refresh and then it takes a few days before it shows up on this schedule,"
+  },
+  {
+   "start": 992.32,
+   "end": 993.32,
+   "text": "if I recall, correct?"
+  },
+  {
+   "start": 993.32,
+   "end": 1001.02,
+   "text": "Took like a day or two before it showed up over there for me."
+  },
+  {
+   "start": 1001.02,
+   "end": 1002.02,
+   "text": "Okay."
+  },
+  {
+   "start": 1002.02,
+   "end": 1008.06,
+   "text": "So, now we get into the stuff where I'm probably going to get heckled and I will deserve it."
+  },
+  {
+   "start": 1008.06,
+   "end": 1012.22,
+   "text": "One of the people that runs this can likes to say that audio quality doesn't matter and"
+  },
+  {
+   "start": 1012.22,
+   "end": 1013.74,
+   "text": "it's true."
+  },
+  {
+   "start": 1013.74,
+   "end": 1016.22,
+   "text": "Any recording is better than no recording."
+  },
+  {
+   "start": 1016.22,
+   "end": 1018.94,
+   "text": "The worst thing is no recording."
+  },
+  {
+   "start": 1018.94,
+   "end": 1024.46,
+   "text": "But the better the audio is, the more appealing it is for people to listen to, and it's more"
+  },
+  {
+   "start": 1024.46,
+   "end": 1026.66,
+   "text": "pleasant and people will like it better."
+  },
+  {
+   "start": 1026.66,
+   "end": 1029.62,
+   "text": "If you want to hear bad audio, listen to my first one."
+  },
+  {
+   "start": 1029.62,
+   "end": 1030.62,
+   "text": "It was pretty bad."
+  },
+  {
+   "start": 1030.62,
+   "end": 1034.86,
+   "text": "I didn't realize how bad it was until I went out."
+  },
+  {
+   "start": 1034.86,
+   "end": 1041.34,
+   "text": "So the better your audio is, the nicer it'll sound, the more everyone will be happy."
+  },
+  {
+   "start": 1041.34,
+   "end": 1043.5,
+   "text": "Starting with a decent microphone is a good idea."
+  },
+  {
+   "start": 1043.5,
+   "end": 1048.3,
+   "text": "It doesn't have to be a gigantic studio microphone, but something decent."
+  },
+  {
+   "start": 1048.3,
+   "end": 1051.9,
+   "text": "I have a decent one that plugs into a USB port directly."
+  },
+  {
+   "start": 1051.9,
+   "end": 1053.74,
+   "text": "And if you set the settings correctly,"
+  },
+  {
+   "start": 1053.74,
+   "end": 1054.74,
+   "text": "it does very nice sound."
+  },
+  {
+   "start": 1054.74,
+   "end": 1057.34,
+   "text": "As I did not do one the first one, I had a setting wrong."
+  },
+  {
+   "start": 1059.42,
+   "end": 1061.74,
+   "text": "And one I don't overload it, which I do all the time."
+  },
+  {
+   "start": 1061.74,
+   "end": 1065.5,
+   "text": "So, you should take a look."
+  },
+  {
+   "start": 1065.5,
+   "end": 1067.82,
+   "text": "So, Taj gave me some tips."
+  },
+  {
+   "start": 1067.82,
+   "end": 1070.62,
+   "text": "I asked him for his top two tips."
+  },
+  {
+   "start": 1070.62,
+   "end": 1072.78,
+   "text": "So I have three things to share with you."
+  },
+  {
+   "start": 1074.34,
+   "end": 1079.11,
+   "text": "I tried, I tried."
+  },
+  {
+   "start": 1079.11,
+   "end": 1081.63,
+   "text": "No."
+  },
+  {
+   "start": 1081.63,
+   "end": 1084.63,
+   "text": "But thanks for the tips, because they're good."
+  },
+  {
+   "start": 1084.63,
+   "end": 1090.75,
+   "text": "The three things are truncate silence, normalize,"
+  },
+  {
+   "start": 1090.75,
+   "end": 1092.71,
+   "text": "and compress."
+  },
+  {
+   "start": 1092.71,
+   "end": 1095.23,
+   "text": "And these will give you a better range for your things."
+  },
+  {
+   "start": 1095.23,
+   "end": 1096.87,
+   "text": "So we'll start with truncate silence."
+  },
+  {
+   "start": 1096.87,
+   "end": 1099.71,
+   "text": "If you leave long gaps of silence,"
+  },
+  {
+   "start": 1099.71,
+   "end": 1101.51,
+   "text": "it's a good idea to cut that out."
+  },
+  {
+   "start": 1101.51,
+   "end": 1103.23,
+   "text": "It'll cut the time down, and people"
+  },
+  {
+   "start": 1103.23,
+   "end": 1106.47,
+   "text": "will be waiting less for dead air."
+  },
+  {
+   "start": 1106.47,
+   "end": 1109.31,
+   "text": "And all of my instructions are in Audacity,"
+  },
+  {
+   "start": 1109.31,
+   "end": 1114.11,
+   "text": "but they should be somewhat similar in other programs."
+  },
+  {
+   "start": 1114.11,
+   "end": 1115.83,
+   "text": "Of course, Tenacity will be very similar."
+  },
+  {
+   "start": 1115.83,
+   "end": 1118.15,
+   "text": "Other programs may have them in different places."
+  },
+  {
+   "start": 1118.15,
+   "end": 1123.11,
+   "text": "But these are all pretty common."
+  },
+  {
+   "start": 1123.11,
+   "end": 1128.43,
+   "text": "So you want to select all of your audio, Control-A,"
+  },
+  {
+   "start": 1128.43,
+   "end": 1130.99,
+   "text": "pulls in the whole audio after you've recorded it,"
+  },
+  {
+   "start": 1130.99,
+   "end": 1132.83,
+   "text": "with the default settings."
+  },
+  {
+   "start": 1132.83,
+   "end": 1135.47,
+   "text": "So you do special and then truncate silence."
+  },
+  {
+   "start": 1135.47,
+   "end": 1137.79,
+   "text": "There aren't any options, particularly in that one."
+  },
+  {
+   "start": 1137.79,
+   "end": 1139.11,
+   "text": "And that will cut out the silence."
+  },
+  {
+   "start": 1139.11,
+   "end": 1141.79,
+   "text": "If you do a podcast that's only two minutes,"
+  },
+  {
+   "start": 1141.79,
+   "end": 1142.67,
+   "text": "you don't really have to do that"
+  },
+  {
+   "start": 1142.67,
+   "end": 1145.79,
+   "text": "because there's no time for pauses in that anyway."
+  },
+  {
+   "start": 1145.79,
+   "end": 1148.23,
+   "text": "So, but if you're gonna do something more drawn out"
+  },
+  {
+   "start": 1148.23,
+   "end": 1149.83,
+   "text": "and you need time to think,"
+  },
+  {
+   "start": 1149.83,
+   "end": 1152.27,
+   "text": "good idea to do truncate silence."
+  },
+  {
+   "start": 1153.79,
+   "end": 1156.67,
+   "text": "Normalize, oh, I didn't bring the thing."
+  },
+  {
+   "start": 1156.67,
+   "end": 1158.83,
+   "text": "So, normalize sets the volume."
+  },
+  {
+   "start": 1158.83,
+   "end": 1162.51,
+   "text": "It brings the volume of different sections closer together."
+  },
+  {
+   "start": 1163.35,
+   "end": 1165.23,
+   "text": "Especially important if there are more than one person"
+  },
+  {
+   "start": 1165.23,
+   "end": 1169.33,
+   "text": "talking or if the speaker's volume varies up and down."
+  },
+  {
+   "start": 1169.33,
+   "end": 1173.33,
+   "text": "You want to select all the audio, go to effects,"
+  },
+  {
+   "start": 1173.33,
+   "end": 1175.05,
+   "text": "and then do loudness normalization."
+  },
+  {
+   "start": 1175.05,
+   "end": 1177.09,
+   "text": "Now let me check one thing here."
+  },
+  {
+   "start": 1177.09,
+   "end": 1178.17,
+   "text": "There is a setting for that."
+  },
+  {
+   "start": 1178.17,
+   "end": 1182.17,
+   "text": "You want to normalize it to negative 6 dB."
+  },
+  {
+   "start": 1182.17,
+   "end": 1185.89,
+   "text": "I checked with a professional for that one."
+  },
+  {
+   "start": 1185.89,
+   "end": 1189.53,
+   "text": "But this is more important when your audio levels aren't"
+  },
+  {
+   "start": 1189.53,
+   "end": 1195.34,
+   "text": "completely consistent over the course of it."
+  },
+  {
+   "start": 1195.34,
+   "end": 1196.74,
+   "text": "And then compression."
+  },
+  {
+   "start": 1196.74,
+   "end": 1200.1,
+   "text": "So I hesitate."
+  },
+  {
+   "start": 1200.0,
+   "end": 1202.72,
+   "text": "to do this because I hate what they do with pop music with this."
+  },
+  {
+   "start": 1202.72,
+   "end": 1205.04,
+   "text": "It makes everything sound terrible and super loud"
+  },
+  {
+   "start": 1205.04,
+   "end": 1208.96,
+   "text": "and makes things unappealing to listen to, in my opinion."
+  },
+  {
+   "start": 1208.96,
+   "end": 1211.96,
+   "text": "But for a podcast, if you were listening to someone"
+  },
+  {
+   "start": 1211.96,
+   "end": 1215.16,
+   "text": "in the car, compression could be the difference"
+  },
+  {
+   "start": 1215.16,
+   "end": 1217.84,
+   "text": "between being able to hear what the heck people are saying"
+  },
+  {
+   "start": 1217.84,
+   "end": 1221.16,
+   "text": "and all of a sudden they drift off and it gets too low"
+  },
+  {
+   "start": 1221.16,
+   "end": 1223.04,
+   "text": "and you can't hear anything and then you turn it up"
+  },
+  {
+   "start": 1223.04,
+   "end": 1224.44,
+   "text": "and then it blasts out."
+  },
+  {
+   "start": 1224.44,
+   "end": 1229.44,
+   "text": "It's not good, compression will help make that a little better."
+  },
+  {
+   "start": 1229.44,
+   "end": 1231.52,
+   "text": "And there are a lot of settings in there,"
+  },
+  {
+   "start": 1231.52,
+   "end": 1233.76,
+   "text": "but the defaults seem to be okay with that."
+  },
+  {
+   "start": 1233.76,
+   "end": 1236.64,
+   "text": "So again, select all your audio with control A,"
+  },
+  {
+   "start": 1236.64,
+   "end": 1240.1,
+   "text": "go to effects, volume and compression, and select compression."
+  },
+  {
+   "start": 1240.1,
+   "end": 1241.92,
+   "text": "Again, there's a lot of options there,"
+  },
+  {
+   "start": 1241.92,
+   "end": 1246.52,
+   "text": "but I'm not aware of anything that this doesn't fix up"
+  },
+  {
+   "start": 1246.52,
+   "end": 1250.85,
+   "text": "on its own."
+  },
+  {
+   "start": 1250.85,
+   "end": 1252.49,
+   "text": "Okay, and some thanks."
+  },
+  {
+   "start": 1252.49,
+   "end": 1254.17,
+   "text": "So I'm gonna thank these two first,"
+  },
+  {
+   "start": 1254.17,
+   "end": 1256.05,
+   "text": "Lyle and Taj over there."
+  },
+  {
+   "start": 1256.05,
+   "end": 1259.89,
+   "text": "They did a Birds of a Feather session at last year's OLF,"
+  },
+  {
+   "start": 1259.89,
+   "end": 1261.21,
+   "text": "and I asked them nicely."
+  },
+  {
+   "start": 1261.21,
+   "end": 1265.53,
+   "text": "I said, this looks like it would be really good to do as a regular talk, and they gave"
+  },
+  {
+   "start": 1265.53,
+   "end": 1268.57,
+   "text": "me their notes, and they encouraged me to do this."
+  },
+  {
+   "start": 1268.57,
+   "end": 1273.33,
+   "text": "So if you're disappointed, it's their fault."
+  },
+  {
+   "start": 1273.33,
+   "end": 1278.01,
+   "text": "But they did that and got me to record a show of my own and two subsequent ones that are"
+  },
+  {
+   "start": 1278.01,
+   "end": 1279.01,
+   "text": "very short."
+  },
+  {
+   "start": 1279.01,
+   "end": 1284.25,
+   "text": "But I talked fast on that much to say, so they go quickly."
+  },
+  {
+   "start": 1284.25,
+   "end": 1288.85,
+   "text": "And thanks to the janitors and myriad hosts that have been putting things on HPR for 20"
+  },
+  {
+   "start": 1288.85,
+   "end": 1291.61,
+   "text": "There's always interesting stuff."
+  },
+  {
+   "start": 1291.61,
+   "end": 1293.69,
+   "text": "You may hit a dry spot, find something you don't like,"
+  },
+  {
+   "start": 1293.69,
+   "end": 1294.97,
+   "text": "just skip a few."
+  },
+  {
+   "start": 1294.97,
+   "end": 1296.33,
+   "text": "There are tons of them out there"
+  },
+  {
+   "start": 1296.33,
+   "end": 1298.29,
+   "text": "and there's so much different stuff."
+  },
+  {
+   "start": 1298.29,
+   "end": 1300.89,
+   "text": "There's guaranteed to be something out there."
+  },
+  {
+   "start": 1300.89,
+   "end": 1303.61,
+   "text": "In this group, if you're coming to a limited conference,"
+  },
+  {
+   "start": 1303.61,
+   "end": 1306.37,
+   "text": "trust me, you're gonna find stuff that will interest you"
+  },
+  {
+   "start": 1306.37,
+   "end": 1309.77,
+   "text": "here because it is heavily, technically oriented."
+  },
+  {
+   "start": 1309.77,
+   "end": 1314.77,
+   "text": "And it is put on four people like us,"
+  },
+  {
+   "start": 1314.77,
+   "end": 1316.69,
+   "text": "buy people like us."
+  },
+  {
+   "start": 1316.69,
+   "end": 1318.73,
+   "text": "And hopefully a few of you will join."
+  },
+  {
+   "start": 1318.73,
+   "end": 1324.49,
+   "text": "group. You're not obligated to. You could listen for 20 years and not contribute anything"
+  },
+  {
+   "start": 1324.49,
+   "end": 1333.57,
+   "text": "but the mailing list. But, you know, listen, find something and then talk. And this has"
+  },
+  {
+   "start": 1333.57,
+   "end": 1340.41,
+   "text": "gone way too fast. I hope there are a lot of questions that I will try to answer adequately."
+  },
+  {
+   "start": 1340.41,
+   "end": 1345.05,
+   "text": "So it's a never-ending source of stuff that I already just said this. Give it a try. If"
+  },
+  {
+   "start": 1345.05,
+   "end": 1350.49,
+   "text": "If you want to contact me, you can get me on email at murphatweirdness.com or on the"
+  },
+  {
+   "start": 1350.49,
+   "end": 1357.13,
+   "text": "Fediverse at murphatmasto.hackers.town.hackers.town."
+  },
+  {
+   "start": 1357.13,
+   "end": 1360.49,
+   "text": "I said that very incorrectly."
+  },
+  {
+   "start": 1360.49,
+   "end": 1366.33,
+   "text": "So even though I'm rather early, I'll open it up to questions and I will roll back to"
+  },
+  {
+   "start": 1366.33,
+   "end": 1367.85,
+   "text": "any slides you want to see."
+  },
+  {
+   "start": 1367.85,
+   "end": 1368.85,
+   "text": "Yes."
+  },
+  {
+   "start": 1368.85,
+   "end": 1369.85,
+   "text": "Thanks so much, first."
+  },
+  {
+   "start": 1369.85,
+   "end": 1373.01,
+   "text": "Let me give you a second to go over and get the microphone to you."
+  },
+  {
+   "start": 1373.01,
+   "end": 1374.01,
+   "text": "Oh."
+  },
+  {
+   "start": 1374.01,
+   "end": 1381.45,
+   "text": "Thank you."
+  },
+  {
+   "start": 1381.45,
+   "end": 1390.45,
+   "text": "Okay, so I noticed that there's a strong preference for Creative Commons by essay for the copyright and all of that."
+  },
+  {
+   "start": 1390.45,
+   "end": 1391.45,
+   "text": "Yes."
+  },
+  {
+   "start": 1391.45,
+   "end": 1408.45,
+   "text": "So does that preclude someone, for instance, from uploading their Hacker Public Radio episode to other places, like for instance, their personal blog or a YouTube channel?"
+  },
+  {
+   "start": 1408.45,
+   "end": 1409.45,
+   "text": "No, not at all."
+  },
+  {
+   "start": 1409.45,
+   "end": 1416.33,
+   "text": "You know, it's as if you were relicensing a piece of software like it is Creative Commons"
+  },
+  {
+   "start": 1416.33,
+   "end": 1417.33,
+   "text": "when you upload it."
+  },
+  {
+   "start": 1417.33,
+   "end": 1421.25,
+   "text": "You have to have the permission to upload it under a Creative Commons license."
+  },
+  {
+   "start": 1421.25,
+   "end": 1424.29,
+   "text": "So obviously you can't do commercial music, you can't do stuff you don't own."
+  },
+  {
+   "start": 1424.29,
+   "end": 1428.93,
+   "text": "But if it is yours, you put it on Hacker Public Radio, you can put it on your website under"
+  },
+  {
+   "start": 1428.93,
+   "end": 1430.67,
+   "text": "any license you choose."
+  },
+  {
+   "start": 1430.67,
+   "end": 1433.61,
+   "text": "That would not of course revoke the one that's on Hacker."
+  },
+  {
+   "start": 1433.61,
+   "end": 1438.33,
+   "text": "So if someone wanted to copy it under Creative Commons and you didn't like that, you know,"
+  },
+  {
+   "start": 1438.33,
+   "end": 1442.61,
+   "text": "can go to the one on Hacker Public Radio because that was the license it was released under."
+  },
+  {
+   "start": 1442.61,
+   "end": 1446.69,
+   "text": "There's nothing precluding you doing that, but something to keep in mind is, and this"
+  },
+  {
+   "start": 1446.69,
+   "end": 1453.37,
+   "text": "has come up in the past, Hacker Public Radio is not a podcast aggregation service."
+  },
+  {
+   "start": 1453.37,
+   "end": 1457.69,
+   "text": "So don't take your podcast, you recorded somewhere else and say, I'll just upload this"
+  },
+  {
+   "start": 1457.69,
+   "end": 1458.89,
+   "text": "to Hacker Public Radio."
+  },
+  {
+   "start": 1458.89,
+   "end": 1462.41,
+   "text": "It should be information recorded for Hacker."
+  },
+  {
+   "start": 1462.41,
+   "end": 1467.81,
+   "text": "Now if you have a section, if you record a podcast with another thing and you cut a piece"
+  },
+  {
+   "start": 1467.81,
+   "end": 1472.17,
+   "text": "out and you make some commentary and put it in there, that's generally okay."
+  },
+  {
+   "start": 1472.17,
+   "end": 1473.93,
+   "text": "Or you can talk to the community."
+  },
+  {
+   "start": 1473.93,
+   "end": 1480.09,
+   "text": "A lot of times if someone has a new podcast, you can talk to them about putting it on and"
+  },
+  {
+   "start": 1480.09,
+   "end": 1483.33,
+   "text": "then bringing it to the Hacker Public Radio community."
+  },
+  {
+   "start": 1483.33,
+   "end": 1485.57,
+   "text": "But you can't continue that."
+  },
+  {
+   "start": 1485.57,
+   "end": 1488.77,
+   "text": "You can't use their distribution network to distribute your podcast."
+  },
+  {
+   "start": 1488.77,
+   "end": 1494.61,
+   "text": "You can bring it up as a thing that HPR may be interested in, but that should not be a"
+  },
+  {
+   "start": 1494.61,
+   "end": 1498.09,
+   "text": "continuation and will not they'll have things to say."
+  },
+  {
+   "start": 1500.21,
+   "end": 1511.09,
+   "text": "More questions. I'm sorry. Was that all you had? Okay. Other questions? All right. Hold on just a minute for"
+  },
+  {
+   "start": 1514.53,
+   "end": 1521.01,
+   "text": "Yes, let me"
+  },
+  {
+   "start": 1521.01,
+   "end": 1523.01,
+   "text": "Does anybody moderate this?"
+  },
+  {
+   "start": 1523.71,
+   "end": 1529.03,
+   "text": "The community moderates it so no one is approving this now if you go on the website"
+  },
+  {
+   "start": 1529.03,
+   "end": 1531.03,
+   "text": "you can get a lot more detail on a lot of this stuff because"
+  },
+  {
+   "start": 1531.79,
+   "end": 1535.77,
+   "text": "while I've been listening for a long time I did not set this thing up but the"
+  },
+  {
+   "start": 1536.35,
+   "end": 1542.35,
+   "text": "There is not a restriction on initially putting a podcast up there."
+  },
+  {
+   "start": 1542.35,
+   "end": 1545.43,
+   "text": "So, but that there being some caveat."
+  },
+  {
+   "start": 1545.43,
+   "end": 1550.15,
+   "text": "So, there's no producer out there saying this is good, this is no good."
+  },
+  {
+   "start": 1550.15,
+   "end": 1552.27,
+   "text": "But there are people that listen to them."
+  },
+  {
+   "start": 1552.27,
+   "end": 1554.51,
+   "text": "So, it might go in the queue and people listen."
+  },
+  {
+   "start": 1554.51,
+   "end": 1556.91,
+   "text": "And then someone and anybody can listen."
+  },
+  {
+   "start": 1556.91,
+   "end": 1559.39,
+   "text": "You can actually go ahead a little bit,"
+  },
+  {
+   "start": 1559.39,
+   "end": 1564.95,
+   "text": "da, da, da, da, da, among other places."
+  },
+  {
+   "start": 1564.95,
+   "end": 1570.35,
+   "text": "See how there are some in the future and there's an episode there, you know, because I did this around the beginning of April."
+  },
+  {
+   "start": 1570.35,
+   "end": 1576.65,
+   "text": "You could look at stuff that's been submitted and you can click on that and you can listen even though it hasn't hit the Hacker Public Radio feed yet."
+  },
+  {
+   "start": 1576.65,
+   "end": 1581.75,
+   "text": "So the community can look at that and something came up recently and I'm going to mention this."
+  },
+  {
+   "start": 1581.75,
+   "end": 1588.15,
+   "text": "So really anything that's appropriate for this is anything that would be of interest to hackers, okay?"
+  },
+  {
+   "start": 1588.15,
+   "end": 1592.55,
+   "text": "And something came up recently where someone basically got on"
+  },
+  {
+   "start": 1592.55,
+   "end": 1597.25,
+   "text": "and basically just did a Bible sermon and put it in there."
+  },
+  {
+   "start": 1597.25,
+   "end": 1601.63,
+   "text": "And there was no real context or angle or anything."
+  },
+  {
+   "start": 1601.63,
+   "end": 1603.23,
+   "text": "And there was quite a discussion on the mailing list."
+  },
+  {
+   "start": 1603.23,
+   "end": 1605.41,
+   "text": "Now I'll admit, I did not listen to the episode."
+  },
+  {
+   "start": 1605.41,
+   "end": 1607.31,
+   "text": "I was wrapped up in something else, so I didn't listen."
+  },
+  {
+   "start": 1607.31,
+   "end": 1610.15,
+   "text": "So I'm going purely on the conversation"
+  },
+  {
+   "start": 1610.15,
+   "end": 1611.55,
+   "text": "that went back and forth on the mailing list."
+  },
+  {
+   "start": 1611.55,
+   "end": 1614.15,
+   "text": "And this is the thing where it got a little heated"
+  },
+  {
+   "start": 1614.15,
+   "end": 1615.15,
+   "text": "for a little while."
+  },
+  {
+   "start": 1615.15,
+   "end": 1619.23,
+   "text": "So someone watched it, someone watched it,"
+  },
+  {
+   "start": 1619.23,
+   "end": 1620.39,
+   "text": "someone listened to it and said,"
+  },
+  {
+   "start": 1620.39,
+   "end": 1622.59,
+   "text": "hey, this is just a straight up sermon."
+  },
+  {
+   "start": 1623.47,
+   "end": 1626.91,
+   "text": "And they said to the community,"
+  },
+  {
+   "start": 1626.91,
+   "end": 1628.07,
+   "text": "what do we wanna do about this?"
+  },
+  {
+   "start": 1628.07,
+   "end": 1630.31,
+   "text": "Is this appropriate for us?"
+  },
+  {
+   "start": 1630.31,
+   "end": 1632.19,
+   "text": "And the discussion went back and forth"
+  },
+  {
+   "start": 1632.19,
+   "end": 1633.47,
+   "text": "and people were talking about should people"
+  },
+  {
+   "start": 1633.47,
+   "end": 1635.79,
+   "text": "talk about religion, should they not talk about religion?"
+  },
+  {
+   "start": 1635.79,
+   "end": 1637.67,
+   "text": "And the general consensus was,"
+  },
+  {
+   "start": 1639.43,
+   "end": 1642.31,
+   "text": "or this was what I got out of it anyway,"
+  },
+  {
+   "start": 1642.31,
+   "end": 1646.39,
+   "text": "was like, if you're saying, hey, I'm a religious person,"
+  },
+  {
+   "start": 1646.39,
+   "end": 1650.63,
+   "text": "but I hack and I do this, and this is how"
+  },
+  {
+   "start": 1650.63,
+   "end": 1654.03,
+   "text": "what I got out of religion informs what I do"
+  },
+  {
+   "start": 1654.03,
+   "end": 1656.63,
+   "text": "in the hacking world, that would be fair game."
+  },
+  {
+   "start": 1656.63,
+   "end": 1660.27,
+   "text": "Like, you know, okay, yeah, it's not religion is banned,"
+  },
+  {
+   "start": 1660.27,
+   "end": 1663.31,
+   "text": "but if you're just gonna get up and do a Bible sermon,"
+  },
+  {
+   "start": 1663.31,
+   "end": 1666.71,
+   "text": "that's not really in the spirit of what's there."
+  },
+  {
+   "start": 1666.71,
+   "end": 1671.03,
+   "text": "So that episode was ultimately pulled out,"
+  },
+  {
+   "start": 1671.03,
+   "end": 1673.47,
+   "text": "and that person was told that's not appropriate."
+  },
+  {
+   "start": 1673.47,
+   "end": 1675.47,
+   "text": "And there are plenty of places for that."
+  },
+  {
+   "start": 1675.47,
+   "end": 1677.03,
+   "text": "Again, Jason Scott brought that up and said,"
+  },
+  {
+   "start": 1677.03,
+   "end": 1679.99,
+   "text": "hey, if you want to upload that, bring it to archive.org."
+  },
+  {
+   "start": 1679.99,
+   "end": 1681.79,
+   "text": "There's tons of it, and you're more than welcome"
+  },
+  {
+   "start": 1681.79,
+   "end": 1682.75,
+   "text": "to put up whatever you like."
+  },
+  {
+   "start": 1682.75,
+   "end": 1687.63,
+   "text": "So, you know, so there isn't, it was a community decision."
+  },
+  {
+   "start": 1687.63,
+   "end": 1690.15,
+   "text": "Someone saw it and said, hey, I questioned this,"
+  },
+  {
+   "start": 1690.15,
+   "end": 1691.43,
+   "text": "and they brought it to the community,"
+  },
+  {
+   "start": 1691.43,
+   "end": 1694.79,
+   "text": "and the community collectively made that decision to do that."
+  },
+  {
+   "start": 1694.79,
+   "end": 1696.47,
+   "text": "Does that answer your question?"
+  },
+  {
+   "start": 1696.47,
+   "end": 1700.03,
+   "text": "Okay, so I feel like I kind of got off the rails a little bit."
+  },
+  {
+   "start": 1700.03,
+   "end": 1701.79,
+   "text": "Great, thanks. We got a couple more questions here."
+  },
+  {
+   "start": 1701.79,
+   "end": 1702.29,
+   "text": "Oh, sure."
+  },
+  {
+   "start": 1702.29,
+   "end": 1705.27,
+   "text": "But just reminding people, if you want to ask on Slack,"
+  },
+  {
+   "start": 1705.27,
+   "end": 1709.69,
+   "text": "you can use the main stage channel there."
+  },
+  {
+   "start": 1709.69,
+   "end": 1711.17,
+   "text": "I gotcha."
+  },
+  {
+   "start": 1711.17,
+   "end": 1714.05,
+   "text": "So I did my due diligence before I showed up to the conference"
+  },
+  {
+   "start": 1714.05,
+   "end": 1716.21,
+   "text": "and checked the schedule ahead of time."
+  },
+  {
+   "start": 1716.21,
+   "end": 1719.05,
+   "text": "That's how I discovered Hacker5 with the radio myself."
+  },
+  {
+   "start": 1719.05,
+   "end": 1721.21,
+   "text": "So I got the chance to listen to a couple episodes"
+  },
+  {
+   "start": 1721.21,
+   "end": 1723.65,
+   "text": "before I actually got showed up here."
+  },
+  {
+   "start": 1723.65,
+   "end": 1726.69,
+   "text": "And the very first episode that I listed"
+  },
+  {
+   "start": 1726.69,
+   "end": 1730.45,
+   "text": "was a guy talking about the technology of nuclear reactors"
+  },
+  {
+   "start": 1730.45,
+   "end": 1732.05,
+   "text": "in an eight-part series."
+  },
+  {
+   "start": 1732.05,
+   "end": 1734.49,
+   "text": "I haven't listened to that one yet, and I'm looking forward to it."
+  },
+  {
+   "start": 1734.49,
+   "end": 1735.49,
+   "text": "It is fascinating."
+  },
+  {
+   "start": 1735.49,
+   "end": 1736.49,
+   "text": "It is fascinating."
+  },
+  {
+   "start": 1736.49,
+   "end": 1739.33,
+   "text": "So what is the coolest thing that you've heard on the feed that just immediately jumps"
+  },
+  {
+   "start": 1739.33,
+   "end": 1740.89,
+   "text": "the mind?"
+  },
+  {
+   "start": 1740.89,
+   "end": 1742.65,
+   "text": "The urban camping one was fascinating."
+  },
+  {
+   "start": 1742.65,
+   "end": 1747.73,
+   "text": "It was something you would not expect to see anywhere."
+  },
+  {
+   "start": 1747.73,
+   "end": 1752.69,
+   "text": "If that idea even intrigues, you go listen because Clotho's an excellent podcaster and"
+  },
+  {
+   "start": 1752.69,
+   "end": 1754.89,
+   "text": "narrator, and it's very interesting."
+  },
+  {
+   "start": 1754.89,
+   "end": 1756.57,
+   "text": "Yeah, I'm looking forward to the nuclear thing, though."
+  },
+  {
+   "start": 1756.57,
+   "end": 1760.87,
+   "text": "I haven't listened to that yet."
+  },
+  {
+   "start": 1760.87,
+   "end": 1768.63,
+   "text": "Okay, is there is there like a limit on time like minimum maximum and how long the podcast generally run? I think I can"
+  },
+  {
+   "start": 1769.53,
+   "end": 1772.87,
+   "text": "Qualified say no, there is no limit"
+  },
+  {
+   "start": 1774.29,
+   "end": 1777.35,
+   "text": "There have been six plus hour"
+  },
+  {
+   "start": 1778.05,
+   "end": 1781.39,
+   "text": "Podcasts on there you can skip those if you want"
+  },
+  {
+   "start": 1782.07,
+   "end": 1790.17,
+   "text": "How about minimum I currently hold the minimum at about a minute and 40 seconds for some of them because personally"
+  },
+  {
+   "start": 1790.17,
+   "end": 1797.53,
+   "text": "I don't like long drawn out introductions when people say okay, here's how I got into tech. There was the big bang and no"
+  },
+  {
+   "start": 1797.53,
+   "end": 1799.53,
+   "text": "No, no too far too far back"
+  },
+  {
+   "start": 1800.0,
+   "end": 1804.96,
+   "text": "Bring it closer. I did my introduction in like a minute and a half and I felt that was appropriate"
+  },
+  {
+   "start": 1804.96,
+   "end": 1808.24,
+   "text": "because I talked quickly and that was all I had to say."
+  },
+  {
+   "start": 1808.24,
+   "end": 1812.34,
+   "text": "Tails from the Slack."
+  },
+  {
+   "start": 1812.34,
+   "end": 1819.58,
+   "text": "Well cool. Thanks fans for stepping in there. Team effort here for sure. I've not seen anything"
+  },
+  {
+   "start": 1819.58,
+   "end": 1828.1,
+   "text": "in Slack. Any questions from the room? Sir. I got you."
+  },
+  {
+   "start": 1828.1,
+   "end": 1830.82,
+   "text": "So you mentioned you did three episodes already. What were they about?"
+  },
+  {
+   "start": 1830.82,
+   "end": 1833.24,
+   "text": "I did the introduction episode."
+  },
+  {
+   "start": 1833.24,
+   "end": 1835.14,
+   "text": "I did two on events."
+  },
+  {
+   "start": 1835.14,
+   "end": 1836.9,
+   "text": "I did one on the Hope Conference,"
+  },
+  {
+   "start": 1836.9,
+   "end": 1839.58,
+   "text": "and I did one on the Central Pennsylvania"
+  },
+  {
+   "start": 1839.58,
+   "end": 1841.18,
+   "text": "open source conference,"
+  },
+  {
+   "start": 1841.18,
+   "end": 1844.34,
+   "text": "which someone reminded me about today."
+  },
+  {
+   "start": 1844.34,
+   "end": 1845.78,
+   "text": "If anybody's interested in that,"
+  },
+  {
+   "start": 1845.78,
+   "end": 1848.18,
+   "text": "if you go to CPOSC.org,"
+  },
+  {
+   "start": 1848.18,
+   "end": 1850.5,
+   "text": "they have a date at the end of March."
+  },
+  {
+   "start": 1850.5,
+   "end": 1852.18,
+   "text": "So it's not too far from here."
+  },
+  {
+   "start": 1852.18,
+   "end": 1855.14,
+   "text": "It is another good open source conference"
+  },
+  {
+   "start": 1855.14,
+   "end": 1859.02,
+   "text": "community done in Lancaster, Pennsylvania."
+  },
+  {
+   "start": 1859.02,
+   "end": 1862.48,
+   "text": "So that timing all came together right for that."
+  },
+  {
+   "start": 1862.48,
+   "end": 1865.44,
+   "text": "So those were the three episodes I've done."
+  },
+  {
+   "start": 1865.44,
+   "end": 1871.48,
+   "text": "And someday I will do one that breaks the three minute barrier."
+  },
+  {
+   "start": 1871.48,
+   "end": 1874.52,
+   "text": "Is anybody generating transcripts or abstracts or anything"
+  },
+  {
+   "start": 1874.52,
+   "end": 1876.16,
+   "text": "like that?"
+  },
+  {
+   "start": 1876.16,
+   "end": 1877.24,
+   "text": "That's an excellent question."
+  },
+  {
+   "start": 1877.24,
+   "end": 1878.76,
+   "text": "You're pointing at me."
+  },
+  {
+   "start": 1878.76,
+   "end": 1879.96,
+   "text": "And I don't know what that means."
+  },
+  {
+   "start": 1879.96,
+   "end": 1880.96,
+   "text": "I'm not doing it."
+  },
+  {
+   "start": 1880.96,
+   "end": 1882.96,
+   "text": "I did for you."
+  },
+  {
+   "start": 1882.96,
+   "end": 1883.96,
+   "text": "Correct."
+  },
+  {
+   "start": 1883.96,
+   "end": 1885.8,
+   "text": "I don't know the answer."
+  },
+  {
+   "start": 1885.8,
+   "end": 1886.52,
+   "text": "Can you give it to me?"
+  },
+  {
+   "start": 1886.52,
+   "end": 1896.39,
+   "text": "And I'll say it again so everybody gets it."
+  },
+  {
+   "start": 1896.39,
+   "end": 1898.86,
+   "text": "OK."
+  },
+  {
+   "start": 1898.86,
+   "end": 1901.96,
+   "text": "Okay, so to defer for everybody at home,"
+  },
+  {
+   "start": 1901.96,
+   "end": 1906.2,
+   "text": "a transcript is generated by Whisper AI"
+  },
+  {
+   "start": 1906.2,
+   "end": 1909.24,
+   "text": "and posted with it, but it is not proofread or corrected."
+  },
+  {
+   "start": 1909.24,
+   "end": 1912.76,
+   "text": "So it is a best effort based on what's there"
+  },
+  {
+   "start": 1912.76,
+   "end": 1915.16,
+   "text": "in the automation, that fair?"
+  },
+  {
+   "start": 1915.16,
+   "end": 1916.68,
+   "text": "Okay, so thank you for that."
+  },
+  {
+   "start": 1916.68,
+   "end": 1918.52,
+   "text": "You're correct, I did not have an answer to that."
+  },
+  {
+   "start": 1918.52,
+   "end": 1923.3,
+   "text": "Thanks for filling in the gap for me."
+  },
+  {
+   "start": 1923.3,
+   "end": 1924.38,
+   "text": "Questions?"
+  },
+  {
+   "start": 1924.38,
+   "end": 1928.14,
+   "text": "Please, I beg you for questions."
+  },
+  {
+   "start": 1928.14,
+   "end": 1929.9,
+   "text": "Do you plan on submitting this talk"
+  },
+  {
+   "start": 1929.9,
+   "end": 1931.54,
+   "text": "as an episode on hackable the gradium?"
+  },
+  {
+   "start": 1931.54,
+   "end": 1934.14,
+   "text": "I really should, shouldn't I?"
+  },
+  {
+   "start": 1934.14,
+   "end": 1935.76,
+   "text": "You would think I would have done this already,"
+  },
+  {
+   "start": 1935.76,
+   "end": 1936.68,
+   "text": "but I haven't."
+  },
+  {
+   "start": 1936.68,
+   "end": 1939.44,
+   "text": "So if I can get the recording, maybe I'll do that sooner"
+  },
+  {
+   "start": 1939.44,
+   "end": 1941.48,
+   "text": "than later."
+  },
+  {
+   "start": 1941.48,
+   "end": 1944.68,
+   "text": "This is the Department of Recursion Department."
+  },
+  {
+   "start": 1944.68,
+   "end": 1948.16,
+   "text": "And then I will do a, no, I'll have to submit an episode"
+  },
+  {
+   "start": 1948.16,
+   "end": 1951.64,
+   "text": "introducing this conference and then of the, no, okay."
+  },
+  {
+   "start": 1951.64,
+   "end": 1952.48,
+   "text": "I will go that way."
+  },
+  {
+   "start": 1952.48,
+   "end": 1953.3,
+   "text": "There we go."
+  },
+  {
+   "start": 1953.3,
+   "end": 1957.82,
+   "text": "I like where you're going with that, Murph."
+  },
+  {
+   "start": 1957.82,
+   "end": 1958.7,
+   "text": "More questions."
+  },
+  {
+   "start": 1958.7,
+   "end": 1966.22,
+   "text": "I'm happy to answer or evade as necessary."
+  },
+  {
+   "start": 1966.22,
+   "end": 1971.22,
+   "text": "Well I see Joshua Lee typing on the entry webs."
+  },
+  {
+   "start": 1971.94,
+   "end": 1975.94,
+   "text": "Yes, Slack is still using HTTPS as transport."
+  },
+  {
+   "start": 1975.94,
+   "end": 1980.72,
+   "text": "Come on, someone could be Joshua to his message."
+  },
+  {
+   "start": 1980.72,
+   "end": 1981.54,
+   "text": "Thank you."
+  },
+  {
+   "start": 1982.4,
+   "end": 1985.0,
+   "text": "If you wanted to correct the transcript"
+  },
+  {
+   "start": 1985.0,
+   "end": 1986.64,
+   "text": "or upload your own transcript,"
+  },
+  {
+   "start": 1986.64,
+   "end": 1989.8,
+   "text": "is there a way to go back and correct what the whisper?"
+  },
+  {
+   "start": 1989.8,
+   "end": 1992.32,
+   "text": "I'll bet they would welcome a transcript"
+  },
+  {
+   "start": 1992.32,
+   "end": 1993.96,
+   "text": "if you offered one."
+  },
+  {
+   "start": 1993.96,
+   "end": 1995.88,
+   "text": "I don't know if you can correct what's there"
+  },
+  {
+   "start": 1995.88,
+   "end": 1997.52,
+   "text": "but you could probably add to it."
+  },
+  {
+   "start": 1997.52,
+   "end": 2000.38,
+   "text": "If you found an error egregious enough to go back and fix,"
+  },
+  {
+   "start": 2000.38,
+   "end": 2007.84,
+   "text": "you probably could."
+  },
+  {
+   "start": 2007.84,
+   "end": 2012.28,
+   "text": "Yeah, so yes, you could almost certainly get that fixed."
+  },
+  {
+   "start": 2012.28,
+   "end": 2014.8,
+   "text": "If you look at the transcript, say this is horrible,"
+  },
+  {
+   "start": 2014.8,
+   "end": 2016.88,
+   "text": "I'll give you my own, they can work with you."
+  },
+  {
+   "start": 2016.88,
+   "end": 2020.88,
+   "text": "This is not so pre-programmed that it can't happen."
+  },
+  {
+   "start": 2020.88,
+   "end": 2024.36,
+   "text": "This is the actual one from the future here."
+  },
+  {
+   "start": 2024.36,
+   "end": 2027.52,
+   "text": "So if you're interested in what's coming up soon,"
+  },
+  {
+   "start": 2027.52,
+   "end": 2031.72,
+   "text": "there are a lot of empty slots at the end of the year and forward."
+  },
+  {
+   "start": 2031.72,
+   "end": 2036.72,
+   "text": "And so there is, so I said if we run out of episodes, it ends."
+  },
+  {
+   "start": 2037.64,
+   "end": 2040.12,
+   "text": "But there are episodes that are submitted"
+  },
+  {
+   "start": 2040.12,
+   "end": 2041.5,
+   "text": "to be in a reserve queue."
+  },
+  {
+   "start": 2041.5,
+   "end": 2044.56,
+   "text": "So if a spot, a spot comes up and there's stuff,"
+  },
+  {
+   "start": 2044.56,
+   "end": 2045.58,
+   "text": "so there are some."
+  },
+  {
+   "start": 2045.58,
+   "end": 2049.64,
+   "text": "So when you submit your episode, if you feel it's evergreen,"
+  },
+  {
+   "start": 2049.64,
+   "end": 2051.6,
+   "text": "like yeah, I have this episode and I want it"
+  },
+  {
+   "start": 2051.6,
+   "end": 2053.8,
+   "text": "to get out there, but it doesn't have to be now."
+  },
+  {
+   "start": 2053.8,
+   "end": 2055.16,
+   "text": "It can be whenever."
+  },
+  {
+   "start": 2055.16,
+   "end": 2056.56,
+   "text": "You can put it in the reserve queue"
+  },
+  {
+   "start": 2056.56,
+   "end": 2058.28,
+   "text": "and that sort of fills up the pot"
+  },
+  {
+   "start": 2058.28,
+   "end": 2060.7,
+   "text": "for filling in gaps in the schedule."
+  },
+  {
+   "start": 2061.72,
+   "end": 2065.12,
+   "text": "So thanks for hitting Enter Joshua."
+  },
+  {
+   "start": 2065.12,
+   "end": 2069.6,
+   "text": "Joshua Lee, what is the tech stack behind HPR?"
+  },
+  {
+   "start": 2069.6,
+   "end": 2073.88,
+   "text": "Like what feed generator service distro and how's it hosted?"
+  },
+  {
+   "start": 2073.88,
+   "end": 2076.88,
+   "text": "Is it on a VPS, someone's closet?"
+  },
+  {
+   "start": 2076.88,
+   "end": 2080.55,
+   "text": "What's going on here?"
+  },
+  {
+   "start": 2080.55,
+   "end": 2081.55,
+   "text": "Yes."
+  },
+  {
+   "start": 2085.11,
+   "end": 2089.59,
+   "text": "I do not run the site, neither, or am I a janitor, nor have I"
+  },
+  {
+   "start": 2089.59,
+   "end": 2093.27,
+   "text": "read enough on the website to recall what all those details"
+  },
+  {
+   "start": 2093.27,
+   "end": 2096.67,
+   "text": "so I may pull in a consultant right over there."
+  },
+  {
+   "start": 2096.67,
+   "end": 2099.74,
+   "text": "Surely you..."
+  },
+  {
+   "start": 2099.74,
+   "end": 2100.74,
+   "text": "So..."
+  },
+  {
+   "start": 2100.0,
+   "end": 2103.6,
+   "text": "I thank you to share that with the one in the micro in trouble now."
+  },
+  {
+   "start": 2103.6,
+   "end": 2106.52,
+   "text": "Remember I said I might evade the questions?"
+  },
+  {
+   "start": 2106.52,
+   "end": 2107.52,
+   "text": "Here we go."
+  },
+  {
+   "start": 2107.52,
+   "end": 2110.78,
+   "text": "So it's a static site generator that generates the site."
+  },
+  {
+   "start": 2110.78,
+   "end": 2113.78,
+   "text": "I don't know what which one that is."
+  },
+  {
+   "start": 2113.78,
+   "end": 2116.04,
+   "text": "I wasn't part of that."
+  },
+  {
+   "start": 2116.04,
+   "end": 2119.48,
+   "text": "Basically everything on the back end is PHP."
+  },
+  {
+   "start": 2119.48,
+   "end": 2123.76,
+   "text": "The hosting for all of the files is actually archive.org."
+  },
+  {
+   "start": 2123.76,
+   "end": 2129.32,
+   "text": "And then everything gets fed out from a feed that is hosted by an honesthost.com because"
+  },
+  {
+   "start": 2129.32,
+   "end": 2133.48,
+   "text": "because they volunteer all of this for us."
+  },
+  {
+   "start": 2133.48,
+   "end": 2136.58,
+   "text": "And then that feed just pulls directly from archive.org."
+  },
+  {
+   "start": 2136.58,
+   "end": 2141.18,
+   "text": "So that's sort of the rough back end of everything."
+  },
+  {
+   "start": 2141.18,
+   "end": 2142.18,
+   "text": "Thank you for that."
+  },
+  {
+   "start": 2142.18,
+   "end": 2145.52,
+   "text": "I did not have all of that information."
+  },
+  {
+   "start": 2145.52,
+   "end": 2146.68,
+   "text": "I've got a question."
+  },
+  {
+   "start": 2146.68,
+   "end": 2147.68,
+   "text": "Yes."
+  },
+  {
+   "start": 2147.68,
+   "end": 2151.36,
+   "text": "Is there a URL you could use if say you're behind a firewall that doesn't like the word"
+  },
+  {
+   "start": 2151.36,
+   "end": 2152.36,
+   "text": "hacker?"
+  },
+  {
+   "start": 2152.36,
+   "end": 2154.92,
+   "text": "Yes, there is."
+  },
+  {
+   "start": 2154.92,
+   "end": 2157.16,
+   "text": "It is hobbypublicradio.org."
+  },
+  {
+   "start": 2157.16,
+   "end": 2159.68,
+   "text": "Oh, you thought you had me on that, didn't you?"
+  },
+  {
+   "start": 2159.68,
+   "end": 2163.76,
+   "text": "Yeah, hobbypublicradio.org, and that will get through your firewall until you hit a link"
+  },
+  {
+   "start": 2163.76,
+   "end": 2166.64,
+   "text": "that they have perhaps not redirected."
+  },
+  {
+   "start": 2166.64,
+   "end": 2169.6,
+   "text": "I heard there were possible issues, but you can certainly do that."
+  },
+  {
+   "start": 2169.6,
+   "end": 2173.16,
+   "text": "hobbypublicradio.org also does that."
+  },
+  {
+   "start": 2173.16,
+   "end": 2177.54,
+   "text": "Will it get through the great firewall of China?"
+  },
+  {
+   "start": 2177.54,
+   "end": 2179.12,
+   "text": "What are the odds of you checking that?"
+  },
+  {
+   "start": 2179.12,
+   "end": 2180.92,
+   "text": "I'm very low."
+  },
+  {
+   "start": 2180.92,
+   "end": 2183.4,
+   "text": "Yes, it'll get through."
+  },
+  {
+   "start": 2183.4,
+   "end": 2186.64,
+   "text": "I like this game."
+  },
+  {
+   "start": 2186.64,
+   "end": 2188.68,
+   "text": "Alright, this has been fun."
+  },
+  {
+   "start": 2188.68,
+   "end": 2194.44,
+   "text": "A nice little round table here about Hacker's, Hacker Public Radio."
+  },
+  {
+   "start": 2194.44,
+   "end": 2199.68,
+   "text": "How about one more question and then we can end a bit early unless Merff has anything"
+  },
+  {
+   "start": 2199.68,
+   "end": 2200.68,
+   "text": "else?"
+  },
+  {
+   "start": 2200.68,
+   "end": 2202.52,
+   "text": "I don't have anything else."
+  },
+  {
+   "start": 2202.52,
+   "end": 2207.44,
+   "text": "I just want to thank, besides thanking the Hacker Public Radio folks, I want to thank"
+  },
+  {
+   "start": 2207.44,
+   "end": 2210.48,
+   "text": "the OLF folks for putting on a great show and putting up with me."
+  },
+  {
+   "start": 2210.48,
+   "end": 2215.48,
+   "text": "I appreciate it and, you know, everybody turn out and do stuff."
+  },
+  {
+   "start": 2215.76,
+   "end": 2216.92,
+   "text": "We have another question?"
+  },
+  {
+   "start": 2216.92,
+   "end": 2219.62,
+   "text": "My mic's gonna take the last question."
+  },
+  {
+   "start": 2219.62,
+   "end": 2221.08,
+   "text": "My question for one."
+  },
+  {
+   "start": 2221.08,
+   "end": 2221.92,
+   "text": "Oh."
+  },
+  {
+   "start": 2221.92,
+   "end": 2223.76,
+   "text": "All right."
+  },
+  {
+   "start": 2223.76,
+   "end": 2225.16,
+   "text": "So I wanna maybe with the extra time"
+  },
+  {
+   "start": 2225.16,
+   "end": 2226.12,
+   "text": "you could talk about the raffle."
+  },
+  {
+   "start": 2226.12,
+   "end": 2235.44,
+   "text": "I haven't heard anything."
+  },
+  {
+   "start": 2235.44,
+   "end": 2238.86,
+   "text": "Yeah, Beth is often the raffles are."
+  },
+  {
+   "start": 2238.86,
+   "end": 2243.7,
+   "text": "Well, tell you what, I will,"
+  },
+  {
+   "start": 2243.7,
+   "end": 2245.1,
+   "text": "do you know anything, Susan?"
+  },
+  {
+   "start": 2245.1,
+   "end": 2249.26,
+   "text": "Raffle?"
+  },
+  {
+   "start": 2249.26,
+   "end": 2250.74,
+   "text": "Oh, oh, okay, there we go."
+  },
+  {
+   "start": 2250.74,
+   "end": 2251.58,
+   "text": "That's helpful."
+  },
+  {
+   "start": 2251.58,
+   "end": 2253.92,
+   "text": "So the Raffle is in progress."
+  },
+  {
+   "start": 2253.92,
+   "end": 2255.22,
+   "text": "It is happening."
+  },
+  {
+   "start": 2255.22,
+   "end": 2258.26,
+   "text": "And if you would like to purchase Raffle tickets,"
+  },
+  {
+   "start": 2258.26,
+   "end": 2260.86,
+   "text": "they can be purchased on rally up."
+  },
+  {
+   "start": 2260.86,
+   "end": 2264.78,
+   "text": "So thanks for putting me on point, Mike."
+  },
+  {
+   "start": 2264.78,
+   "end": 2268.62,
+   "text": "I would like to acknowledge our sponsors again,"
+  },
+  {
+   "start": 2268.62,
+   "end": 2272.62,
+   "text": "Alma Linux, the Linux Foundation,"
+  },
+  {
+   "start": 2272.62,
+   "end": 2275.9,
+   "text": "NetKnights and Gamma Force."
+  },
+  {
+   "start": 2275.9,
+   "end": 2279.38,
+   "text": "These are companies that helped fund this event."
+  },
+  {
+   "start": 2279.38,
+   "end": 2282.02,
+   "text": "and we would be losing money without them."
+  },
+  {
+   "start": 2282.02,
+   "end": 2286.38,
+   "text": "So, big hand for Murph, big hand for our sponsors."
+  },
+  {
+   "start": 2286.38,
+   "end": 2292.44,
+   "text": "And I should thank all of you for being here,"
+  },
+  {
+   "start": 2292.44,
+   "end": 2294.64,
+   "text": "because otherwise, what is this then, right?"
+  },
+  {
+   "start": 2294.64,
+   "end": 2297.72,
+   "text": "Yeah, then we'd have a bunch of coffee"
+  },
+  {
+   "start": 2297.72,
+   "end": 2300.28,
+   "text": "and I don't know what we do."
+  },
+  {
+   "start": 2301.16,
+   "end": 2302.56,
+   "text": "Thank you all for being here."
+  },
+  {
+   "start": 2302.56,
+   "end": 2304.56,
+   "text": "We'll resume the program at 5 p.m."
+  },
+  {
+   "start": 2304.56,
+   "end": 2306.76,
+   "text": "Enjoy the hallway track."
+  },
+  {
+   "start": 2306.76,
+   "end": 2309.88,
+   "text": "You have been listening to the Hacker Public Radio podcast"
+  },
+  {
+   "start": 2309.88,
+   "end": 2312.24,
+   "text": "at hicapublicradio.org."
+  },
+  {
+   "start": 2312.24,
+   "end": 2316.4,
+   "text": "Today's show was contributed by a HBR listener like yourself."
+  },
+  {
+   "start": 2316.4,
+   "end": 2322.0,
+   "text": "If you ever thought of recording a podcast, then visit the HBR site to find out how easy"
+  },
+  {
+   "start": 2322.0,
+   "end": 2323.48,
+   "text": "it really is."
+  },
+  {
+   "start": 2323.48,
+   "end": 2330.08,
+   "text": "Hosting for HBR has been kindly provided by Anamasthost.com, the internet archive, our"
+  },
+  {
+   "start": 2330.08,
+   "end": 2335.28,
+   "text": "singtonnet and the HBR Community Content Delivery Network."
+  },
+  {
+   "start": 2335.28,
+   "end": 2341.24,
+   "text": "Unless otherwise stated, today's show is released under a Creative Commons, attribution,"
+  },
+  {
+   "start": 2341.24,
+   "end": 2344.76,
+   "text": "share a life for Point of International Life."
+  }
+ ]
+}

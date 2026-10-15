@@ -1,0 +1,3361 @@
+{
+ "episode": "hpr4745",
+ "duration_s": 2267.35,
+ "segments": [
+  {
+   "start": 5.71,
+   "end": 12.87,
+   "text": "This is Hacker Public Radio Episode 4745 for Friday 9th October 2026."
+  },
+  {
+   "start": 12.87,
+   "end": 16.51,
+   "text": "Today's show is entitled, Brukhan Interview 1."
+  },
+  {
+   "start": 16.51,
+   "end": 20.51,
+   "text": "The Brukhan Organization. It is part of the series interviews."
+  },
+  {
+   "start": 20.51,
+   "end": 24.41,
+   "text": "It is hosted by Christoph and is about 36 minutes long."
+  },
+  {
+   "start": 24.41,
+   "end": 27.53,
+   "text": "It carries a clean flag. The summary is,"
+  },
+  {
+   "start": 27.53,
+   "end": 31.29,
+   "text": "Christoph talks to Conan Tom of the Brukhan about Brukhan itself,"
+  },
+  {
+   "start": 31.29,
+   "end": 33.41,
+   "text": "the community and hacker culture."
+  },
+  {
+   "start": 33.41,
+   "end": 45.09,
+   "text": "Hi everybody, welcome to an exciting new episode of Hacker Public Radio."
+  },
+  {
+   "start": 45.09,
+   "end": 49.69,
+   "text": "My name is Christoph and last week I was in a conference here in Belgium called Precom."
+  },
+  {
+   "start": 49.69,
+   "end": 52.25,
+   "text": "Precom is a cybersecurity conference."
+  },
+  {
+   "start": 52.25,
+   "end": 59.85,
+   "text": "The interesting thing about cybersecurity conferences is that it is one of the few places where the word hacker can be used in two different meanings of the word."
+  },
+  {
+   "start": 59.85,
+   "end": 63.65,
+   "text": "This show is the first in a series of four interviews done at the conference."
+  },
+  {
+   "start": 63.65,
+   "end": 68.25,
+   "text": "As you will notice, the interviews focus on the hacker, that is hacker as in the HPR,"
+  },
+  {
+   "start": 68.25,
+   "end": 74.05,
+   "text": "side of the conference as their more than sufficient podcasts on the cybersecurity side of these type of conferences."
+  },
+  {
+   "start": 74.55,
+   "end": 79.35,
+   "text": "In the first of the series, I talked to Tom Gillis and Kun Burns about Brücken itself,"
+  },
+  {
+   "start": 79.35,
+   "end": 87.35,
+   "text": "about organizing a conference about the cybersecurity community and how the spirit of the original hacker culture still lives on the cybersecurity world."
+  },
+  {
+   "start": 87.65,
+   "end": 89.15,
+   "text": "So, let's get started."
+  },
+  {
+   "start": 91.09,
+   "end": 92.49,
+   "text": "Good afternoon."
+  },
+  {
+   "start": 92.99,
+   "end": 95.49,
+   "text": "I propose to introduce yourself."
+  },
+  {
+   "start": 95.49,
+   "end": 97.09,
+   "text": "Sure, please go ahead."
+  },
+  {
+   "start": 97.09,
+   "end": 101.21,
+   "text": "I'm a Kundurus. I'm one of the main organizers of the Brukal Hiker Conference."
+  },
+  {
+   "start": 101.21,
+   "end": 104.21,
+   "text": "Let's be organized a yearly in Belgium, Michela."
+  },
+  {
+   "start": 104.21,
+   "end": 106.89,
+   "text": "Yeah. So, hi there. My name is Tom Hillis."
+  },
+  {
+   "start": 106.89,
+   "end": 112.45,
+   "text": "Same, one of the cool members of the Belgian Hacking Conference Brukal."
+  },
+  {
+   "start": 112.45,
+   "end": 118.49,
+   "text": "Yeah. So, while looking to the archive, I found there was an audience interview with Brukal years ago."
+  },
+  {
+   "start": 118.49,
+   "end": 119.09,
+   "text": "Okay."
+  },
+  {
+   "start": 119.09,
+   "end": 122.89,
+   "text": "So, apparently you have just already very long time."
+  },
+  {
+   "start": 122.89,
+   "end": 124.89,
+   "text": "This is zero X20,"
+  },
+  {
+   "start": 124.89,
+   "end": 125.89,
+   "text": "I'm sorry,"
+  },
+  {
+   "start": 125.89,
+   "end": 126.89,
+   "text": "I'm sorry,"
+  },
+  {
+   "start": 126.89,
+   "end": 128.89,
+   "text": "my knowledge of hexadecimal means"
+  },
+  {
+   "start": 128.89,
+   "end": 131.89,
+   "text": "this is C18 time I guess then."
+  },
+  {
+   "start": 131.89,
+   "end": 132.89,
+   "text": "True,"
+  },
+  {
+   "start": 132.89,
+   "end": 135.89,
+   "text": "we officially have now drinking H as we"
+  },
+  {
+   "start": 135.89,
+   "end": 138.89,
+   "text": "introduced it during the opening talk."
+  },
+  {
+   "start": 138.89,
+   "end": 140.89,
+   "text": "So yes, it's our 18th edition."
+  },
+  {
+   "start": 140.89,
+   "end": 142.89,
+   "text": "It started back in 2009."
+  },
+  {
+   "start": 142.89,
+   "end": 143.89,
+   "text": "Correct."
+  },
+  {
+   "start": 143.89,
+   "end": 146.89,
+   "text": "But we've done multiple cities, perhaps"
+  },
+  {
+   "start": 146.89,
+   "end": 148.89,
+   "text": "going to show it started in Brussels."
+  },
+  {
+   "start": 148.89,
+   "end": 150.65,
+   "text": "it started in Brussels."
+  },
+  {
+   "start": 150.65,
+   "end": 151.93,
+   "text": "And then Grückenmäcket."
+  },
+  {
+   "start": 151.93,
+   "end": 152.25,
+   "text": "Yes."
+  },
+  {
+   "start": 152.25,
+   "end": 155.53,
+   "text": "So, Bruckenm is a combination of brewing, beer brewing."
+  },
+  {
+   "start": 155.53,
+   "end": 157.13,
+   "text": "As the first slogan was, Hecky for beer."
+  },
+  {
+   "start": 158.17,
+   "end": 160.41,
+   "text": "And then combined with Brussels and conference."
+  },
+  {
+   "start": 160.41,
+   "end": 162.01,
+   "text": "So, that's what the name happened."
+  },
+  {
+   "start": 162.01,
+   "end": 163.29,
+   "text": "I didn't know about the brewing thing."
+  },
+  {
+   "start": 163.29,
+   "end": 164.09,
+   "text": "I was so scummed."
+  },
+  {
+   "start": 164.09,
+   "end": 165.77,
+   "text": "But, no, it's this Bruckenmäcket."
+  },
+  {
+   "start": 165.77,
+   "end": 166.73,
+   "text": "Yes, but, yes, it's not."
+  },
+  {
+   "start": 166.73,
+   "end": 167.69,
+   "text": "It's not."
+  },
+  {
+   "start": 168.65,
+   "end": 173.85,
+   "text": "And after, well, first year, the venue was with the two, twice in the first venue,"
+  },
+  {
+   "start": 173.85,
+   "end": 175.93,
+   "text": "the surfhouse of Belécum back in the day."
+  },
+  {
+   "start": 175.93,
+   "end": 179.93,
+   "text": "But then it was no longer available, so we had to look for a new venue."
+  },
+  {
+   "start": 179.93,
+   "end": 181.93,
+   "text": "We went one year to the VUB."
+  },
+  {
+   "start": 181.93,
+   "end": 182.93,
+   "text": "VUB University."
+  },
+  {
+   "start": 182.93,
+   "end": 186.93,
+   "text": "That's not speaking in the university."
+  },
+  {
+   "start": 186.93,
+   "end": 187.93,
+   "text": "Yeah, indeed."
+  },
+  {
+   "start": 187.93,
+   "end": 189.57,
+   "text": "Very nice building."
+  },
+  {
+   "start": 189.57,
+   "end": 193.69,
+   "text": "One thing I will never forget is that there were about 1 million entrances and exits that"
+  },
+  {
+   "start": 193.69,
+   "end": 195.65,
+   "text": "we needed to do, man."
+  },
+  {
+   "start": 195.65,
+   "end": 200.81,
+   "text": "I'd maybe exaggerating a bit, but at least 30 entrances that we needed to guard."
+  },
+  {
+   "start": 200.81,
+   "end": 205.25,
+   "text": "So that's good for one year, but then we looked for a new one and we went to Ghent."
+  },
+  {
+   "start": 205.25,
+   "end": 206.25,
+   "text": "winning university."
+  },
+  {
+   "start": 206.25,
+   "end": 210.57,
+   "text": "It's a ticket to close the doors of course, but to consider."
+  },
+  {
+   "start": 210.57,
+   "end": 213.21,
+   "text": "No, we have a hacker audience, which I have to do."
+  },
+  {
+   "start": 213.21,
+   "end": 214.21,
+   "text": "We were not allowed to."
+  },
+  {
+   "start": 214.21,
+   "end": 215.21,
+   "text": "Finestate device."
+  },
+  {
+   "start": 215.21,
+   "end": 217.89,
+   "text": "And also the building need to be somewhat publicly available."
+  },
+  {
+   "start": 217.89,
+   "end": 221.89,
+   "text": "So it was all of discussions with the university, what was possible and what not."
+  },
+  {
+   "start": 221.89,
+   "end": 222.89,
+   "text": "Okay."
+  },
+  {
+   "start": 222.89,
+   "end": 224.53,
+   "text": "Back in the day, at least not sure if it would have changed."
+  },
+  {
+   "start": 224.53,
+   "end": 228.21,
+   "text": "Yeah, but saying it to a hacker conference and having a lot of lock picking."
+  },
+  {
+   "start": 228.21,
+   "end": 230.17,
+   "text": "So it kind of close in the open up."
+  },
+  {
+   "start": 230.17,
+   "end": 231.17,
+   "text": "Yeah."
+  },
+  {
+   "start": 231.17,
+   "end": 232.17,
+   "text": "Which is also one of the villages."
+  },
+  {
+   "start": 232.17,
+   "end": 233.17,
+   "text": "Are we teasing people to do it?"
+  },
+  {
+   "start": 233.17,
+   "end": 234.17,
+   "text": "So locking the doors."
+  },
+  {
+   "start": 234.17,
+   "end": 238.33,
+   "text": "Yeah, that's the interview planned with the person of the lock picking."
+  },
+  {
+   "start": 238.33,
+   "end": 239.53,
+   "text": "Cool, cool, cool."
+  },
+  {
+   "start": 239.53,
+   "end": 241.21,
+   "text": "And then indeed Ghent."
+  },
+  {
+   "start": 241.21,
+   "end": 246.09,
+   "text": "We moved to Ghent, which actually we liked was the Aala building of the University of Ghent."
+  },
+  {
+   "start": 247.21,
+   "end": 252.01,
+   "text": "We liked the building, it was really historical, it had quite some history to it."
+  },
+  {
+   "start": 252.01,
+   "end": 256.09,
+   "text": "And you also got that opportunity when you had people, for example, visiting from the US."
+  },
+  {
+   "start": 256.73,
+   "end": 260.97,
+   "text": "They were amazed by the fact that we have such an old building and it's still actively used."
+  },
+  {
+   "start": 260.97,
+   "end": 265.93,
+   "text": "So yeah, it was a very cool venue, but we ran into some problems."
+  },
+  {
+   "start": 265.93,
+   "end": 269.85,
+   "text": "First of all, the amount of space we have, it's just small-ish."
+  },
+  {
+   "start": 269.85,
+   "end": 273.81,
+   "text": "We always had the opportunity to go because we can sell much more tickets,"
+  },
+  {
+   "start": 273.81,
+   "end": 275.29,
+   "text": "but we want to keep it small."
+  },
+  {
+   "start": 275.29,
+   "end": 278.97,
+   "text": "We want to keep the atmosphere, we want to keep it a social event."
+  },
+  {
+   "start": 278.97,
+   "end": 280.49,
+   "text": "And it's not about selling more tickets."
+  },
+  {
+   "start": 280.49,
+   "end": 283.77,
+   "text": "First, it's about having that cosy community feeling."
+  },
+  {
+   "start": 283.77,
+   "end": 287.77,
+   "text": "So in Gant we had, we were technically restricted to the amount of people"
+  },
+  {
+   "start": 287.77,
+   "end": 293.27,
+   "text": "we could get into the building, which is fine, which put a limit to the amount of people who could sell tickets to,"
+  },
+  {
+   "start": 293.27,
+   "end": 297.17,
+   "text": "and that created the atmosphere of, okay, this is gonna be the number of lives."
+  },
+  {
+   "start": 297.17,
+   "end": 299.97,
+   "text": "Yeah, for 500, I think in GANS, we have the maximum of..."
+  },
+  {
+   "start": 300.0,
+   "end": 302.0,
+   "text": "Well, far from that I like to believe."
+  },
+  {
+   "start": 302.0,
+   "end": 305.0,
+   "text": "The irony in Ghent, and just to share a story,"
+  },
+  {
+   "start": 305.0,
+   "end": 310.0,
+   "text": "is that we could only occupy the venue location"
+  },
+  {
+   "start": 310.0,
+   "end": 313.0,
+   "text": "as of Thursday morning, 6 a.m."
+  },
+  {
+   "start": 313.0,
+   "end": 315.0,
+   "text": "So the day of the conference? Yes."
+  },
+  {
+   "start": 315.0,
+   "end": 317.0,
+   "text": "Ah, there was no bar."
+  },
+  {
+   "start": 317.0,
+   "end": 318.0,
+   "text": "There was nothing."
+  },
+  {
+   "start": 318.0,
+   "end": 320.0,
+   "text": "So, so should we have to go to the bar?"
+  },
+  {
+   "start": 320.0,
+   "end": 323.0,
+   "text": "Yeah, so no, the thing is, we had to start at 6 a.m."
+  },
+  {
+   "start": 323.0,
+   "end": 324.0,
+   "text": "Doors went open."
+  },
+  {
+   "start": 324.0,
+   "end": 327.0,
+   "text": "We had to build up a bar, build up a registration desk,"
+  },
+  {
+   "start": 327.0,
+   "end": 329.56,
+   "text": "Okay, make sure everything is ready by 8.30,"
+  },
+  {
+   "start": 329.56,
+   "end": 332.32,
+   "text": "middle of the kitchen to be able to provide food,"
+  },
+  {
+   "start": 332.32,
+   "end": 333.84,
+   "text": "like with tours and a half."
+  },
+  {
+   "start": 333.84,
+   "end": 336.24,
+   "text": "And then in the middle of a city center,"
+  },
+  {
+   "start": 336.24,
+   "end": 337.84,
+   "text": "where there were no trucks allowed,"
+  },
+  {
+   "start": 337.84,
+   "end": 340.84,
+   "text": "so you need to have special installation to be parked down,"
+  },
+  {
+   "start": 340.84,
+   "end": 343.4,
+   "text": "whatever you're parking, find something, whatever."
+  },
+  {
+   "start": 343.4,
+   "end": 345.72,
+   "text": "So you started 6 and 8.30,"
+  },
+  {
+   "start": 345.72,
+   "end": 348.24,
+   "text": "500 people are about to attend your conference,"
+  },
+  {
+   "start": 348.24,
+   "end": 349.68,
+   "text": "and you have to set it up."
+  },
+  {
+   "start": 349.68,
+   "end": 352.28,
+   "text": "That's pretty much how you can't run."
+  },
+  {
+   "start": 352.28,
+   "end": 355.76,
+   "text": "And you retreat, 6 a.m., five trucks in the street,"
+  },
+  {
+   "start": 355.76,
+   "end": 360.92,
+   "text": "unload, unload furniture, whatever, whatever, bar, kitchen, everything."
+  },
+  {
+   "start": 360.92,
+   "end": 365.96,
+   "text": "Hey, 30, welcome here, Scorf is from Coursales and please, we'll have a talk at that."
+  },
+  {
+   "start": 365.96,
+   "end": 367.16,
+   "text": "Right, that's kind of how it works."
+  },
+  {
+   "start": 367.16,
+   "end": 368.16,
+   "text": "Yeah."
+  },
+  {
+   "start": 369.56,
+   "end": 373.6,
+   "text": "Because I think most people, I guess, well, if we do a security conference,"
+  },
+  {
+   "start": 373.6,
+   "end": 377.28,
+   "text": "I have no idea actually how much work that goes into a conference."
+  },
+  {
+   "start": 377.28,
+   "end": 377.64,
+   "text": "Yeah."
+  },
+  {
+   "start": 377.64,
+   "end": 378.84,
+   "text": "Can you give an idea with that?"
+  },
+  {
+   "start": 379.96,
+   "end": 381.12,
+   "text": "Oh, now we're..."
+  },
+  {
+   "start": 381.12,
+   "end": 383.84,
+   "text": "I'm not sure how much work to do that."
+  },
+  {
+   "start": 383.84,
+   "end": 388.84,
+   "text": "Well, it starts, but we're gonna close the conference in a few hours."
+  },
+  {
+   "start": 388.84,
+   "end": 393.44,
+   "text": "And then we take about one month of a break, roughly, and we do our closing meeting."
+  },
+  {
+   "start": 393.44,
+   "end": 396.84,
+   "text": "So we give ourselves one month of a break and then we start preparing for the next one."
+  },
+  {
+   "start": 396.84,
+   "end": 397.84,
+   "text": "Yeah."
+  },
+  {
+   "start": 397.84,
+   "end": 402.84,
+   "text": "So the core crew, which is like 14 people, and we start thinking of what do we do next, how,"
+  },
+  {
+   "start": 402.84,
+   "end": 405.84,
+   "text": "what went well, what are improvement points, and we start planning it."
+  },
+  {
+   "start": 405.84,
+   "end": 411.48,
+   "text": "The first major point there is that we open the call for papers, which is typically the"
+  },
+  {
+   "start": 411.48,
+   "end": 417.96,
+   "text": "opens beginning of April. And then we start asking people, submit your talks, show what you have,"
+  },
+  {
+   "start": 418.76,
+   "end": 422.68,
+   "text": "and why would you like to present to Brookhome? And out of all the submissions that we get,"
+  },
+  {
+   "start": 422.68,
+   "end": 428.6,
+   "text": "which was around 140 this year, we select what we think would be the most interesting for the"
+  },
+  {
+   "start": 428.6,
+   "end": 434.44,
+   "text": "conference. How many talks? 12 talks out of 140."
+  },
+  {
+   "start": 434.44,
+   "end": 443.4,
+   "text": "Yes, yeah. Oh, that's okay. That's pretty sad. So first of all, well, I don't know the audience,"
+  },
+  {
+   "start": 443.4,
+   "end": 449.24,
+   "text": "how many people actually are familiar with conference. So there's something called the call for papers."
+  },
+  {
+   "start": 449.24,
+   "end": 453.0,
+   "text": "That means a conference. In essence, what you do is you put that in venue, they say, okay,"
+  },
+  {
+   "start": 453.0,
+   "end": 458.12,
+   "text": "we have a place so we can present something and knew the people have to present, oh, given,"
+  },
+  {
+   "start": 459.08,
+   "end": 462.52,
+   "text": "respond to the call of papers to say, okay, I'm going to talk about this."
+  },
+  {
+   "start": 462.52,
+   "end": 467.72,
+   "text": "Yeah, correct. So usually, yeah, it's a subject that we're going to do and then abstract summarizing"
+  },
+  {
+   "start": 467.72,
+   "end": 473.0,
+   "text": "a bit what you want to talk about, how the research went or what the points are they want to present."
+  },
+  {
+   "start": 473.72,
+   "end": 478.6,
+   "text": "And depends on how far the people are preparing it, slides already, if they are available, which also"
+  },
+  {
+   "start": 478.6,
+   "end": 483.8,
+   "text": "makes it easier for us to grasp what the topic could be about. And based on that information,"
+  },
+  {
+   "start": 483.8,
+   "end": 489.56,
+   "text": "we as a selection board, which is most people of the of the core crew itself, plus additional people"
+  },
+  {
+   "start": 489.56,
+   "end": 493.64,
+   "text": "externally from all around the field around the world, to have a look at the papers, the"
+  },
+  {
+   "start": 493.64,
+   "end": 498.84,
+   "text": "coffee papers and make their own scoring with their own ideas, their own expertise, because everyone"
+  },
+  {
+   "start": 499.64,
+   "end": 504.2,
+   "text": "likes something else a bit more. And then we make a selection that would fit the audience that we"
+  },
+  {
+   "start": 504.2,
+   "end": 510.36,
+   "text": "see that in Brueggon. And then during the selection, just because that's the funny part I like to say,"
+  },
+  {
+   "start": 511.08,
+   "end": 516.92,
+   "text": "like Cohen mentioned, we have the review board is more than 20 people from different areas."
+  },
+  {
+   "start": 516.92,
+   "end": 521.72,
+   "text": "and sometimes could be that the ice quartz, or one, because I said, this is not a good talk,"
+  },
+  {
+   "start": 521.72,
+   "end": 526.36,
+   "text": "but someone else says, five, this is the best, we need this. And then we come together and call,"
+  },
+  {
+   "start": 526.36,
+   "end": 530.92,
+   "text": "we start debating, trying to convince each other, like, no, no, I know this guy is really good speaking,"
+  },
+  {
+   "start": 530.92,
+   "end": 536.52,
+   "text": "or perhaps odd, it's such a, but then you're like, is it for the Brooklyn crowd, is a guy,"
+  },
+  {
+   "start": 536.52,
+   "end": 542.28,
+   "text": "the audience. So you want to keep an atmosphere, you want to keep it in our DNA, so to speak."
+  },
+  {
+   "start": 542.28,
+   "end": 547.88,
+   "text": "So then that's the fun discussion. So we spent hours sometimes, even on email, that we come back and say,"
+  },
+  {
+   "start": 547.88,
+   "end": 552.28,
+   "text": "okay, which one is now the top priority? We only can select 12 and they have three or four backups."
+  },
+  {
+   "start": 552.28,
+   "end": 556.84,
+   "text": "And like, I want to move on on the backups to the 12. I don't know, but which one I'm going to swap. I mean,"
+  },
+  {
+   "start": 557.72,
+   "end": 563.72,
+   "text": "oh yeah, that's the way you go. You have a certain subject per year or something, or just any subject."
+  },
+  {
+   "start": 563.72,
+   "end": 567.32,
+   "text": "There's nothing that you say this year we're going to do special on NIOT or they say we're going to"
+  },
+  {
+   "start": 567.32,
+   "end": 572.64,
+   "text": "to do something on, now, while we're just now the talk of the day, we try to distribute"
+  },
+  {
+   "start": 572.64,
+   "end": 578.6,
+   "text": "that we have at least a few really offensive security talks, some really deep technical"
+  },
+  {
+   "start": 578.6,
+   "end": 584.5,
+   "text": "talks, some of it more on the blue side to the defensive side, and try to cover a bit."
+  },
+  {
+   "start": 584.5,
+   "end": 589.6,
+   "text": "All the areas, the defensive side, the number of different areas I get from your conference"
+  },
+  {
+   "start": 589.6,
+   "end": 594.48,
+   "text": "point of view, you want to have something that is a bit diverse and not a good thing."
+  },
+  {
+   "start": 594.48,
+   "end": 599.76,
+   "text": "So the scoring is one thing and then how do you actually all together does."
+  },
+  {
+   "start": 599.76,
+   "end": 600.02,
+   "text": "Yes."
+  },
+  {
+   "start": 600.0,
+   "end": 601.0,
+   "text": "Next."
+  },
+  {
+   "start": 601.0,
+   "end": 602.0,
+   "text": "That's the schedule."
+  },
+  {
+   "start": 602.0,
+   "end": 603.0,
+   "text": "Yeah."
+  },
+  {
+   "start": 603.0,
+   "end": 606.88,
+   "text": "And actually on top of that, which we perhaps didn't explain earlier, because like Koon mentioned"
+  },
+  {
+   "start": 606.88,
+   "end": 611.92,
+   "text": "after the con, we do take a month or so, but we already started something in between."
+  },
+  {
+   "start": 611.92,
+   "end": 620.06,
+   "text": "So we also do training, which is actually a very important point, because actually training,"
+  },
+  {
+   "start": 620.06,
+   "end": 624.84,
+   "text": "in essence, you should think about the fact that the confidence itself, the two days we"
+  },
+  {
+   "start": 624.84,
+   "end": 633.4,
+   "text": "here now to not generate any money. We are losing technically, we are losing money over"
+  },
+  {
+   "start": 633.4,
+   "end": 639.32,
+   "text": "organizing the conference. Now we have very good sponsors and again that helps, but it's"
+  },
+  {
+   "start": 639.32,
+   "end": 644.16,
+   "text": "not a cheap thing to do when things are out of place like the global media, the media,"
+  },
+  {
+   "start": 644.16,
+   "end": 651.72,
+   "text": "flying over the speakers. So that's a financially big investment. Now we obviously look at it,"
+  },
+  {
+   "start": 651.72,
+   "end": 658.18,
+   "text": "But we also do is we organize trainings where we look at the brick on website. There's the training part and there's a conference part"
+  },
+  {
+   "start": 658.18,
+   "end": 665.84,
+   "text": "So there they're obviously interconnected. So we do organize training in the spring. That's typically last week of April. We call it spring training"
+  },
+  {
+   "start": 666.6,
+   "end": 670.54,
+   "text": "And then we organize training attached to the conference. So from Monday till Wednesday"
+  },
+  {
+   "start": 670.54,
+   "end": 673.8,
+   "text": "We have training courses. It's very important in this summer"
+  },
+  {
+   "start": 673.8,
+   "end": 677.72,
+   "text": "Yes, and then on Thursday Friday we have the con the conference itself"
+  },
+  {
+   "start": 677.72,
+   "end": 681.52,
+   "text": "But the training is essential because it does allow us to obviously generate some income"
+  },
+  {
+   "start": 681.72,
+   "end": 685.32,
+   "text": "which we then reinvest in the conference to keep the balance."
+  },
+  {
+   "start": 685.32,
+   "end": 691.08,
+   "text": "So the people who call the conference actually have an advantage of you organizing a training."
+  },
+  {
+   "start": 691.08,
+   "end": 693.16,
+   "text": "Yeah, to that degree it is."
+  },
+  {
+   "start": 693.16,
+   "end": 697.56,
+   "text": "Now, one example there was a student that gets very cheap."
+  },
+  {
+   "start": 697.56,
+   "end": 699.48,
+   "text": "It was 75 years."
+  },
+  {
+   "start": 700.92,
+   "end": 703.96,
+   "text": "I don't know if you go to the security conference."
+  },
+  {
+   "start": 704.6,
+   "end": 706.6,
+   "text": "What is a normal price for a security conference?"
+  },
+  {
+   "start": 706.6,
+   "end": 707.8,
+   "text": "Is that something?"
+  },
+  {
+   "start": 707.8,
+   "end": 711.36,
+   "text": "If they're more commercially oriented, you could up to 1000 people."
+  },
+  {
+   "start": 712.72,
+   "end": 715.96,
+   "text": "Also, oh, shit, that's well, they don't even do that."
+  },
+  {
+   "start": 715.96,
+   "end": 720.12,
+   "text": "They're the info and professional targets that actually is willing to pay up to"
+  },
+  {
+   "start": 720.52,
+   "end": 722.48,
+   "text": "every amount of money that they ask for."
+  },
+  {
+   "start": 722.48,
+   "end": 722.68,
+   "text": "Right."
+  },
+  {
+   "start": 722.68,
+   "end": 723.12,
+   "text": "OK."
+  },
+  {
+   "start": 723.32,
+   "end": 727.64,
+   "text": "So, but I think whenever you talk about hacking conferences where are DNA lies, right?"
+  },
+  {
+   "start": 728.4,
+   "end": 730.52,
+   "text": "I think that that's the balance."
+  },
+  {
+   "start": 730.52,
+   "end": 731.96,
+   "text": "You want to keep it affordable."
+  },
+  {
+   "start": 731.96,
+   "end": 735.28,
+   "text": "And I think we didn't raise much pricing in the last couple of years."
+  },
+  {
+   "start": 735.28,
+   "end": 740.62,
+   "text": "We've stayed very stable regardless of inflation of 1% or whatever you'll find in many places."
+  },
+  {
+   "start": 741.4,
+   "end": 745.28,
+   "text": "We always look at also the amount of money we ask for training."
+  },
+  {
+   "start": 746.38,
+   "end": 748.18,
+   "text": "It's by the community for the community."
+  },
+  {
+   "start": 748.26,
+   "end": 753.54,
+   "text": "The moment we get into a situation that we make it too expensive or we account for it,"
+  },
+  {
+   "start": 754.02,
+   "end": 757.42,
+   "text": "and then we miss our own DNA and why we exist."
+  },
+  {
+   "start": 757.78,
+   "end": 760.54,
+   "text": "So just how many students can I take a different time?"
+  },
+  {
+   "start": 760.54,
+   "end": 763.54,
+   "text": "I mean, still have been in terms of like 10%"
+  },
+  {
+   "start": 763.54,
+   "end": 764.54,
+   "text": "and then perfect it."
+  },
+  {
+   "start": 764.54,
+   "end": 765.54,
+   "text": "You have to give a real time, right?"
+  },
+  {
+   "start": 765.54,
+   "end": 766.54,
+   "text": "So give me a sec."
+  },
+  {
+   "start": 766.54,
+   "end": 768.54,
+   "text": "I'll probably figure it out in a minute,"
+  },
+  {
+   "start": 768.54,
+   "end": 770.54,
+   "text": "but I don't know if you know where I are."
+  },
+  {
+   "start": 770.54,
+   "end": 772.54,
+   "text": "So now just before the conference,"
+  },
+  {
+   "start": 772.54,
+   "end": 774.54,
+   "text": "we had 130 students."
+  },
+  {
+   "start": 774.54,
+   "end": 778.54,
+   "text": "Oh. So it was a large amount of students attending,"
+  },
+  {
+   "start": 778.54,
+   "end": 781.54,
+   "text": "which allowed us to be able to do this conference."
+  },
+  {
+   "start": 781.54,
+   "end": 782.54,
+   "text": "Yeah."
+  },
+  {
+   "start": 782.54,
+   "end": 783.54,
+   "text": "I guess for the students,"
+  },
+  {
+   "start": 783.54,
+   "end": 785.54,
+   "text": "this is their first conference that I guess,"
+  },
+  {
+   "start": 785.54,
+   "end": 787.54,
+   "text": "because the other things are happening."
+  },
+  {
+   "start": 787.54,
+   "end": 788.54,
+   "text": "Oh, wait, wait."
+  },
+  {
+   "start": 788.54,
+   "end": 791.18,
+   "text": "I did invite students for our training."
+  },
+  {
+   "start": 791.82,
+   "end": 793.98,
+   "text": "But students attend a conference under student tickets."
+  },
+  {
+   "start": 796.02,
+   "end": 797.34,
+   "text": "I think 100 tickets."
+  },
+  {
+   "start": 797.34,
+   "end": 797.86,
+   "text": "Yeah."
+  },
+  {
+   "start": 797.86,
+   "end": 800.38,
+   "text": "They have a lot of student pricing, something like that."
+  },
+  {
+   "start": 801.1,
+   "end": 804.06,
+   "text": "And we had a few requests after because we're a community."
+  },
+  {
+   "start": 804.38,
+   "end": 807.78,
+   "text": "If someone wants to join and they really can't afford us,"
+  },
+  {
+   "start": 809.02,
+   "end": 809.82,
+   "text": "contact us."
+  },
+  {
+   "start": 809.82,
+   "end": 810.94,
+   "text": "We'll see what we can do."
+  },
+  {
+   "start": 810.94,
+   "end": 812.7,
+   "text": "We're always saying everything will be possible."
+  },
+  {
+   "start": 813.02,
+   "end": 814.26,
+   "text": "But send an email."
+  },
+  {
+   "start": 814.26,
+   "end": 815.82,
+   "text": "We will always have a look."
+  },
+  {
+   "start": 815.82,
+   "end": 818.06,
+   "text": "We will at least think together with you what will be possible."
+  },
+  {
+   "start": 818.54,
+   "end": 821.78,
+   "text": "And for that, yeah, usually the student tickets, they are sold out."
+  },
+  {
+   "start": 821.78,
+   "end": 824.34,
+   "text": "And it's a hundred tickets to understeer."
+  },
+  {
+   "start": 824.34,
+   "end": 827.94,
+   "text": "I guess for most students, there's the first conference that I do."
+  },
+  {
+   "start": 827.94,
+   "end": 831.14,
+   "text": "And that's their stop-up of, okay, this is what the conference looks like."
+  },
+  {
+   "start": 831.14,
+   "end": 832.54,
+   "text": "And this is, well, yeah."
+  },
+  {
+   "start": 832.54,
+   "end": 836.74,
+   "text": "And the intent is, I mean, like we said, it's 75 euros."
+  },
+  {
+   "start": 836.74,
+   "end": 841.34,
+   "text": "So when you get two days of conference, including lunch, that's ideal of art."
+  },
+  {
+   "start": 841.34,
+   "end": 843.14,
+   "text": "It's a steal and a party even."
+  },
+  {
+   "start": 843.14,
+   "end": 845.14,
+   "text": "So I would say it's a steal."
+  },
+  {
+   "start": 845.14,
+   "end": 846.74,
+   "text": "I mean, that's that, right?"
+  },
+  {
+   "start": 846.74,
+   "end": 851.22,
+   "text": "all that content for that amount. But then we also need to balance it out with people who pay"
+  },
+  {
+   "start": 851.22,
+   "end": 855.86,
+   "text": "the full price of a business ticket, which we call foreign and 80 euros, because then again,"
+  },
+  {
+   "start": 855.86,
+   "end": 860.26,
+   "text": "the companies pay for us to keep it affordable for students. Again, that's a balance. So we discuss"
+  },
+  {
+   "start": 860.26,
+   "end": 864.18,
+   "text": "how many we release in each category and how big is the community actually in Belgium?"
+  },
+  {
+   "start": 865.06,
+   "end": 871.14,
+   "text": "I don't know. And this doesn't have large completely, there are just normal, I don't know."
+  },
+  {
+   "start": 872.42,
+   "end": 876.02,
+   "text": "How many people will actually be active? Is that something outside of security,"
+  },
+  {
+   "start": 876.02,
+   "end": 882.58,
+   "text": "specifically, honestly, I have no clue. But it's a small-ish community, I would like to say, because"
+  },
+  {
+   "start": 882.58,
+   "end": 888.42,
+   "text": "I mean, all of the crew, everyone was here, does this as volunteer workers, just to do hyperclades,"
+  },
+  {
+   "start": 888.42,
+   "end": 892.82,
+   "text": "not a job, right? We have a job next to it. We all work in information security, we all have a day"
+  },
+  {
+   "start": 892.82,
+   "end": 899.94,
+   "text": "to day job into that. So, and through that connections, we do get obviously"
+  },
+  {
+   "start": 900.0,
+   "end": 903.68,
+   "text": "interactions with other people in the community, but just to put in number how many people are"
+  },
+  {
+   "start": 903.68,
+   "end": 909.36,
+   "text": "inside the security, it's a small community. We all know, we all know, many people know each other"
+  },
+  {
+   "start": 909.36,
+   "end": 917.6,
+   "text": "people. Do you see any changes in the last years? Well, the geopolitical situation is changing,"
+  },
+  {
+   "start": 917.6,
+   "end": 923.6,
+   "text": "so do we change? Or is it too early, does the people who now, who are not physically"
+  },
+  {
+   "start": 923.6,
+   "end": 933.2,
+   "text": "because of what's going on. Not really directly. We see that it is more, that more people connect"
+  },
+  {
+   "start": 933.2,
+   "end": 938.96,
+   "text": "with the subject earlier. So there are more new genres within the cybersecurity than,"
+  },
+  {
+   "start": 938.96,
+   "end": 945.12,
+   "text": "certainly, than 13, 14 years ago, that was really niche. Now it's, yeah, most universities offer at"
+  },
+  {
+   "start": 945.12,
+   "end": 950.56,
+   "text": "least a part of cybersecurity. It's not in the news every day. And also, every day, these are"
+  },
+  {
+   "start": 950.56,
+   "end": 955.56,
+   "text": "We have a few schools that bring their students to our conferences well regularly."
+  },
+  {
+   "start": 955.56,
+   "end": 961.56,
+   "text": "So there is a lot more uptake within the students because it's possible to do it before when we started."
+  },
+  {
+   "start": 961.56,
+   "end": 967.56,
+   "text": "No, not to sound old, but we studied some IT and then it's like, oh, the security thing sounds fun."
+  },
+  {
+   "start": 967.56,
+   "end": 968.56,
+   "text": "Let's have a look."
+  },
+  {
+   "start": 968.56,
+   "end": 973.56,
+   "text": "And we grew from system administration or something like that into security part."
+  },
+  {
+   "start": 973.56,
+   "end": 979.56,
+   "text": "Now you can study the security part, which also gives you a different background and a different way of thinking about it."
+  },
+  {
+   "start": 979.56,
+   "end": 983.56,
+   "text": "And here, bringing all these people together is a bit of what we tried to do at Rookan."
+  },
+  {
+   "start": 983.88,
+   "end": 989.56,
+   "text": "And it might sound cheesy, and it will sound cheesy, so bear with me, everyone."
+  },
+  {
+   "start": 989.96,
+   "end": 995.16,
+   "text": "But the fact of the matter is, so, like I said, I mean, you asked before how much effort we put into it."
+  },
+  {
+   "start": 995.16,
+   "end": 1000.68,
+   "text": "Just to put the number to it, I don't know, many hours, let's say 200 hours a year,"
+  },
+  {
+   "start": 1001.32,
+   "end": 1004.6,
+   "text": "roughly for a crew member minimum to get things."
+  },
+  {
+   "start": 1004.6,
+   "end": 1007.56,
+   "text": "Oh, right, this was the amount of time it spends throughout the year,"
+  },
+  {
+   "start": 1007.56,
+   "end": 1014.04,
+   "text": "communicating supplies, whatever. I mean, don't go into details. And again, like I said, it's"
+  },
+  {
+   "start": 1014.04,
+   "end": 1018.12,
+   "text": "gonna sound cheesy. But the fact that after a con like this, when we are walking around"
+  },
+  {
+   "start": 1018.12,
+   "end": 1023.24,
+   "text": "here, and we see new people learning new skills coming up to say, Oh, this was fun. It's my"
+  },
+  {
+   "start": 1023.24,
+   "end": 1029.64,
+   "text": "first conference. I learned new friends. I learned a new skill. I learned about XYZ played"
+  },
+  {
+   "start": 1029.64,
+   "end": 1034.8,
+   "text": "around with a retro gaming or whatever. Right. Almost made that's what ticks. I mean, that's"
+  },
+  {
+   "start": 1034.8,
+   "end": 1037.76,
+   "text": "The thing you get out of it, and then you drive home and say,"
+  },
+  {
+   "start": 1037.76,
+   "end": 1043.92,
+   "text": "okay, I've given back to a community in my own way to help advance,"
+  },
+  {
+   "start": 1043.92,
+   "end": 1047.64,
+   "text": "hopefully people's their career, their personal development, their social network,"
+  },
+  {
+   "start": 1048.04,
+   "end": 1049.2,
+   "text": "whatever that exists."
+  },
+  {
+   "start": 1049.72,
+   "end": 1051.52,
+   "text": "And that's what drives you to do it."
+  },
+  {
+   "start": 1051.52,
+   "end": 1054.0,
+   "text": "And I get there for the cheesy answer, but bring it to your eyes."
+  },
+  {
+   "start": 1054.0,
+   "end": 1055.48,
+   "text": "Yeah, it is."
+  },
+  {
+   "start": 1055.52,
+   "end": 1055.8,
+   "text": "It is."
+  },
+  {
+   "start": 1055.8,
+   "end": 1056.96,
+   "text": "And we have that opportunity."
+  },
+  {
+   "start": 1056.96,
+   "end": 1061.4,
+   "text": "And I think because if you talk about community and just take a little bit,"
+  },
+  {
+   "start": 1061.4,
+   "end": 1066.44,
+   "text": "that side step is, I can tell you, I mean, professionally, I'm in this"
+  },
+  {
+   "start": 1066.48,
+   "end": 1068.0,
+   "text": "desire for more than 20 years."
+  },
+  {
+   "start": 1069.0,
+   "end": 1072.68,
+   "text": "When I traveled even when I even went pretty much overseas for work."
+  },
+  {
+   "start": 1073.2,
+   "end": 1078.8,
+   "text": "And I tell the people on whatever, I'm one of Brooklyn, I can't even"
+  },
+  {
+   "start": 1079.48,
+   "end": 1084.0,
+   "text": "east coast of the US, I get even in Asia, I get people who call and"
+  },
+  {
+   "start": 1084.0,
+   "end": 1084.92,
+   "text": "I'm like, do you know it?"
+  },
+  {
+   "start": 1085.08,
+   "end": 1085.52,
+   "text": "Yeah."
+  },
+  {
+   "start": 1085.96,
+   "end": 1090.44,
+   "text": "I somebody spoke there that visit once it's a stoking sometimes"
+  },
+  {
+   "start": 1090.44,
+   "end": 1095.4,
+   "text": "because we as flamish people tend to be timid, right? We tend to be like, wow,"
+  },
+  {
+   "start": 1095.4,
+   "end": 1100.12,
+   "text": "I don't know if it's, but honestly the amount of times that when you refer to a name like"
+  },
+  {
+   "start": 1100.12,
+   "end": 1103.0,
+   "text": "Pukor, it's crazy."
+  },
+  {
+   "start": 1103.0,
+   "end": 1109.04,
+   "text": "And also the way that we sometimes, that story is how we talk about selecting talks, right?"
+  },
+  {
+   "start": 1109.04,
+   "end": 1112.04,
+   "text": "Which is one thing, the call for playcours, but we also have keynotes."
+  },
+  {
+   "start": 1112.04,
+   "end": 1113.52,
+   "text": "Keynotes are invites."
+  },
+  {
+   "start": 1113.52,
+   "end": 1119.72,
+   "text": "So we send out an email to someone in the field and we ask, can you do a key note?"
+  },
+  {
+   "start": 1119.72,
+   "end": 1124.96,
+   "text": "We've had people like people, like very, let's say famous people in our industry."
+  },
+  {
+   "start": 1124.96,
+   "end": 1128.4,
+   "text": "this week that we read that I sent an email to like would you be considering"
+  },
+  {
+   "start": 1128.4,
+   "end": 1133.12,
+   "text": "coming to speak and like we didn't have an hour for political yes or bitter yeah"
+  },
+  {
+   "start": 1133.12,
+   "end": 1138.0,
+   "text": "I mean financially we don't pay we pay your travel but we don't pay no I mean I"
+  },
+  {
+   "start": 1138.0,
+   "end": 1144.48,
+   "text": "was even asking sure I'll be there and like really then half an hour no kidding"
+  },
+  {
+   "start": 1144.48,
+   "end": 1149.52,
+   "text": "the guy says I'll be there that they are coming to speak it there so and which is"
+  },
+  {
+   "start": 1149.52,
+   "end": 1153.08,
+   "text": "also an important part of it all because we don't pay any of the speakers yes yeah"
+  },
+  {
+   "start": 1153.08,
+   "end": 1156.96,
+   "text": "We reimburse travel expats. Of course, speakers come here."
+  },
+  {
+   "start": 1156.96,
+   "end": 1161.28,
+   "text": "We make sure that they are treated well, travel is paid, hotel are paid,"
+  },
+  {
+   "start": 1161.28,
+   "end": 1165.84,
+   "text": "but there is no financial exchange that is just not possible within the community event."
+  },
+  {
+   "start": 1165.84,
+   "end": 1167.64,
+   "text": "It's also not what we would like to do."
+  },
+  {
+   "start": 1167.64,
+   "end": 1169.48,
+   "text": "All of it..."
+  },
+  {
+   "start": 1169.48,
+   "end": 1173.4,
+   "text": "Is that a common thing in security without R&D exception?"
+  },
+  {
+   "start": 1173.4,
+   "end": 1176.0,
+   "text": "No, I think it's fairly common."
+  },
+  {
+   "start": 1176.0,
+   "end": 1178.68,
+   "text": "You do see that there are exceptions that they start to pay."
+  },
+  {
+   "start": 1178.68,
+   "end": 1182.46,
+   "text": "I don't understand, everybody needs to pay their bills, but they don't just not be in our financial"
+  },
+  {
+   "start": 1182.46,
+   "end": 1183.46,
+   "text": "remit."
+  },
+  {
+   "start": 1183.46,
+   "end": 1185.38,
+   "text": "The two actually do that, right?"
+  },
+  {
+   "start": 1185.38,
+   "end": 1189.26,
+   "text": "But that's a big model that you have of pre-cones, is that?"
+  },
+  {
+   "start": 1189.26,
+   "end": 1194.3,
+   "text": "It's also the old-fashioned conferences all started like this."
+  },
+  {
+   "start": 1194.3,
+   "end": 1198.88,
+   "text": "At this point, I'm not 100% sure how the division is within the world, but it is a"
+  },
+  {
+   "start": 1198.88,
+   "end": 1199.88,
+   "text": "that's."
+  },
+  {
+   "start": 1199.88,
+   "end": 1200.88,
+   "text": "The..."
+  },
+  {
+   "start": 1200.0,
+   "end": 1204.72,
+   "text": "hacker mindsets, the maker mindsets, we help each other out, we are one group of people,"
+  },
+  {
+   "start": 1204.72,
+   "end": 1208.32,
+   "text": "I want to come and speak from the United States, fly over,"
+  },
+  {
+   "start": 1210.0,
+   "end": 1215.6,
+   "text": "have a nice speaker and travel is compensated. But that's just a way to do the spread on"
+  },
+  {
+   "start": 1215.6,
+   "end": 1219.68,
+   "text": "knowledge and to make sure that people are within the same infrastructure community as it used to"
+  },
+  {
+   "start": 1219.68,
+   "end": 1222.96,
+   "text": "be called the cybersecurity community to help each other out and each other grow."
+  },
+  {
+   "start": 1222.96,
+   "end": 1227.96,
+   "text": "So, sorry, you're going to say something."
+  },
+  {
+   "start": 1228.54,
+   "end": 1230.18,
+   "text": "No, no, please, please."
+  },
+  {
+   "start": 1230.18,
+   "end": 1232.4,
+   "text": "You talk about InfoSec,"
+  },
+  {
+   "start": 1232.4,
+   "end": 1234.56,
+   "text": "and the confidence that is more than InfoSec."
+  },
+  {
+   "start": 1234.56,
+   "end": 1237.18,
+   "text": "It kind of has a bit like also hacker conference"
+  },
+  {
+   "start": 1237.18,
+   "end": 1240.48,
+   "text": "only have vlog picking, you have other stuff here,"
+  },
+  {
+   "start": 1240.48,
+   "end": 1242.86,
+   "text": "you have data gaming."
+  },
+  {
+   "start": 1242.86,
+   "end": 1244.8,
+   "text": "So it's more than just talks,"
+  },
+  {
+   "start": 1244.8,
+   "end": 1247.0,
+   "text": "it's also has this special atmosphere"
+  },
+  {
+   "start": 1247.0,
+   "end": 1249.08,
+   "text": "and the special thing that it comes with."
+  },
+  {
+   "start": 1249.08,
+   "end": 1251.08,
+   "text": "Well, the conference plus plus,"
+  },
+  {
+   "start": 1251.08,
+   "end": 1253.0,
+   "text": "But yeah, it's one decision."
+  },
+  {
+   "start": 1253.0,
+   "end": 1255.56,
+   "text": "You've always made me want to be a single track conference."
+  },
+  {
+   "start": 1255.56,
+   "end": 1262.24,
+   "text": "So one line of tracks, one line of talks, and you attend the talk, or you don't, and you"
+  },
+  {
+   "start": 1262.24,
+   "end": 1268.68,
+   "text": "socialize with people in the bar area, or you do one of the other breakout sessions."
+  },
+  {
+   "start": 1268.68,
+   "end": 1270.88,
+   "text": "Like, yeah, play some games."
+  },
+  {
+   "start": 1270.88,
+   "end": 1271.88,
+   "text": "Yeah, I'll come with you."
+  },
+  {
+   "start": 1271.88,
+   "end": 1272.88,
+   "text": "Okay, good."
+  },
+  {
+   "start": 1272.88,
+   "end": 1273.88,
+   "text": "It's amazing to see you."
+  },
+  {
+   "start": 1273.88,
+   "end": 1274.88,
+   "text": "Okay, wasting a lot of time."
+  },
+  {
+   "start": 1274.88,
+   "end": 1275.88,
+   "text": "You have to play games."
+  },
+  {
+   "start": 1275.88,
+   "end": 1279.48,
+   "text": "a game game. A five-year-olds to a better game seem to be a..."
+  },
+  {
+   "start": 1279.48,
+   "end": 1283.72,
+   "text": "Yeah. Yeah, it's hard to get people for younger people."
+  },
+  {
+   "start": 1283.72,
+   "end": 1288.36,
+   "text": "Yes. It's a way to get people to talk who will not always talk to each other."
+  },
+  {
+   "start": 1288.36,
+   "end": 1291.96,
+   "text": "So, when you're playing a game and you join the second player and you're talking and you're mingling"
+  },
+  {
+   "start": 1291.96,
+   "end": 1297.8,
+   "text": "with people, you might because a lot of the 7-30 people are not the most extroverted. So,"
+  },
+  {
+   "start": 1298.36,
+   "end": 1302.28,
+   "text": "getting a small push to talk to people always helps and also helps."
+  },
+  {
+   "start": 1302.28,
+   "end": 1309.92,
+   "text": "It was in the data gaming, the one of the televisions that had the score, I think from"
+  },
+  {
+   "start": 1309.92,
+   "end": 1312.88,
+   "text": "the capture flag in on-tilly text."
+  },
+  {
+   "start": 1312.88,
+   "end": 1318.44,
+   "text": "And it started out with this question about daily next, the C-fact that was called in"
+  },
+  {
+   "start": 1318.44,
+   "end": 1323.88,
+   "text": "UK, the kind of the kind of the US, it was kind of like, we had this, we were talking about"
+  },
+  {
+   "start": 1323.88,
+   "end": 1328.32,
+   "text": "half an hour about daily text, if you rest."
+  },
+  {
+   "start": 1328.32,
+   "end": 1332.4,
+   "text": "for right yes he was talking about his BBC computer and the tiddlydach stick"
+  },
+  {
+   "start": 1332.4,
+   "end": 1335.6,
+   "text": "order and he put it all the things otherwise probably some games you could"
+  },
+  {
+   "start": 1335.6,
+   "end": 1338.32,
+   "text": "play on tiddlyd tacks but of course he had the full foetus."
+  },
+  {
+   "start": 1338.32,
+   "end": 1345.68,
+   "text": "It's not security if we say but it's really the"
+  },
+  {
+   "start": 1345.68,
+   "end": 1351.84,
+   "text": "hacking mentality was there like oh that we've had I mean next year in two years"
+  },
+  {
+   "start": 1351.84,
+   "end": 1356.0,
+   "text": "time rate will be on a 20th edition we're already listening a bit about the"
+  },
+  {
+   "start": 1356.0,
+   "end": 1364.56,
+   "text": "fact that what do we want to do? And because we have dozens and dozens of similar stories"
+  },
+  {
+   "start": 1364.56,
+   "end": 1369.52,
+   "text": "of things that happened that originated at Drikon, happened in Drikon. And we want to"
+  },
+  {
+   "start": 1369.52,
+   "end": 1375.76,
+   "text": "find a way to document it somewhere. I can tell you, I remember that one evening, I guess"
+  },
+  {
+   "start": 1375.76,
+   "end": 1380.0,
+   "text": "it's even after the party, someone suddenly explained, I have a technique how to get out"
+  },
+  {
+   "start": 1380.0,
+   "end": 1385.6,
+   "text": "of zip tie handcuffs, right? So you know, this is the technique to it, because the cops use"
+  },
+  {
+   "start": 1385.6,
+   "end": 1388.16,
+   "text": "nowadays, but have a technique. Do you want to know?"
+  },
+  {
+   "start": 1388.72,
+   "end": 1392.64,
+   "text": "Yeah. So we ended up in a hotel room with a bunch of people that"
+  },
+  {
+   "start": 1392.64,
+   "end": 1396.08,
+   "text": "is to explain to like first when you zip tie the phone view that in your back"
+  },
+  {
+   "start": 1396.08,
+   "end": 1398.72,
+   "text": "and he explained it all very clearly how to get out of a zip tie."
+  },
+  {
+   "start": 1398.72,
+   "end": 1402.0,
+   "text": "I'm like, where am I? I mean, what am I doing now?"
+  },
+  {
+   "start": 1402.0,
+   "end": 1403.6,
+   "text": "To never need it. Oh, I do."
+  },
+  {
+   "start": 1403.6,
+   "end": 1406.48,
+   "text": "It's a feeling this thing's good. So if you want, I can teach you how to get"
+  },
+  {
+   "start": 1406.48,
+   "end": 1408.72,
+   "text": "out of a zip tie, even if I do it in your back."
+  },
+  {
+   "start": 1408.72,
+   "end": 1412.24,
+   "text": "Well, yeah, that's the thing that happens. And you're like, okay, I have a new"
+  },
+  {
+   "start": 1412.24,
+   "end": 1414.76,
+   "text": "So, not skill developed."
+  },
+  {
+   "start": 1414.76,
+   "end": 1417.52,
+   "text": "That's the conference which is an actor."
+  },
+  {
+   "start": 1417.52,
+   "end": 1421.28,
+   "text": "No, you don't have to go to the door to get out."
+  },
+  {
+   "start": 1421.28,
+   "end": 1423.12,
+   "text": "And I mean, that's the thing."
+  },
+  {
+   "start": 1423.12,
+   "end": 1424.88,
+   "text": "And then you get the hacker stories, right?"
+  },
+  {
+   "start": 1424.88,
+   "end": 1430.48,
+   "text": "So because then when everybody starts chatting, like, hey, you know, I mean, yeah, I've ever"
+  },
+  {
+   "start": 1430.48,
+   "end": 1432.12,
+   "text": "done this."
+  },
+  {
+   "start": 1432.12,
+   "end": 1433.88,
+   "text": "And then I managed to achieve this."
+  },
+  {
+   "start": 1433.88,
+   "end": 1434.88,
+   "text": "And then you know what?"
+  },
+  {
+   "start": 1434.88,
+   "end": 1438.08,
+   "text": "And that's a technique that I learned, how to get into this type of system."
+  },
+  {
+   "start": 1438.08,
+   "end": 1441.92,
+   "text": "That could be a physical thing, like in the engine, looks out or whatever."
+  },
+  {
+   "start": 1441.92,
+   "end": 1443.92,
+   "text": "That's the answer you want to create."
+  },
+  {
+   "start": 1443.92,
+   "end": 1444.92,
+   "text": "Yeah."
+  },
+  {
+   "start": 1444.92,
+   "end": 1447.52,
+   "text": "It's fun to think about."
+  },
+  {
+   "start": 1447.52,
+   "end": 1451.16,
+   "text": "When the other interviews I did was with Fright Camp and this guy called from the Free"
+  },
+  {
+   "start": 1451.16,
+   "end": 1452.16,
+   "text": "Lantern."
+  },
+  {
+   "start": 1452.16,
+   "end": 1453.16,
+   "text": "It does music."
+  },
+  {
+   "start": 1453.16,
+   "end": 1456.72,
+   "text": "One is called Almost There Where You See This Thing and The Guy."
+  },
+  {
+   "start": 1456.72,
+   "end": 1459.28,
+   "text": "The thought of actually almost my application."
+  },
+  {
+   "start": 1459.28,
+   "end": 1462.04,
+   "text": "Yes, I want to run and then it runs and no, it's not that."
+  },
+  {
+   "start": 1462.04,
+   "end": 1463.04,
+   "text": "It's kind of like this."
+  },
+  {
+   "start": 1463.04,
+   "end": 1464.04,
+   "text": "I want to get there."
+  },
+  {
+   "start": 1464.04,
+   "end": 1465.04,
+   "text": "Yeah."
+  },
+  {
+   "start": 1465.04,
+   "end": 1466.04,
+   "text": "And that's the hack and run."
+  },
+  {
+   "start": 1466.04,
+   "end": 1467.04,
+   "text": "I mean question everything."
+  },
+  {
+   "start": 1467.04,
+   "end": 1468.04,
+   "text": "Yes."
+  },
+  {
+   "start": 1468.04,
+   "end": 1474.68,
+   "text": "there's a saying we say is just to verify and everyone here comes with a mindset of,"
+  },
+  {
+   "start": 1475.2,
+   "end": 1478.16,
+   "text": "yeah, I believe it's okay, but I want to know for sure."
+  },
+  {
+   "start": 1478.24,
+   "end": 1480.24,
+   "text": "And I'll find it out myself."
+  },
+  {
+   "start": 1483.84,
+   "end": 1485.16,
+   "text": "Yeah, think about it."
+  },
+  {
+   "start": 1485.36,
+   "end": 1488.76,
+   "text": "But you would have now 18 years."
+  },
+  {
+   "start": 1488.96,
+   "end": 1493.2,
+   "text": "So what did you probably want to do something new every year?"
+  },
+  {
+   "start": 1493.2,
+   "end": 1494.08,
+   "text": "So how did you do that?"
+  },
+  {
+   "start": 1494.08,
+   "end": 1495.2,
+   "text": "Okay, we had it."
+  },
+  {
+   "start": 1495.2,
+   "end": 1497.24,
+   "text": "So I guess part of that is the routine."
+  },
+  {
+   "start": 1497.24,
+   "end": 1501.96,
+   "text": "to know so you have the routine"
+  },
+  {
+   "start": 1500.0,
+   "end": 1506.64,
+   "text": "of organizing a conference, okay? But Dan, you probably think, okay, next year we want to"
+  },
+  {
+   "start": 1506.64,
+   "end": 1513.76,
+   "text": "have something special. How do you, every year, you know, or is it just see our roles?"
+  },
+  {
+   "start": 1513.76,
+   "end": 1518.88,
+   "text": "I think recently we had two big changes, how we moved to Mecha-la, so full new venue,"
+  },
+  {
+   "start": 1519.44,
+   "end": 1523.84,
+   "text": "means getting to new city. We kind new Mecha-la, but knowing Mecha-la and knowing Mecha-la from a"
+  },
+  {
+   "start": 1523.84,
+   "end": 1528.72,
+   "text": "conference organizing perspective is different. I think it's a little traffic here."
+  },
+  {
+   "start": 1528.72,
+   "end": 1530.88,
+   "text": "Yeah, yes, so we got it."
+  },
+  {
+   "start": 1530.88,
+   "end": 1534.16,
+   "text": "But also new hotel, so working together with the hotel,"
+  },
+  {
+   "start": 1534.16,
+   "end": 1535.64,
+   "text": "which we use for training,"
+  },
+  {
+   "start": 1535.64,
+   "end": 1538.28,
+   "text": "to arranging that one, making sure that people are divided,"
+  },
+  {
+   "start": 1538.28,
+   "end": 1541.36,
+   "text": "that everything works out, everything works smoothly,"
+  },
+  {
+   "start": 1541.36,
+   "end": 1543.68,
+   "text": "because there are some things we need to have strict timings"
+  },
+  {
+   "start": 1543.68,
+   "end": 1545.6,
+   "text": "for others who are more lenient,"
+  },
+  {
+   "start": 1545.6,
+   "end": 1549.56,
+   "text": "and getting to know the way of working with all the people here,"
+  },
+  {
+   "start": 1549.56,
+   "end": 1551.96,
+   "text": "same here within the Lamot building,"
+  },
+  {
+   "start": 1551.96,
+   "end": 1554.48,
+   "text": "it's sometimes difficult to still find new way,"
+  },
+  {
+   "start": 1554.48,
+   "end": 1556.44,
+   "text": "even after several years here,"
+  },
+  {
+   "start": 1556.44,
+   "end": 1557.64,
+   "text": "like where is that floor again?"
+  },
+  {
+   "start": 1557.64,
+   "end": 1559.64,
+   "text": "So it's getting to know that one."
+  },
+  {
+   "start": 1559.64,
+   "end": 1562.96,
+   "text": "Now, last year, I think we edited."
+  },
+  {
+   "start": 1562.96,
+   "end": 1564.68,
+   "text": "Routine is saying much, but still we're"
+  },
+  {
+   "start": 1564.68,
+   "end": 1566.08,
+   "text": "required, OK, we're with the organizers,"
+  },
+  {
+   "start": 1566.08,
+   "end": 1569.28,
+   "text": "and we're thinking, yeah, what's the next big step we could take?"
+  },
+  {
+   "start": 1569.28,
+   "end": 1571.88,
+   "text": "Both to keep it interesting for us, but also"
+  },
+  {
+   "start": 1571.88,
+   "end": 1573.72,
+   "text": "to provide more value."
+  },
+  {
+   "start": 1573.72,
+   "end": 1578.88,
+   "text": "We're always full of amazing, sometimes achievable ideas."
+  },
+  {
+   "start": 1578.88,
+   "end": 1579.88,
+   "text": "Ah, that's really good."
+  },
+  {
+   "start": 1579.88,
+   "end": 1581.96,
+   "text": "It's a lot of fun, too."
+  },
+  {
+   "start": 1581.96,
+   "end": 1584.28,
+   "text": "I mean, again, it shows on the internet."
+  },
+  {
+   "start": 1584.28,
+   "end": 1586.0,
+   "text": "20th edition, we'll definitely explain"
+  },
+  {
+   "start": 1586.0,
+   "end": 1587.64,
+   "text": "some of the crazy things that never happened."
+  },
+  {
+   "start": 1588.64,
+   "end": 1590.6,
+   "text": "We'll have to."
+  },
+  {
+   "start": 1591.48,
+   "end": 1595.4,
+   "text": "And then the idea was, because always on Thursday evening, we tried to do enough"
+  },
+  {
+   "start": 1595.4,
+   "end": 1596.84,
+   "text": "for events, a party."
+  },
+  {
+   "start": 1597.08,
+   "end": 1599.24,
+   "text": "It usually was outside of this venue."
+  },
+  {
+   "start": 1599.28,
+   "end": 1600.88,
+   "text": "But now why not stay here?"
+  },
+  {
+   "start": 1600.96,
+   "end": 1603.72,
+   "text": "Why not keep the Brooklyn venue alive through the evening?"
+  },
+  {
+   "start": 1604.16,
+   "end": 1605.8,
+   "text": "And that's how Brooklyn, after dark was born."
+  },
+  {
+   "start": 1606.32,
+   "end": 1610.04,
+   "text": "We were having a drink and suddenly it came up like, shouldn't we be doing this?"
+  },
+  {
+   "start": 1610.08,
+   "end": 1613.56,
+   "text": "And you actually want to run or so?"
+  },
+  {
+   "start": 1613.56,
+   "end": 1619.32,
+   "text": "I saw the other website at the morning, so that's the hack around this morning, which we..."
+  },
+  {
+   "start": 1619.32,
+   "end": 1620.6,
+   "text": "After the party yesterday."
+  },
+  {
+   "start": 1620.6,
+   "end": 1621.6,
+   "text": "After the party, after the party."
+  },
+  {
+   "start": 1621.6,
+   "end": 1622.6,
+   "text": "The morning after the party."
+  },
+  {
+   "start": 1622.6,
+   "end": 1624.8,
+   "text": "Yes, that's together we get a hangover away, right?"
+  },
+  {
+   "start": 1624.8,
+   "end": 1626.36,
+   "text": "That's kind of the intent."
+  },
+  {
+   "start": 1626.36,
+   "end": 1630.08,
+   "text": "But this year was exceptionally popular, because we had..."
+  },
+  {
+   "start": 1630.08,
+   "end": 1632.44,
+   "text": "No one's that there was two people, right?"
+  },
+  {
+   "start": 1632.44,
+   "end": 1637.12,
+   "text": "The one who organized it, a one-advisioned person, because the party was so successful,"
+  },
+  {
+   "start": 1637.12,
+   "end": 1639.4,
+   "text": "like, yes, there were people who just didn't share like it."
+  },
+  {
+   "start": 1639.4,
+   "end": 1643.36,
+   "text": "So tomorrow, this morning, we had 27 people, which is..."
+  },
+  {
+   "start": 1643.36,
+   "end": 1649.28,
+   "text": "new record to beat for next year. But it is also something that it just happened to come up at a party."
+  },
+  {
+   "start": 1649.28,
+   "end": 1653.6,
+   "text": "Yeah, tomorrow morning I'm going to go for a run and five, six people said I will join."
+  },
+  {
+   "start": 1653.6,
+   "end": 1656.96,
+   "text": "And as of that, we did it every year. I think it's over 10 years."
+  },
+  {
+   "start": 1656.96,
+   "end": 1665.6,
+   "text": "Yeah, sure. It's always there. Usually around 10ish people that's going from two to 27."
+  },
+  {
+   "start": 1665.6,
+   "end": 1670.32,
+   "text": "Yeah. And I think the thing you ask, and I think that's important to realize again,"
+  },
+  {
+   "start": 1670.32,
+   "end": 1679.68,
+   "text": "we'll volunteer. So shifting to a new city took us mentally a lot of rethinking of previous processes,"
+  },
+  {
+   "start": 1679.68,
+   "end": 1684.56,
+   "text": "right, and thinking how to do it. Selecting the city was hard because we have some really"
+  },
+  {
+   "start": 1686.0,
+   "end": 1691.6,
+   "text": "requirements that are like, we want to be inside the city that is everything within walking distance,"
+  },
+  {
+   "start": 1691.6,
+   "end": 1698.4,
+   "text": "because you want, again, especially with people, more than 50% of the visitors are non-belgems,"
+  },
+  {
+   "start": 1698.4,
+   "end": 1702.88,
+   "text": "Right? So just to make that clear, that's not a local conference."
+  },
+  {
+   "start": 1702.88,
+   "end": 1705.44,
+   "text": "No, not per se, right? There are no spells."
+  },
+  {
+   "start": 1705.44,
+   "end": 1707.68,
+   "text": "And Netherlands and neighbouring countries,"
+  },
+  {
+   "start": 1707.68,
+   "end": 1711.44,
+   "text": "but people come from Japan or Australia. I mean, those things happen."
+  },
+  {
+   "start": 1711.44,
+   "end": 1716.24,
+   "text": "And you want them to arrive? And that's it. You don't want them to then shift too much and"
+  },
+  {
+   "start": 1716.24,
+   "end": 1721.12,
+   "text": "whatever. So it's, you arrive, done. Everything is walking distance. Also, when we had a party,"
+  },
+  {
+   "start": 1721.12,
+   "end": 1726.32,
+   "text": "it was walking, this is everywhere. So you could go and have a dinner here, it's all there."
+  },
+  {
+   "start": 1726.32,
+   "end": 1728.8,
+   "text": "That's that's number one. We don't want too much of a"
+  },
+  {
+   "start": 1729.68,
+   "end": 1733.2,
+   "text": "conference feeling, not like fixed corporate thing. And it"
+  },
+  {
+   "start": 1733.2,
+   "end": 1735.44,
+   "text": "doesn't have to be too fancy, right?"
+  },
+  {
+   "start": 1735.56,
+   "end": 1738.72,
+   "text": "We can go to a generic hotel and have the same conference feeling"
+  },
+  {
+   "start": 1738.72,
+   "end": 1742.2,
+   "text": "as everywhere. But here we have an old brewery building that also fits"
+  },
+  {
+   "start": 1742.2,
+   "end": 1743.12,
+   "text": "our requirements."
+  },
+  {
+   "start": 1743.2,
+   "end": 1743.52,
+   "text": "Yeah."
+  },
+  {
+   "start": 1744.56,
+   "end": 1747.8,
+   "text": "So so that that's that's in the point. And then you build it up."
+  },
+  {
+   "start": 1748.08,
+   "end": 1752.72,
+   "text": "And then every year we start making what I call small imperfections,"
+  },
+  {
+   "start": 1752.8,
+   "end": 1755.48,
+   "text": "perfect. So things like to say, okay, this could have been that"
+  },
+  {
+   "start": 1755.48,
+   "end": 1758.6,
+   "text": "Should we start early with this? What about sign itself or there?"
+  },
+  {
+   "start": 1758.88,
+   "end": 1761.56,
+   "text": "Do we have the right things? And every time we reflect on it,"
+  },
+  {
+   "start": 1761.84,
+   "end": 1764.92,
+   "text": "we have done an ongoing documentary type stuff in as feedback."
+  },
+  {
+   "start": 1764.92,
+   "end": 1769.56,
+   "text": "And within two weeks, we have what we call post-mortem events between us."
+  },
+  {
+   "start": 1769.56,
+   "end": 1772.72,
+   "text": "Right. And then we go to what we learn, but we need to change because it's"
+  },
+  {
+   "start": 1772.72,
+   "end": 1775.88,
+   "text": "fresh in your minds. We don't document, unfortunately enough."
+  },
+  {
+   "start": 1777.6,
+   "end": 1780.88,
+   "text": "And we should do that more and help AI have helped us anyway."
+  },
+  {
+   "start": 1781.04,
+   "end": 1784.76,
+   "text": "So that's the thing. And then, and then you want to always improve it a little"
+  },
+  {
+   "start": 1784.76,
+   "end": 1789.6,
+   "text": "a bit, I mean, genuinely, and we mean that, and we say that to everyone, come to us and"
+  },
+  {
+   "start": 1789.6,
+   "end": 1790.6,
+   "text": "give us feedback."
+  },
+  {
+   "start": 1790.6,
+   "end": 1794.76,
+   "text": "Positive, awesome, we'll have a beer together, even constructive, even better."
+  },
+  {
+   "start": 1794.76,
+   "end": 1796.24,
+   "text": "Let's have a beer together."
+  },
+  {
+   "start": 1796.24,
+   "end": 1800.0,
+   "text": "Because we see it to our lands, but we really, for..."
+  },
+  {
+   "start": 1800.0,
+   "end": 1806.8,
+   "text": "community by community. So everything we can do within our own space to help people come over here and"
+  },
+  {
+   "start": 1806.8,
+   "end": 1811.44,
+   "text": "enjoy their time and perform willow. That's really the end."
+  },
+  {
+   "start": 1813.52,
+   "end": 1818.64,
+   "text": "Yes, well, you said other people, there are actually other organizations here, like you have the"
+  },
+  {
+   "start": 1818.64,
+   "end": 1825.04,
+   "text": "micro space or the haka space. They bring their own culture, right? So I get yeah, yeah, absolutely."
+  },
+  {
+   "start": 1825.04,
+   "end": 1829.04,
+   "text": "I think we reached out to Hiker Space when we arrived here in Machia-Lan."
+  },
+  {
+   "start": 1829.04,
+   "end": 1831.04,
+   "text": "Do you want to collaborate?"
+  },
+  {
+   "start": 1831.04,
+   "end": 1833.04,
+   "text": "For sure."
+  },
+  {
+   "start": 1833.04,
+   "end": 1834.04,
+   "text": "This is in our town."
+  },
+  {
+   "start": 1834.04,
+   "end": 1836.04,
+   "text": "Why wouldn't we have a..."
+  },
+  {
+   "start": 1836.04,
+   "end": 1838.04,
+   "text": "And this here I think, what did they do?"
+  },
+  {
+   "start": 1838.04,
+   "end": 1842.04,
+   "text": "So we have the Mate Arcade game, so we have the Arcade consoles."
+  },
+  {
+   "start": 1842.04,
+   "end": 1843.04,
+   "text": "They did the Mate Arcade."
+  },
+  {
+   "start": 1843.04,
+   "end": 1848.04,
+   "text": "Yeah, the Hiker Space made the arcades for us."
+  },
+  {
+   "start": 1848.04,
+   "end": 1853.04,
+   "text": "We sponsored the Hiker Space and in return they made the arcades for us that these can play on,"
+  },
+  {
+   "start": 1853.04,
+   "end": 1857.04,
+   "text": "which is also linked to the electronic batch that we made this year,"
+  },
+  {
+   "start": 1857.04,
+   "end": 1860.6,
+   "text": "which is linked to the capture the flag within all these arcades,"
+  },
+  {
+   "start": 1860.6,
+   "end": 1862.04,
+   "text": "so it's all interconnects."
+  },
+  {
+   "start": 1862.04,
+   "end": 1863.04,
+   "text": "Yeah."
+  },
+  {
+   "start": 1863.04,
+   "end": 1864.04,
+   "text": "Yeah."
+  },
+  {
+   "start": 1864.04,
+   "end": 1867.04,
+   "text": "So, you did mention AI."
+  },
+  {
+   "start": 1867.04,
+   "end": 1868.04,
+   "text": "Yeah."
+  },
+  {
+   "start": 1868.04,
+   "end": 1869.04,
+   "text": "New technology."
+  },
+  {
+   "start": 1869.04,
+   "end": 1872.04,
+   "text": "Well, that just changed a lot."
+  },
+  {
+   "start": 1872.04,
+   "end": 1877.04,
+   "text": "Do you see something, do you see it on the effect on the info sec, or do you see something?"
+  },
+  {
+   "start": 1877.04,
+   "end": 1880.04,
+   "text": "I've been talking to the thing about the capture the flag."
+  },
+  {
+   "start": 1880.04,
+   "end": 1886.2,
+   "text": "For the couple of fact people, AI, the AI fight, it's beyond."
+  },
+  {
+   "start": 1886.2,
+   "end": 1888.2,
+   "text": "I think there are multiple things we see, right?"
+  },
+  {
+   "start": 1888.2,
+   "end": 1894.34,
+   "text": "So the amount of submissions for talks around the AI was, I don't know, I don't have the statistics"
+  },
+  {
+   "start": 1894.34,
+   "end": 1895.54,
+   "text": "with me, it was a lot."
+  },
+  {
+   "start": 1895.54,
+   "end": 1899.44,
+   "text": "There were also quite some submissions which were AI generated."
+  },
+  {
+   "start": 1899.44,
+   "end": 1903.32,
+   "text": "So they generate that talk submission, so they call for papers, right?"
+  },
+  {
+   "start": 1903.32,
+   "end": 1909.2,
+   "text": "The one they're going to talk, which we kind of think because we don't know for sure, but"
+  },
+  {
+   "start": 1909.2,
+   "end": 1915.68,
+   "text": "sometimes see it. REI generated. So amongst these 140 submissions on 30, you know what you said."
+  },
+  {
+   "start": 1916.88,
+   "end": 1921.76,
+   "text": "We have to select the 12, but we also need to make sure that we don't select someone who's just"
+  },
+  {
+   "start": 1921.76,
+   "end": 1927.04,
+   "text": "well, the prompt and say, write me a good submission for a talk at book on about topic X,"
+  },
+  {
+   "start": 1927.76,
+   "end": 1931.92,
+   "text": "and I hope to get selected to that because then we have a poor experience."
+  },
+  {
+   "start": 1931.92,
+   "end": 1939.6,
+   "text": "So, does 140 is there more than previous years? Do you think that AI has, I don't know, just"
+  },
+  {
+   "start": 1939.6,
+   "end": 1944.2,
+   "text": "an idea as well that you said it went up and could be because of AI?"
+  },
+  {
+   "start": 1944.2,
+   "end": 1949.52,
+   "text": "It's roughly the same. It's a slight increase. We used to be around 9,100, but in the last"
+  },
+  {
+   "start": 1949.52,
+   "end": 1955.24,
+   "text": "few years it was not that. So AI in Dellova gives you a go-go of so far, North and let's"
+  },
+  {
+   "start": 1955.24,
+   "end": 1959.36,
+   "text": "So it stays this way because we still,"
+  },
+  {
+   "start": 1959.36,
+   "end": 1961.66,
+   "text": "I always aim to review all of them."
+  },
+  {
+   "start": 1961.66,
+   "end": 1963.12,
+   "text": "And that means there is one one."
+  },
+  {
+   "start": 1963.12,
+   "end": 1966.96,
+   "text": "There's one one that we have the time between."
+  },
+  {
+   "start": 1966.96,
+   "end": 1969.46,
+   "text": "Of course, consider the cuts, the code for paper."
+  },
+  {
+   "start": 1969.46,
+   "end": 1970.88,
+   "text": "So I said, we want three pages."
+  },
+  {
+   "start": 1970.88,
+   "end": 1973.04,
+   "text": "So we know we had the document of 20 pages up."
+  },
+  {
+   "start": 1973.04,
+   "end": 1974.04,
+   "text": "Yes."
+  },
+  {
+   "start": 1974.04,
+   "end": 1976.36,
+   "text": "So we basically want an abstract off,"
+  },
+  {
+   "start": 1976.36,
+   "end": 1979.04,
+   "text": "I don't know by heart so much time to summarize everything."
+  },
+  {
+   "start": 1979.04,
+   "end": 1980.66,
+   "text": "And if you have slides, that's already"
+  },
+  {
+   "start": 1980.66,
+   "end": 1982.04,
+   "text": "then we can have a look."
+  },
+  {
+   "start": 1982.04,
+   "end": 1984.52,
+   "text": "OK, but considering that, it could be that they use the UI"
+  },
+  {
+   "start": 1984.52,
+   "end": 1989.24,
+   "text": "just to, they ever had a good talk and they use AI to generate the three pages."
+  },
+  {
+   "start": 1989.24,
+   "end": 1993.6,
+   "text": "Yes. Or you could have a concept, you could have somebody who just write me a prompt and"
+  },
+  {
+   "start": 1993.6,
+   "end": 1996.48,
+   "text": "I get a picket for free and a bit a lot of publicity."
+  },
+  {
+   "start": 1996.48,
+   "end": 2001.2,
+   "text": "That's a challenge. And that's also why people say, well, can you give me a hint to submit"
+  },
+  {
+   "start": 2001.2,
+   "end": 2002.92,
+   "text": "to the call for papers? Right?"
+  },
+  {
+   "start": 2002.92,
+   "end": 2008.92,
+   "text": "They abstract yourself because certainly it is the generic AI way of writing text."
+  },
+  {
+   "start": 2008.92,
+   "end": 2013.56,
+   "text": "For me, personally, I see it and it does not work for me."
+  },
+  {
+   "start": 2013.56,
+   "end": 2017.68,
+   "text": "It does not trigger me if it's a generic AI generated text."
+  },
+  {
+   "start": 2017.68,
+   "end": 2022.2,
+   "text": "It's too bad if you made a real nice presentation and it's summarized by AI and just because"
+  },
+  {
+   "start": 2022.2,
+   "end": 2025.2,
+   "text": "it's summarized in that way, it's not selected."
+  },
+  {
+   "start": 2025.2,
+   "end": 2031.72,
+   "text": "So I will look at least to write the abstract part in a normal human sentence way."
+  },
+  {
+   "start": 2031.72,
+   "end": 2035.08,
+   "text": "That's the best advice I can give for organic select."
+  },
+  {
+   "start": 2035.08,
+   "end": 2037.68,
+   "text": "But are they ever negative, for example?"
+  },
+  {
+   "start": 2037.68,
+   "end": 2038.68,
+   "text": "Yeah."
+  },
+  {
+   "start": 2038.68,
+   "end": 2039.68,
+   "text": "Absolutely."
+  },
+  {
+   "start": 2039.68,
+   "end": 2046.48,
+   "text": "who didn't think they have the most unique stuff and we didn't select it for a reason that we found correct."
+  },
+  {
+   "start": 2046.48,
+   "end": 2050.08,
+   "text": "And then it happens. It doesn't happen with that."
+  },
+  {
+   "start": 2050.08,
+   "end": 2054.08,
+   "text": "It doesn't happen. Sometimes we get the question, why were we not selected?"
+  },
+  {
+   "start": 2054.08,
+   "end": 2055.52,
+   "text": "And sometimes we..."
+  },
+  {
+   "start": 2055.52,
+   "end": 2058.08,
+   "text": "You select this, that one, but mine is better."
+  },
+  {
+   "start": 2058.08,
+   "end": 2059.28,
+   "text": "Okay."
+  },
+  {
+   "start": 2059.28,
+   "end": 2062.88,
+   "text": "And that's perhaps also an important which I just came to reflection upon."
+  },
+  {
+   "start": 2062.88,
+   "end": 2069.28,
+   "text": "Again, I know I'm repeating myself with the by community for community point of view."
+  },
+  {
+   "start": 2069.28,
+   "end": 2073.44,
+   "text": "is we often also select either training slots,"
+  },
+  {
+   "start": 2073.44,
+   "end": 2076.56,
+   "text": "so who can come and give a training course, right?"
+  },
+  {
+   "start": 2076.56,
+   "end": 2078.68,
+   "text": "And then obviously there's a profit involvement"
+  },
+  {
+   "start": 2078.68,
+   "end": 2081.28,
+   "text": "through the trainer or come give a talk"
+  },
+  {
+   "start": 2081.28,
+   "end": 2083.64,
+   "text": "to what you would call new people,"
+  },
+  {
+   "start": 2083.64,
+   "end": 2087.92,
+   "text": "like people who don't yet are famous or whatever,"
+  },
+  {
+   "start": 2087.92,
+   "end": 2089.92,
+   "text": "and it's important for us as well,"
+  },
+  {
+   "start": 2089.92,
+   "end": 2093.56,
+   "text": "we want to give that four, that opportunity for people."
+  },
+  {
+   "start": 2093.56,
+   "end": 2095.4,
+   "text": "And there are at least a number of stories"
+  },
+  {
+   "start": 2095.4,
+   "end": 2097.92,
+   "text": "that I can tell from the training per interview"
+  },
+  {
+   "start": 2097.92,
+   "end": 2100.02,
+   "text": "that we selected this is just an awesome training."
+  },
+  {
+   "start": 2100.0,
+   "end": 2101.32,
+   "text": "He's never given it before."
+  },
+  {
+   "start": 2101.6,
+   "end": 2104.8,
+   "text": "So you don't know, per se, but it's going to be fine."
+  },
+  {
+   "start": 2104.8,
+   "end": 2106.08,
+   "text": "They're just based on the description."
+  },
+  {
+   "start": 2106.44,
+   "end": 2107.48,
+   "text": "It's just great."
+  },
+  {
+   "start": 2107.88,
+   "end": 2108.76,
+   "text": "So we select him."
+  },
+  {
+   "start": 2108.96,
+   "end": 2111.84,
+   "text": "It's then one of the best rated trainings because we asked the feedback"
+  },
+  {
+   "start": 2111.84,
+   "end": 2112.92,
+   "text": "right from the students."
+  },
+  {
+   "start": 2113.64,
+   "end": 2116.4,
+   "text": "And then years after he's seen that he's doing all the big"
+  },
+  {
+   "start": 2116.4,
+   "end": 2117.4,
+   "text": "conferences in the world."
+  },
+  {
+   "start": 2117.4,
+   "end": 2122.28,
+   "text": "He's doing training all over the world from the US, from Australia, from whatever."
+  },
+  {
+   "start": 2122.8,
+   "end": 2125.28,
+   "text": "And then I pause the guy again at that, say,"
+  },
+  {
+   "start": 2125.28,
+   "end": 2128.88,
+   "text": "or whatever situation and he's like, yeah, this is where it all started."
+  },
+  {
+   "start": 2129.72,
+   "end": 2131.56,
+   "text": "And that, I mean, that's why we do it."
+  },
+  {
+   "start": 2131.96,
+   "end": 2132.88,
+   "text": "And that does it."
+  },
+  {
+   "start": 2133.16,
+   "end": 2133.52,
+   "text": "Okay."
+  },
+  {
+   "start": 2133.72,
+   "end": 2134.0,
+   "text": "Yeah."
+  },
+  {
+   "start": 2134.12,
+   "end": 2140.44,
+   "text": "Well, in a couple of hours, you have your final thing and hope that everything is okay."
+  },
+  {
+   "start": 2140.44,
+   "end": 2143.88,
+   "text": "And you have a good idea for what to do next year."
+  },
+  {
+   "start": 2143.88,
+   "end": 2147.04,
+   "text": "And that's basically for the zero X14 release."
+  },
+  {
+   "start": 2147.4,
+   "end": 2150.16,
+   "text": "Yeah, especially for the 20th, right?"
+  },
+  {
+   "start": 2150.16,
+   "end": 2153.32,
+   "text": "That's two years we want in the 20th, we want to make it special."
+  },
+  {
+   "start": 2153.32,
+   "end": 2154.92,
+   "text": "in the 10th edition."
+  },
+  {
+   "start": 2154.92,
+   "end": 2156.6,
+   "text": "No, you do the color budget too."
+  },
+  {
+   "start": 2156.6,
+   "end": 2157.16,
+   "text": "The budget a lot."
+  },
+  {
+   "start": 2157.16,
+   "end": 2157.8,
+   "text": "That was carried out."
+  },
+  {
+   "start": 2157.8,
+   "end": 2159.24,
+   "text": "No, no, we do."
+  },
+  {
+   "start": 2159.24,
+   "end": 2160.28,
+   "text": "We do."
+  },
+  {
+   "start": 2160.28,
+   "end": 2162.36,
+   "text": "We also get more in the fasteries."
+  },
+  {
+   "start": 2162.36,
+   "end": 2163.64,
+   "text": "This is the good answer."
+  },
+  {
+   "start": 2163.64,
+   "end": 2164.52,
+   "text": "Because that's the thing."
+  },
+  {
+   "start": 2164.52,
+   "end": 2167.08,
+   "text": "So we did sell today for the, what, what extent?"
+  },
+  {
+   "start": 2167.08,
+   "end": 2167.4,
+   "text": "Yeah."
+  },
+  {
+   "start": 2167.4,
+   "end": 2171.08,
+   "text": "So for the 10th edition, right, then we brought our own beer."
+  },
+  {
+   "start": 2171.08,
+   "end": 2172.04,
+   "text": "Ah, a beer."
+  },
+  {
+   "start": 2172.04,
+   "end": 2174.04,
+   "text": "And it's called Zero Day."
+  },
+  {
+   "start": 2174.04,
+   "end": 2177.0,
+   "text": "And as the cyber security lingo goes, right?"
+  },
+  {
+   "start": 2177.0,
+   "end": 2178.04,
+   "text": "So for an ability."
+  },
+  {
+   "start": 2178.04,
+   "end": 2179.24,
+   "text": "As soon as it was a 10th edition,"
+  },
+  {
+   "start": 2179.24,
+   "end": 2181.0,
+   "text": "we needed to make it a 10% beer."
+  },
+  {
+   "start": 2181.0,
+   "end": 2181.96,
+   "text": "Yeah, of course."
+  },
+  {
+   "start": 2181.96,
+   "end": 2184.76,
+   "text": "Obviously, and then at the 16th edition, which obviously in Hexa-Gestim,"
+  },
+  {
+   "start": 2184.76,
+   "end": 2187.88,
+   "text": "or there's an important one, we've got two beers of 8%."
+  },
+  {
+   "start": 2187.88,
+   "end": 2190.44,
+   "text": "We couldn't go with the 16% because of the idea of wine,"
+  },
+  {
+   "start": 2190.44,
+   "end": 2191.92,
+   "text": "and we call it double octalos."
+  },
+  {
+   "start": 2191.92,
+   "end": 2196.12,
+   "text": "Yeah, yeah, yeah, there were also two names to it, which was..."
+  },
+  {
+   "start": 2196.12,
+   "end": 2197.96,
+   "text": "Aha, come on."
+  },
+  {
+   "start": 2197.96,
+   "end": 2199.68,
+   "text": "It's worse."
+  },
+  {
+   "start": 2199.68,
+   "end": 2203.0,
+   "text": "Ah, yeah, yeah, again in the siren, you're right."
+  },
+  {
+   "start": 2203.0,
+   "end": 2205.32,
+   "text": "So for the 20th edition, who knows?"
+  },
+  {
+   "start": 2205.32,
+   "end": 2206.84,
+   "text": "He needs something with 20%."
+  },
+  {
+   "start": 2206.84,
+   "end": 2210.16,
+   "text": "The alcohol might be perhaps too much of a stretch, but it's still crazy."
+  },
+  {
+   "start": 2210.16,
+   "end": 2215.76,
+   "text": "Well, if you do that, perhaps not going to happen to many people for the rough."
+  },
+  {
+   "start": 2215.76,
+   "end": 2218.48,
+   "text": "Yeah, well, we'll see."
+  },
+  {
+   "start": 2218.48,
+   "end": 2221.32,
+   "text": "Mission succeeded depending on it."
+  },
+  {
+   "start": 2221.32,
+   "end": 2223.44,
+   "text": "Okay, Tom, thank you very much."
+  },
+  {
+   "start": 2223.44,
+   "end": 2225.04,
+   "text": "Well, see you next time."
+  },
+  {
+   "start": 2225.04,
+   "end": 2226.04,
+   "text": "Thank you very much."
+  },
+  {
+   "start": 2226.04,
+   "end": 2227.04,
+   "text": "Thank you."
+  },
+  {
+   "start": 2227.04,
+   "end": 2228.04,
+   "text": "Cheers."
+  },
+  {
+   "start": 2228.04,
+   "end": 2232.84,
+   "text": "You have been listening to the Hacker Public Radio podcast at hicardpublicradio.org."
+  },
+  {
+   "start": 2232.84,
+   "end": 2236.96,
+   "text": "Today's show was contributed by a HBR listener like yourself."
+  },
+  {
+   "start": 2236.96,
+   "end": 2242.54,
+   "text": "If you ever thought of recording a podcast, then visit the HBR site to find out how easy"
+  },
+  {
+   "start": 2242.54,
+   "end": 2244.04,
+   "text": "it really is."
+  },
+  {
+   "start": 2244.04,
+   "end": 2250.64,
+   "text": "Hosting for HBR has been kindly provided by Anomisthost.com, the Internet Archive, our"
+  },
+  {
+   "start": 2250.64,
+   "end": 2255.92,
+   "text": "singt on net and the HBR Community Content Delivery Network."
+  },
+  {
+   "start": 2255.92,
+   "end": 2261.76,
+   "text": "Unless otherwise stated, today's show is released under a Creative Commons Attribution"
+  },
+  {
+   "start": 2261.76,
+   "end": 2265.28,
+   "text": "Share Alike 4.0 International Life."
+  }
+ ]
+}

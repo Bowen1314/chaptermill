@@ -1,0 +1,915 @@
+1
+00:00:05,870 --> 00:00:12,870
+This is Hacker Public Radio Episode 4747 for Tuesday, 13 October, 2026.
+
+2
+00:00:12,870 --> 00:00:17,870
+Today's show is entitled, Unix Curio Hash 13 Replacement for Cat.
+
+3
+00:00:17,870 --> 00:00:21,870
+It is hosted by Vance and is about 26 minutes long.
+
+4
+00:00:21,870 --> 00:00:40,830
+It carries a clean flag. The summary is, there's more than one way to do it or is there.
+
+5
+00:00:40,830 --> 00:00:46,830
+Hi there, I'm Vance and welcome to Unix Curio number 13.
+
+6
+00:00:46,830 --> 00:00:55,850
+This series is dedicated to exploring little known and occasionally useful, trinkets lurking
+
+7
+00:00:55,850 --> 00:01:02,240
+in the dusty corners of Unix-like operating systems.
+
+8
+00:01:02,240 --> 00:01:08,380
+I wanted to talk a little about the future of the Unix Curio series.
+
+9
+00:01:08,380 --> 00:01:15,060
+Skip ahead one minute if you are eager to get to the actual episode.
+
+10
+00:01:15,060 --> 00:01:20,140
+This episode is coming out almost two months after the last one.
+
+11
+00:01:20,140 --> 00:01:23,180
+Sorry for the delay.
+
+12
+00:01:23,180 --> 00:01:30,500
+While I put out the first 12 episodes every two weeks, you should expect future episodes
+
+13
+00:01:30,500 --> 00:01:34,380
+to appear less frequently.
+
+14
+00:01:34,380 --> 00:01:41,780
+In addition to things becoming busier at my day job and other activities, I have exhausted
+
+15
+00:01:41,780 --> 00:01:47,770
+the topics that I am already deeply familiar with.
+
+16
+00:01:47,770 --> 00:01:55,450
+I do have some ideas for future episodes, but it will take more research time for me to understand
+
+17
+00:01:55,450 --> 00:01:57,130
+them well.
+
+18
+00:01:57,130 --> 00:02:02,780
+So I can't write and record those as quickly.
+
+19
+00:02:02,780 --> 00:02:07,960
+Thanks very much to those who have commented on past episodes.
+
+20
+00:02:07,960 --> 00:02:14,860
+It is very gratifying to see that people have found this series to be interesting.
+
+21
+00:02:14,860 --> 00:02:21,940
+Anyway, on to today's actual subject.
+
+22
+00:02:21,940 --> 00:02:30,960
+13 is one of my favorite numbers, so I am going to use this episode to indulge myself.
+
+23
+00:02:30,960 --> 00:02:41,100
+As part of Unix-Kurio Number 8, that's Hacker Public Radio Episode 4657, I went on a little
+
+24
+00:02:41,100 --> 00:02:52,180
+flight of fancy and suggested that the calm utility could be used in place of cat.
+
+25
+00:02:52,180 --> 00:02:58,420
+further reflection, I realize that there are quite a few utilities that can do that job,
+
+26
+00:02:58,420 --> 00:03:09,080
+almost. This episode is the result of me investigating how many possible ways there are to replace
+
+27
+00:03:09,080 --> 00:03:17,560
+that functionality with standard utilities. Imagine that some prankster has deleted the cat utility
+
+28
+00:03:17,560 --> 00:03:27,190
+from your machine and you need a way to restore that capability without reinstalling it.
+
+29
+00:03:27,190 --> 00:03:33,910
+I should warn you that as opposed to the rest of the series, this episode will not focus heavily
+
+30
+00:03:33,910 --> 00:03:44,850
+on obscure tools and it is unlikely the examples given will be very useful. Also, I am not going
+
+31
+00:03:44,850 --> 00:03:49,550
+to dive into the history of any of these commands.
+
+32
+00:03:49,550 --> 00:03:55,730
+However, you might still learn something, and it could be a little entertaining to hear
+
+33
+00:03:55,730 --> 00:04:03,140
+about the ways some utilities can be twisted to this purpose.
+
+34
+00:04:03,140 --> 00:04:08,700
+Let's start by reviewing what the functionality of CAT is.
+
+35
+00:04:08,700 --> 00:04:16,240
+Under POSIX, all it does is read the data provided on standard input, or from each file named
+
+36
+00:04:16,240 --> 00:04:21,360
+as an argument and writes it to standard output.
+
+37
+00:04:21,360 --> 00:04:27,950
+Briefly, it concatenates all of the entries.
+
+38
+00:04:27,950 --> 00:04:31,070
+The only option required by the standard is
+
+39
+00:04:31,070 --> 00:04:37,390
+hyphenU, which causes cat to write data without any delay.
+
+40
+00:04:37,390 --> 00:04:44,560
+If that option were not given, the program could choose to buffer the data.
+
+41
+00:04:44,560 --> 00:04:51,480
+While many implementations offer additional options that modify the output, I am going to
+
+42
+00:04:51,480 --> 00:04:58,260
+completely ignore those and just focus on that one job.
+
+43
+00:04:58,260 --> 00:04:59,980
+The file's named as arguments...
+
+44
+00:05:00,000 --> 00:05:05,000
+are processed in the order in which they are named.
+
+45
+00:05:05,000 --> 00:05:10,000
+One or more of these can be a hyphen, in which case,
+
+46
+00:05:10,000 --> 00:05:14,000
+Kat will use the data provided on standard input,
+
+47
+00:05:14,000 --> 00:05:20,470
+and then continue to the next file in the argument list.
+
+48
+00:05:20,470 --> 00:05:23,470
+I will actually narrow things even further
+
+49
+00:05:23,470 --> 00:05:28,470
+and allow discussion of cases where only one file is involved,
+
+50
+00:05:28,470 --> 00:05:37,710
+or where cat is reading from standard input via redirection from a file.
+
+51
+00:05:37,710 --> 00:05:42,710
+I will start off with the too long didn't read conclusion.
+
+52
+00:05:42,710 --> 00:05:50,710
+None of the standard utilities are able to fully duplicate its functionality on their own.
+
+53
+00:05:50,710 --> 00:05:56,710
+Some of them come close but can't quite be relied on in all respects.
+
+54
+00:05:56,710 --> 00:06:08,010
+One important reason for this lies with the POSIX definition of a text file.
+
+55
+00:06:08,010 --> 00:06:16,250
+This is a file treated as being separated into lines divided by new line characters.
+
+56
+00:06:16,250 --> 00:06:19,730
+There are three limitations.
+
+57
+00:06:19,730 --> 00:06:26,170
+None of the lines can contain a null byte, value zero.
+
+58
+00:06:26,170 --> 00:06:32,530
+The lines cannot exceed the maximum line length defined by the system, required to be
+
+59
+00:06:32,530 --> 00:06:40,830
+at least 4,096 bytes, including the trailing new line, and the file must end with a new
+
+60
+00:06:40,830 --> 00:06:43,990
+line character.
+
+61
+00:06:43,990 --> 00:06:53,170
+The last rule is implied by the definition of line, which states a new line must appear
+
+62
+00:06:53,170 --> 00:06:56,490
+at the end of a line.
+
+63
+00:06:56,490 --> 00:07:03,970
+might seem strange, but a text file may contain non-asky data.
+
+64
+00:07:03,970 --> 00:07:12,360
+The only restriction on the values of bytes is that they cannot be null.
+
+65
+00:07:12,360 --> 00:07:20,240
+Many of the standard utilities are only required to operate on text files, and therefore cannot
+
+66
+00:07:20,240 --> 00:07:29,370
+necessarily be relied on to handle arbitrary data. While a particular implementation might
+
+67
+00:07:29,370 --> 00:07:39,650
+not have these limitations, there is no guarantee of that. I should note that both cut and paste
+
+68
+00:07:39,650 --> 00:07:47,010
+are only required by POSIX to operate on text files, but with the exception that the lines
+
+69
+00:07:47,010 --> 00:07:57,280
+can be of any length. In addition to Cat, the only utilities covered in this episode
+
+70
+00:07:57,280 --> 00:08:07,820
+that are required by POSIX to handle any arbitrary file are DD tail when used with the
+
+71
+00:08:07,820 --> 00:08:18,820
+hyphen c option, that's c as in Charlie, t, that's spelled t e e or in the phonetic alphabet,
+
+72
+00:08:18,820 --> 00:08:27,820
+tango echo echo, t r and u u encode.
+
+73
+00:08:27,820 --> 00:08:35,900
+The wording for the compress utility does not specifically say it must handle any file,
+
+74
+00:08:35,900 --> 00:08:39,700
+But in practice I think this is true.
+
+75
+00:08:39,700 --> 00:08:45,800
+However, all of these utilities have at least one limitation of their own.
+
+76
+00:08:45,800 --> 00:08:53,980
+They cannot handle more than one file, or they can only operate on standard input.
+
+77
+00:08:53,980 --> 00:09:01,580
+Some other utilities are able to deal with multiple files, standard input, or both, but
+
+78
+00:09:01,580 --> 00:09:07,300
+those are only required to operate on text files.
+
+79
+00:09:07,300 --> 00:09:14,620
+In practice, this typically means that if an input file does not end with a new line character,
+
+80
+00:09:14,620 --> 00:09:22,700
+the program will add one to the output, destroying the IIDEA that the output of cat should be identical
+
+81
+00:09:22,700 --> 00:09:26,740
+to the input.
+
+82
+00:09:26,740 --> 00:09:32,180
+Let's start with the least capable options and work our way towards those that could
+
+83
+00:09:32,180 --> 00:09:40,420
+serve as closer drop-in replacements. The first candidate is a utility that I thought might
+
+84
+00:09:40,420 --> 00:09:50,660
+be persuaded to work, but it doesn't quite. This is NL, a command used to number lines of
+
+85
+00:09:50,660 --> 00:10:00,060
+files or standard input. It normally prints the contents of this input, and on the left
+
+86
+00:10:00,000 --> 00:10:09,810
+left prints the number of each line. It is possible to turn off the numbering and to set
+
+87
+00:10:09,810 --> 00:10:18,530
+the separator between the numbers and the text to a null string. However, it does not
+
+88
+00:10:18,530 --> 00:10:27,130
+seem possible to have absolutely nothing up here in front of each line. The POSIX specification
+
+89
+00:10:27,130 --> 00:10:34,410
+states that the hyphen w option can be given to define how many characters to the left
+
+90
+00:10:34,410 --> 00:10:39,450
+of each line will be reserved for the line numbers.
+
+91
+00:10:39,450 --> 00:10:48,970
+While the default value is 6, it says nothing about what values must be accepted.
+
+92
+00:10:48,970 --> 00:11:00,050
+I tested several implementations, specifically from Genu, Free BSD, Net BSD, and Open Indiana,
+
+93
+00:11:00,050 --> 00:11:07,050
+which is an open source derivative of System 5, and none of them allow setting the width
+
+94
+00:11:07,050 --> 00:11:13,010
+of the space for line numbers to be less than 1.
+
+95
+00:11:13,010 --> 00:11:21,330
+Even if it were possible to remove the preceding space entirely, POSIX only requires NL to accept
+
+96
+00:11:21,330 --> 00:11:30,010
+one file argument and to operate on text files, so it would still be limited.
+
+97
+00:11:30,010 --> 00:11:38,120
+You can find the actual commands to use in the show notes for this episode.
+
+98
+00:11:38,120 --> 00:11:45,600
+Next up are methods that actually work, but are only usable with standard input.
+
+99
+00:11:45,600 --> 00:11:52,560
+When combined with input redirection from a file, they can accept a single file and send
+
+100
+00:11:52,560 --> 00:11:56,330
+it to standard output.
+
+101
+00:11:56,330 --> 00:12:05,160
+The read utility takes a line of input and assigns it to a shell variable.
+
+102
+00:12:05,160 --> 00:12:08,340
+It requires a little help, however.
+
+103
+00:12:08,340 --> 00:12:15,600
+It can't output what it reads, so it has to be paired with something like Echo or Print
+
+104
+00:12:15,600 --> 00:12:25,720
+F. Because it reads input one line at a time, it needs to be used in a loop to read the entirety
+
+105
+00:12:25,720 --> 00:12:28,640
+of the data.
+
+106
+00:12:28,640 --> 00:12:37,020
+In addition, the IFS shell variable must be set to a null string to prevent read from
+
+107
+00:12:37,020 --> 00:12:39,660
+doing field splitting.
+
+108
+00:12:39,660 --> 00:12:45,080
+We don't want it to modify the data being read at all.
+
+109
+00:12:45,080 --> 00:12:50,300
+There is a shell loop you can find in the show notes that will do the job, except that
+
+110
+00:12:50,300 --> 00:12:55,500
+read is only required to handle text files.
+
+111
+00:12:55,500 --> 00:13:01,300
+It is not clear to me whether POSIX allows the shell to have a limit on how much data can
+
+112
+00:13:01,300 --> 00:13:03,780
+be stuffed into a variable.
+
+113
+00:13:03,780 --> 00:13:11,060
+If it does, that could be a problem, even if your implementation of read can handle lines
+
+114
+00:13:11,060 --> 00:13:21,220
+longer than the maximum length. The TR utility is another one that only works with standard input.
+
+115
+00:13:22,820 --> 00:13:29,940
+It takes the input, replaces any characters in the first string argument with the corresponding
+
+116
+00:13:29,940 --> 00:13:39,260
+characters in the second string argument, and sends the result to standard output. If the first
+
+117
+00:13:39,260 --> 00:13:51,340
+and second strings are the same, such as t-r-a-a less than symbol my file, it will behave like cat.
+
+118
+00:13:54,550 --> 00:14:02,870
+The t command also fits into this category. It copies standard input to standard output,
+
+119
+00:14:02,870 --> 00:14:10,550
+just like cat does. It also sends a copy to any file name arguments given.
+
+120
+00:14:10,550 --> 00:14:19,810
+If none of these are present, it just passes the data through untouched.
+
+121
+00:14:19,810 --> 00:14:28,210
+You could use t less than symbol my file to print a file.
+
+122
+00:14:28,210 --> 00:14:34,630
+Be careful, however, not to enter your file name as an argument to t, as that will cause
+
+123
+00:14:34,630 --> 00:14:38,160
+it to be overwritten.
+
+124
+00:14:38,160 --> 00:14:48,750
+The good news with both TR and T is that they aren't limited to working with text files.
+
+125
+00:14:48,750 --> 00:14:56,470
+Let's now consider a couple of options that only work on a file, not with standard input.
+
+126
+00:14:56,470 --> 00:14:59,950
+In addition, they can only handle one single.
+
+127
+00:15:00,000 --> 00:15:07,040
+file. This might seem to defeat the purpose of cat, which can combine multiple files,
+
+128
+00:15:07,760 --> 00:15:18,450
+but cat is often used with only one file. These are ed and ex to text editors.
+
+129
+00:15:20,370 --> 00:15:26,530
+By feeding them their right command sequence on standard input, they can be convinced to
+
+130
+00:15:26,530 --> 00:15:35,410
+output the entire file and then exit. The appropriate invocations are available in the show notes.
+
+131
+00:15:37,410 --> 00:15:45,010
+The POSIX specification for EX indicates that more than one file name can be given as an argument.
+
+132
+00:15:47,010 --> 00:15:53,730
+I attempted to take advantage of this with a command line that would feed a set of commands
+
+133
+00:15:53,730 --> 00:16:01,110
+over and over to EX, which should print the first file named as an argument to standard
+
+134
+00:16:01,110 --> 00:16:07,150
+output, and then move to the next one, and print that.
+
+135
+00:16:07,150 --> 00:16:14,870
+In my reading of the specification, once the last file has been printed, the next command
+
+136
+00:16:14,870 --> 00:16:21,800
+should result in an error, causing the program to exit.
+
+137
+00:16:21,800 --> 00:16:29,840
+However, the implementations that I tested don't exit and just stay on the last file, printing
+
+138
+00:16:29,840 --> 00:16:33,080
+it out endlessly.
+
+139
+00:16:33,080 --> 00:16:42,240
+Perhaps I'm misunderstanding how EX works, but regardless, both it and Ed are only required
+
+140
+00:16:42,240 --> 00:16:52,670
+to handle text files, so they can't completely serve in place of Cat anyway.
+
+141
+00:16:52,670 --> 00:16:58,990
+The following category of replacements is capable of using either standard input or a
+
+142
+00:16:58,990 --> 00:17:04,510
+file, but they can only work with one file.
+
+143
+00:17:04,510 --> 00:17:10,510
+Let's start with COM which was responsible for me exploring this question in the first
+
+144
+00:17:10,510 --> 00:17:13,160
+place.
+
+145
+00:17:13,160 --> 00:17:25,400
+command com my file slash dev slash null will send my file to standard output. If you want
+
+146
+00:17:25,400 --> 00:17:32,160
+to use standard input instead of a file, you need to replace the first file name with a
+
+147
+00:17:32,160 --> 00:17:42,310
+hyphen. The paste utility works similarly. It can only be used with one file because if
+
+148
+00:17:42,310 --> 00:17:49,510
+If more are given, it will try to interleave the lines of these files together.
+
+149
+00:17:49,510 --> 00:17:53,750
+Another possibility is tail.
+
+150
+00:17:53,750 --> 00:18:03,350
+When used with the hyphen c plus one option, it outputs the entirety of the file.
+
+151
+00:18:03,350 --> 00:18:10,710
+Unlike the other implementations I tried, the net bsd version of tail is capable of taking
+
+152
+00:18:10,710 --> 00:18:14,310
+multiple file names as arguments.
+
+153
+00:18:14,310 --> 00:18:21,190
+However, in that case, it precedes the content of each file with the file name,
+
+154
+00:18:21,190 --> 00:18:27,430
+like head does, so it doesn't produce a clean copy.
+
+155
+00:18:27,430 --> 00:18:35,110
+The sort utility used with the hyphenm option, which I talked about in
+
+156
+00:18:35,110 --> 00:18:45,990
+Unix-Curio number 11, that's HackerPublicRadio episode 4687, can also do the job.
+
+157
+00:18:45,990 --> 00:18:54,070
+All of these are only required to handle text files by POSIX, except for TALE, which
+
+158
+00:18:54,070 --> 00:19:03,440
+must handle any arbitrary file when the hyphen C option is used.
+
+159
+00:19:03,440 --> 00:19:11,200
+One more utility that can take either one file or standard input is DD.
+
+160
+00:19:11,200 --> 00:19:15,640
+It is a bit different from these others in a couple ways.
+
+161
+00:19:15,640 --> 00:19:22,120
+First, it writes statistics about the data processed to standard error.
+
+162
+00:19:22,120 --> 00:19:29,720
+So you would need to redirect that to slash dev slash null to replicate the behavior of
+
+163
+00:19:29,720 --> 00:19:32,200
+cat.
+
+164
+00:19:32,200 --> 00:19:37,760
+To use standard input, no arguments are needed.
+
+165
+00:19:37,760 --> 00:19:45,720
+The syntax that DD uses for arguments is unusual compared to other Unix utilities.
+
+166
+00:19:45,720 --> 00:19:56,280
+For this purpose, DDIF equals myFile to greater than symbol slash dev slash null would be the
+
+167
+00:19:56,280 --> 00:19:58,280
+command to use.
+
+168
+00:20:00,000 --> 00:20:09,000
+The Compress and UU encode utilities are in the same category, but do a lot more processing on the data along the way.
+
+169
+00:20:09,000 --> 00:20:18,440
+The purpose of these is described respectively in Unix Curios number 7 and number 1.
+
+170
+00:20:18,440 --> 00:20:28,720
+Their output can be piped into a corresponding uncompressed or UUD code utility to get back
+
+171
+00:20:28,720 --> 00:20:32,920
+the original data and send it to standard output.
+
+172
+00:20:32,920 --> 00:20:38,280
+See the show notes for the specific commands to use.
+
+173
+00:20:38,280 --> 00:20:47,400
+I should point out that when I tested the UU encode method on free BSD 15.0, it didn't
+
+174
+00:20:47,400 --> 00:20:48,400
+work.
+
+175
+00:20:48,400 --> 00:21:01,610
+However, it did work on NetBSD 10.1 and OpenIndiana 2025.10.
+
+176
+00:21:01,610 --> 00:21:07,170
+Next we have two possibilities that come very close, but don't quite behave exactly like
+
+177
+00:21:07,170 --> 00:21:09,620
+cat.
+
+178
+00:21:09,620 --> 00:21:16,300
+They send to standard output either the files named as arguments in order or, if there are
+
+179
+00:21:16,300 --> 00:21:20,000
+none, standard input.
+
+180
+00:21:20,000 --> 00:21:26,080
+However, POSIX does not require them to take a hyphen as an argument representing standard
+
+181
+00:21:26,080 --> 00:21:28,950
+input.
+
+182
+00:21:28,950 --> 00:21:36,150
+First off, we have said, when called with an empty script, it just prints out the contents
+
+183
+00:21:36,150 --> 00:21:40,070
+without any transformations.
+
+184
+00:21:40,070 --> 00:21:43,830
+The grep utility works the same way.
+
+185
+00:21:43,830 --> 00:21:50,870
+When given an empty regular expression, it treats that as matching anything and prints
+
+186
+00:21:50,870 --> 00:21:56,080
+each line of input to standard output.
+
+187
+00:21:56,080 --> 00:22:02,880
+Finally, we have arrived at the utilities that can fully replace CAT, albeit only for text
+
+188
+00:22:02,880 --> 00:22:05,280
+files.
+
+189
+00:22:05,280 --> 00:22:12,080
+They can be given one or more files, including a hyphen representing standard input, and will
+
+190
+00:22:12,080 --> 00:22:17,040
+output them in the order they are given as arguments.
+
+191
+00:22:17,040 --> 00:22:24,910
+If no file name arguments are given, they just use standard input instead.
+
+192
+00:22:24,910 --> 00:22:28,830
+Starting out, we have AUK.
+
+193
+00:22:28,830 --> 00:22:34,910
+While an empty pattern matches every line of input, and an empty action prints the entire
+
+194
+00:22:34,910 --> 00:22:43,210
+line, POSIX states that if both the pattern AND the action are empty, the utility is to
+
+195
+00:22:43,210 --> 00:22:47,310
+simply exit without reading or writing anything.
+
+196
+00:22:47,310 --> 00:22:54,630
+Therefore, we need to at least provide a pattern or an action.
+
+197
+00:22:54,630 --> 00:22:58,870
+A pattern can be shorter.
+
+198
+00:22:58,870 --> 00:23:04,590
+Another one that has the capabilities is cut.
+
+199
+00:23:04,590 --> 00:23:11,510
+However, as noted earlier, these will add a new line character if the input doesn't
+
+200
+00:23:11,510 --> 00:23:18,660
+already end with one, so they aren't exact replacements.
+
+201
+00:23:18,660 --> 00:23:24,420
+I was hoping that a simple invocation of one of the standard utilities could be used in
+
+202
+00:23:24,420 --> 00:23:29,140
+place of the CAT program that our prankster has deleted.
+
+203
+00:23:29,140 --> 00:23:34,980
+However, I think I've demonstrated that isn't possible.
+
+204
+00:23:34,980 --> 00:23:42,980
+Let's return to those utilities that can handle arbitrary files, but can't take more than one at a time.
+
+205
+00:23:42,980 --> 00:23:49,980
+It would be possible to write a shell script to manage any options and arguments,
+
+206
+00:23:49,980 --> 00:23:56,980
+then use the utility to do the actual work of sending through the data file by file.
+
+207
+00:23:56,980 --> 00:24:13,290
+In my view, tail would be the best fit because it can take a bare file name as an argument and, unlike DD, uses the standard syntax for Unix utilities.
+
+208
+00:24:13,290 --> 00:24:21,560
+I have provided a script in the show notes that does just that.
+
+209
+00:24:21,560 --> 00:24:29,560
+Unfortunately, it is not something simple that could be typed in from memory.
+
+210
+00:24:29,560 --> 00:24:37,200
+So, probably it would be easier in most situations to just reinstall cat on your system instead
+
+211
+00:24:37,200 --> 00:24:46,030
+of looking up this script, typing it in, and saving it where cat used to be.
+
+212
+00:24:46,030 --> 00:24:52,370
+It might be tempting to implement this substitute as an alias or shell function rather than
+
+213
+00:24:52,370 --> 00:24:59,130
+as a script, but those only exist in the current shell execution environment and its
+
+214
+00:24:59,130 --> 00:25:00,130
+some shells.
+
+215
+00:25:00,460 --> 00:25:06,460
+and are not inherited by utilities and scripts run by you or others.
+
+216
+00:25:06,460 --> 00:25:14,030
+So the easiest way to get it to be used by other scripts, such as cron jobs,
+
+217
+00:25:14,030 --> 00:25:20,030
+would be to save a copy of it on your system where cat normally lives,
+
+218
+00:25:20,030 --> 00:25:27,270
+making sure that the Execute File Mode bits are set.
+
+219
+00:25:27,270 --> 00:25:34,270
+There are certainly other widespread tools, such as Perl, that could also be used in place of CAD.
+
+220
+00:25:35,570 --> 00:25:44,370
+However, I wanted to focus only on utilities that are so ubiquitous that they appear in the POSIX standard.
+
+221
+00:25:45,670 --> 00:25:55,070
+It should be noted that even some of these, such as Compress and UU encode, aren't always present on modern systems.
+
+222
+00:25:55,070 --> 00:26:04,680
+Thanks for listening. I have a few other topics in mind for Unix curios. Keep an eye
+
+223
+00:26:04,680 --> 00:26:11,680
+out here on Hacker Public Radio for them to appear. As mentioned earlier, you should
+
+224
+00:26:11,680 --> 00:26:18,160
+expect there to be a little more time than usual between episodes. If you have an
+
+225
+00:26:18,160 --> 00:26:24,720
+idea for a topic or want to ask a question, please comment on this episode on the
+
+226
+00:26:24,720 --> 00:26:52,800
+the HBR website.
+
+227
+00:26:52,800 --> 00:26:55,640
+Community Content Delivery Network.
+
+228
+00:26:55,640 --> 00:27:00,600
+Unless otherwise stated, today's show is released under a Creative Commons
+
+229
+00:27:00,600 --> 00:27:05,040
+Attribution, share alike, 4.0 international advice.

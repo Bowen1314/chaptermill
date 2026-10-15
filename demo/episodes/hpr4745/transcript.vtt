@@ -1,0 +1,2014 @@
+WEBVTT
+
+00:00:05.710 --> 00:00:12.870
+This is Hacker Public Radio Episode 4745 for Friday 9th October 2026.
+
+00:00:12.870 --> 00:00:16.510
+Today's show is entitled, Brukhan Interview 1.
+
+00:00:16.510 --> 00:00:20.510
+The Brukhan Organization. It is part of the series interviews.
+
+00:00:20.510 --> 00:00:24.410
+It is hosted by Christoph and is about 36 minutes long.
+
+00:00:24.410 --> 00:00:27.530
+It carries a clean flag. The summary is,
+
+00:00:27.530 --> 00:00:31.290
+Christoph talks to Conan Tom of the Brukhan about Brukhan itself,
+
+00:00:31.290 --> 00:00:33.410
+the community and hacker culture.
+
+00:00:33.410 --> 00:00:45.090
+Hi everybody, welcome to an exciting new episode of Hacker Public Radio.
+
+00:00:45.090 --> 00:00:49.690
+My name is Christoph and last week I was in a conference here in Belgium called Precom.
+
+00:00:49.690 --> 00:00:52.250
+Precom is a cybersecurity conference.
+
+00:00:52.250 --> 00:00:59.850
+The interesting thing about cybersecurity conferences is that it is one of the few places where the word hacker can be used in two different meanings of the word.
+
+00:00:59.850 --> 00:01:03.650
+This show is the first in a series of four interviews done at the conference.
+
+00:01:03.650 --> 00:01:08.250
+As you will notice, the interviews focus on the hacker, that is hacker as in the HPR,
+
+00:01:08.250 --> 00:01:14.050
+side of the conference as their more than sufficient podcasts on the cybersecurity side of these type of conferences.
+
+00:01:14.550 --> 00:01:19.350
+In the first of the series, I talked to Tom Gillis and Kun Burns about Brücken itself,
+
+00:01:19.350 --> 00:01:27.350
+about organizing a conference about the cybersecurity community and how the spirit of the original hacker culture still lives on the cybersecurity world.
+
+00:01:27.650 --> 00:01:29.150
+So, let's get started.
+
+00:01:31.090 --> 00:01:32.490
+Good afternoon.
+
+00:01:32.990 --> 00:01:35.490
+I propose to introduce yourself.
+
+00:01:35.490 --> 00:01:37.090
+Sure, please go ahead.
+
+00:01:37.090 --> 00:01:41.210
+I'm a Kundurus. I'm one of the main organizers of the Brukal Hiker Conference.
+
+00:01:41.210 --> 00:01:44.210
+Let's be organized a yearly in Belgium, Michela.
+
+00:01:44.210 --> 00:01:46.890
+Yeah. So, hi there. My name is Tom Hillis.
+
+00:01:46.890 --> 00:01:52.450
+Same, one of the cool members of the Belgian Hacking Conference Brukal.
+
+00:01:52.450 --> 00:01:58.490
+Yeah. So, while looking to the archive, I found there was an audience interview with Brukal years ago.
+
+00:01:58.490 --> 00:01:59.090
+Okay.
+
+00:01:59.090 --> 00:02:02.890
+So, apparently you have just already very long time.
+
+00:02:02.890 --> 00:02:04.890
+This is zero X20,
+
+00:02:04.890 --> 00:02:05.890
+I'm sorry,
+
+00:02:05.890 --> 00:02:06.890
+I'm sorry,
+
+00:02:06.890 --> 00:02:08.890
+my knowledge of hexadecimal means
+
+00:02:08.890 --> 00:02:11.890
+this is C18 time I guess then.
+
+00:02:11.890 --> 00:02:12.890
+True,
+
+00:02:12.890 --> 00:02:15.890
+we officially have now drinking H as we
+
+00:02:15.890 --> 00:02:18.890
+introduced it during the opening talk.
+
+00:02:18.890 --> 00:02:20.890
+So yes, it's our 18th edition.
+
+00:02:20.890 --> 00:02:22.890
+It started back in 2009.
+
+00:02:22.890 --> 00:02:23.890
+Correct.
+
+00:02:23.890 --> 00:02:26.890
+But we've done multiple cities, perhaps
+
+00:02:26.890 --> 00:02:28.890
+going to show it started in Brussels.
+
+00:02:28.890 --> 00:02:30.650
+it started in Brussels.
+
+00:02:30.650 --> 00:02:31.930
+And then Grückenmäcket.
+
+00:02:31.930 --> 00:02:32.250
+Yes.
+
+00:02:32.250 --> 00:02:35.530
+So, Bruckenm is a combination of brewing, beer brewing.
+
+00:02:35.530 --> 00:02:37.130
+As the first slogan was, Hecky for beer.
+
+00:02:38.170 --> 00:02:40.410
+And then combined with Brussels and conference.
+
+00:02:40.410 --> 00:02:42.010
+So, that's what the name happened.
+
+00:02:42.010 --> 00:02:43.290
+I didn't know about the brewing thing.
+
+00:02:43.290 --> 00:02:44.090
+I was so scummed.
+
+00:02:44.090 --> 00:02:45.770
+But, no, it's this Bruckenmäcket.
+
+00:02:45.770 --> 00:02:46.730
+Yes, but, yes, it's not.
+
+00:02:46.730 --> 00:02:47.690
+It's not.
+
+00:02:48.650 --> 00:02:53.850
+And after, well, first year, the venue was with the two, twice in the first venue,
+
+00:02:53.850 --> 00:02:55.930
+the surfhouse of Belécum back in the day.
+
+00:02:55.930 --> 00:02:59.930
+But then it was no longer available, so we had to look for a new venue.
+
+00:02:59.930 --> 00:03:01.930
+We went one year to the VUB.
+
+00:03:01.930 --> 00:03:02.930
+VUB University.
+
+00:03:02.930 --> 00:03:06.930
+That's not speaking in the university.
+
+00:03:06.930 --> 00:03:07.930
+Yeah, indeed.
+
+00:03:07.930 --> 00:03:09.570
+Very nice building.
+
+00:03:09.570 --> 00:03:13.690
+One thing I will never forget is that there were about 1 million entrances and exits that
+
+00:03:13.690 --> 00:03:15.650
+we needed to do, man.
+
+00:03:15.650 --> 00:03:20.810
+I'd maybe exaggerating a bit, but at least 30 entrances that we needed to guard.
+
+00:03:20.810 --> 00:03:25.250
+So that's good for one year, but then we looked for a new one and we went to Ghent.
+
+00:03:25.250 --> 00:03:26.250
+winning university.
+
+00:03:26.250 --> 00:03:30.570
+It's a ticket to close the doors of course, but to consider.
+
+00:03:30.570 --> 00:03:33.210
+No, we have a hacker audience, which I have to do.
+
+00:03:33.210 --> 00:03:34.210
+We were not allowed to.
+
+00:03:34.210 --> 00:03:35.210
+Finestate device.
+
+00:03:35.210 --> 00:03:37.890
+And also the building need to be somewhat publicly available.
+
+00:03:37.890 --> 00:03:41.890
+So it was all of discussions with the university, what was possible and what not.
+
+00:03:41.890 --> 00:03:42.890
+Okay.
+
+00:03:42.890 --> 00:03:44.530
+Back in the day, at least not sure if it would have changed.
+
+00:03:44.530 --> 00:03:48.210
+Yeah, but saying it to a hacker conference and having a lot of lock picking.
+
+00:03:48.210 --> 00:03:50.170
+So it kind of close in the open up.
+
+00:03:50.170 --> 00:03:51.170
+Yeah.
+
+00:03:51.170 --> 00:03:52.170
+Which is also one of the villages.
+
+00:03:52.170 --> 00:03:53.170
+Are we teasing people to do it?
+
+00:03:53.170 --> 00:03:54.170
+So locking the doors.
+
+00:03:54.170 --> 00:03:58.330
+Yeah, that's the interview planned with the person of the lock picking.
+
+00:03:58.330 --> 00:03:59.530
+Cool, cool, cool.
+
+00:03:59.530 --> 00:04:01.210
+And then indeed Ghent.
+
+00:04:01.210 --> 00:04:06.090
+We moved to Ghent, which actually we liked was the Aala building of the University of Ghent.
+
+00:04:07.210 --> 00:04:12.010
+We liked the building, it was really historical, it had quite some history to it.
+
+00:04:12.010 --> 00:04:16.090
+And you also got that opportunity when you had people, for example, visiting from the US.
+
+00:04:16.730 --> 00:04:20.970
+They were amazed by the fact that we have such an old building and it's still actively used.
+
+00:04:20.970 --> 00:04:25.930
+So yeah, it was a very cool venue, but we ran into some problems.
+
+00:04:25.930 --> 00:04:29.850
+First of all, the amount of space we have, it's just small-ish.
+
+00:04:29.850 --> 00:04:33.810
+We always had the opportunity to go because we can sell much more tickets,
+
+00:04:33.810 --> 00:04:35.290
+but we want to keep it small.
+
+00:04:35.290 --> 00:04:38.970
+We want to keep the atmosphere, we want to keep it a social event.
+
+00:04:38.970 --> 00:04:40.490
+And it's not about selling more tickets.
+
+00:04:40.490 --> 00:04:43.770
+First, it's about having that cosy community feeling.
+
+00:04:43.770 --> 00:04:47.770
+So in Gant we had, we were technically restricted to the amount of people
+
+00:04:47.770 --> 00:04:53.270
+we could get into the building, which is fine, which put a limit to the amount of people who could sell tickets to,
+
+00:04:53.270 --> 00:04:57.170
+and that created the atmosphere of, okay, this is gonna be the number of lives.
+
+00:04:57.170 --> 00:04:59.970
+Yeah, for 500, I think in GANS, we have the maximum of...
+
+00:05:00.000 --> 00:05:02.000
+Well, far from that I like to believe.
+
+00:05:02.000 --> 00:05:05.000
+The irony in Ghent, and just to share a story,
+
+00:05:05.000 --> 00:05:10.000
+is that we could only occupy the venue location
+
+00:05:10.000 --> 00:05:13.000
+as of Thursday morning, 6 a.m.
+
+00:05:13.000 --> 00:05:15.000
+So the day of the conference? Yes.
+
+00:05:15.000 --> 00:05:17.000
+Ah, there was no bar.
+
+00:05:17.000 --> 00:05:18.000
+There was nothing.
+
+00:05:18.000 --> 00:05:20.000
+So, so should we have to go to the bar?
+
+00:05:20.000 --> 00:05:23.000
+Yeah, so no, the thing is, we had to start at 6 a.m.
+
+00:05:23.000 --> 00:05:24.000
+Doors went open.
+
+00:05:24.000 --> 00:05:27.000
+We had to build up a bar, build up a registration desk,
+
+00:05:27.000 --> 00:05:29.560
+Okay, make sure everything is ready by 8.30,
+
+00:05:29.560 --> 00:05:32.320
+middle of the kitchen to be able to provide food,
+
+00:05:32.320 --> 00:05:33.840
+like with tours and a half.
+
+00:05:33.840 --> 00:05:36.240
+And then in the middle of a city center,
+
+00:05:36.240 --> 00:05:37.840
+where there were no trucks allowed,
+
+00:05:37.840 --> 00:05:40.840
+so you need to have special installation to be parked down,
+
+00:05:40.840 --> 00:05:43.400
+whatever you're parking, find something, whatever.
+
+00:05:43.400 --> 00:05:45.720
+So you started 6 and 8.30,
+
+00:05:45.720 --> 00:05:48.240
+500 people are about to attend your conference,
+
+00:05:48.240 --> 00:05:49.680
+and you have to set it up.
+
+00:05:49.680 --> 00:05:52.280
+That's pretty much how you can't run.
+
+00:05:52.280 --> 00:05:55.760
+And you retreat, 6 a.m., five trucks in the street,
+
+00:05:55.760 --> 00:06:00.920
+unload, unload furniture, whatever, whatever, bar, kitchen, everything.
+
+00:06:00.920 --> 00:06:05.960
+Hey, 30, welcome here, Scorf is from Coursales and please, we'll have a talk at that.
+
+00:06:05.960 --> 00:06:07.160
+Right, that's kind of how it works.
+
+00:06:07.160 --> 00:06:08.160
+Yeah.
+
+00:06:09.560 --> 00:06:13.600
+Because I think most people, I guess, well, if we do a security conference,
+
+00:06:13.600 --> 00:06:17.280
+I have no idea actually how much work that goes into a conference.
+
+00:06:17.280 --> 00:06:17.640
+Yeah.
+
+00:06:17.640 --> 00:06:18.840
+Can you give an idea with that?
+
+00:06:19.960 --> 00:06:21.120
+Oh, now we're...
+
+00:06:21.120 --> 00:06:23.840
+I'm not sure how much work to do that.
+
+00:06:23.840 --> 00:06:28.840
+Well, it starts, but we're gonna close the conference in a few hours.
+
+00:06:28.840 --> 00:06:33.440
+And then we take about one month of a break, roughly, and we do our closing meeting.
+
+00:06:33.440 --> 00:06:36.840
+So we give ourselves one month of a break and then we start preparing for the next one.
+
+00:06:36.840 --> 00:06:37.840
+Yeah.
+
+00:06:37.840 --> 00:06:42.840
+So the core crew, which is like 14 people, and we start thinking of what do we do next, how,
+
+00:06:42.840 --> 00:06:45.840
+what went well, what are improvement points, and we start planning it.
+
+00:06:45.840 --> 00:06:51.480
+The first major point there is that we open the call for papers, which is typically the
+
+00:06:51.480 --> 00:06:57.960
+opens beginning of April. And then we start asking people, submit your talks, show what you have,
+
+00:06:58.760 --> 00:07:02.680
+and why would you like to present to Brookhome? And out of all the submissions that we get,
+
+00:07:02.680 --> 00:07:08.600
+which was around 140 this year, we select what we think would be the most interesting for the
+
+00:07:08.600 --> 00:07:14.440
+conference. How many talks? 12 talks out of 140.
+
+00:07:14.440 --> 00:07:23.400
+Yes, yeah. Oh, that's okay. That's pretty sad. So first of all, well, I don't know the audience,
+
+00:07:23.400 --> 00:07:29.240
+how many people actually are familiar with conference. So there's something called the call for papers.
+
+00:07:29.240 --> 00:07:33.000
+That means a conference. In essence, what you do is you put that in venue, they say, okay,
+
+00:07:33.000 --> 00:07:38.120
+we have a place so we can present something and knew the people have to present, oh, given,
+
+00:07:39.080 --> 00:07:42.520
+respond to the call of papers to say, okay, I'm going to talk about this.
+
+00:07:42.520 --> 00:07:47.720
+Yeah, correct. So usually, yeah, it's a subject that we're going to do and then abstract summarizing
+
+00:07:47.720 --> 00:07:53.000
+a bit what you want to talk about, how the research went or what the points are they want to present.
+
+00:07:53.720 --> 00:07:58.600
+And depends on how far the people are preparing it, slides already, if they are available, which also
+
+00:07:58.600 --> 00:08:03.800
+makes it easier for us to grasp what the topic could be about. And based on that information,
+
+00:08:03.800 --> 00:08:09.560
+we as a selection board, which is most people of the of the core crew itself, plus additional people
+
+00:08:09.560 --> 00:08:13.640
+externally from all around the field around the world, to have a look at the papers, the
+
+00:08:13.640 --> 00:08:18.840
+coffee papers and make their own scoring with their own ideas, their own expertise, because everyone
+
+00:08:19.640 --> 00:08:24.200
+likes something else a bit more. And then we make a selection that would fit the audience that we
+
+00:08:24.200 --> 00:08:30.360
+see that in Brueggon. And then during the selection, just because that's the funny part I like to say,
+
+00:08:31.080 --> 00:08:36.920
+like Cohen mentioned, we have the review board is more than 20 people from different areas.
+
+00:08:36.920 --> 00:08:41.720
+and sometimes could be that the ice quartz, or one, because I said, this is not a good talk,
+
+00:08:41.720 --> 00:08:46.360
+but someone else says, five, this is the best, we need this. And then we come together and call,
+
+00:08:46.360 --> 00:08:50.920
+we start debating, trying to convince each other, like, no, no, I know this guy is really good speaking,
+
+00:08:50.920 --> 00:08:56.520
+or perhaps odd, it's such a, but then you're like, is it for the Brooklyn crowd, is a guy,
+
+00:08:56.520 --> 00:09:02.280
+the audience. So you want to keep an atmosphere, you want to keep it in our DNA, so to speak.
+
+00:09:02.280 --> 00:09:07.880
+So then that's the fun discussion. So we spent hours sometimes, even on email, that we come back and say,
+
+00:09:07.880 --> 00:09:12.280
+okay, which one is now the top priority? We only can select 12 and they have three or four backups.
+
+00:09:12.280 --> 00:09:16.840
+And like, I want to move on on the backups to the 12. I don't know, but which one I'm going to swap. I mean,
+
+00:09:17.720 --> 00:09:23.720
+oh yeah, that's the way you go. You have a certain subject per year or something, or just any subject.
+
+00:09:23.720 --> 00:09:27.320
+There's nothing that you say this year we're going to do special on NIOT or they say we're going to
+
+00:09:27.320 --> 00:09:32.640
+to do something on, now, while we're just now the talk of the day, we try to distribute
+
+00:09:32.640 --> 00:09:38.600
+that we have at least a few really offensive security talks, some really deep technical
+
+00:09:38.600 --> 00:09:44.500
+talks, some of it more on the blue side to the defensive side, and try to cover a bit.
+
+00:09:44.500 --> 00:09:49.600
+All the areas, the defensive side, the number of different areas I get from your conference
+
+00:09:49.600 --> 00:09:54.480
+point of view, you want to have something that is a bit diverse and not a good thing.
+
+00:09:54.480 --> 00:09:59.760
+So the scoring is one thing and then how do you actually all together does.
+
+00:09:59.760 --> 00:10:00.020
+Yes.
+
+00:10:00.000 --> 00:10:01.000
+Next.
+
+00:10:01.000 --> 00:10:02.000
+That's the schedule.
+
+00:10:02.000 --> 00:10:03.000
+Yeah.
+
+00:10:03.000 --> 00:10:06.880
+And actually on top of that, which we perhaps didn't explain earlier, because like Koon mentioned
+
+00:10:06.880 --> 00:10:11.920
+after the con, we do take a month or so, but we already started something in between.
+
+00:10:11.920 --> 00:10:20.060
+So we also do training, which is actually a very important point, because actually training,
+
+00:10:20.060 --> 00:10:24.840
+in essence, you should think about the fact that the confidence itself, the two days we
+
+00:10:24.840 --> 00:10:33.400
+here now to not generate any money. We are losing technically, we are losing money over
+
+00:10:33.400 --> 00:10:39.320
+organizing the conference. Now we have very good sponsors and again that helps, but it's
+
+00:10:39.320 --> 00:10:44.160
+not a cheap thing to do when things are out of place like the global media, the media,
+
+00:10:44.160 --> 00:10:51.720
+flying over the speakers. So that's a financially big investment. Now we obviously look at it,
+
+00:10:51.720 --> 00:10:58.180
+But we also do is we organize trainings where we look at the brick on website. There's the training part and there's a conference part
+
+00:10:58.180 --> 00:11:05.840
+So there they're obviously interconnected. So we do organize training in the spring. That's typically last week of April. We call it spring training
+
+00:11:06.600 --> 00:11:10.540
+And then we organize training attached to the conference. So from Monday till Wednesday
+
+00:11:10.540 --> 00:11:13.800
+We have training courses. It's very important in this summer
+
+00:11:13.800 --> 00:11:17.720
+Yes, and then on Thursday Friday we have the con the conference itself
+
+00:11:17.720 --> 00:11:21.520
+But the training is essential because it does allow us to obviously generate some income
+
+00:11:21.720 --> 00:11:25.320
+which we then reinvest in the conference to keep the balance.
+
+00:11:25.320 --> 00:11:31.080
+So the people who call the conference actually have an advantage of you organizing a training.
+
+00:11:31.080 --> 00:11:33.160
+Yeah, to that degree it is.
+
+00:11:33.160 --> 00:11:37.560
+Now, one example there was a student that gets very cheap.
+
+00:11:37.560 --> 00:11:39.480
+It was 75 years.
+
+00:11:40.920 --> 00:11:43.960
+I don't know if you go to the security conference.
+
+00:11:44.600 --> 00:11:46.600
+What is a normal price for a security conference?
+
+00:11:46.600 --> 00:11:47.800
+Is that something?
+
+00:11:47.800 --> 00:11:51.360
+If they're more commercially oriented, you could up to 1000 people.
+
+00:11:52.720 --> 00:11:55.960
+Also, oh, shit, that's well, they don't even do that.
+
+00:11:55.960 --> 00:12:00.120
+They're the info and professional targets that actually is willing to pay up to
+
+00:12:00.520 --> 00:12:02.480
+every amount of money that they ask for.
+
+00:12:02.480 --> 00:12:02.680
+Right.
+
+00:12:02.680 --> 00:12:03.120
+OK.
+
+00:12:03.320 --> 00:12:07.640
+So, but I think whenever you talk about hacking conferences where are DNA lies, right?
+
+00:12:08.400 --> 00:12:10.520
+I think that that's the balance.
+
+00:12:10.520 --> 00:12:11.960
+You want to keep it affordable.
+
+00:12:11.960 --> 00:12:15.280
+And I think we didn't raise much pricing in the last couple of years.
+
+00:12:15.280 --> 00:12:20.620
+We've stayed very stable regardless of inflation of 1% or whatever you'll find in many places.
+
+00:12:21.400 --> 00:12:25.280
+We always look at also the amount of money we ask for training.
+
+00:12:26.380 --> 00:12:28.180
+It's by the community for the community.
+
+00:12:28.260 --> 00:12:33.540
+The moment we get into a situation that we make it too expensive or we account for it,
+
+00:12:34.020 --> 00:12:37.420
+and then we miss our own DNA and why we exist.
+
+00:12:37.780 --> 00:12:40.540
+So just how many students can I take a different time?
+
+00:12:40.540 --> 00:12:43.540
+I mean, still have been in terms of like 10%
+
+00:12:43.540 --> 00:12:44.540
+and then perfect it.
+
+00:12:44.540 --> 00:12:45.540
+You have to give a real time, right?
+
+00:12:45.540 --> 00:12:46.540
+So give me a sec.
+
+00:12:46.540 --> 00:12:48.540
+I'll probably figure it out in a minute,
+
+00:12:48.540 --> 00:12:50.540
+but I don't know if you know where I are.
+
+00:12:50.540 --> 00:12:52.540
+So now just before the conference,
+
+00:12:52.540 --> 00:12:54.540
+we had 130 students.
+
+00:12:54.540 --> 00:12:58.540
+Oh. So it was a large amount of students attending,
+
+00:12:58.540 --> 00:13:01.540
+which allowed us to be able to do this conference.
+
+00:13:01.540 --> 00:13:02.540
+Yeah.
+
+00:13:02.540 --> 00:13:03.540
+I guess for the students,
+
+00:13:03.540 --> 00:13:05.540
+this is their first conference that I guess,
+
+00:13:05.540 --> 00:13:07.540
+because the other things are happening.
+
+00:13:07.540 --> 00:13:08.540
+Oh, wait, wait.
+
+00:13:08.540 --> 00:13:11.180
+I did invite students for our training.
+
+00:13:11.820 --> 00:13:13.980
+But students attend a conference under student tickets.
+
+00:13:16.020 --> 00:13:17.340
+I think 100 tickets.
+
+00:13:17.340 --> 00:13:17.860
+Yeah.
+
+00:13:17.860 --> 00:13:20.380
+They have a lot of student pricing, something like that.
+
+00:13:21.100 --> 00:13:24.060
+And we had a few requests after because we're a community.
+
+00:13:24.380 --> 00:13:27.780
+If someone wants to join and they really can't afford us,
+
+00:13:29.020 --> 00:13:29.820
+contact us.
+
+00:13:29.820 --> 00:13:30.940
+We'll see what we can do.
+
+00:13:30.940 --> 00:13:32.700
+We're always saying everything will be possible.
+
+00:13:33.020 --> 00:13:34.260
+But send an email.
+
+00:13:34.260 --> 00:13:35.820
+We will always have a look.
+
+00:13:35.820 --> 00:13:38.060
+We will at least think together with you what will be possible.
+
+00:13:38.540 --> 00:13:41.780
+And for that, yeah, usually the student tickets, they are sold out.
+
+00:13:41.780 --> 00:13:44.340
+And it's a hundred tickets to understeer.
+
+00:13:44.340 --> 00:13:47.940
+I guess for most students, there's the first conference that I do.
+
+00:13:47.940 --> 00:13:51.140
+And that's their stop-up of, okay, this is what the conference looks like.
+
+00:13:51.140 --> 00:13:52.540
+And this is, well, yeah.
+
+00:13:52.540 --> 00:13:56.740
+And the intent is, I mean, like we said, it's 75 euros.
+
+00:13:56.740 --> 00:14:01.340
+So when you get two days of conference, including lunch, that's ideal of art.
+
+00:14:01.340 --> 00:14:03.140
+It's a steal and a party even.
+
+00:14:03.140 --> 00:14:05.140
+So I would say it's a steal.
+
+00:14:05.140 --> 00:14:06.740
+I mean, that's that, right?
+
+00:14:06.740 --> 00:14:11.220
+all that content for that amount. But then we also need to balance it out with people who pay
+
+00:14:11.220 --> 00:14:15.860
+the full price of a business ticket, which we call foreign and 80 euros, because then again,
+
+00:14:15.860 --> 00:14:20.260
+the companies pay for us to keep it affordable for students. Again, that's a balance. So we discuss
+
+00:14:20.260 --> 00:14:24.180
+how many we release in each category and how big is the community actually in Belgium?
+
+00:14:25.060 --> 00:14:31.140
+I don't know. And this doesn't have large completely, there are just normal, I don't know.
+
+00:14:32.420 --> 00:14:36.020
+How many people will actually be active? Is that something outside of security,
+
+00:14:36.020 --> 00:14:42.580
+specifically, honestly, I have no clue. But it's a small-ish community, I would like to say, because
+
+00:14:42.580 --> 00:14:48.420
+I mean, all of the crew, everyone was here, does this as volunteer workers, just to do hyperclades,
+
+00:14:48.420 --> 00:14:52.820
+not a job, right? We have a job next to it. We all work in information security, we all have a day
+
+00:14:52.820 --> 00:14:59.940
+to day job into that. So, and through that connections, we do get obviously
+
+00:15:00.000 --> 00:15:03.680
+interactions with other people in the community, but just to put in number how many people are
+
+00:15:03.680 --> 00:15:09.360
+inside the security, it's a small community. We all know, we all know, many people know each other
+
+00:15:09.360 --> 00:15:17.600
+people. Do you see any changes in the last years? Well, the geopolitical situation is changing,
+
+00:15:17.600 --> 00:15:23.600
+so do we change? Or is it too early, does the people who now, who are not physically
+
+00:15:23.600 --> 00:15:33.200
+because of what's going on. Not really directly. We see that it is more, that more people connect
+
+00:15:33.200 --> 00:15:38.960
+with the subject earlier. So there are more new genres within the cybersecurity than,
+
+00:15:38.960 --> 00:15:45.120
+certainly, than 13, 14 years ago, that was really niche. Now it's, yeah, most universities offer at
+
+00:15:45.120 --> 00:15:50.560
+least a part of cybersecurity. It's not in the news every day. And also, every day, these are
+
+00:15:50.560 --> 00:15:55.560
+We have a few schools that bring their students to our conferences well regularly.
+
+00:15:55.560 --> 00:16:01.560
+So there is a lot more uptake within the students because it's possible to do it before when we started.
+
+00:16:01.560 --> 00:16:07.560
+No, not to sound old, but we studied some IT and then it's like, oh, the security thing sounds fun.
+
+00:16:07.560 --> 00:16:08.560
+Let's have a look.
+
+00:16:08.560 --> 00:16:13.560
+And we grew from system administration or something like that into security part.
+
+00:16:13.560 --> 00:16:19.560
+Now you can study the security part, which also gives you a different background and a different way of thinking about it.
+
+00:16:19.560 --> 00:16:23.560
+And here, bringing all these people together is a bit of what we tried to do at Rookan.
+
+00:16:23.880 --> 00:16:29.560
+And it might sound cheesy, and it will sound cheesy, so bear with me, everyone.
+
+00:16:29.960 --> 00:16:35.160
+But the fact of the matter is, so, like I said, I mean, you asked before how much effort we put into it.
+
+00:16:35.160 --> 00:16:40.680
+Just to put the number to it, I don't know, many hours, let's say 200 hours a year,
+
+00:16:41.320 --> 00:16:44.600
+roughly for a crew member minimum to get things.
+
+00:16:44.600 --> 00:16:47.560
+Oh, right, this was the amount of time it spends throughout the year,
+
+00:16:47.560 --> 00:16:54.040
+communicating supplies, whatever. I mean, don't go into details. And again, like I said, it's
+
+00:16:54.040 --> 00:16:58.120
+gonna sound cheesy. But the fact that after a con like this, when we are walking around
+
+00:16:58.120 --> 00:17:03.240
+here, and we see new people learning new skills coming up to say, Oh, this was fun. It's my
+
+00:17:03.240 --> 00:17:09.640
+first conference. I learned new friends. I learned a new skill. I learned about XYZ played
+
+00:17:09.640 --> 00:17:14.800
+around with a retro gaming or whatever. Right. Almost made that's what ticks. I mean, that's
+
+00:17:14.800 --> 00:17:17.760
+The thing you get out of it, and then you drive home and say,
+
+00:17:17.760 --> 00:17:23.920
+okay, I've given back to a community in my own way to help advance,
+
+00:17:23.920 --> 00:17:27.640
+hopefully people's their career, their personal development, their social network,
+
+00:17:28.040 --> 00:17:29.200
+whatever that exists.
+
+00:17:29.720 --> 00:17:31.520
+And that's what drives you to do it.
+
+00:17:31.520 --> 00:17:34.000
+And I get there for the cheesy answer, but bring it to your eyes.
+
+00:17:34.000 --> 00:17:35.480
+Yeah, it is.
+
+00:17:35.520 --> 00:17:35.800
+It is.
+
+00:17:35.800 --> 00:17:36.960
+And we have that opportunity.
+
+00:17:36.960 --> 00:17:41.400
+And I think because if you talk about community and just take a little bit,
+
+00:17:41.400 --> 00:17:46.440
+that side step is, I can tell you, I mean, professionally, I'm in this
+
+00:17:46.480 --> 00:17:48.000
+desire for more than 20 years.
+
+00:17:49.000 --> 00:17:52.680
+When I traveled even when I even went pretty much overseas for work.
+
+00:17:53.200 --> 00:17:58.800
+And I tell the people on whatever, I'm one of Brooklyn, I can't even
+
+00:17:59.480 --> 00:18:04.000
+east coast of the US, I get even in Asia, I get people who call and
+
+00:18:04.000 --> 00:18:04.920
+I'm like, do you know it?
+
+00:18:05.080 --> 00:18:05.520
+Yeah.
+
+00:18:05.960 --> 00:18:10.440
+I somebody spoke there that visit once it's a stoking sometimes
+
+00:18:10.440 --> 00:18:15.400
+because we as flamish people tend to be timid, right? We tend to be like, wow,
+
+00:18:15.400 --> 00:18:20.120
+I don't know if it's, but honestly the amount of times that when you refer to a name like
+
+00:18:20.120 --> 00:18:23.000
+Pukor, it's crazy.
+
+00:18:23.000 --> 00:18:29.040
+And also the way that we sometimes, that story is how we talk about selecting talks, right?
+
+00:18:29.040 --> 00:18:32.040
+Which is one thing, the call for playcours, but we also have keynotes.
+
+00:18:32.040 --> 00:18:33.520
+Keynotes are invites.
+
+00:18:33.520 --> 00:18:39.720
+So we send out an email to someone in the field and we ask, can you do a key note?
+
+00:18:39.720 --> 00:18:44.960
+We've had people like people, like very, let's say famous people in our industry.
+
+00:18:44.960 --> 00:18:48.400
+this week that we read that I sent an email to like would you be considering
+
+00:18:48.400 --> 00:18:53.120
+coming to speak and like we didn't have an hour for political yes or bitter yeah
+
+00:18:53.120 --> 00:18:58.000
+I mean financially we don't pay we pay your travel but we don't pay no I mean I
+
+00:18:58.000 --> 00:19:04.480
+was even asking sure I'll be there and like really then half an hour no kidding
+
+00:19:04.480 --> 00:19:09.520
+the guy says I'll be there that they are coming to speak it there so and which is
+
+00:19:09.520 --> 00:19:13.080
+also an important part of it all because we don't pay any of the speakers yes yeah
+
+00:19:13.080 --> 00:19:16.960
+We reimburse travel expats. Of course, speakers come here.
+
+00:19:16.960 --> 00:19:21.280
+We make sure that they are treated well, travel is paid, hotel are paid,
+
+00:19:21.280 --> 00:19:25.840
+but there is no financial exchange that is just not possible within the community event.
+
+00:19:25.840 --> 00:19:27.640
+It's also not what we would like to do.
+
+00:19:27.640 --> 00:19:29.480
+All of it...
+
+00:19:29.480 --> 00:19:33.400
+Is that a common thing in security without R&D exception?
+
+00:19:33.400 --> 00:19:36.000
+No, I think it's fairly common.
+
+00:19:36.000 --> 00:19:38.680
+You do see that there are exceptions that they start to pay.
+
+00:19:38.680 --> 00:19:42.460
+I don't understand, everybody needs to pay their bills, but they don't just not be in our financial
+
+00:19:42.460 --> 00:19:43.460
+remit.
+
+00:19:43.460 --> 00:19:45.380
+The two actually do that, right?
+
+00:19:45.380 --> 00:19:49.260
+But that's a big model that you have of pre-cones, is that?
+
+00:19:49.260 --> 00:19:54.300
+It's also the old-fashioned conferences all started like this.
+
+00:19:54.300 --> 00:19:58.880
+At this point, I'm not 100% sure how the division is within the world, but it is a
+
+00:19:58.880 --> 00:19:59.880
+that's.
+
+00:19:59.880 --> 00:20:00.880
+The...
+
+00:20:00.000 --> 00:20:04.720
+hacker mindsets, the maker mindsets, we help each other out, we are one group of people,
+
+00:20:04.720 --> 00:20:08.320
+I want to come and speak from the United States, fly over,
+
+00:20:10.000 --> 00:20:15.600
+have a nice speaker and travel is compensated. But that's just a way to do the spread on
+
+00:20:15.600 --> 00:20:19.680
+knowledge and to make sure that people are within the same infrastructure community as it used to
+
+00:20:19.680 --> 00:20:22.960
+be called the cybersecurity community to help each other out and each other grow.
+
+00:20:22.960 --> 00:20:27.960
+So, sorry, you're going to say something.
+
+00:20:28.540 --> 00:20:30.180
+No, no, please, please.
+
+00:20:30.180 --> 00:20:32.400
+You talk about InfoSec,
+
+00:20:32.400 --> 00:20:34.560
+and the confidence that is more than InfoSec.
+
+00:20:34.560 --> 00:20:37.180
+It kind of has a bit like also hacker conference
+
+00:20:37.180 --> 00:20:40.480
+only have vlog picking, you have other stuff here,
+
+00:20:40.480 --> 00:20:42.860
+you have data gaming.
+
+00:20:42.860 --> 00:20:44.800
+So it's more than just talks,
+
+00:20:44.800 --> 00:20:47.000
+it's also has this special atmosphere
+
+00:20:47.000 --> 00:20:49.080
+and the special thing that it comes with.
+
+00:20:49.080 --> 00:20:51.080
+Well, the conference plus plus,
+
+00:20:51.080 --> 00:20:53.000
+But yeah, it's one decision.
+
+00:20:53.000 --> 00:20:55.560
+You've always made me want to be a single track conference.
+
+00:20:55.560 --> 00:21:02.240
+So one line of tracks, one line of talks, and you attend the talk, or you don't, and you
+
+00:21:02.240 --> 00:21:08.680
+socialize with people in the bar area, or you do one of the other breakout sessions.
+
+00:21:08.680 --> 00:21:10.880
+Like, yeah, play some games.
+
+00:21:10.880 --> 00:21:11.880
+Yeah, I'll come with you.
+
+00:21:11.880 --> 00:21:12.880
+Okay, good.
+
+00:21:12.880 --> 00:21:13.880
+It's amazing to see you.
+
+00:21:13.880 --> 00:21:14.880
+Okay, wasting a lot of time.
+
+00:21:14.880 --> 00:21:15.880
+You have to play games.
+
+00:21:15.880 --> 00:21:19.480
+a game game. A five-year-olds to a better game seem to be a...
+
+00:21:19.480 --> 00:21:23.720
+Yeah. Yeah, it's hard to get people for younger people.
+
+00:21:23.720 --> 00:21:28.360
+Yes. It's a way to get people to talk who will not always talk to each other.
+
+00:21:28.360 --> 00:21:31.960
+So, when you're playing a game and you join the second player and you're talking and you're mingling
+
+00:21:31.960 --> 00:21:37.800
+with people, you might because a lot of the 7-30 people are not the most extroverted. So,
+
+00:21:38.360 --> 00:21:42.280
+getting a small push to talk to people always helps and also helps.
+
+00:21:42.280 --> 00:21:49.920
+It was in the data gaming, the one of the televisions that had the score, I think from
+
+00:21:49.920 --> 00:21:52.880
+the capture flag in on-tilly text.
+
+00:21:52.880 --> 00:21:58.440
+And it started out with this question about daily next, the C-fact that was called in
+
+00:21:58.440 --> 00:22:03.880
+UK, the kind of the kind of the US, it was kind of like, we had this, we were talking about
+
+00:22:03.880 --> 00:22:08.320
+half an hour about daily text, if you rest.
+
+00:22:08.320 --> 00:22:12.400
+for right yes he was talking about his BBC computer and the tiddlydach stick
+
+00:22:12.400 --> 00:22:15.600
+order and he put it all the things otherwise probably some games you could
+
+00:22:15.600 --> 00:22:18.320
+play on tiddlyd tacks but of course he had the full foetus.
+
+00:22:18.320 --> 00:22:25.680
+It's not security if we say but it's really the
+
+00:22:25.680 --> 00:22:31.840
+hacking mentality was there like oh that we've had I mean next year in two years
+
+00:22:31.840 --> 00:22:36.000
+time rate will be on a 20th edition we're already listening a bit about the
+
+00:22:36.000 --> 00:22:44.560
+fact that what do we want to do? And because we have dozens and dozens of similar stories
+
+00:22:44.560 --> 00:22:49.520
+of things that happened that originated at Drikon, happened in Drikon. And we want to
+
+00:22:49.520 --> 00:22:55.760
+find a way to document it somewhere. I can tell you, I remember that one evening, I guess
+
+00:22:55.760 --> 00:23:00.000
+it's even after the party, someone suddenly explained, I have a technique how to get out
+
+00:23:00.000 --> 00:23:05.600
+of zip tie handcuffs, right? So you know, this is the technique to it, because the cops use
+
+00:23:05.600 --> 00:23:08.160
+nowadays, but have a technique. Do you want to know?
+
+00:23:08.720 --> 00:23:12.640
+Yeah. So we ended up in a hotel room with a bunch of people that
+
+00:23:12.640 --> 00:23:16.080
+is to explain to like first when you zip tie the phone view that in your back
+
+00:23:16.080 --> 00:23:18.720
+and he explained it all very clearly how to get out of a zip tie.
+
+00:23:18.720 --> 00:23:22.000
+I'm like, where am I? I mean, what am I doing now?
+
+00:23:22.000 --> 00:23:23.600
+To never need it. Oh, I do.
+
+00:23:23.600 --> 00:23:26.480
+It's a feeling this thing's good. So if you want, I can teach you how to get
+
+00:23:26.480 --> 00:23:28.720
+out of a zip tie, even if I do it in your back.
+
+00:23:28.720 --> 00:23:32.240
+Well, yeah, that's the thing that happens. And you're like, okay, I have a new
+
+00:23:32.240 --> 00:23:34.760
+So, not skill developed.
+
+00:23:34.760 --> 00:23:37.520
+That's the conference which is an actor.
+
+00:23:37.520 --> 00:23:41.280
+No, you don't have to go to the door to get out.
+
+00:23:41.280 --> 00:23:43.120
+And I mean, that's the thing.
+
+00:23:43.120 --> 00:23:44.880
+And then you get the hacker stories, right?
+
+00:23:44.880 --> 00:23:50.480
+So because then when everybody starts chatting, like, hey, you know, I mean, yeah, I've ever
+
+00:23:50.480 --> 00:23:52.120
+done this.
+
+00:23:52.120 --> 00:23:53.880
+And then I managed to achieve this.
+
+00:23:53.880 --> 00:23:54.880
+And then you know what?
+
+00:23:54.880 --> 00:23:58.080
+And that's a technique that I learned, how to get into this type of system.
+
+00:23:58.080 --> 00:24:01.920
+That could be a physical thing, like in the engine, looks out or whatever.
+
+00:24:01.920 --> 00:24:03.920
+That's the answer you want to create.
+
+00:24:03.920 --> 00:24:04.920
+Yeah.
+
+00:24:04.920 --> 00:24:07.520
+It's fun to think about.
+
+00:24:07.520 --> 00:24:11.160
+When the other interviews I did was with Fright Camp and this guy called from the Free
+
+00:24:11.160 --> 00:24:12.160
+Lantern.
+
+00:24:12.160 --> 00:24:13.160
+It does music.
+
+00:24:13.160 --> 00:24:16.720
+One is called Almost There Where You See This Thing and The Guy.
+
+00:24:16.720 --> 00:24:19.280
+The thought of actually almost my application.
+
+00:24:19.280 --> 00:24:22.040
+Yes, I want to run and then it runs and no, it's not that.
+
+00:24:22.040 --> 00:24:23.040
+It's kind of like this.
+
+00:24:23.040 --> 00:24:24.040
+I want to get there.
+
+00:24:24.040 --> 00:24:25.040
+Yeah.
+
+00:24:25.040 --> 00:24:26.040
+And that's the hack and run.
+
+00:24:26.040 --> 00:24:27.040
+I mean question everything.
+
+00:24:27.040 --> 00:24:28.040
+Yes.
+
+00:24:28.040 --> 00:24:34.680
+there's a saying we say is just to verify and everyone here comes with a mindset of,
+
+00:24:35.200 --> 00:24:38.160
+yeah, I believe it's okay, but I want to know for sure.
+
+00:24:38.240 --> 00:24:40.240
+And I'll find it out myself.
+
+00:24:43.840 --> 00:24:45.160
+Yeah, think about it.
+
+00:24:45.360 --> 00:24:48.760
+But you would have now 18 years.
+
+00:24:48.960 --> 00:24:53.200
+So what did you probably want to do something new every year?
+
+00:24:53.200 --> 00:24:54.080
+So how did you do that?
+
+00:24:54.080 --> 00:24:55.200
+Okay, we had it.
+
+00:24:55.200 --> 00:24:57.240
+So I guess part of that is the routine.
+
+00:24:57.240 --> 00:25:01.960
+to know so you have the routine
+
+00:25:00.000 --> 00:25:06.640
+of organizing a conference, okay? But Dan, you probably think, okay, next year we want to
+
+00:25:06.640 --> 00:25:13.760
+have something special. How do you, every year, you know, or is it just see our roles?
+
+00:25:13.760 --> 00:25:18.880
+I think recently we had two big changes, how we moved to Mecha-la, so full new venue,
+
+00:25:19.440 --> 00:25:23.840
+means getting to new city. We kind new Mecha-la, but knowing Mecha-la and knowing Mecha-la from a
+
+00:25:23.840 --> 00:25:28.720
+conference organizing perspective is different. I think it's a little traffic here.
+
+00:25:28.720 --> 00:25:30.880
+Yeah, yes, so we got it.
+
+00:25:30.880 --> 00:25:34.160
+But also new hotel, so working together with the hotel,
+
+00:25:34.160 --> 00:25:35.640
+which we use for training,
+
+00:25:35.640 --> 00:25:38.280
+to arranging that one, making sure that people are divided,
+
+00:25:38.280 --> 00:25:41.360
+that everything works out, everything works smoothly,
+
+00:25:41.360 --> 00:25:43.680
+because there are some things we need to have strict timings
+
+00:25:43.680 --> 00:25:45.600
+for others who are more lenient,
+
+00:25:45.600 --> 00:25:49.560
+and getting to know the way of working with all the people here,
+
+00:25:49.560 --> 00:25:51.960
+same here within the Lamot building,
+
+00:25:51.960 --> 00:25:54.480
+it's sometimes difficult to still find new way,
+
+00:25:54.480 --> 00:25:56.440
+even after several years here,
+
+00:25:56.440 --> 00:25:57.640
+like where is that floor again?
+
+00:25:57.640 --> 00:25:59.640
+So it's getting to know that one.
+
+00:25:59.640 --> 00:26:02.960
+Now, last year, I think we edited.
+
+00:26:02.960 --> 00:26:04.680
+Routine is saying much, but still we're
+
+00:26:04.680 --> 00:26:06.080
+required, OK, we're with the organizers,
+
+00:26:06.080 --> 00:26:09.280
+and we're thinking, yeah, what's the next big step we could take?
+
+00:26:09.280 --> 00:26:11.880
+Both to keep it interesting for us, but also
+
+00:26:11.880 --> 00:26:13.720
+to provide more value.
+
+00:26:13.720 --> 00:26:18.880
+We're always full of amazing, sometimes achievable ideas.
+
+00:26:18.880 --> 00:26:19.880
+Ah, that's really good.
+
+00:26:19.880 --> 00:26:21.960
+It's a lot of fun, too.
+
+00:26:21.960 --> 00:26:24.280
+I mean, again, it shows on the internet.
+
+00:26:24.280 --> 00:26:26.000
+20th edition, we'll definitely explain
+
+00:26:26.000 --> 00:26:27.640
+some of the crazy things that never happened.
+
+00:26:28.640 --> 00:26:30.600
+We'll have to.
+
+00:26:31.480 --> 00:26:35.400
+And then the idea was, because always on Thursday evening, we tried to do enough
+
+00:26:35.400 --> 00:26:36.840
+for events, a party.
+
+00:26:37.080 --> 00:26:39.240
+It usually was outside of this venue.
+
+00:26:39.280 --> 00:26:40.880
+But now why not stay here?
+
+00:26:40.960 --> 00:26:43.720
+Why not keep the Brooklyn venue alive through the evening?
+
+00:26:44.160 --> 00:26:45.800
+And that's how Brooklyn, after dark was born.
+
+00:26:46.320 --> 00:26:50.040
+We were having a drink and suddenly it came up like, shouldn't we be doing this?
+
+00:26:50.080 --> 00:26:53.560
+And you actually want to run or so?
+
+00:26:53.560 --> 00:26:59.320
+I saw the other website at the morning, so that's the hack around this morning, which we...
+
+00:26:59.320 --> 00:27:00.600
+After the party yesterday.
+
+00:27:00.600 --> 00:27:01.600
+After the party, after the party.
+
+00:27:01.600 --> 00:27:02.600
+The morning after the party.
+
+00:27:02.600 --> 00:27:04.800
+Yes, that's together we get a hangover away, right?
+
+00:27:04.800 --> 00:27:06.360
+That's kind of the intent.
+
+00:27:06.360 --> 00:27:10.080
+But this year was exceptionally popular, because we had...
+
+00:27:10.080 --> 00:27:12.440
+No one's that there was two people, right?
+
+00:27:12.440 --> 00:27:17.120
+The one who organized it, a one-advisioned person, because the party was so successful,
+
+00:27:17.120 --> 00:27:19.400
+like, yes, there were people who just didn't share like it.
+
+00:27:19.400 --> 00:27:23.360
+So tomorrow, this morning, we had 27 people, which is...
+
+00:27:23.360 --> 00:27:29.280
+new record to beat for next year. But it is also something that it just happened to come up at a party.
+
+00:27:29.280 --> 00:27:33.600
+Yeah, tomorrow morning I'm going to go for a run and five, six people said I will join.
+
+00:27:33.600 --> 00:27:36.960
+And as of that, we did it every year. I think it's over 10 years.
+
+00:27:36.960 --> 00:27:45.600
+Yeah, sure. It's always there. Usually around 10ish people that's going from two to 27.
+
+00:27:45.600 --> 00:27:50.320
+Yeah. And I think the thing you ask, and I think that's important to realize again,
+
+00:27:50.320 --> 00:27:59.680
+we'll volunteer. So shifting to a new city took us mentally a lot of rethinking of previous processes,
+
+00:27:59.680 --> 00:28:04.560
+right, and thinking how to do it. Selecting the city was hard because we have some really
+
+00:28:06.000 --> 00:28:11.600
+requirements that are like, we want to be inside the city that is everything within walking distance,
+
+00:28:11.600 --> 00:28:18.400
+because you want, again, especially with people, more than 50% of the visitors are non-belgems,
+
+00:28:18.400 --> 00:28:22.880
+Right? So just to make that clear, that's not a local conference.
+
+00:28:22.880 --> 00:28:25.440
+No, not per se, right? There are no spells.
+
+00:28:25.440 --> 00:28:27.680
+And Netherlands and neighbouring countries,
+
+00:28:27.680 --> 00:28:31.440
+but people come from Japan or Australia. I mean, those things happen.
+
+00:28:31.440 --> 00:28:36.240
+And you want them to arrive? And that's it. You don't want them to then shift too much and
+
+00:28:36.240 --> 00:28:41.120
+whatever. So it's, you arrive, done. Everything is walking distance. Also, when we had a party,
+
+00:28:41.120 --> 00:28:46.320
+it was walking, this is everywhere. So you could go and have a dinner here, it's all there.
+
+00:28:46.320 --> 00:28:48.800
+That's that's number one. We don't want too much of a
+
+00:28:49.680 --> 00:28:53.200
+conference feeling, not like fixed corporate thing. And it
+
+00:28:53.200 --> 00:28:55.440
+doesn't have to be too fancy, right?
+
+00:28:55.560 --> 00:28:58.720
+We can go to a generic hotel and have the same conference feeling
+
+00:28:58.720 --> 00:29:02.200
+as everywhere. But here we have an old brewery building that also fits
+
+00:29:02.200 --> 00:29:03.120
+our requirements.
+
+00:29:03.200 --> 00:29:03.520
+Yeah.
+
+00:29:04.560 --> 00:29:07.800
+So so that that's that's in the point. And then you build it up.
+
+00:29:08.080 --> 00:29:12.720
+And then every year we start making what I call small imperfections,
+
+00:29:12.800 --> 00:29:15.480
+perfect. So things like to say, okay, this could have been that
+
+00:29:15.480 --> 00:29:18.600
+Should we start early with this? What about sign itself or there?
+
+00:29:18.880 --> 00:29:21.560
+Do we have the right things? And every time we reflect on it,
+
+00:29:21.840 --> 00:29:24.920
+we have done an ongoing documentary type stuff in as feedback.
+
+00:29:24.920 --> 00:29:29.560
+And within two weeks, we have what we call post-mortem events between us.
+
+00:29:29.560 --> 00:29:32.720
+Right. And then we go to what we learn, but we need to change because it's
+
+00:29:32.720 --> 00:29:35.880
+fresh in your minds. We don't document, unfortunately enough.
+
+00:29:37.600 --> 00:29:40.880
+And we should do that more and help AI have helped us anyway.
+
+00:29:41.040 --> 00:29:44.760
+So that's the thing. And then, and then you want to always improve it a little
+
+00:29:44.760 --> 00:29:49.600
+a bit, I mean, genuinely, and we mean that, and we say that to everyone, come to us and
+
+00:29:49.600 --> 00:29:50.600
+give us feedback.
+
+00:29:50.600 --> 00:29:54.760
+Positive, awesome, we'll have a beer together, even constructive, even better.
+
+00:29:54.760 --> 00:29:56.240
+Let's have a beer together.
+
+00:29:56.240 --> 00:30:00.000
+Because we see it to our lands, but we really, for...
+
+00:30:00.000 --> 00:30:06.800
+community by community. So everything we can do within our own space to help people come over here and
+
+00:30:06.800 --> 00:30:11.440
+enjoy their time and perform willow. That's really the end.
+
+00:30:13.520 --> 00:30:18.640
+Yes, well, you said other people, there are actually other organizations here, like you have the
+
+00:30:18.640 --> 00:30:25.040
+micro space or the haka space. They bring their own culture, right? So I get yeah, yeah, absolutely.
+
+00:30:25.040 --> 00:30:29.040
+I think we reached out to Hiker Space when we arrived here in Machia-Lan.
+
+00:30:29.040 --> 00:30:31.040
+Do you want to collaborate?
+
+00:30:31.040 --> 00:30:33.040
+For sure.
+
+00:30:33.040 --> 00:30:34.040
+This is in our town.
+
+00:30:34.040 --> 00:30:36.040
+Why wouldn't we have a...
+
+00:30:36.040 --> 00:30:38.040
+And this here I think, what did they do?
+
+00:30:38.040 --> 00:30:42.040
+So we have the Mate Arcade game, so we have the Arcade consoles.
+
+00:30:42.040 --> 00:30:43.040
+They did the Mate Arcade.
+
+00:30:43.040 --> 00:30:48.040
+Yeah, the Hiker Space made the arcades for us.
+
+00:30:48.040 --> 00:30:53.040
+We sponsored the Hiker Space and in return they made the arcades for us that these can play on,
+
+00:30:53.040 --> 00:30:57.040
+which is also linked to the electronic batch that we made this year,
+
+00:30:57.040 --> 00:31:00.600
+which is linked to the capture the flag within all these arcades,
+
+00:31:00.600 --> 00:31:02.040
+so it's all interconnects.
+
+00:31:02.040 --> 00:31:03.040
+Yeah.
+
+00:31:03.040 --> 00:31:04.040
+Yeah.
+
+00:31:04.040 --> 00:31:07.040
+So, you did mention AI.
+
+00:31:07.040 --> 00:31:08.040
+Yeah.
+
+00:31:08.040 --> 00:31:09.040
+New technology.
+
+00:31:09.040 --> 00:31:12.040
+Well, that just changed a lot.
+
+00:31:12.040 --> 00:31:17.040
+Do you see something, do you see it on the effect on the info sec, or do you see something?
+
+00:31:17.040 --> 00:31:20.040
+I've been talking to the thing about the capture the flag.
+
+00:31:20.040 --> 00:31:26.200
+For the couple of fact people, AI, the AI fight, it's beyond.
+
+00:31:26.200 --> 00:31:28.200
+I think there are multiple things we see, right?
+
+00:31:28.200 --> 00:31:34.340
+So the amount of submissions for talks around the AI was, I don't know, I don't have the statistics
+
+00:31:34.340 --> 00:31:35.540
+with me, it was a lot.
+
+00:31:35.540 --> 00:31:39.440
+There were also quite some submissions which were AI generated.
+
+00:31:39.440 --> 00:31:43.320
+So they generate that talk submission, so they call for papers, right?
+
+00:31:43.320 --> 00:31:49.200
+The one they're going to talk, which we kind of think because we don't know for sure, but
+
+00:31:49.200 --> 00:31:55.680
+sometimes see it. REI generated. So amongst these 140 submissions on 30, you know what you said.
+
+00:31:56.880 --> 00:32:01.760
+We have to select the 12, but we also need to make sure that we don't select someone who's just
+
+00:32:01.760 --> 00:32:07.040
+well, the prompt and say, write me a good submission for a talk at book on about topic X,
+
+00:32:07.760 --> 00:32:11.920
+and I hope to get selected to that because then we have a poor experience.
+
+00:32:11.920 --> 00:32:19.600
+So, does 140 is there more than previous years? Do you think that AI has, I don't know, just
+
+00:32:19.600 --> 00:32:24.200
+an idea as well that you said it went up and could be because of AI?
+
+00:32:24.200 --> 00:32:29.520
+It's roughly the same. It's a slight increase. We used to be around 9,100, but in the last
+
+00:32:29.520 --> 00:32:35.240
+few years it was not that. So AI in Dellova gives you a go-go of so far, North and let's
+
+00:32:35.240 --> 00:32:39.360
+So it stays this way because we still,
+
+00:32:39.360 --> 00:32:41.660
+I always aim to review all of them.
+
+00:32:41.660 --> 00:32:43.120
+And that means there is one one.
+
+00:32:43.120 --> 00:32:46.960
+There's one one that we have the time between.
+
+00:32:46.960 --> 00:32:49.460
+Of course, consider the cuts, the code for paper.
+
+00:32:49.460 --> 00:32:50.880
+So I said, we want three pages.
+
+00:32:50.880 --> 00:32:53.040
+So we know we had the document of 20 pages up.
+
+00:32:53.040 --> 00:32:54.040
+Yes.
+
+00:32:54.040 --> 00:32:56.360
+So we basically want an abstract off,
+
+00:32:56.360 --> 00:32:59.040
+I don't know by heart so much time to summarize everything.
+
+00:32:59.040 --> 00:33:00.660
+And if you have slides, that's already
+
+00:33:00.660 --> 00:33:02.040
+then we can have a look.
+
+00:33:02.040 --> 00:33:04.520
+OK, but considering that, it could be that they use the UI
+
+00:33:04.520 --> 00:33:09.240
+just to, they ever had a good talk and they use AI to generate the three pages.
+
+00:33:09.240 --> 00:33:13.600
+Yes. Or you could have a concept, you could have somebody who just write me a prompt and
+
+00:33:13.600 --> 00:33:16.480
+I get a picket for free and a bit a lot of publicity.
+
+00:33:16.480 --> 00:33:21.200
+That's a challenge. And that's also why people say, well, can you give me a hint to submit
+
+00:33:21.200 --> 00:33:22.920
+to the call for papers? Right?
+
+00:33:22.920 --> 00:33:28.920
+They abstract yourself because certainly it is the generic AI way of writing text.
+
+00:33:28.920 --> 00:33:33.560
+For me, personally, I see it and it does not work for me.
+
+00:33:33.560 --> 00:33:37.680
+It does not trigger me if it's a generic AI generated text.
+
+00:33:37.680 --> 00:33:42.200
+It's too bad if you made a real nice presentation and it's summarized by AI and just because
+
+00:33:42.200 --> 00:33:45.200
+it's summarized in that way, it's not selected.
+
+00:33:45.200 --> 00:33:51.720
+So I will look at least to write the abstract part in a normal human sentence way.
+
+00:33:51.720 --> 00:33:55.080
+That's the best advice I can give for organic select.
+
+00:33:55.080 --> 00:33:57.680
+But are they ever negative, for example?
+
+00:33:57.680 --> 00:33:58.680
+Yeah.
+
+00:33:58.680 --> 00:33:59.680
+Absolutely.
+
+00:33:59.680 --> 00:34:06.480
+who didn't think they have the most unique stuff and we didn't select it for a reason that we found correct.
+
+00:34:06.480 --> 00:34:10.080
+And then it happens. It doesn't happen with that.
+
+00:34:10.080 --> 00:34:14.080
+It doesn't happen. Sometimes we get the question, why were we not selected?
+
+00:34:14.080 --> 00:34:15.520
+And sometimes we...
+
+00:34:15.520 --> 00:34:18.080
+You select this, that one, but mine is better.
+
+00:34:18.080 --> 00:34:19.280
+Okay.
+
+00:34:19.280 --> 00:34:22.880
+And that's perhaps also an important which I just came to reflection upon.
+
+00:34:22.880 --> 00:34:29.280
+Again, I know I'm repeating myself with the by community for community point of view.
+
+00:34:29.280 --> 00:34:33.440
+is we often also select either training slots,
+
+00:34:33.440 --> 00:34:36.560
+so who can come and give a training course, right?
+
+00:34:36.560 --> 00:34:38.680
+And then obviously there's a profit involvement
+
+00:34:38.680 --> 00:34:41.280
+through the trainer or come give a talk
+
+00:34:41.280 --> 00:34:43.640
+to what you would call new people,
+
+00:34:43.640 --> 00:34:47.920
+like people who don't yet are famous or whatever,
+
+00:34:47.920 --> 00:34:49.920
+and it's important for us as well,
+
+00:34:49.920 --> 00:34:53.560
+we want to give that four, that opportunity for people.
+
+00:34:53.560 --> 00:34:55.400
+And there are at least a number of stories
+
+00:34:55.400 --> 00:34:57.920
+that I can tell from the training per interview
+
+00:34:57.920 --> 00:35:00.020
+that we selected this is just an awesome training.
+
+00:35:00.000 --> 00:35:01.320
+He's never given it before.
+
+00:35:01.600 --> 00:35:04.800
+So you don't know, per se, but it's going to be fine.
+
+00:35:04.800 --> 00:35:06.080
+They're just based on the description.
+
+00:35:06.440 --> 00:35:07.480
+It's just great.
+
+00:35:07.880 --> 00:35:08.760
+So we select him.
+
+00:35:08.960 --> 00:35:11.840
+It's then one of the best rated trainings because we asked the feedback
+
+00:35:11.840 --> 00:35:12.920
+right from the students.
+
+00:35:13.640 --> 00:35:16.400
+And then years after he's seen that he's doing all the big
+
+00:35:16.400 --> 00:35:17.400
+conferences in the world.
+
+00:35:17.400 --> 00:35:22.280
+He's doing training all over the world from the US, from Australia, from whatever.
+
+00:35:22.800 --> 00:35:25.280
+And then I pause the guy again at that, say,
+
+00:35:25.280 --> 00:35:28.880
+or whatever situation and he's like, yeah, this is where it all started.
+
+00:35:29.720 --> 00:35:31.560
+And that, I mean, that's why we do it.
+
+00:35:31.960 --> 00:35:32.880
+And that does it.
+
+00:35:33.160 --> 00:35:33.520
+Okay.
+
+00:35:33.720 --> 00:35:34.000
+Yeah.
+
+00:35:34.120 --> 00:35:40.440
+Well, in a couple of hours, you have your final thing and hope that everything is okay.
+
+00:35:40.440 --> 00:35:43.880
+And you have a good idea for what to do next year.
+
+00:35:43.880 --> 00:35:47.040
+And that's basically for the zero X14 release.
+
+00:35:47.400 --> 00:35:50.160
+Yeah, especially for the 20th, right?
+
+00:35:50.160 --> 00:35:53.320
+That's two years we want in the 20th, we want to make it special.
+
+00:35:53.320 --> 00:35:54.920
+in the 10th edition.
+
+00:35:54.920 --> 00:35:56.600
+No, you do the color budget too.
+
+00:35:56.600 --> 00:35:57.160
+The budget a lot.
+
+00:35:57.160 --> 00:35:57.800
+That was carried out.
+
+00:35:57.800 --> 00:35:59.240
+No, no, we do.
+
+00:35:59.240 --> 00:36:00.280
+We do.
+
+00:36:00.280 --> 00:36:02.360
+We also get more in the fasteries.
+
+00:36:02.360 --> 00:36:03.640
+This is the good answer.
+
+00:36:03.640 --> 00:36:04.520
+Because that's the thing.
+
+00:36:04.520 --> 00:36:07.080
+So we did sell today for the, what, what extent?
+
+00:36:07.080 --> 00:36:07.400
+Yeah.
+
+00:36:07.400 --> 00:36:11.080
+So for the 10th edition, right, then we brought our own beer.
+
+00:36:11.080 --> 00:36:12.040
+Ah, a beer.
+
+00:36:12.040 --> 00:36:14.040
+And it's called Zero Day.
+
+00:36:14.040 --> 00:36:17.000
+And as the cyber security lingo goes, right?
+
+00:36:17.000 --> 00:36:18.040
+So for an ability.
+
+00:36:18.040 --> 00:36:19.240
+As soon as it was a 10th edition,
+
+00:36:19.240 --> 00:36:21.000
+we needed to make it a 10% beer.
+
+00:36:21.000 --> 00:36:21.960
+Yeah, of course.
+
+00:36:21.960 --> 00:36:24.760
+Obviously, and then at the 16th edition, which obviously in Hexa-Gestim,
+
+00:36:24.760 --> 00:36:27.880
+or there's an important one, we've got two beers of 8%.
+
+00:36:27.880 --> 00:36:30.440
+We couldn't go with the 16% because of the idea of wine,
+
+00:36:30.440 --> 00:36:31.920
+and we call it double octalos.
+
+00:36:31.920 --> 00:36:36.120
+Yeah, yeah, yeah, there were also two names to it, which was...
+
+00:36:36.120 --> 00:36:37.960
+Aha, come on.
+
+00:36:37.960 --> 00:36:39.680
+It's worse.
+
+00:36:39.680 --> 00:36:43.000
+Ah, yeah, yeah, again in the siren, you're right.
+
+00:36:43.000 --> 00:36:45.320
+So for the 20th edition, who knows?
+
+00:36:45.320 --> 00:36:46.840
+He needs something with 20%.
+
+00:36:46.840 --> 00:36:50.160
+The alcohol might be perhaps too much of a stretch, but it's still crazy.
+
+00:36:50.160 --> 00:36:55.760
+Well, if you do that, perhaps not going to happen to many people for the rough.
+
+00:36:55.760 --> 00:36:58.480
+Yeah, well, we'll see.
+
+00:36:58.480 --> 00:37:01.320
+Mission succeeded depending on it.
+
+00:37:01.320 --> 00:37:03.440
+Okay, Tom, thank you very much.
+
+00:37:03.440 --> 00:37:05.040
+Well, see you next time.
+
+00:37:05.040 --> 00:37:06.040
+Thank you very much.
+
+00:37:06.040 --> 00:37:07.040
+Thank you.
+
+00:37:07.040 --> 00:37:08.040
+Cheers.
+
+00:37:08.040 --> 00:37:12.840
+You have been listening to the Hacker Public Radio podcast at hicardpublicradio.org.
+
+00:37:12.840 --> 00:37:16.960
+Today's show was contributed by a HBR listener like yourself.
+
+00:37:16.960 --> 00:37:22.540
+If you ever thought of recording a podcast, then visit the HBR site to find out how easy
+
+00:37:22.540 --> 00:37:24.040
+it really is.
+
+00:37:24.040 --> 00:37:30.640
+Hosting for HBR has been kindly provided by Anomisthost.com, the Internet Archive, our
+
+00:37:30.640 --> 00:37:35.920
+singt on net and the HBR Community Content Delivery Network.
+
+00:37:35.920 --> 00:37:41.760
+Unless otherwise stated, today's show is released under a Creative Commons Attribution
+
+00:37:41.760 --> 00:37:45.280
+Share Alike 4.0 International Life.

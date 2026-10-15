@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>chaptermill</title>
+<meta name="description" content="Turn a podcast back catalog into transcripts, chapters, verified pull quotes and show notes on an old PC you leave running, with open-weight models and Temporal.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="wrap hero">
+  <p class="eyebrow">Open-weight models + Temporal, on a 2015-era desktop</p>
+  <h1>chaptermill</h1>
+  <p class="lede">Point it at a podcast feed and leave it running. It turns the back catalog into transcripts, chapters, pull quotes that are checked word for word against the transcript, and show notes ready to paste: 4.3 hours of audio took 44 minutes on a 2015-era desktop. If the machine crashes, the network drops or the model API rate-limits, it picks up where it stopped, without redoing finished work or buying a model reply it already has.</p>
+  <div class="kpis" id="kpis"></div>
+  <p class="links"><a href="https://github.com/Bowen1314/chaptermill">Code on GitHub (MIT)</a> · <a href="#durability">What happened when I kept killing it</a> · <a href="#cost">Cost per audio hour</a></p>
+</header>
+
+<main>
+  <section class="wrap" id="episodes">
+    <h2>Real output: Hacker Public Radio</h2>
+    <p class="muted">Nine recent episodes of <a href="https://hackerpublicradio.org/">Hacker Public Radio</a>, a community podcast released under CC BY-SA 4.0. Nothing below was edited by hand. Pick an episode, press a chapter or a quote to jump the player there.</p>
+    <div id="runnote"></div>
+    <div class="gallery">
+      <nav class="eplist" id="eplist" aria-label="Episodes"></nav>
+      <article class="detail" id="detail"></article>
+    </div>
+  </section>
+
+  <section class="wrap" id="how">
+    <h2>How it works</h2>
+    <ol class="steps">
+      <li><b>Feed.</b> A <code>CatalogWorkflow</code> reads the RSS feed and starts one child <code>EpisodeWorkflow</code> per episode, two at a time, inside a dollar budget you can raise with a signal while it runs.</li>
+      <li><b>Transcribe locally.</b> The audio is cut into 5-minute chunks; each chunk is one activity running <a href="https://github.com/SYSTRAN/faster-whisper">faster-whisper</a> <code>base.en</code> on two CPU threads. A finished chunk is saved, so a crash costs at most the chunk in progress.</li>
+      <li><b>Agent writes notes.</b> An open-weight model (<a href="https://huggingface.co/Qwen/Qwen3-235B-A22B-Instruct-2507">Qwen3-235B-A22B-Instruct-2507</a>, Apache-2.0) gets a one-line-per-minute outline and two tools, <code>read_transcript</code> and <code>search_transcript</code>, then calls <code>submit_notes</code>. Every model call and every tool call is its own Temporal activity with its own retry policy.</li>
+      <li><b>Checked, not trusted.</b> A validator compares the submission with the transcript: quotes must appear word for word, chapters must be in order and inside the episode. Anything wrong goes back to the model as the tool result, and it fixes it.</li>
+      <li><b>Files a producer can use.</b> Podcasting 2.0 <code>chapters.json</code>, YouTube chapter text, Markdown show notes, SRT and VTT transcripts.</li>
+    </ol>
+  </section>
+
+  <section class="wrap" id="durability">
+    <h2>What happened when I kept killing it</h2>
+    <div id="chaos"></div>
+  </section>
+
+  <section class="wrap" id="cost">
+    <h2>Cost per audio hour</h2>
+    <div id="costs"></div>
+  </section>
+</main>
+
+<footer class="wrap foot">
+  <p>Code: MIT. Episode audio, transcripts and notes are derived from Hacker Public Radio episodes released under <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a> and are shared under the same license; each episode credits its host and links to its page. chaptermill is not affiliated with Hacker Public Radio.</p>
+  <p>“Differs from HPR's own transcript” compares our transcript with the one Hacker Public Radio publishes for each episode, word by word (Levenshtein distance over the reference length). HPR's transcripts are themselves made with Whisper and not proofread, as the host says in HPR4749 at 31:42, so this is the disagreement between two machine transcripts, not an error rate.</p>
+  <p>Quotes are checked against the machine transcript, not against the audio: if Whisper mishears a word, the quote carries the mishearing. That is a real limit; see the episode “Monotone” for an example.</p>
+</footer>
+<script src="app.js"></script>
+</body>
+</html>

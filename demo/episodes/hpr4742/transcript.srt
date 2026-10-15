@@ -1,0 +1,2283 @@
+1
+00:00:05,870 --> 00:00:10,430
+This is Hacker Public Radio Episode 4742.
+
+2
+00:00:10,430 --> 00:00:13,670
+For Tuesday, the 6th of October, 2026.
+
+3
+00:00:13,670 --> 00:00:18,030
+Today's show is entitled OLF Call for Presentations Open.
+
+4
+00:00:18,030 --> 00:00:22,070
+It is hosted by Ken Fallon and is about 54 minutes long.
+
+5
+00:00:22,070 --> 00:00:23,830
+It carries a clean flag.
+
+6
+00:00:23,830 --> 00:00:30,030
+The summary is Ken interviews Vance and Beth Lynn about OLF been held on 20 slash 21 of
+
+7
+00:00:30,030 --> 00:00:31,030
+2026.
+
+8
+00:00:31,030 --> 00:00:44,430
+Hi everybody, my name is Ken Fallon and you're listening to another episode of Hacker
+
+9
+00:00:44,430 --> 00:00:50,670
+public radio. We have got a good one for you today. I am interviewing somebody
+
+10
+00:00:50,670 --> 00:00:58,350
+about the OLF. I'm told it's no longer. The conference previously known as the
+
+11
+00:00:58,350 --> 00:01:05,710
+Ohio Linux Fest is now being rebranded as OLF. And here to talk to me about it is?
+
+12
+00:01:05,710 --> 00:01:10,910
+Hi there, I'm Vance Kogendurfer. Hello, I'm the speaker.
+
+13
+00:01:10,910 --> 00:01:12,910
+Hi, I recognize that voice.
+
+14
+00:01:15,010 --> 00:01:17,610
+I'm the speaker chair for this year's OLF.
+
+15
+00:01:18,450 --> 00:01:21,090
+Okay. Sorry I interrupted you there.
+
+16
+00:01:21,450 --> 00:01:26,330
+There is a bit of a lag, but that is to be expected when you're recording Transatlantic.
+
+17
+00:01:26,650 --> 00:01:27,550
+So where are you based?
+
+18
+00:01:28,390 --> 00:01:29,890
+First of all, nice to meet you.
+
+19
+00:01:30,370 --> 00:01:32,570
+Yes, great to speak with you.
+
+20
+00:01:32,930 --> 00:01:35,570
+I'm actually not in Ohio.
+
+21
+00:01:35,570 --> 00:01:38,010
+This is maybe a little unusual.
+
+22
+00:01:38,010 --> 00:01:41,370
+About half of our team is outside Ohio,
+
+23
+00:01:41,370 --> 00:01:43,970
+but I'm in Pittsburgh, Pennsylvania,
+
+24
+00:01:43,970 --> 00:01:48,290
+which is not really very far away from there.
+
+25
+00:01:48,290 --> 00:01:51,130
+So, tell us what is OLF,
+
+26
+00:01:51,130 --> 00:01:54,370
+and you have a cold for papers out.
+
+27
+00:01:54,370 --> 00:01:56,090
+So, tell us a little bit about
+
+28
+00:01:56,090 --> 00:01:59,330
+the history of the conference and stuff like that.
+
+29
+00:01:59,330 --> 00:02:02,530
+Sure. So, as you pointed out,
+
+30
+00:02:02,530 --> 00:02:07,370
+OLF, we've changed the name, we've rebranded it a little bit.
+
+31
+00:02:07,370 --> 00:02:12,450
+This is an annual conference for free and open source software.
+
+32
+00:02:12,450 --> 00:02:19,170
+It takes place every year in Columbus, Ohio, in the United States.
+
+33
+00:02:19,170 --> 00:02:28,650
+And we were originally started in 2003, a bunch of Linux user groups across the state of Ohio
+
+34
+00:02:28,650 --> 00:02:32,050
+decided they wanted to have a gathering.
+
+35
+00:02:32,050 --> 00:02:36,690
+So they were able to get space on the Ohio State University
+
+36
+00:02:36,690 --> 00:02:38,170
+campus.
+
+37
+00:02:38,170 --> 00:02:45,010
+And they held this conference that they called Ohio Linux Fest.
+
+38
+00:02:45,010 --> 00:02:49,530
+In recent years, we have kind of rebranded for two main reasons.
+
+39
+00:02:49,530 --> 00:02:54,810
+One, we've attracted people and we want to attract more people
+
+40
+00:02:54,810 --> 00:02:58,170
+from outside Ohio.
+
+41
+00:02:58,170 --> 00:03:03,990
+And we also wanted to make it clear that it's not just about Linux,
+
+42
+00:03:03,990 --> 00:03:08,030
+it's about all types of free and open source software.
+
+43
+00:03:08,630 --> 00:03:14,270
+So the BSDs. Exactly. Yes. BSD, even free software,
+
+44
+00:03:14,270 --> 00:03:17,510
+stuff like Python that runs pretty much everywhere.
+
+45
+00:03:17,630 --> 00:03:20,830
+Yeah. We wanted to be, to be clear about that.
+
+46
+00:03:20,870 --> 00:03:27,630
+So we've kind of repurposed the abbreviation to stand for open,
+
+47
+00:03:27,630 --> 00:03:30,830
+Libra free. Oh, very nice. I see what you did there.
+
+48
+00:03:32,910 --> 00:03:43,230
+The open Libra for you so far. I'll open. I'm actually up to it. And so it's been going on
+
+49
+00:03:43,230 --> 00:03:50,030
+a while. I mean, we've covered OLF lots of times and we've had hosts involved in the
+
+50
+00:03:50,030 --> 00:03:55,390
+organization as well. So this is a long tradition of having HPR there at the event.
+
+51
+00:03:55,390 --> 00:04:03,230
+but so I'm fairly familiar with it so but can you tell me as somebody knew you're arriving at the
+
+52
+00:04:03,230 --> 00:04:08,510
+airport you make it over to the venue where is the venue by the way so this year it's going to be
+
+53
+00:04:08,510 --> 00:04:17,390
+interesting we've typically been holding these in a in one of several downtown Columbus hotels
+
+54
+00:04:17,390 --> 00:04:24,270
+but this year we are actually returning back to the campus of Ohio State University nice and we're
+
+55
+00:04:24,270 --> 00:04:27,510
+going to be in a building there called
+
+56
+00:04:27,510 --> 00:04:32,510
+tree slabber Tories. I believe, I don't know if it's the headquarters of the
+
+57
+00:04:32,510 --> 00:04:38,750
+computer science or computer engineering department but I think a lot of the,
+
+58
+00:04:38,750 --> 00:04:43,950
+a lot of those classes take place in that building. So I think it's a very good fit
+
+59
+00:04:43,950 --> 00:04:48,350
+and will probably help us attract more students this year.
+
+60
+00:04:48,350 --> 00:04:54,350
+Yeah, yeah. I'm a huge fan of having it in universities like the
+
+61
+00:04:54,350 --> 00:05:00,350
+Fosteim over here in Europe. So Tommy, have you been
+
+62
+00:05:00,000 --> 00:05:02,640
+into the building itself yourself.
+
+63
+00:05:02,640 --> 00:05:04,640
+Can you describe what it's like?
+
+64
+00:05:04,640 --> 00:05:06,120
+Actually, I have not.
+
+65
+00:05:06,120 --> 00:05:12,120
+So I'm not the good person to give a virtual sort of tour.
+
+66
+00:05:12,200 --> 00:05:15,160
+We have the reason that the whole reason
+
+67
+00:05:15,160 --> 00:05:20,160
+that we're able to do this is we've set up a collaboration
+
+68
+00:05:20,240 --> 00:05:23,800
+with two student organizations there,
+
+69
+00:05:23,800 --> 00:05:28,800
+the Open Source Club and the Cybersecurity Club.
+
+70
+00:05:28,800 --> 00:05:32,280
+So they are the ones who were able to
+
+71
+00:05:32,280 --> 00:05:34,460
+reserve that space for us.
+
+72
+00:05:34,460 --> 00:05:39,460
+And they are the experts on how the layout is
+
+73
+00:05:39,560 --> 00:05:41,800
+and where everything is.
+
+74
+00:05:41,800 --> 00:05:45,300
+My understanding is we're going to have,
+
+75
+00:05:46,360 --> 00:05:49,560
+there's a main floor and we will have some space
+
+76
+00:05:49,560 --> 00:05:53,080
+in the lobby of that, like the check-in table
+
+77
+00:05:53,080 --> 00:05:57,320
+and maybe some space for exhibitor tables there.
+
+78
+00:05:57,320 --> 00:06:05,520
+There's also a large auditorium, which will serve as our main stage.
+
+79
+00:06:05,520 --> 00:06:12,120
+Then we have a few rooms on the second floor that we will also be able to use for other
+
+80
+00:06:12,120 --> 00:06:13,120
+things.
+
+81
+00:06:13,120 --> 00:06:21,960
+We're going to have some exhibition space up there and room for another set of presentations
+
+82
+00:06:21,960 --> 00:06:23,960
+or workshops.
+
+83
+00:06:23,960 --> 00:06:29,880
+I'm having a quick look here at some of the photos of the building and it seems will share
+
+84
+00:06:29,880 --> 00:06:31,280
+accessible to me.
+
+85
+00:06:31,280 --> 00:06:36,680
+A modern and off building and a nice big conference rooms that you would expect.
+
+86
+00:06:36,680 --> 00:06:37,680
+Very cool.
+
+87
+00:06:37,680 --> 00:06:39,320
+Looks like a good venue.
+
+88
+00:06:39,320 --> 00:06:45,000
+How accessible is it to you know to public transport or parking or the motorways and
+
+89
+00:06:45,000 --> 00:06:46,000
+stuff?
+
+90
+00:06:46,000 --> 00:06:47,000
+What would you call them?
+
+91
+00:06:47,000 --> 00:06:48,000
+You can call them.
+
+92
+00:06:48,000 --> 00:06:58,080
+the transportation. There is reasonable transportation in terms of buses that run through Columbus. I
+
+93
+00:06:58,080 --> 00:07:05,280
+have to admit I don't live there so I don't have a lot of firsthand experience. I will say there is
+
+94
+00:07:06,240 --> 00:07:15,440
+a parking garage that is very close to the building. It's actually you have the Dries
+
+95
+00:07:15,440 --> 00:07:19,760
+laboratories building and then next to it is the parking garage and then on the
+
+96
+00:07:19,760 --> 00:07:27,680
+opposite side is the football stadium. So I imagine that the parking is kind of
+
+97
+00:07:27,680 --> 00:07:35,320
+there more for the stadium but for our purposes it's nice to have it
+
+98
+00:07:35,320 --> 00:07:43,920
+right nearby. Yep, yep. So I very close to I-70 and I-71 I guess for people
+
+99
+00:07:43,920 --> 00:07:52,080
+using US motorways or interest states as a gives you a location. So in the show
+
+100
+00:07:52,080 --> 00:07:57,840
+notes for this episode I will have a breakdown I've already done it of the
+
+101
+00:07:57,840 --> 00:08:03,920
+accessibility how far away it is car and bus from the States even from Canada
+
+102
+00:08:03,920 --> 00:08:11,760
+within three hours. So kind of a nice central northern central area anybody
+
+103
+00:08:11,760 --> 00:08:17,080
+should be able to make the way down and make a nice weekend of it. The question is how long
+
+104
+00:08:17,080 --> 00:08:24,520
+is it on for many days? It's a two-day conference or I suppose maybe more accurately it's going
+
+105
+00:08:24,520 --> 00:08:31,640
+to be more like one and a half days. So we're going to have some activities on the afternoon
+
+106
+00:08:31,640 --> 00:08:39,880
+of Friday. Oh, I didn't give you the dates. So that would be Friday November 20th, 2026.
+
+107
+00:08:39,880 --> 00:08:48,880
+And then we will have the all day on Saturday, November 21, 2026.
+
+108
+00:08:48,880 --> 00:09:01,400
+And the activities on Friday, we are going to have the auditorium I was mentioning.
+
+109
+00:09:01,400 --> 00:09:05,880
+That is going to be in use for classes during the day on Friday.
+
+110
+00:09:05,880 --> 00:09:11,380
+So we will not have it until the end of the day, but we will have those other spaces.
+
+111
+00:09:11,380 --> 00:09:21,060
+So we'll be trying to have some workshops in there that we can and then we're going
+
+112
+00:09:21,060 --> 00:09:29,280
+in the evening or early evening, we will have a sort of a welcoming keynote address once
+
+113
+00:09:29,280 --> 00:09:36,080
+were able to get into the auditorium and then after that on Friday we will have what
+
+114
+00:09:36,080 --> 00:09:42,640
+we call birds of a feather sessions. Remind people what that is. Yeah so a birds of a feather
+
+115
+00:09:42,640 --> 00:09:51,960
+session is an interactive sort of thing. It can take the form of a presentation that's
+
+116
+00:09:51,960 --> 00:09:56,960
+maybe a little bit out of the normal scope of what it is.
+
+117
+00:09:57,160 --> 00:10:00,000
+Really, it's about getting people who are
+
+118
+00:10:00,000 --> 00:10:01,000
+and
+
+119
+00:10:00,000 --> 00:10:07,000
+Together, who are interested in a particular subject, together to talk about it.
+
+120
+00:10:07,000 --> 00:10:08,000
+Yeah.
+
+121
+00:10:08,000 --> 00:10:17,000
+So, if you have people who are interested in podcasting, say, they can get together and talk about the different things that they use.
+
+122
+00:10:17,000 --> 00:10:21,000
+What type of software, what type of hardware?
+
+123
+00:10:21,000 --> 00:10:27,000
+Are these birds of sessions sessions?
+
+124
+00:10:27,000 --> 00:10:35,800
+Are they done? Do you have to? Are they spontaneous on the spot sort of things or do you need to put in the
+
+125
+00:10:35,800 --> 00:10:43,880
+cold for papers to have one of those events? Yeah, that's a great point. So what we will do is I would say
+
+126
+00:10:43,880 --> 00:10:54,680
+about a couple of weeks before the event we will put out a form where people can submit topics if they
+
+127
+00:10:54,680 --> 00:11:03,640
+want to. But if we have any time slots that are still open, we will just have a whiteboard
+
+128
+00:11:03,640 --> 00:11:12,440
+at the registration table and people can just claim one of those spots. So it's very much,
+
+129
+00:11:12,440 --> 00:11:19,080
+it's intended to be somewhat spontaneous. However, it's always nice if you can
+
+130
+00:11:19,080 --> 00:11:25,300
+then announce it ahead of time because then people will, you know, perhaps be motivated
+
+131
+00:11:25,300 --> 00:11:27,400
+to stick around.
+
+132
+00:11:27,400 --> 00:11:28,400
+Yeah.
+
+133
+00:11:28,400 --> 00:11:33,440
+It sounds a bit like a camp sort of, some stuff is scheduled yet, just the flexibility
+
+134
+00:11:33,440 --> 00:11:41,360
+in there for people to spontaneously get it enthused into doing an event.
+
+135
+00:11:41,360 --> 00:11:44,040
+Yeah, it's very similar to that.
+
+136
+00:11:44,040 --> 00:11:45,040
+Cool.
+
+137
+00:11:45,040 --> 00:11:51,520
+And anyone who doesn't know really what we're talking about, have a listen to episode 4256
+
+138
+00:11:51,520 --> 00:11:58,720
+link in the show notes. And that's where Lyle and Taj give a talk, Birds of a Feather talk,
+
+139
+00:11:58,720 --> 00:12:08,880
+at OLF 2024 about Hacker Public Radio. Nice, nice. So cool. So what time of Friday does it start?
+
+140
+00:12:08,880 --> 00:12:18,600
+We are planning to start about noon. So we, one of the unfortunate things, we are kind
+
+141
+00:12:18,600 --> 00:12:27,440
+of still pulling together the schedule. I would definitely encourage people if you go to our
+
+142
+00:12:27,440 --> 00:12:35,120
+website, probably the best thing to keep an eye on is the news page and your website is
+
+143
+00:12:35,120 --> 00:12:38,360
+That is OLFconference.org.
+
+144
+00:12:38,360 --> 00:12:39,820
+All one word.
+
+145
+00:12:39,820 --> 00:12:41,160
+Yes.
+
+146
+00:12:41,160 --> 00:12:44,000
+OLFconference.org.
+
+147
+00:12:44,000 --> 00:12:45,440
+Links and shows.
+
+148
+00:12:45,440 --> 00:12:46,160
+Yep.
+
+149
+00:12:46,160 --> 00:12:47,160
+Great.
+
+150
+00:12:47,160 --> 00:12:54,000
+And there's a news page and we will put up one announcing when and where it will be.
+
+151
+00:12:54,000 --> 00:13:01,920
+We've put up one opening the call for presentations and we will put up more as the schedule starts
+
+152
+00:13:01,920 --> 00:13:08,160
+to come together and a lot of things start to gel.
+
+153
+00:13:08,160 --> 00:13:14,280
+Yeah, yeah, cool. Well, listen, I know that it's going to be an awesome event because it
+
+154
+00:13:14,280 --> 00:13:19,760
+always is when you have that amount of people. So people now have several months in order
+
+155
+00:13:19,760 --> 00:13:24,720
+to get their partner sorted out. A little bit of a hint that we'll be heading over
+
+156
+00:13:24,720 --> 00:13:34,080
+Ohio way for a romantic weekend around the 21st. Where would they be booking hotels? Is there
+
+157
+00:13:34,080 --> 00:13:39,680
+sufficient hotels in town or do you have like a a hotel, a deal with a hotel or not now?
+
+158
+00:13:41,200 --> 00:13:49,520
+We do not currently have any group rate booked with a hotel. I'm it's unclear to me if that's
+
+159
+00:13:49,520 --> 00:13:58,000
+going to happen. That was always one of the challenges with holding the event in a hotel
+
+160
+00:13:58,000 --> 00:14:06,160
+is we would have a contract with them, but it required us to book a minimum number of
+
+161
+00:14:06,160 --> 00:14:15,740
+rooms and if we didn't, they would charge us a pretty extortionate penalty. So there
+
+162
+00:14:15,740 --> 00:14:21,180
+There is actually one hotel directly on the campus, which is right nearby.
+
+163
+00:14:21,180 --> 00:14:25,940
+I don't know much about it.
+
+164
+00:14:25,940 --> 00:14:32,660
+And I've been told that there are others that are close and may even have a shuttle, a shuttle
+
+165
+00:14:32,660 --> 00:14:36,820
+that runs between the hotel and campus.
+
+166
+00:14:36,820 --> 00:14:43,500
+As we get those details a little bit clearer understood, then we'll post that information
+
+167
+00:14:43,500 --> 00:14:45,100
+to the website right now.
+
+168
+00:14:45,100 --> 00:14:56,500
+Perfect. We only have a page right now that kind of gives a map and gives some directions.
+
+169
+00:14:56,500 --> 00:14:59,980
+So we'll be adding more information.
+
+170
+00:15:00,000 --> 00:15:07,640
+it becomes available. No bother. Well we have the big thing now which is the day.
+
+171
+00:15:07,640 --> 00:15:17,880
+Which is starting on the 20th, Friday the 20th, as 12. Yep, at noon and then running
+
+172
+00:15:17,880 --> 00:15:26,720
+through Sunday evening. Probably till about eight o'clock or perhaps later we
+
+173
+00:15:26,720 --> 00:15:30,720
+Traditionally, we've had an after party,
+
+174
+00:15:30,720 --> 00:15:34,880
+and so we'll have to see what we can line up
+
+175
+00:15:34,880 --> 00:15:36,800
+in regard to that.
+
+176
+00:15:36,800 --> 00:15:41,800
+So what is the attendance size?
+
+177
+00:15:44,080 --> 00:15:45,800
+Yeah, so it's very quite a bit.
+
+178
+00:15:45,800 --> 00:15:50,240
+So in past years, we had several years
+
+179
+00:15:50,240 --> 00:15:53,600
+that were, we had about 500 people.
+
+180
+00:15:53,600 --> 00:15:58,600
+That, of course, dropped off during a pandemic.
+
+181
+00:15:59,920 --> 00:16:04,920
+In 2020, we did our first online version,
+
+182
+00:16:07,480 --> 00:16:11,880
+that was purely online.
+
+183
+00:16:11,880 --> 00:16:16,880
+And since then, we've been getting about 150 to 200 people.
+
+184
+00:16:19,000 --> 00:16:21,720
+We haven't been able to get back up.
+
+185
+00:16:21,720 --> 00:16:32,440
+However, ever since that online event, we have also been streaming at least the main stage presentations.
+
+186
+00:16:32,440 --> 00:16:38,440
+So we've had a number of people who have quote unquote attended online by watching the live stream
+
+187
+00:16:39,160 --> 00:16:44,520
+or by watching the videos after the fact. Yeah, that's actually what it's going to be in the next
+
+188
+00:16:44,520 --> 00:16:51,640
+question. Are the videos available after the fact? Yes, so if you go, we've been streaming this
+
+189
+00:16:51,640 --> 00:17:00,760
+using YouTube. Our channel is just named OLF conference. If you again, link in
+
+190
+00:17:00,760 --> 00:17:09,360
+chat. Yep, great. Thank you. And if you look under the live tab, you will see the
+
+191
+00:17:09,360 --> 00:17:16,280
+stream videos, which are just kind of the raw footage that was streamed. If you look
+
+192
+00:17:16,280 --> 00:17:22,600
+under the videos tab and this isn't every year but sometimes we've had a volunteer
+
+193
+00:17:22,600 --> 00:17:29,640
+who cut up the stream into individual talks so that you could just watch a
+
+194
+00:17:29,640 --> 00:17:37,320
+particular presentation but if you are looking for a year and you don't see it
+
+195
+00:17:37,320 --> 00:17:45,240
+under the videos tab then check under the live tab or the streams tab to see
+
+196
+00:17:45,240 --> 00:17:52,800
+the raw version. I have it right here. Cool, cool, cool, cool. So how many rooms
+
+197
+00:17:52,800 --> 00:17:57,980
+are there again? So you've got the further session, you've got downstairs, the
+
+198
+00:17:57,980 --> 00:18:02,780
+reception area. In the reception area is there going to be like tables? Is HP
+
+199
+00:18:02,780 --> 00:18:08,200
+Oregon to have a table? You certainly could if you can find someone to to
+
+200
+00:18:08,200 --> 00:18:15,000
+manage it. So that's a good question. We have our expo and I always have to
+
+201
+00:18:15,000 --> 00:18:22,280
+to train myself not to say vendor Expo because while we do have commercial companies, we do
+
+202
+00:18:22,280 --> 00:18:32,040
+offer tables to nonprofits like free software projects and projects like HPR. There's only
+
+203
+00:18:32,040 --> 00:18:41,800
+space in the lobby I think for one or two tables. So there, we will probably have one or two
+
+204
+00:18:41,800 --> 00:18:43,720
+to exhibitors there.
+
+205
+00:18:43,720 --> 00:18:45,880
+And then one of those other rooms
+
+206
+00:18:45,880 --> 00:18:49,360
+will be where the rest of the exhibitors are.
+
+207
+00:18:49,360 --> 00:18:54,240
+And our idea is to, because that room is,
+
+208
+00:18:54,240 --> 00:18:59,240
+there's enough space in it that we can have exhibitors
+
+209
+00:18:59,320 --> 00:19:01,180
+and also have some other tables.
+
+210
+00:19:01,180 --> 00:19:03,480
+And we were thinking of also using that
+
+211
+00:19:03,480 --> 00:19:05,800
+as sort of a demo space.
+
+212
+00:19:05,800 --> 00:19:09,280
+If people had projects that they wanted to come
+
+213
+00:19:09,280 --> 00:19:13,840
+and show off, they would be able to have a little space
+
+214
+00:19:13,840 --> 00:19:16,240
+where they could do that.
+
+215
+00:19:16,240 --> 00:19:17,640
+Yeah, nice.
+
+216
+00:19:17,640 --> 00:19:23,160
+In Uncamp, they had a separate ballroom,
+
+217
+00:19:23,160 --> 00:19:27,120
+small little ballroom, where the tables were around the edge.
+
+218
+00:19:27,120 --> 00:19:29,040
+And then in the center, you had round tables
+
+219
+00:19:29,040 --> 00:19:31,320
+where people were hacking and learning, soldering,
+
+220
+00:19:31,320 --> 00:19:34,280
+or table for stickers.
+
+221
+00:19:34,280 --> 00:19:35,840
+And there was a giveaway stuff.
+
+222
+00:19:35,840 --> 00:19:43,040
+And then at the entrance, they had their sales booth and stuff where they were selling cups and t-shirts and merch.
+
+223
+00:19:43,040 --> 00:19:44,840
+So yeah, that would be great.
+
+224
+00:19:44,840 --> 00:19:50,140
+And the atmosphere in there is really nice and chill because you can take a break from it.
+
+225
+00:19:50,140 --> 00:19:54,340
+You can pull up a chair and sit down and actually talk to people.
+
+226
+00:19:54,340 --> 00:19:58,340
+It's a and still hack away on your day. Really nice.
+
+227
+00:19:58,340 --> 00:19:59,940
+And yeah, coming on back.
+
+228
+00:20:00,240 --> 00:20:02,960
+So we've got that. Anything else you wanted to say about that?
+
+229
+00:20:03,840 --> 00:20:08,720
+Yes, so I mentioned, you know, we have the space in the lobby.
+
+230
+00:20:08,720 --> 00:20:15,480
+We'll have the auditorium also, and then we will have actually three rooms upstairs.
+
+231
+00:20:15,480 --> 00:20:17,480
+There will be two classrooms.
+
+232
+00:20:17,480 --> 00:20:20,320
+One of those will be the exhibition space.
+
+233
+00:20:20,320 --> 00:20:30,120
+The other one will be we're looking to try to get some people to do more instructional.
+
+234
+00:20:30,120 --> 00:20:37,720
+type of sessions in the other classroom, maybe reaching out to the faculty there at the university.
+
+235
+00:20:37,720 --> 00:20:41,280
+And then we also have a conference room.
+
+236
+00:20:41,280 --> 00:20:48,040
+And I have to admit, I don't remember exactly what is being planned for that.
+
+237
+00:20:48,040 --> 00:20:53,480
+So we'll have to figure out those details.
+
+238
+00:20:53,480 --> 00:21:01,220
+I love it, but it's cool the way how far you are ahead already so far ahead of the conference.
+
+239
+00:21:01,220 --> 00:21:02,220
+It's good.
+
+240
+00:21:02,220 --> 00:21:09,100
+I'm picturing this in my mind and I'm also looking to see what are flights to the US now
+
+241
+00:21:09,100 --> 00:21:10,840
+at the moment.
+
+242
+00:21:10,840 --> 00:21:16,920
+Unfortunately they'd have to look at my social media so perhaps I can get in.
+
+243
+00:21:16,920 --> 00:21:20,520
+So I'm afraid I'm going to be an online attendee this year.
+
+244
+00:21:20,520 --> 00:21:27,400
+No, I understand perfectly. I mean we have had some people come in well as you as you mentioned you know Canada is
+
+245
+00:21:27,720 --> 00:21:29,640
+very close by
+
+246
+00:21:29,640 --> 00:21:33,740
+But we we have had people come in from farther away at times
+
+247
+00:21:35,680 --> 00:21:40,280
+So we're certainly would love to have you come in Columbus actually
+
+248
+00:21:41,320 --> 00:21:43,320
+the airport does
+
+249
+00:21:43,320 --> 00:21:50,740
+there are direct flights to quite a few places and we'll see you know you can
+
+250
+00:21:50,740 --> 00:21:58,020
+see if you are able to get a reasonably direct flight from wherever you are.
+
+251
+00:21:58,020 --> 00:22:01,980
+So we were talking about the rooms we're not really sure what's going on there
+
+252
+00:22:01,980 --> 00:22:05,940
+are you gonna have like a schedule track that's what they we're here to talk
+
+253
+00:22:05,940 --> 00:22:08,940
+about the call for papers so first of all let's talk about the call for papers
+
+254
+00:22:08,940 --> 00:22:17,420
+and on what it is and what that entails. Go. Okay. So just a moment. Let me let me introduce
+
+255
+00:22:18,940 --> 00:22:27,420
+Beth Lynn Eicher is our conference chair for this year. I am the speaker chair and Beth Lynn has
+
+256
+00:22:27,420 --> 00:22:35,420
+just joined us. So I'll continue with the call for presentations but you know any future questions
+
+257
+00:22:35,420 --> 00:22:39,420
+she might want to jump in on those.
+
+258
+00:22:39,420 --> 00:22:43,420
+Fantastic introduction. You're taking the way, Vance.
+
+259
+00:22:43,420 --> 00:22:47,420
+Okay, great. So our call for presentations,
+
+260
+00:22:47,420 --> 00:22:51,420
+we've been talking a little bit, I guess, about the bad news
+
+261
+00:22:51,420 --> 00:22:55,420
+is that we don't have a lot of details about
+
+262
+00:22:55,420 --> 00:22:59,420
+what is going to happen up on our website yet,
+
+263
+00:22:59,420 --> 00:23:03,420
+but the good news is that you can be
+
+264
+00:23:03,420 --> 00:23:07,380
+one of the people who contributes to what we have.
+
+265
+00:23:07,380 --> 00:23:11,280
+We have a call for presentations that is open.
+
+266
+00:23:11,280 --> 00:23:14,900
+We accept proposals from anyone.
+
+267
+00:23:14,900 --> 00:23:17,160
+I will say there is a limitation.
+
+268
+00:23:17,160 --> 00:23:21,860
+We do only want people who are able to physically
+
+269
+00:23:21,860 --> 00:23:24,960
+come to Columbus and present there.
+
+270
+00:23:26,260 --> 00:23:30,400
+So, other than that,
+
+271
+00:23:30,400 --> 00:23:34,120
+Anyone is welcome to put in a proposal.
+
+272
+00:23:34,120 --> 00:23:37,760
+We want you to give some details about the subject
+
+273
+00:23:37,760 --> 00:23:39,400
+that you're going to cover,
+
+274
+00:23:39,400 --> 00:23:42,880
+a little bit of information about yourself.
+
+275
+00:23:42,880 --> 00:23:45,760
+And while we do ask,
+
+276
+00:23:45,760 --> 00:23:49,360
+if you can provide some description
+
+277
+00:23:49,360 --> 00:23:52,040
+of your past experience,
+
+278
+00:23:52,040 --> 00:23:54,640
+that is not a requirement.
+
+279
+00:23:54,640 --> 00:23:58,040
+So if this is your first time speaking,
+
+280
+00:23:58,040 --> 00:24:01,320
+we would be perfectly fine with that.
+
+281
+00:24:01,320 --> 00:24:06,320
+We want to give as many people an opportunity as we can.
+
+282
+00:24:06,560 --> 00:24:10,000
+And what we'll do is go through all the proposals
+
+283
+00:24:10,000 --> 00:24:13,520
+and select the ones that look the strongest.
+
+284
+00:24:13,520 --> 00:24:14,360
+Super.
+
+285
+00:24:14,360 --> 00:24:19,600
+I will say we have a sort of soft deadline
+
+286
+00:24:19,600 --> 00:24:22,520
+or a cutoff of October 9.
+
+287
+00:24:24,160 --> 00:24:27,040
+What we're going to do is we're going to look at
+
+288
+00:24:27,040 --> 00:24:31,360
+everything that's come in then and decide which ones to accept.
+
+289
+00:24:31,360 --> 00:24:36,200
+We will still leave the call for presentations open.
+
+290
+00:24:36,200 --> 00:24:42,480
+And if we have any open slots, we will fill them using the proposals
+
+291
+00:24:42,480 --> 00:24:47,520
+we get after the October 9th.
+
+292
+00:24:47,520 --> 00:24:51,240
+So at some point, once we get enough,
+
+293
+00:24:51,240 --> 00:24:54,000
+we'll probably formally close it.
+
+294
+00:24:54,000 --> 00:24:58,480
+but that's the approach that we're taking this year.
+
+295
+00:24:58,480 --> 00:25:00,120
+And I'm imagining.
+
+296
+00:25:00,000 --> 00:25:04,000
+These talks need to be somehow related to tech or freely open source.
+
+297
+00:25:04,000 --> 00:25:11,000
+Yeah, so it should relate to free and open source software in whatever form.
+
+298
+00:25:11,000 --> 00:25:17,000
+As I said, we are not just about Linux, it's about any sort of free and open source software.
+
+299
+00:25:17,000 --> 00:25:18,000
+Okay.
+
+300
+00:25:18,000 --> 00:25:25,000
+I'm just looking at the call for papers and it seems reasonable, your name.
+
+301
+00:25:25,000 --> 00:25:28,960
+Basically what topic is, bit of biography, etc, etc, etc.
+
+302
+00:25:28,960 --> 00:25:30,040
+So very good.
+
+303
+00:25:30,040 --> 00:25:35,880
+But, Lyn, I believe I've interviewed you before about OLF in the past.
+
+304
+00:25:35,880 --> 00:25:39,800
+Well, it's a pleasure to be back on your show.
+
+305
+00:25:39,800 --> 00:25:41,680
+Thank you so much for having me.
+
+306
+00:25:41,680 --> 00:25:46,040
+Can you tell folks a little bit about yourself and how you got involved in OLF?
+
+307
+00:25:46,040 --> 00:25:47,680
+Oh, goodness.
+
+308
+00:25:47,680 --> 00:25:54,680
+The year was 2003 and it was the inaugural Ohio
+
+309
+00:25:54,680 --> 00:26:03,280
+wooden fest and imagine that we were at the Ohio State
+
+310
+00:26:03,280 --> 00:26:10,980
+University in three laboratories there in the auditorium.
+
+311
+00:26:10,980 --> 00:26:22,140
+And it was a quite the event because there were a lot of user groups who came together
+
+312
+00:26:22,140 --> 00:26:25,300
+to make it possible.
+
+313
+00:26:25,300 --> 00:26:37,540
+And even though geographically living in Pittsburgh, we were invited to attend and just
+
+314
+00:26:37,540 --> 00:26:47,060
+take it all in that it was very possible to attract world-class speakers to come to Central
+
+315
+00:26:47,060 --> 00:26:59,100
+Ohio to talk to user groups about all things free software. It was a wonderful event. I almost
+
+316
+00:26:59,100 --> 00:27:08,860
+didn't attend it because I registered late. But at the end of the show I happened to comment
+
+317
+00:27:08,860 --> 00:27:20,700
+on how did we really pull this off for exactly zero money to be able to attract these wonderful
+
+318
+00:27:20,700 --> 00:27:29,880
+speakers and the answer was really the community just came together that way.
+
+319
+00:27:29,880 --> 00:27:40,180
+So it's a great and kept in touch and though in the hold I became a part of the
+
+320
+00:27:40,180 --> 00:27:50,980
+the planning committee and later years when we became a nonprofit organization I became
+
+321
+00:27:50,980 --> 00:27:57,240
+an officer thereof and I'm currently the president of the Ohio Linux Web
+
+322
+00:27:57,240 --> 00:28:05,260
+Corporation. That is but you kind of got ruled into this. You got
+
+323
+00:28:05,260 --> 00:28:25,260
+I got roped into it. I definitely can say that. I'm pretty excited that we're going to be returning to the Ohio State University.
+
+324
+00:28:25,260 --> 00:28:30,260
+And we will be at once again at Dries Labs.
+
+325
+00:28:32,140 --> 00:28:37,140
+That's where the computer science and engineering core
+
+326
+00:28:38,060 --> 00:28:42,660
+of the excitement is on campus.
+
+327
+00:28:42,660 --> 00:28:47,660
+Many classes do take place within this very room.
+
+328
+00:28:47,660 --> 00:29:02,460
+within this very room. And that is a part of why we have to get started so late on Friday night,
+
+329
+00:29:02,460 --> 00:29:12,700
+because there are classes scheduled in these rooms for most of the day, but what we'll be doing is
+
+330
+00:29:12,700 --> 00:29:22,780
+will be hanging out in Dries Labs in Lohabi as students attend classes during the day.
+
+331
+00:29:22,780 --> 00:29:31,340
+And as our attendees reach Columbus will be able to greet people with a good old-fashioned
+
+332
+00:29:31,340 --> 00:29:33,020
+free software cheer.
+
+333
+00:29:33,020 --> 00:29:34,980
+Excellent.
+
+334
+00:29:34,980 --> 00:29:40,540
+You mentioned something there in your child which I forgot to ask and that was how much
+
+335
+00:29:40,540 --> 00:29:49,500
+is the event. What are tickets? What do tickets cost? We are again going retro with scaling back
+
+336
+00:29:49,500 --> 00:29:59,900
+to a gratis emission that we will offer some way for folks to purchase what we
+
+337
+00:30:00,000 --> 00:30:11,880
+called a supporter pass which will include some other amenities to thank you for thanking us to put on the show.
+
+338
+00:30:11,880 --> 00:30:29,000
+But basically what we want is people to plan ahead and attend the event and if you walk in we might have to charge some sort of nominal fee.
+
+339
+00:30:29,000 --> 00:30:43,000
+But ultimately we want it to be accessible to all, especially for the students because that is definitely the future free software.
+
+340
+00:30:43,000 --> 00:30:54,000
+Very good. I know that I'd camp had like five pounds thing and you could go up to 50 pounds.
+
+341
+00:30:54,000 --> 00:30:59,840
+any idea what they expected would be and if you know poor-18 students would they
+
+342
+00:30:59,840 --> 00:31:05,280
+get him free or passing the Rylids and stuff? Can you give me an idea of the
+
+343
+00:31:05,280 --> 00:31:13,160
+range of price? That students, no matter if they walk through the door on the day
+
+344
+00:31:13,160 --> 00:31:20,480
+of or if they register in advance are for free. Yeah. Anybody can register in
+
+345
+00:31:20,480 --> 00:31:29,280
+in advance for free. If you do not register, then you and you still would like to show up.
+
+346
+00:31:29,920 --> 00:31:38,320
+You can do so and if you're not a student and you have the means that will probably be around
+
+347
+00:31:38,320 --> 00:31:44,000
+ten dollars and we just are thrilled to have everybody.
+
+348
+00:31:44,000 --> 00:31:49,680
+Cool. How are you affording the venue?
+
+349
+00:31:49,680 --> 00:32:02,480
+The venue has actually been donated through the other insistence from the open source club
+
+350
+00:32:02,480 --> 00:32:10,320
+and the cyber security clubs there at the Ohio State University.
+
+351
+00:32:10,320 --> 00:32:12,160
+That is fantastic.
+
+352
+00:32:12,160 --> 00:32:18,000
+That's great to see because that's one of the most difficult things.
+
+353
+00:32:18,000 --> 00:32:22,480
+If you've got the venue at least sorted, everything else can fold into place afterwards.
+
+354
+00:32:22,480 --> 00:32:25,480
+Have you been to the venue yourself?
+
+355
+00:32:25,480 --> 00:32:26,720
+Because we're kind of guessing.
+
+356
+00:32:26,720 --> 00:32:29,480
+Have you visited the venue before?
+
+357
+00:32:29,480 --> 00:32:37,640
+I had attended during the first year, but that is the last and only time that I've been
+
+358
+00:32:37,640 --> 00:32:38,640
+in the venue.
+
+359
+00:32:38,640 --> 00:32:47,000
+So it's been a goodness over 20 years since I've been in the building.
+
+360
+00:32:47,000 --> 00:32:54,000
+I have a lot of things to know about the layout.
+
+361
+00:32:54,000 --> 00:33:05,400
+So we're going to work that out remotely that we have a highly excellent crew of students
+
+362
+00:33:05,400 --> 00:33:16,600
+who are driving the organizing and on the campus front with the logistics thereof.
+
+363
+00:33:16,600 --> 00:33:27,200
+So there are some of those details to work out, but what we'll be able to do is we will
+
+364
+00:33:27,200 --> 00:33:37,000
+most assuredly be able to land the floor plans from there and it is much of everybody from
+
+365
+00:33:37,000 --> 00:33:39,080
+the community involved.
+
+366
+00:33:39,080 --> 00:33:40,080
+Fantastic.
+
+367
+00:33:40,080 --> 00:33:41,080
+Fantastic.
+
+368
+00:33:41,080 --> 00:33:47,160
+looking at the prices and it's about a thousand dollars to two thousand dollars
+
+369
+00:33:47,160 --> 00:33:52,600
+to get me out there. I don't think my wife's gonna be too happy with that. We'll see.
+
+370
+00:33:52,600 --> 00:34:00,760
+Maybe next year. Maybe next year. So let's see how we're doing history. I've covered
+
+371
+00:34:00,760 --> 00:34:05,480
+the how much. I covered the where. It's going to be in Dries Laboratories in the
+
+372
+00:34:05,480 --> 00:34:09,760
+Ohio State University. It's going to be on Friday the 20th of November going
+
+373
+00:34:09,760 --> 00:34:14,040
+through all day Saturday, all day Sunday with a possible after-party
+
+374
+00:34:14,040 --> 00:34:18,520
+after. So I would advise you to get there on the Thursday and plan to come back on
+
+375
+00:34:18,520 --> 00:34:24,400
+the Monday. It is for anybody who's interested, not just Linux, but freely
+
+376
+00:34:24,400 --> 00:34:31,600
+you'll be in open source software. Why? Because. And it is an event open to
+
+377
+00:34:31,600 --> 00:34:37,280
+anybody in who can basically make it over there. Is that basically a summary of
+
+378
+00:34:37,280 --> 00:34:39,720
+of the who were what and why.
+
+379
+00:34:39,720 --> 00:34:42,440
+Just we will not have any action.
+
+380
+00:34:42,440 --> 00:34:43,440
+Yeah.
+
+381
+00:34:43,440 --> 00:34:46,680
+Yes, so it will be Friday and Saturday.
+
+382
+00:34:46,680 --> 00:34:49,160
+We do not have anything planned for Sunday,
+
+383
+00:34:49,160 --> 00:34:52,280
+so that can be your travel day back home.
+
+384
+00:34:52,280 --> 00:34:54,200
+OK, so it's Friday and Saturday.
+
+385
+00:34:54,200 --> 00:34:55,240
+So, yeah.
+
+386
+00:34:55,240 --> 00:34:56,280
+Yes, yes.
+
+387
+00:34:56,280 --> 00:34:57,280
+Very good.
+
+388
+00:34:57,280 --> 00:34:57,920
+Good.
+
+389
+00:34:57,920 --> 00:34:58,920
+We got that certified.
+
+390
+00:35:00,000 --> 00:35:04,240
+So, who are your prospective attendees?
+
+391
+00:35:04,240 --> 00:35:06,800
+People who listen to HBR, I guess.
+
+392
+00:35:06,800 --> 00:35:08,360
+Certainly.
+
+393
+00:35:08,360 --> 00:35:13,920
+As I mentioned earlier, we are hoping to get more students attending.
+
+394
+00:35:13,920 --> 00:35:19,480
+We've had some in past years, but not as many as we would like.
+
+395
+00:35:19,480 --> 00:35:24,720
+So, hopefully the campus location will help us there.
+
+396
+00:35:24,720 --> 00:35:29,720
+And it's really anybody who is interested in free software.
+
+397
+00:35:30,220 --> 00:35:35,220
+It doesn't really matter too much about your experience level.
+
+398
+00:35:35,420 --> 00:35:42,420
+I will say we have very few of our presentations normally
+
+399
+00:35:44,320 --> 00:35:47,320
+are aimed at a very high level.
+
+400
+00:35:47,320 --> 00:35:52,320
+So, you know, we're not having people like,
+
+401
+00:35:54,720 --> 00:35:59,120
+You know, Greg Crow Hartman, you know, or Linus Torvalds,
+
+402
+00:35:59,120 --> 00:36:02,800
+you know, talking about very technical details
+
+403
+00:36:02,800 --> 00:36:04,840
+within the kernel.
+
+404
+00:36:04,840 --> 00:36:10,840
+It does tend to be aimed at a more general sort of free
+
+405
+00:36:10,840 --> 00:36:17,920
+software audience rather than a kind of specific niche.
+
+406
+00:36:17,920 --> 00:36:23,480
+So we do try to appeal more widely as we can.
+
+407
+00:36:23,480 --> 00:36:30,480
+But it very much depends on what the people who put in proposals want to talk about.
+
+408
+00:36:30,480 --> 00:36:40,400
+So if they want to talk about something that is very specialized, we'll consider that.
+
+409
+00:36:40,400 --> 00:36:44,440
+We would probably tend to, you know, all other things being equal.
+
+410
+00:36:44,440 --> 00:36:50,400
+We would probably tend to favor a presentation that has a broader appeal.
+
+411
+00:36:50,400 --> 00:36:54,960
+But yeah, that's kind of the feel that we're going for.
+
+412
+00:36:54,960 --> 00:36:58,440
+And the proposals that we get typically
+
+413
+00:36:58,440 --> 00:37:01,440
+are applicable to a wider group.
+
+414
+00:37:01,440 --> 00:37:02,280
+Cool.
+
+415
+00:37:02,280 --> 00:37:03,840
+I'm looking here at the culture.
+
+416
+00:37:03,840 --> 00:37:08,560
+I would say that is pretty accurate.
+
+417
+00:37:08,560 --> 00:37:13,000
+I think that there's also an opportunity
+
+418
+00:37:13,000 --> 00:37:17,200
+if you wanted to give a presentation where
+
+419
+00:37:17,200 --> 00:37:28,080
+somebody can dabble in a project that they've never seen before and just have a little bit of a
+
+420
+00:37:29,040 --> 00:37:39,200
+glimpse about what it is all about to see if you would like to start using that project or that
+
+421
+00:37:39,200 --> 00:37:53,520
+approach to your your solution where it wouldn't necessarily be a very in-depth talk, but it
+
+422
+00:37:53,520 --> 00:38:01,920
+could be specialized, but not as the oh my goodness you would have had to have a lot of background
+
+423
+00:38:01,920 --> 00:38:12,750
+information to possibly understand it. Yeah, I see that. Yeah, I see you're looking for
+
+424
+00:38:12,750 --> 00:38:19,710
+general system admins, stuff DevOps, emergent technologies, cloud computing, machine learning,
+
+425
+00:38:19,710 --> 00:38:27,710
+big data, IPv6, performance tuning, scalable distributions, media, production, web operations,
+
+426
+00:38:27,710 --> 00:38:33,790
+virtualization, containers, database and storage, and unveiling new free open source
+
+427
+00:38:33,790 --> 00:38:40,590
+software. But possible topics including career development, management, contributing to an open source
+
+428
+00:38:42,190 --> 00:38:48,590
+as an individual or business and community involvement and people networking. So those are kind of
+
+429
+00:38:48,590 --> 00:38:55,390
+what's on the call for papers, but sounds very similar to a HBR, but in person to be honest.
+
+430
+00:38:55,390 --> 00:38:57,950
+I would say that's an accurate description. Yeah.
+
+431
+00:38:59,790 --> 00:39:06,350
+So people should definitely try and come and attend. I'm really, really get excited when I see
+
+432
+00:39:06,350 --> 00:39:11,630
+these events coming up and it's great to see that after the pandemic that we're back to meeting
+
+433
+00:39:11,630 --> 00:39:17,390
+in person again. I can't stress it enough. I will just put in a plug here. If anybody is going to
+
+434
+00:39:17,390 --> 00:39:23,310
+OLF, please give us a shout if you would be interested in doing a table. If you had two or three people
+
+435
+00:39:23,310 --> 00:39:28,590
+do in a table that gives plenty of time for people to go around and attend talks, but it
+
+436
+00:39:28,590 --> 00:39:33,190
+also gives you time to have somewhere where you can sit permanently, have a coffee and
+
+437
+00:39:33,190 --> 00:39:39,470
+have the people come to you. So please do that looking for volunteers to request a table
+
+438
+00:39:39,470 --> 00:39:46,510
+for OLF called for your tables is now open as well as the call for papers. So what's involved
+
+439
+00:39:46,510 --> 00:39:50,270
+in the planning, who's involved in that and where does it go from here? Because we're
+
+440
+00:39:50,270 --> 00:39:56,510
+like at early stages at this point in the whole planning stage I guess.
+
+441
+00:39:56,510 --> 00:39:59,950
+Yes so we have a team of about six people.
+
+442
+00:40:00,620 --> 00:40:07,620
+So there's Beth Lynn and myself. We also have Michael Schulfice. He's our
+
+443
+00:40:07,620 --> 00:40:14,540
+treasure and he also runs our web infrastructure and typically handles
+
+444
+00:40:14,540 --> 00:40:25,740
+the registration and check-in stuff. We have Sam Javer. He is our AV guru. He has
+
+445
+00:40:25,740 --> 00:40:30,020
+been responsible for doing the live
+
+446
+00:40:30,020 --> 00:40:33,900
+streaming in the past few years and had
+
+447
+00:40:33,900 --> 00:40:38,220
+he's been a huge help to us not only
+
+448
+00:40:38,220 --> 00:40:40,260
+in being able to carry this stuff out
+
+449
+00:40:40,260 --> 00:40:45,980
+but also you know one of our biggest
+
+450
+00:40:45,980 --> 00:40:48,900
+expenses I guess our biggest expense
+
+451
+00:40:48,900 --> 00:40:53,900
+other than the actual space that we
+
+452
+00:40:53,900 --> 00:41:01,740
+Reserve is also for an AV contractor and he has helped us to cut down that expense
+
+453
+00:41:01,740 --> 00:41:08,780
+because he has a whole bunch of his own equipment and has all this knowledge
+
+454
+00:41:08,780 --> 00:41:19,180
+and so that's been super hopeful contribution to our team.
+
+455
+00:41:19,180 --> 00:41:26,180
+I also want to mention, so Susan Rose manages our social media.
+
+456
+00:41:26,180 --> 00:41:39,180
+I have to admit, I basically avoid all social media myself, so I'm not super up on what has been, you know,
+
+457
+00:41:39,180 --> 00:41:48,180
+what's currently being updated on there. I know we have a Twitter account and maybe she's been posting things to LinkedIn.
+
+458
+00:41:48,180 --> 00:41:51,180
+And another person.
+
+459
+00:41:51,180 --> 00:41:54,180
+It's been mostly to our Facebook.
+
+460
+00:41:54,180 --> 00:42:17,180
+Oh, okay. Great. And I'll let maybe Beth Lynn talk about a sort of an advisor who is John Mad Dog Hall, who has come and spoken as a keynote at every or I think you may have missed one or two years.
+
+461
+00:42:17,180 --> 00:42:26,300
+over the past couple of decades but he's been a recurring real great place to have
+
+462
+00:42:26,300 --> 00:42:34,140
+in our event. Beth Lynn why don't you talk about him a little. Absolutely so
+
+463
+00:42:34,140 --> 00:42:43,900
+John Mandog Hall had decided to get involved with the Ohio and Expasse on our
+
+464
+00:42:43,900 --> 00:42:58,780
+second year in 04 and it was such a big help to have his mentoring regarding how to transform
+
+465
+00:42:58,780 --> 00:43:13,140
+a one-off event to a conference that professionals would like to attend perennially as well as
+
+466
+00:43:13,140 --> 00:43:26,040
+the obvious in student crew, but he's always really had quite the care of, so where are
+
+467
+00:43:26,040 --> 00:43:34,720
+the students? Probably because he got his nickname of Mad Dog from back in the time that he was
+
+468
+00:43:34,720 --> 00:43:42,480
+a college professor. And I would definitely let him tell that story before it. I would even
+
+469
+00:43:42,480 --> 00:43:52,960
+making the attempt to do so but trust me it's a good one and he was very very
+
+470
+00:43:52,960 --> 00:44:01,040
+excited to share that we would be once again back at the Ohio State University
+
+471
+00:44:01,040 --> 00:44:11,440
+especially since he was not at the inaugural Linux Fest either so it will
+
+472
+00:44:11,440 --> 00:44:21,720
+So it's his first time being at OSU campus and he's quite interested in meeting all the
+
+473
+00:44:21,720 --> 00:44:24,640
+students that attend as well.
+
+474
+00:44:24,640 --> 00:44:28,800
+Absolute legend in Free Libre open source circles.
+
+475
+00:44:28,800 --> 00:44:30,840
+This is fantastic.
+
+476
+00:44:30,840 --> 00:44:33,720
+So he will be attending this year, will he?
+
+477
+00:44:33,720 --> 00:44:37,000
+Yes, he will.
+
+478
+00:44:37,000 --> 00:44:54,000
+I think that he was interested in talking about freebox.org that he had some part in the initial
+
+479
+00:44:54,000 --> 00:44:59,960
+developments of that project and I suppose he would
+
+480
+00:45:00,000 --> 00:45:10,160
+like to talk about actual applications as the project moves forward. If you're not familiar,
+
+481
+00:45:10,160 --> 00:45:20,160
+you can download it yourself and run it on a Pi or you could run it on x8664 hardware.
+
+482
+00:45:20,160 --> 00:45:31,160
+And if you don't want to do either of those, they do have hardware for sale that ships with it.
+
+483
+00:45:31,160 --> 00:45:40,160
+I do believe that the hardware for sale might actually be coming out of the European Union.
+
+484
+00:45:40,160 --> 00:45:48,860
+So definitely allow for lots of shipping time for that to happen.
+
+485
+00:45:49,280 --> 00:46:05,760
+But it is very interesting to hear about how a free software project will enable and empower people to continue to have
+
+486
+00:46:05,760 --> 00:46:34,760
+or preserve their own dominion over their own data and allow them to federate their data because a concept that we often forget about is when you trust a big company with your data, okay, not only do you potentially become the product,
+
+487
+00:46:34,760 --> 00:46:39,760
+but you also are entrusting that they will be there
+
+488
+00:46:41,720 --> 00:46:46,400
+and they will continue to behave nicely to you
+
+489
+00:46:46,400 --> 00:46:49,960
+as the user forever.
+
+490
+00:46:49,960 --> 00:46:54,960
+So these types of projects that will empower people
+
+491
+00:46:56,400 --> 00:47:00,040
+to gain control over their data
+
+492
+00:47:00,040 --> 00:47:10,040
+and the media I think is hyper important in 2026. Couldn't agree more and I think the website is
+
+493
+00:47:10,040 --> 00:47:20,360
+freedombox at freedombox.org. Cool cool cool cool cool. Just going through the notes here that we had,
+
+494
+00:47:20,360 --> 00:47:28,040
+was there anything else guys that we didn't cover that we should have covered? Just a little bit of
+
+495
+00:47:28,040 --> 00:47:35,060
+background. As we talked about the registration, that isn't open yet. Again, I
+
+496
+00:47:35,060 --> 00:47:46,760
+would direct people to the news page to see when we open registration. Traditionally,
+
+497
+00:47:46,760 --> 00:47:54,620
+we did not charge an admission fee. We kind of ran into some trouble, as I
+
+498
+00:47:54,620 --> 00:48:03,460
+mentioned before with the hotel costs and so to avoid having a bunch of people
+
+499
+00:48:03,460 --> 00:48:09,080
+who registered and then didn't show up we started charging a fee in the last
+
+500
+00:48:09,080 --> 00:48:16,140
+two years but fortunately now with the situation we are able to offer that free
+
+501
+00:48:16,140 --> 00:48:24,300
+registration tier, but if you choose to, you can buy a more expensive ticket and
+
+502
+00:48:24,300 --> 00:48:31,860
+most of that extra expense is just going towards running the event because
+
+503
+00:48:31,860 --> 00:48:36,140
+there are still some expenses. I think, you know, we'll have coffee and things like
+
+504
+00:48:36,140 --> 00:48:42,940
+that available. I should also point out, Becklin mentioned that, you know, we're a
+
+505
+00:48:42,940 --> 00:48:50,420
+non-profit, we're actually a charitable organization. None of the people who are
+
+506
+00:48:50,420 --> 00:48:56,580
+on the staff or involved, none of us are getting paid to do this. It's an entirely
+
+507
+00:48:56,580 --> 00:49:04,820
+volunteer thing and we do it because we love the community, we love learning and
+
+508
+00:49:04,820 --> 00:49:10,540
+seeing a lot more about free software and we just, we want to make it as
+
+509
+00:49:10,540 --> 00:49:18,420
+as accessible to as many people as possible. So this location is going to allow us to do
+
+510
+00:49:18,420 --> 00:49:19,420
+that.
+
+511
+00:49:19,420 --> 00:49:24,980
+Yeah, it looks really nice from the photos that I see online and it's really good to
+
+512
+00:49:24,980 --> 00:49:34,060
+be going back to the roots again and back to the core getting a really calm express to
+
+513
+00:49:34,060 --> 00:49:39,420
+people. If you've not been to a freely-boven source event like OLF, that's the Stolworth,
+
+514
+00:49:39,420 --> 00:49:45,500
+the example I gave in the States we were at oil F here we're a foster but I'll camp these are like
+
+515
+00:49:45,500 --> 00:49:51,660
+the big conferences in your areas if you had never been to one and you have the option to go make a
+
+516
+00:49:51,660 --> 00:49:57,260
+weekend of it and nip over on the Thursday then you have the whole Sunday to chill out with your
+
+517
+00:49:57,260 --> 00:50:01,980
+with your friends and stuff and then head off home
+
+518
+00:50:00,000 --> 00:50:04,720
+There's nothing like being there in person, meeting like-minded people, and they just go,
+
+519
+00:50:04,720 --> 00:50:10,160
+oh my god, there are people in the world who, your conversation doesn't, the first 10 minutes of
+
+520
+00:50:10,160 --> 00:50:14,960
+your conversation doesn't go into a discussion about what licensing is, you're straight into the
+
+521
+00:50:14,960 --> 00:50:23,840
+me so it matters. It's fantastic to immerse yourself in that sort of an event. I'm only sorry that I
+
+522
+00:50:23,840 --> 00:50:29,360
+will be able to attend in person, but no doubt, there will be a HPR correspondent on site,
+
+523
+00:50:29,360 --> 00:50:36,080
+bringing us live updates in air quotes after the fact. Guys, was there anything else or do we
+
+524
+00:50:36,080 --> 00:50:44,320
+I think we covered everything? I would like people to subscribe to our YouTube channel.
+
+525
+00:50:45,040 --> 00:50:51,360
+I believe that's all that's covered. Yeah, go to link. Especially if you can attend and
+
+526
+00:50:51,360 --> 00:51:00,580
+Yeah, if you cannot attend in person, just definitely go ahead and subscribe.
+
+527
+00:51:00,580 --> 00:51:10,000
+That will give you access to alerts regarding scheduling the live stream.
+
+528
+00:51:10,000 --> 00:51:15,800
+And then you can definitely look in from wherever you are.
+
+529
+00:51:15,800 --> 00:51:16,800
+Perfect.
+
+530
+00:51:16,800 --> 00:51:20,720
+I'll have links obviously to all of this stuff in the show notes.
+
+531
+00:51:20,720 --> 00:51:25,360
+Do you guys have maybe I'll get in contact with the
+
+532
+00:51:27,040 --> 00:51:28,640
+with the
+
+533
+00:51:28,640 --> 00:51:34,840
+Organizers see maybe if you're on master done or peer tube or matrix or some of the other
+
+534
+00:51:35,720 --> 00:51:41,760
+Channels like that. See if we can put the links in there. Yeah, there there is an
+
+535
+00:51:41,760 --> 00:51:46,200
+and Ohio Linux matrix channel.
+
+536
+00:51:46,200 --> 00:51:50,720
+I'll have to send the link for later,
+
+537
+00:51:50,720 --> 00:51:53,440
+but that does exist.
+
+538
+00:51:53,440 --> 00:51:54,520
+Cool, cool.
+
+539
+00:51:54,520 --> 00:51:56,120
+We'll get all those links.
+
+540
+00:51:57,160 --> 00:51:58,560
+We can put them into the show notes
+
+541
+00:51:58,560 --> 00:52:01,240
+of the this episode before it goes out.
+
+542
+00:52:03,520 --> 00:52:07,920
+How about we schedule closer to the event,
+
+543
+00:52:07,920 --> 00:52:13,520
+a follow up and see where you are with the scheduling and stuff, just give people maybe
+
+544
+00:52:13,520 --> 00:52:20,160
+an half hour episode of what's coming up closer at the beginning of October sometime like that.
+
+545
+00:52:20,160 --> 00:52:28,240
+Sound like a plan? Yeah, that would be fantastic. Probably about mid-October, we would have a better
+
+546
+00:52:28,240 --> 00:52:36,400
+sense of exactly what the presentations will be and be able to update you with a little bit more
+
+547
+00:52:36,400 --> 00:52:43,480
+meet about what is going to be in the actual event. Yeah, because let's face it,
+
+548
+00:52:43,480 --> 00:52:48,440
+you're going to a new and new old venue. The whole thing is going to be a lot
+
+549
+00:52:48,440 --> 00:52:52,160
+different. I think it's from the sound of it, from what you're saying about the venue
+
+550
+00:52:52,160 --> 00:52:57,600
+itself sounds like a fantastic venue. But then hopefully you'll have a lot more
+
+551
+00:52:57,600 --> 00:53:02,640
+locked down as to what the call for papers are and the participation is
+
+552
+00:53:02,640 --> 00:53:07,960
+going to be. So, I'm looking forward to seeing how it turns out. Absolutely, and
+
+553
+00:53:07,960 --> 00:53:19,320
+thanks so much for hosting us on this. It was great. There are a couple of the
+
+554
+00:53:19,320 --> 00:53:25,960
+HPR hosts who have been involved. There was Murph. He was actually the
+
+555
+00:53:25,960 --> 00:53:31,520
+reason why I started recording episodes for HPR. He did a presentation at
+
+556
+00:53:31,520 --> 00:53:40,180
+last year's OOLF about how easy it is to create and upload episodes and make
+
+557
+00:53:40,180 --> 00:53:48,780
+them available over HPR. There's also Ahuka who has been putting up a lot of
+
+558
+00:53:48,780 --> 00:53:56,600
+episodes about games and various science fiction authors. He was actually for
+
+559
+00:53:56,600 --> 00:54:02,620
+several years involved with the organizing team. Yeah as I say we have a
+
+560
+00:54:02,620 --> 00:54:10,100
+long history with the with the oil f it is the u.s. conference as far as hpr is
+
+561
+00:54:10,100 --> 00:54:20,620
+concerned okay guys with that we love hpr so if there's nothing else shall we
+
+562
+00:54:20,620 --> 00:54:28,660
+call all altars and absolutely go thanks for having us no bother tune in
+
+563
+00:54:28,660 --> 00:54:34,260
+tomorrow for another exciting episode of Hacker Public Radio.
+
+564
+00:54:34,260 --> 00:54:39,700
+You have been listening to the Hacker Public Radio podcast at hicapublicradio.org.
+
+565
+00:54:39,700 --> 00:54:43,820
+Today's show was contributed by a HBR listener like yourself.
+
+566
+00:54:43,820 --> 00:54:49,380
+If you ever thought of recording a podcast, then visit the HBR site to find out how easy
+
+567
+00:54:49,380 --> 00:54:50,900
+it really is.
+
+568
+00:54:50,900 --> 00:54:57,460
+Hosting for HBR has been kindly provided by Anomesthost.com, the internet archive,
+
+569
+00:54:57,460 --> 00:55:02,660
+on net and the HDR community content delivery network.
+
+570
+00:55:02,660 --> 00:55:07,660
+Unless otherwise stated, today's show is released under a Creative Commons
+
+571
+00:55:07,660 --> 00:55:12,300
+Attribution, share alike, 4.0 international advice.

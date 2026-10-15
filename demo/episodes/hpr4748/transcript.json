@@ -1,0 +1,1441 @@
+{
+ "episode": "hpr4748",
+ "duration_s": 1354.18,
+ "segments": [
+  {
+   "start": 5.71,
+   "end": 12.71,
+   "text": "This is Hacker Public Radio Episode 4748 for Wednesday 14 October 2026."
+  },
+  {
+   "start": 12.71,
+   "end": 17.71,
+   "text": "Today's show is entitled Programmable Logic Controls Episode 5."
+  },
+  {
+   "start": 17.71,
+   "end": 21.71,
+   "text": "It is hosted by Whiskey Jack and is about 21 minutes long."
+  },
+  {
+   "start": 21.71,
+   "end": 27.71,
+   "text": "It carries a clean flag. The summary is a brief overview of industrial control systems."
+  },
+  {
+   "start": 27.71,
+   "end": 42.9,
+   "text": "Introduction"
+  },
+  {
+   "start": 42.9,
+   "end": 46.9,
+   "text": "This is the fifth episode in an eight-part series."
+  },
+  {
+   "start": 46.9,
+   "end": 55.9,
+   "text": "In the previous two episodes, we looked at the Alan Bradley PLC2 and the Siemens S5 series of PLCs."
+  },
+  {
+   "start": 55.9,
+   "end": 61.9,
+   "text": "In those episodes, we mentioned IOModules, but didn't really go into any detail on them."
+  },
+  {
+   "start": 61.9,
+   "end": 68.9,
+   "text": "Instead, we looked at the CPU units and focused on things from the programmer's perspective."
+  },
+  {
+   "start": 68.9,
+   "end": 77.6,
+   "text": "In this episode, we will look at the I.O. modules, what they are, how they work, and the purpose that they serve in the system."
+  },
+  {
+   "start": 77.6,
+   "end": 88.8,
+   "text": "In addition to this, I will discuss machine safety systems, and also claims made by certain people about cybersecurity and industrial safety."
+  },
+  {
+   "start": 88.8,
+   "end": 95.8,
+   "text": "What is I.O.? First though, we must address the question of what I.O. is."
+  },
+  {
+   "start": 95.8,
+   "end": 102.36,
+   "text": "While the CPU module may run the program, in order for the program to do anything useful,"
+  },
+  {
+   "start": 102.36,
+   "end": 106.82,
+   "text": "it must interact with the real world outside the PLC."
+  },
+  {
+   "start": 106.82,
+   "end": 111.72,
+   "text": "It must sense the state of the machine it is controlling through inputs, and it must affect"
+  },
+  {
+   "start": 111.72,
+   "end": 115.24,
+   "text": "the operation of the machine through outputs."
+  },
+  {
+   "start": 115.24,
+   "end": 117.5,
+   "text": "A simple example."
+  },
+  {
+   "start": 117.5,
+   "end": 122.88,
+   "text": "Let's take a very simple example to try to make the above a bit more tangible."
+  },
+  {
+   "start": 122.88,
+   "end": 129.08,
+   "text": "assuming we wish to press two parts together, such as pressing a bearing into a housing."
+  },
+  {
+   "start": 129.08,
+   "end": 133.26,
+   "text": "This is a very common industrial process."
+  },
+  {
+   "start": 133.26,
+   "end": 138.12,
+   "text": "Let us assume we have the following items which connect to the inputs."
+  },
+  {
+   "start": 138.12,
+   "end": 145.68,
+   "text": "An emergency stop circuit, a safety system to protect the operator, a part present sensor"
+  },
+  {
+   "start": 145.68,
+   "end": 151.68,
+   "text": "used to detect that the housing was correctly placed in the tooling, another part present"
+  },
+  {
+   "start": 151.68,
+   "end": 157.28,
+   "text": "sensor used to detect that the bearing was correctly placed in the tooling."
+  },
+  {
+   "start": 157.28,
+   "end": 164.08,
+   "text": "A sensor which indicates the hydraulic cylinder is fully retracted, another sensor which indicates"
+  },
+  {
+   "start": 164.08,
+   "end": 169.72,
+   "text": "the hydraulic cylinder is fully extended and the part was fully pressed home, a button"
+  },
+  {
+   "start": 169.72,
+   "end": 175.24,
+   "text": "which the operator uses to initiate the press cycle, another button which the operator can"
+  },
+  {
+   "start": 175.24,
+   "end": 179.8,
+   "text": "use to abort the press cycle in the event of a fault."
+  },
+  {
+   "start": 179.8,
+   "end": 185.52,
+   "text": "We also have the following items which connect to the outputs, a hydraulic valve with two"
+  },
+  {
+   "start": 185.52,
+   "end": 191.88,
+   "text": "solenoids down and up, a pilot light which tells the operator that the cycle was completed"
+  },
+  {
+   "start": 191.88,
+   "end": 197.52,
+   "text": "successfully and the part is good, a pilot light which tells the operator that the cycle"
+  },
+  {
+   "start": 197.52,
+   "end": 201.56,
+   "text": "was not completed successfully and the part is bad."
+  },
+  {
+   "start": 201.56,
+   "end": 206.44,
+   "text": "This gives us a total of 8 inputs and 4 outputs."
+  },
+  {
+   "start": 206.44,
+   "end": 212.4,
+   "text": "A typical, very small PLC would be suitable for this application."
+  },
+  {
+   "start": 212.4,
+   "end": 217.92,
+   "text": "The PLC program would look at the state of the inputs and apply the necessary logic to"
+  },
+  {
+   "start": 217.92,
+   "end": 222.04,
+   "text": "turn the outputs on or off at the appropriate time."
+  },
+  {
+   "start": 222.04,
+   "end": 229.0,
+   "text": "As you can see, what makes the PLC useful is its ability to control I.O."
+  },
+  {
+   "start": 229.0,
+   "end": 236.04,
+   "text": "Small PLCs typically have a limited amount of I.O. built into the same package as the CPU"
+  },
+  {
+   "start": 236.04,
+   "end": 239.48,
+   "text": "and can be used as is right out of the box."
+  },
+  {
+   "start": 239.48,
+   "end": 243.78,
+   "text": "Medium to large PLCs will interface to racks of IO,"
+  },
+  {
+   "start": 243.78,
+   "end": 246.28,
+   "text": "and the number of IO points can be in the dozens"
+  },
+  {
+   "start": 246.28,
+   "end": 248.6,
+   "text": "to hundreds and even the thousands."
+  },
+  {
+   "start": 249.68,
+   "end": 254.0,
+   "text": "Types of IO, the above example is very simple."
+  },
+  {
+   "start": 254.0,
+   "end": 257.04,
+   "text": "There are in fact many types of IO."
+  },
+  {
+   "start": 257.04,
+   "end": 259.44,
+   "text": "I will outline the most common ones here."
+  },
+  {
+   "start": 260.52,
+   "end": 263.4,
+   "text": "The first is digital IO."
+  },
+  {
+   "start": 263.4,
+   "end": 266.8,
+   "text": "This is overwhelmingly the most common type."
+  },
+  {
+   "start": 266.8,
+   "end": 270.72,
+   "text": "Digital I.O. are basic on-off signals."
+  },
+  {
+   "start": 270.72,
+   "end": 275.04,
+   "text": "A digital input will detect if a switch is on or off."
+  },
+  {
+   "start": 275.04,
+   "end": 279.32,
+   "text": "A digital output will turn a relay or valve on or off."
+  },
+  {
+   "start": 280.72,
+   "end": 283.36,
+   "text": "Digital I.O. comes in three main types,"
+  },
+  {
+   "start": 283.36,
+   "end": 286.64,
+   "text": "categorized by the type of electronic device used."
+  },
+  {
+   "start": 286.64,
+   "end": 290.16,
+   "text": "These are AC, relay, and DC."
+  },
+  {
+   "start": 290.16,
+   "end": 296.72,
+   "text": "ACIO was the earliest type but is largely faded away by now."
+  },
+  {
+   "start": 296.72,
+   "end": 300.0,
+   "text": "This works with 100 to 120 volts AC."
+  },
+  {
+   "start": 300.0,
+   "end": 303.3,
+   "text": "or 230 volts AC."
+  },
+  {
+   "start": 304.12,
+   "end": 307.58,
+   "text": "Inputs detect the presence or absence of these voltages"
+  },
+  {
+   "start": 308.1,
+   "end": 311.06,
+   "text": "and outputs output these voltages when turned on."
+  },
+  {
+   "start": 312.16,
+   "end": 316.28,
+   "text": "The relay logic that the PLCs replaced was largely driven"
+  },
+  {
+   "start": 316.28,
+   "end": 319.34,
+   "text": "by these voltages so being able to interface"
+  },
+  {
+   "start": 319.34,
+   "end": 323.04,
+   "text": "with existing systems was an important design consideration"
+  },
+  {
+   "start": 323.18,
+   "end": 324.54,
+   "text": "for early PLCs."
+  },
+  {
+   "start": 324.54,
+   "end": 333.54,
+   "text": "Relay outputs were an alternative to the tri-act devices used for solid-state AC outputs."
+  },
+  {
+   "start": 333.54,
+   "end": 337.42,
+   "text": "These were very small relays built into the output modules."
+  },
+  {
+   "start": 337.42,
+   "end": 342.7,
+   "text": "Their main attraction was they were usually somewhat cheaper than solid-state outputs."
+  },
+  {
+   "start": 342.7,
+   "end": 348.94,
+   "text": "However, they suffered from being much less durable and had a shorter life."
+  },
+  {
+   "start": 348.94,
+   "end": 356.64,
+   "text": "By the 1980s and 90s AC and relay IO had been largely replaced in new applications by"
+  },
+  {
+   "start": 356.64,
+   "end": 359.38,
+   "text": "24 volts DC."
+  },
+  {
+   "start": 359.38,
+   "end": 364.86,
+   "text": "This allowed for more compact and less expensive control wiring and fewer electrical safety"
+  },
+  {
+   "start": 364.86,
+   "end": 366.54,
+   "text": "concerns."
+  },
+  {
+   "start": 366.54,
+   "end": 371.64,
+   "text": "Both inputs and outputs worked with 24 volts DC."
+  },
+  {
+   "start": 371.64,
+   "end": 378.1,
+   "text": "All of the standard sensors, solenoid valves, relays, push buttons, lights and pretty much"
+  },
+  {
+   "start": 378.1,
+   "end": 384.16,
+   "text": "all other devices were designed to be compatible with 24 volts DC."
+  },
+  {
+   "start": 384.16,
+   "end": 389.42,
+   "text": "In cases where you had a large motor contact or relay or large solenoid valves"
+  },
+  {
+   "start": 389.42,
+   "end": 393.32,
+   "text": "which required higher voltages for practical reasons,"
+  },
+  {
+   "start": 393.32,
+   "end": 399.16,
+   "text": "an additional interposing relay could be used to amplify the control signal."
+  },
+  {
+   "start": 399.16,
+   "end": 405.76,
+   "text": "IOModules or cards came in 8, 16, and 32 point sizes,"
+  },
+  {
+   "start": 405.76,
+   "end": 410.48,
+   "text": "and there are modules which combine both inputs and outputs in a single module."
+  },
+  {
+   "start": 410.48,
+   "end": 413.56,
+   "text": "Analog I.O."
+  },
+  {
+   "start": 413.56,
+   "end": 420.24,
+   "text": "As well as simple on-off voltages, PLCs could also work with variable voltages where the actual"
+  },
+  {
+   "start": 420.24,
+   "end": 426.96,
+   "text": "voltage or current represents a measurable value such as temperature or dimension."
+  },
+  {
+   "start": 426.96,
+   "end": 429.8,
+   "text": "These are known as analog values."
+  },
+  {
+   "start": 429.8,
+   "end": 437.18,
+   "text": "These could be inputs or outputs and are known as analog inputs or analog outputs."
+  },
+  {
+   "start": 437.18,
+   "end": 439.42,
+   "text": "The simplest is voltage."
+  },
+  {
+   "start": 439.42,
+   "end": 448.56,
+   "text": "The most common standard voltage ranges are 0 to 10 volts plus or minus 10 volts 0 to 5"
+  },
+  {
+   "start": 448.56,
+   "end": 452.3,
+   "text": "volts 1 to 5 volts."
+  },
+  {
+   "start": 452.3,
+   "end": 454.06,
+   "text": "Another type is current."
+  },
+  {
+   "start": 454.06,
+   "end": 459.66,
+   "text": "This is where the amount of current rather than the level of the voltage is what is significant."
+  },
+  {
+   "start": 459.66,
+   "end": 466.16,
+   "text": "Current has an advantage over voltage in that it is less affected by resistance losses"
+  },
+  {
+   "start": 466.16,
+   "end": 473.08,
+   "text": "in long wiring runs and is also less prone to being influenced by electrical noise due"
+  },
+  {
+   "start": 473.08,
+   "end": 476.34,
+   "text": "to the lower impedance."
+  },
+  {
+   "start": 476.34,
+   "end": 485.28,
+   "text": "The most common standard current ranges are 4 to 20 milliamps and 0 to 20 milliamps."
+  },
+  {
+   "start": 485.28,
+   "end": 489.16,
+   "text": "Another common type is thermocouple inputs."
+  },
+  {
+   "start": 489.16,
+   "end": 494.72,
+   "text": "These have special circuitry built into them to interface with thermocouple devices, which"
+  },
+  {
+   "start": 494.72,
+   "end": 500.28,
+   "text": "are a common device used to measure temperature by measuring the voltage generated when two"
+  },
+  {
+   "start": 500.28,
+   "end": 505.72,
+   "text": "dissimilar metals are heated in contact with each other."
+  },
+  {
+   "start": 505.72,
+   "end": 511.72,
+   "text": "Serial communications A number of PLCs have serial communications ports, mainly used to"
+  },
+  {
+   "start": 511.72,
+   "end": 516.64,
+   "text": "interface with things like label printers or barcode readers."
+  },
+  {
+   "start": 516.64,
+   "end": 521.96,
+   "text": "Some of these even have basic interpreters built into them, mainly to allow for better string"
+  },
+  {
+   "start": 521.96,
+   "end": 525.36,
+   "text": "formatting or parsing."
+  },
+  {
+   "start": 525.36,
+   "end": 531.56,
+   "text": "Another category of IO are Servo and Stepper Motor Controllers."
+  },
+  {
+   "start": 531.56,
+   "end": 537.56,
+   "text": "Another type are Counter Timer Modules, which allow for high-speed counting of events, or"
+  },
+  {
+   "start": 537.56,
+   "end": 545.28,
+   "text": "very precise timing of events in hardware, or interfacing with rotary or linear encoders."
+  },
+  {
+   "start": 545.28,
+   "end": 551.12,
+   "text": "are measuring devices which have a series of very small but precise marks which interrupt"
+  },
+  {
+   "start": 551.12,
+   "end": 556.72,
+   "text": "beams of light when they move, allowing measurements to be made."
+  },
+  {
+   "start": 556.72,
+   "end": 564.12,
+   "text": "Many PLCs also support some sort of networking. I won't go into any detail on that here,"
+  },
+  {
+   "start": 564.12,
+   "end": 570.72,
+   "text": "but will instead address this area in another episode. However, network ports may be built"
+  },
+  {
+   "start": 570.72,
+   "end": 577.42,
+   "text": "into the CPU or may reside in separate network I-O modules."
+  },
+  {
+   "start": 577.42,
+   "end": 582.22,
+   "text": "As well as the preceding, there are many other specialty modules which you won't bother"
+  },
+  {
+   "start": 582.22,
+   "end": 584.98,
+   "text": "to describe here."
+  },
+  {
+   "start": 584.98,
+   "end": 588.34,
+   "text": "Operator Panels The original operator panels were arrays"
+  },
+  {
+   "start": 588.34,
+   "end": 595.26,
+   "text": "of push buttons, pilot lights, and other basic operator controls mounted in boxes for an operator"
+  },
+  {
+   "start": 595.26,
+   "end": 598.14,
+   "text": "to interact with the machine."
+  },
+  {
+   "start": 598.14,
+   "end": 600.14,
+   "text": "on these were replaced by special."
+  },
+  {
+   "start": 600.0,
+   "end": 605.4,
+   "text": "Virtual-T electronic devices which were also known as operator panels as they serve the"
+  },
+  {
+   "start": 605.4,
+   "end": 608.04,
+   "text": "same function."
+  },
+  {
+   "start": 608.04,
+   "end": 613.94,
+   "text": "Modern operator panels are screens and keypads which are used to display information to an"
+  },
+  {
+   "start": 613.94,
+   "end": 619.16,
+   "text": "operator or to allow data to be entered into the PLC."
+  },
+  {
+   "start": 619.16,
+   "end": 624.84,
+   "text": "While not strictly speaking a type of I.O., operator panels typically look like I.O. to"
+  },
+  {
+   "start": 624.84,
+   "end": 627.96,
+   "text": "the PLC CPU."
+  },
+  {
+   "start": 627.96,
+   "end": 634.28,
+   "text": "on a touchscreen may be effectively the same thing as actual hardware buttons from the PLC's"
+  },
+  {
+   "start": 634.28,
+   "end": 640.76,
+   "text": "perspective, and analog values output to the operator panel for display are like hardware"
+  },
+  {
+   "start": 640.76,
+   "end": 649.68,
+   "text": "analog devices. All of these data are mapped to memory locations in the PLC with the details"
+  },
+  {
+   "start": 649.68,
+   "end": 656.04,
+   "text": "of how this is done varying according to the make and model of PLC."
+  },
+  {
+   "start": 656.04,
+   "end": 662.08,
+   "text": "I won't go into any detail on this, as this could be a separate subject on its own."
+  },
+  {
+   "start": 662.08,
+   "end": 668.84,
+   "text": "Generally though, you would use software to create screens to display on the operator panel."
+  },
+  {
+   "start": 668.84,
+   "end": 673.88,
+   "text": "The indicators and buttons defined in your screens would be mapped to addresses in the"
+  },
+  {
+   "start": 673.88,
+   "end": 678.08,
+   "text": "PLC, either directly or indirectly."
+  },
+  {
+   "start": 678.08,
+   "end": 682.82,
+   "text": "This configuration would then be downloaded into the operator panel."
+  },
+  {
+   "start": 682.82,
+   "end": 689.98,
+   "text": "Your PLC program could then interact with the operator panel using ordinary ladder logic."
+  },
+  {
+   "start": 689.98,
+   "end": 695.62,
+   "text": "Safety Systems Up to now I have mentioned only PLCs in any detail."
+  },
+  {
+   "start": 695.62,
+   "end": 701.46,
+   "text": "There is however more to a complete machine control system than just a PLC."
+  },
+  {
+   "start": 701.46,
+   "end": 704.7,
+   "text": "One of these is safety systems."
+  },
+  {
+   "start": 704.7,
+   "end": 710.3,
+   "text": "I will leave out historical safety systems and just focus on modern ones."
+  },
+  {
+   "start": 710.3,
+   "end": 717.14,
+   "text": "I will also leave out large process industries involving things like boilers or chemical reactors"
+  },
+  {
+   "start": 717.14,
+   "end": 723.94,
+   "text": "and just focus on assembly operations in industries such as automobiles, appliances and other similar"
+  },
+  {
+   "start": 723.94,
+   "end": 725.46,
+   "text": "things."
+  },
+  {
+   "start": 725.46,
+   "end": 732.07,
+   "text": "This won't be a tutorial on safety design, just a very brief overview."
+  },
+  {
+   "start": 732.07,
+   "end": 739.47,
+   "text": "An industrial machine must be designed with safety as one of its fundamental design principles."
+  },
+  {
+   "start": 739.47,
+   "end": 745.33,
+   "text": "If the machine cannot be operated safely, then it cannot be put into use."
+  },
+  {
+   "start": 745.33,
+   "end": 750.43,
+   "text": "Safety must take into account the operators, bystanders, and maintainers."
+  },
+  {
+   "start": 750.43,
+   "end": 755.69,
+   "text": "You must assume that people will be inattentive or make mistakes."
+  },
+  {
+   "start": 755.69,
+   "end": 761.75,
+   "text": "You must also assume that the PLC program will have bugs and the electronics will fail"
+  },
+  {
+   "start": 761.75,
+   "end": 766.23,
+   "text": "in a state which could cause a hazard if it is permitted to."
+  },
+  {
+   "start": 766.23,
+   "end": 773.95,
+   "text": "In other words, the PLC and your PLC program are not part of the safety system."
+  },
+  {
+   "start": 773.95,
+   "end": 781.27,
+   "text": "The safety system will decide when the PLC will be permitted to act and when it will not."
+  },
+  {
+   "start": 781.27,
+   "end": 787.99,
+   "text": "The PLC in turn must monitor the safety system in order to understand when it can and cannot"
+  },
+  {
+   "start": 787.99,
+   "end": 789.71,
+   "text": "act."
+  },
+  {
+   "start": 789.71,
+   "end": 795.95,
+   "text": "Your PLC program must take this into account so that it can differentiate between not being"
+  },
+  {
+   "start": 795.95,
+   "end": 802.43,
+   "text": "able to act because the safety system has decided it is not safe to cycle versus there"
+  },
+  {
+   "start": 802.43,
+   "end": 807.45,
+   "text": "being something wrong with the machine which prevents it from operating."
+  },
+  {
+   "start": 807.45,
+   "end": 810.43,
+   "text": "A few basic safety devices."
+  },
+  {
+   "start": 810.43,
+   "end": 813.75,
+   "text": "Here are a few basic safety devices."
+  },
+  {
+   "start": 813.75,
+   "end": 816.03,
+   "text": "I will not attempt to be comprehensive."
+  },
+  {
+   "start": 816.03,
+   "end": 822.35,
+   "text": "Rather, I am just giving a few common examples so that you will understand the environment"
+  },
+  {
+   "start": 822.35,
+   "end": 825.87,
+   "text": "in which the PLC can operate."
+  },
+  {
+   "start": 825.87,
+   "end": 832.57,
+   "text": "Emergency Stop Circuit. A basic element of nearly all industrial machines is some sort"
+  },
+  {
+   "start": 832.57,
+   "end": 839.25,
+   "text": "of Emergency Stop Circuit. When the on button is pressed, a relay will close and hold itself"
+  },
+  {
+   "start": 839.25,
+   "end": 845.15,
+   "text": "on. This will enable power to the machine, including the compressed air supply if there"
+  },
+  {
+   "start": 845.15,
+   "end": 852.55,
+   "text": "is one. If the stop or e-stop button is pressed, the relay will open and remove energy from"
+  },
+  {
+   "start": 852.55,
+   "end": 858.95,
+   "text": "the machine, rendering it safe. If the electrical power supply to the machine goes off, due"
+  },
+  {
+   "start": 858.95,
+   "end": 864.87,
+   "text": "to, for example, the building losing electrical power, the emergency stop circuit will also"
+  },
+  {
+   "start": 864.87,
+   "end": 874.01,
+   "text": "drop out or open and remain off until the start button is pressed again. Well, every"
+  },
+  {
+   "start": 874.01,
+   "end": 880.01,
+   "text": "or nearly every machine will have an emergency stop circuit. It is often not sufficient on"
+  },
+  {
+   "start": 880.01,
+   "end": 887.09,
+   "text": "its own. In other words, it is necessary, but not always sufficient."
+  },
+  {
+   "start": 887.09,
+   "end": 893.43,
+   "text": "Guard switches. Equipment hazards must be enclosed by protective guarding. Moveable"
+  },
+  {
+   "start": 893.43,
+   "end": 899.33,
+   "text": "guards such as access doors must be interlocked with the safety circuit, such that when the"
+  },
+  {
+   "start": 899.33,
+   "end": 900.33,
+   "text": "The guard is open."
+  },
+  {
+   "start": 900.0,
+   "end": 903.08,
+   "text": "and the machine is rendered safe."
+  },
+  {
+   "start": 900.33,
+   "end": 901.33,
+   "text": "The guard is open."
+  },
+  {
+   "start": 901.33,
+   "end": 902.33,
+   "text": "The guard is open."
+  },
+  {
+   "start": 902.33,
+   "end": 903.33,
+   "text": "The guard is open."
+  },
+  {
+   "start": 903.08,
+   "end": 906.72,
+   "text": "To achieve this, there will be safety-rated switches"
+  },
+  {
+   "start": 903.33,
+   "end": 904.33,
+   "text": "The guard is open."
+  },
+  {
+   "start": 904.33,
+   "end": 905.33,
+   "text": "The guard is open."
+  },
+  {
+   "start": 905.33,
+   "end": 906.33,
+   "text": "The guard is open."
+  },
+  {
+   "start": 906.33,
+   "end": 907.33,
+   "text": "The guard is open."
+  },
+  {
+   "start": 906.72,
+   "end": 909.34,
+   "text": "on each access door, which are connected"
+  },
+  {
+   "start": 907.33,
+   "end": 908.33,
+   "text": "The guard is open."
+  },
+  {
+   "start": 908.33,
+   "end": 909.33,
+   "text": "The guard is open."
+  },
+  {
+   "start": 909.33,
+   "end": 910.33,
+   "text": "The guard is open."
+  },
+  {
+   "start": 909.34,
+   "end": 911.48,
+   "text": "to the safety circuits of the machine."
+  },
+  {
+   "start": 910.33,
+   "end": 911.33,
+   "text": "The guard is open."
+  },
+  {
+   "start": 911.33,
+   "end": 912.33,
+   "text": "The guard is open."
+  },
+  {
+   "start": 912.33,
+   "end": 913.33,
+   "text": "The guard is open."
+  },
+  {
+   "start": 913.2,
+   "end": 915.36,
+   "text": "To hand control."
+  },
+  {
+   "start": 913.33,
+   "end": 914.33,
+   "text": "The guard is open."
+  },
+  {
+   "start": 914.33,
+   "end": 915.33,
+   "text": "The guard is open."
+  },
+  {
+   "start": 915.33,
+   "end": 916.33,
+   "text": "The guard is open."
+  },
+  {
+   "start": 915.36,
+   "end": 919.12,
+   "text": "Another common safety circuit is to hand control,"
+  },
+  {
+   "start": 916.33,
+   "end": 917.33,
+   "text": "The guard is open."
+  },
+  {
+   "start": 917.33,
+   "end": 918.33,
+   "text": "The guard is open."
+  },
+  {
+   "start": 918.33,
+   "end": 919.33,
+   "text": "The guard is open."
+  },
+  {
+   "start": 919.12,
+   "end": 921.68,
+   "text": "often called anti-tidydown,"
+  },
+  {
+   "start": 919.33,
+   "end": 920.33,
+   "text": "The guard is open."
+  },
+  {
+   "start": 920.33,
+   "end": 921.33,
+   "text": "The guard is open."
+  },
+  {
+   "start": 921.33,
+   "end": 922.33,
+   "text": "The guard is open."
+  },
+  {
+   "start": 921.68,
+   "end": 924.56,
+   "text": "although that latter phrase actually describes"
+  },
+  {
+   "start": 922.33,
+   "end": 923.33,
+   "text": "The guard is open."
+  },
+  {
+   "start": 923.33,
+   "end": 924.33,
+   "text": "The guard is open."
+  },
+  {
+   "start": 924.33,
+   "end": 925.33,
+   "text": "The guard is open."
+  },
+  {
+   "start": 924.56,
+   "end": 926.44,
+   "text": "one of the design principles,"
+  },
+  {
+   "start": 925.33,
+   "end": 926.33,
+   "text": "The guard is open."
+  },
+  {
+   "start": 926.33,
+   "end": 927.33,
+   "text": "The guard is open."
+  },
+  {
+   "start": 926.44,
+   "end": 928.88,
+   "text": "rather than being the proper name."
+  },
+  {
+   "start": 927.33,
+   "end": 928.33,
+   "text": "The guard is open."
+  },
+  {
+   "start": 928.88,
+   "end": 934.5,
+   "text": "With two hand control, the operator station will have two large buttons, which the operator"
+  },
+  {
+   "start": 934.5,
+   "end": 940.74,
+   "text": "must press simultaneously and hold to enable the machine to operate."
+  },
+  {
+   "start": 940.74,
+   "end": 945.42,
+   "text": "With both hands on the buttons, you know where the operator's hands are."
+  },
+  {
+   "start": 945.42,
+   "end": 951.74,
+   "text": "The operator must remove both hands from the buttons in order to enable the circuit again."
+  },
+  {
+   "start": 951.74,
+   "end": 956.82,
+   "text": "If one button remains closed and the operator attempts to activate the machine again with"
+  },
+  {
+   "start": 956.82,
+   "end": 962.44,
+   "text": "the other button that the safety circuit will detect this and refuse to enable the machine"
+  },
+  {
+   "start": 962.44,
+   "end": 967.12,
+   "text": "again until both buttons are deactivated."
+  },
+  {
+   "start": 967.12,
+   "end": 970.12,
+   "text": "This is the anti-tie-down feature."
+  },
+  {
+   "start": 970.12,
+   "end": 976.64,
+   "text": "The operator cannot tie one button down and cycle the machine repeatedly with just the other"
+  },
+  {
+   "start": 976.64,
+   "end": 977.74,
+   "text": "button."
+  },
+  {
+   "start": 977.74,
+   "end": 983.46,
+   "text": "The buttons will be connected to a special relay which monitors and self-tests to ensure"
+  },
+  {
+   "start": 983.46,
+   "end": 986.18,
+   "text": "it operates correctly."
+  },
+  {
+   "start": 986.18,
+   "end": 992.82,
+   "text": "The PLC will monitor an auxiliary contact on this relay so that it knows when to start"
+  },
+  {
+   "start": 992.82,
+   "end": 999.58,
+   "text": "its sequence of operation, but the redundant safety contacts on the relay lie in between"
+  },
+  {
+   "start": 999.58,
+   "end": 1004.54,
+   "text": "the PLC and whatever hazards are being guarded against."
+  },
+  {
+   "start": 1004.54,
+   "end": 1012.22,
+   "text": "The safety device has ultimate control over whether the machine moves or not."
+  },
+  {
+   "start": 1012.22,
+   "end": 1019.64,
+   "text": "light curtain. Another basic safety device is the light curtain. This has a series of"
+  },
+  {
+   "start": 1019.64,
+   "end": 1025.64,
+   "text": "closely spaced light beams across the opening which forms the operator's access to the"
+  },
+  {
+   "start": 1025.64,
+   "end": 1032.9,
+   "text": "working area of the machine. If one of these light beams is interrupted, the light curtain"
+  },
+  {
+   "start": 1032.9,
+   "end": 1038.64,
+   "text": "controller will not permit the machine to move. Light curtains can usually be used in"
+  },
+  {
+   "start": 1038.64,
+   "end": 1045.36,
+   "text": "places where two hand control systems can be used. They have an advantage over two hand control"
+  },
+  {
+   "start": 1045.36,
+   "end": 1050.64,
+   "text": "in that the operator can be performing other tasks while the machine is cycling instead"
+  },
+  {
+   "start": 1050.64,
+   "end": 1056.92,
+   "text": "of being occupied with holding the two hand control buttons down. This allows for productivity"
+  },
+  {
+   "start": 1056.92,
+   "end": 1062.28,
+   "text": "improvements which can usually more than pay for the higher cost of the light curtain compared"
+  },
+  {
+   "start": 1062.28,
+   "end": 1066.14,
+   "text": "to simple to hand control."
+  },
+  {
+   "start": 1066.14,
+   "end": 1067.9,
+   "text": "Other devices."
+  },
+  {
+   "start": 1067.9,
+   "end": 1073.9,
+   "text": "There are many other safety devices, many of which address niche applications."
+  },
+  {
+   "start": 1073.9,
+   "end": 1078.68,
+   "text": "I won't bother listing any more than I have so far, however, as you should understand"
+  },
+  {
+   "start": 1078.68,
+   "end": 1082.28,
+   "text": "the basic principles by now."
+  },
+  {
+   "start": 1082.28,
+   "end": 1084.44,
+   "text": "Safety PLCs."
+  },
+  {
+   "start": 1084.44,
+   "end": 1091.36,
+   "text": "There are special safety PLCs which have redundant CPUs which monitor one another and which have"
+  },
+  {
+   "start": 1091.36,
+   "end": 1096.64,
+   "text": "redundant, mutually interlocked I.O. and which runs safety reviewed software."
+  },
+  {
+   "start": 1096.64,
+   "end": 1103.08,
+   "text": "Anything connected to a safety PLC must itself be safety rated if it could affect"
+  },
+  {
+   "start": 1103.08,
+   "end": 1108.08,
+   "text": "the safety of the machine. However, these are quite rare and only used in"
+  },
+  {
+   "start": 1108.08,
+   "end": 1113.8,
+   "text": "certain special industries. These are normally used in places where some"
+  },
+  {
+   "start": 1113.8,
+   "end": 1119.56,
+   "text": "programmed sequence of operations is required to render a system safe. This is"
+  },
+  {
+   "start": 1119.56,
+   "end": 1124.88,
+   "text": "more commonly found in places such as oil refineries, chemical plants, or electric power"
+  },
+  {
+   "start": 1124.88,
+   "end": 1130.45,
+   "text": "generating plants than in typical factories."
+  },
+  {
+   "start": 1130.45,
+   "end": 1132.95,
+   "text": "Safety and Cybersecurity"
+  },
+  {
+   "start": 1132.95,
+   "end": 1138.67,
+   "text": "This is a good place to bring up the question of safety and cybersecurity."
+  },
+  {
+   "start": 1138.67,
+   "end": 1143.79,
+   "text": "There have been a number of articles in the IT press recently about how PLCs could be"
+  },
+  {
+   "start": 1143.79,
+   "end": 1149.83,
+   "text": "indirectly affected by computer viruses and how this could cause dangerous safety problems"
+  },
+  {
+   "start": 1149.83,
+   "end": 1152.83,
+   "text": "in manufacturing equipment."
+  },
+  {
+   "start": 1152.83,
+   "end": 1159.15,
+   "text": "The premise is that they found security holes in software which runs on personal computers"
+  },
+  {
+   "start": 1159.15,
+   "end": 1165.35,
+   "text": "running Windows operating systems which are used to do things like record production data."
+  },
+  {
+   "start": 1165.35,
+   "end": 1169.79,
+   "text": "There are a number of software systems which are designed for this purpose although SCADA"
+  },
+  {
+   "start": 1169.79,
+   "end": 1173.71,
+   "text": "systems are usually the ones mentioned."
+  },
+  {
+   "start": 1173.71,
+   "end": 1178.55,
+   "text": "I will briefly describe SCADA systems in a later episode."
+  },
+  {
+   "start": 1178.55,
+   "end": 1184.27,
+   "text": "For our purposes here, however, just understand it as specialized industrial software that"
+  },
+  {
+   "start": 1184.27,
+   "end": 1191.31,
+   "text": "runs on a PC and conducts monitoring and display using data from a PLC that it is networked"
+  },
+  {
+   "start": 1191.31,
+   "end": 1193.75,
+   "text": "to."
+  },
+  {
+   "start": 1193.75,
+   "end": 1199.29,
+   "text": "According to these security researchers, a virus could exploit these security holes to send"
+  },
+  {
+   "start": 1199.29,
+   "end": 1200.47,
+   "text": "and commands to the"
+  },
+  {
+   "start": 1200.0,
+   "end": 1206.36,
+   "text": "PLC and cause it to do arbitrary things which could cause injury or death."
+  },
+  {
+   "start": 1206.36,
+   "end": 1214.18,
+   "text": "The PLCs being referred to in these instances are ordinary PLCs, not safety PLCs."
+  },
+  {
+   "start": 1214.18,
+   "end": 1219.74,
+   "text": "I find these claims to be highly implausible for reasons that I have stated above when"
+  },
+  {
+   "start": 1219.74,
+   "end": 1222.22,
+   "text": "describing safety systems."
+  },
+  {
+   "start": 1222.22,
+   "end": 1228.16,
+   "text": "An ordinary PLC is not a safety device and so the safety of the machine should not be"
+  },
+  {
+   "start": 1228.16,
+   "end": 1235.32,
+   "text": "affected by malfunctioning PLC regardless of whether any viruses were involved or not."
+  },
+  {
+   "start": 1235.32,
+   "end": 1241.7,
+   "text": "I have seen PLC's malfunction due to memory corruption errors, but these posed loss of"
+  },
+  {
+   "start": 1241.7,
+   "end": 1245.26,
+   "text": "production problems, not safety problems."
+  },
+  {
+   "start": 1245.26,
+   "end": 1251.28,
+   "text": "A malfunctioning PLC may cause property damage to the machine and loss of money, but the"
+  },
+  {
+   "start": 1251.28,
+   "end": 1256.98,
+   "text": "control system of which the PLC is only a part should not permit it to pose a hazard"
+  },
+  {
+   "start": 1256.98,
+   "end": 1264.4,
+   "text": "to personnel. I have not seen any of these security researchers offer any plausible"
+  },
+  {
+   "start": 1264.4,
+   "end": 1271.02,
+   "text": "mechanism by which their claims of safety problems may be realized. As a result of this,"
+  },
+  {
+   "start": 1271.02,
+   "end": 1278.16,
+   "text": "I take all such claims with a very, very, very large grain of salt."
+  },
+  {
+   "start": 1278.16,
+   "end": 1282.84,
+   "text": "Conclusion In this episode, we look at the IO modules,"
+  },
+  {
+   "start": 1282.84,
+   "end": 1288.12,
+   "text": "what they are, how they work, and the purpose that they serve in the system."
+  },
+  {
+   "start": 1288.12,
+   "end": 1294.76,
+   "text": "In addition to this, we discussed machine safety systems and also claims made by certain people"
+  },
+  {
+   "start": 1294.76,
+   "end": 1299.32,
+   "text": "about cybersecurity and industrial safety."
+  },
+  {
+   "start": 1299.32,
+   "end": 1305.08,
+   "text": "In the next episode, I will cover networking, including a detailed look at one industrial"
+  },
+  {
+   "start": 1305.08,
+   "end": 1309.76,
+   "text": "network protocol called Modbus."
+  },
+  {
+   "start": 1309.76,
+   "end": 1314.2,
+   "text": "This has been the fifth episode in an eight part series."
+  },
+  {
+   "start": 1314.2,
+   "end": 1319.72,
+   "text": "You have been listening to the Hacker Public Radio podcast at hackerpublicradio.org."
+  },
+  {
+   "start": 1319.72,
+   "end": 1323.8,
+   "text": "Today's show was contributed by a HBR listener like yourself."
+  },
+  {
+   "start": 1323.8,
+   "end": 1329.36,
+   "text": "If you ever thought of recording a podcast, then visit the HBR site to find out how easy"
+  },
+  {
+   "start": 1329.36,
+   "end": 1330.72,
+   "text": "it really is."
+  },
+  {
+   "start": 1330.72,
+   "end": 1337.42,
+   "text": "Hosting for HBR has been kindly provided by Anomisthost.com, the internet archive,"
+  },
+  {
+   "start": 1337.42,
+   "end": 1342.7,
+   "text": "on net and the HDR community content delivery network."
+  },
+  {
+   "start": 1342.7,
+   "end": 1347.62,
+   "text": "Unless otherwise stated, today's show is released under a Creative Commons"
+  },
+  {
+   "start": 1347.62,
+   "end": 1352.06,
+   "text": "Attribution, share alike, 4.0 international life."
+  }
+ ]
+}

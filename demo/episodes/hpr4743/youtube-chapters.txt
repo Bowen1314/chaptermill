@@ -1,0 +1,8 @@
+00:00 Introduction to wl-copy
+02:09 What is wl-copy and how it works
+03:46 Installing wl-clipboard package
+05:08 Copying strings and command output
+07:22 Using wl-copy with pass OTP
+08:29 Copying file contents
+09:25 Copying images and other data
+12:23 Integration with system clipboard

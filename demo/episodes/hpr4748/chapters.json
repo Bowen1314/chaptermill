@@ -1,0 +1,30 @@
+{
+ "version": "1.2.0",
+ "chapters": [
+  {
+   "startTime": 0.0,
+   "title": "Introduction"
+  },
+  {
+   "startTime": 68.0,
+   "title": "Understanding I/O Modules"
+  },
+  {
+   "startTime": 254.0,
+   "title": "Types of I/O: Digital and Analog"
+  },
+  {
+   "startTime": 500.0,
+   "title": "Specialty I/O and Operator Panels"
+  },
+  {
+   "startTime": 689.0,
+   "title": "Machine Safety Systems"
+  },
+  {
+   "startTime": 1132.0,
+   "title": "Safety and Cybersecurity Claims"
+  }
+ ],
+ "title": "HPR4748: Programmable Logic Controls - Episode 5"
+}

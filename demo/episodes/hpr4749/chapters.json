@@ -1,0 +1,38 @@
+{
+ "version": "1.2.0",
+ "chapters": [
+  {
+   "startTime": 0.0,
+   "title": "Introduction to Hacker Public Radio"
+  },
+  {
+   "startTime": 137.0,
+   "title": "What Is Hacker Public Radio?"
+  },
+  {
+   "startTime": 251.0,
+   "title": "How to Listen and Subscribe"
+  },
+  {
+   "startTime": 438.0,
+   "title": "How to Contribute a Show"
+  },
+  {
+   "startTime": 1001.0,
+   "title": "Audio Quality and Production Tips"
+  },
+  {
+   "startTime": 1369.0,
+   "title": "Q&A: Licensing and Distribution"
+  },
+  {
+   "startTime": 1876.0,
+   "title": "Q&A: Transcripts and Tech Stack"
+  },
+  {
+   "startTime": 2147.0,
+   "title": "Closing and Raffle Announcement"
+  }
+ ],
+ "title": "HPR4749: murph gives a presentation talk about Hacker Public Radio at the OLF conference"
+}

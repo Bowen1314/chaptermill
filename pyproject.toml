@@ -1,0 +1,28 @@
+[project]
+name = "chaptermill"
+version = "0.1.0"
+description = "Turn a podcast back catalog into transcripts, verified pull quotes, chapters and show notes on a machine you own, with open-weight models and Temporal."
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.10"
+dependencies = [
+    "temporalio>=1.8",
+    "httpx>=0.27",
+    "numpy>=1.26",
+]
+
+[project.optional-dependencies]
+transcribe = ["faster-whisper>=1.1"]
+dev = ["pytest>=8", "pytest-asyncio>=0.24"]
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+asyncio_default_fixture_loop_scope = "function"
+testpaths = ["tests"]
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["chaptermill"]

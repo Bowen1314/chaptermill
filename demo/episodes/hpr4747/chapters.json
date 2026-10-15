@@ -1,0 +1,42 @@
+{
+ "version": "1.2.0",
+ "chapters": [
+  {
+   "startTime": 0.0,
+   "title": "Introduction and Series Update"
+  },
+  {
+   "startTime": 134.0,
+   "title": "Motivation: Replacing Missing 'cat'"
+  },
+  {
+   "startTime": 243.0,
+   "title": "Core Functionality of 'cat'"
+  },
+  {
+   "startTime": 342.0,
+   "title": "Limitations of Standard Utilities"
+  },
+  {
+   "startTime": 572.0,
+   "title": "Testing Potential Replacements"
+  },
+  {
+   "startTime": 1267.0,
+   "title": "Close but Not Perfect: sed and grep"
+  },
+  {
+   "startTime": 1322.0,
+   "title": "Best Options for Text Files"
+  },
+  {
+   "startTime": 1422.0,
+   "title": "Building a Workaround Script"
+  },
+  {
+   "startTime": 1527.0,
+   "title": "Conclusion and Future Topics"
+  }
+ ],
+ "title": "HPR4747: UNIX Curio #13 - Replacements for cat"
+}

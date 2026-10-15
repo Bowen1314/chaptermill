@@ -1,0 +1,30 @@
+{
+ "version": "1.2.0",
+ "chapters": [
+  {
+   "startTime": 0.0,
+   "title": "Introduction and BruCON Background"
+  },
+  {
+   "startTime": 140.0,
+   "title": "History and Venue Changes"
+  },
+  {
+   "startTime": 373.0,
+   "title": "Conference Planning and Call for Papers"
+  },
+  {
+   "startTime": 624.0,
+   "title": "Funding and Community Focus"
+  },
+  {
+   "startTime": 1242.0,
+   "title": "Conference Atmosphere and Activities"
+  },
+  {
+   "startTime": 1624.0,
+   "title": "Innovation and Future Plans"
+  }
+ ],
+ "title": "HPR4745: BruCON interview 1: The BruCON organization"
+}

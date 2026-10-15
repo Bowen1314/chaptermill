@@ -1,0 +1,38 @@
+{
+ "version": "1.2.0",
+ "chapters": [
+  {
+   "startTime": 0.0,
+   "title": "Introduction to wl-copy"
+  },
+  {
+   "startTime": 129.0,
+   "title": "What is wl-copy and how it works"
+  },
+  {
+   "startTime": 226.0,
+   "title": "Installing wl-clipboard package"
+  },
+  {
+   "startTime": 308.0,
+   "title": "Copying strings and command output"
+  },
+  {
+   "startTime": 442.0,
+   "title": "Using wl-copy with pass OTP"
+  },
+  {
+   "startTime": 509.0,
+   "title": "Copying file contents"
+  },
+  {
+   "startTime": 565.0,
+   "title": "Copying images and other data"
+  },
+  {
+   "startTime": 743.0,
+   "title": "Integration with system clipboard"
+  }
+ ],
+ "title": "HPR4743: wl-copy"
+}

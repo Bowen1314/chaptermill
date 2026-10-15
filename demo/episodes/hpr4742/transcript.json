@@ -1,0 +1,2861 @@
+{
+ "episode": "hpr4742",
+ "duration_s": 3314.21,
+ "segments": [
+  {
+   "start": 5.87,
+   "end": 10.43,
+   "text": "This is Hacker Public Radio Episode 4742."
+  },
+  {
+   "start": 10.43,
+   "end": 13.67,
+   "text": "For Tuesday, the 6th of October, 2026."
+  },
+  {
+   "start": 13.67,
+   "end": 18.03,
+   "text": "Today's show is entitled OLF Call for Presentations Open."
+  },
+  {
+   "start": 18.03,
+   "end": 22.07,
+   "text": "It is hosted by Ken Fallon and is about 54 minutes long."
+  },
+  {
+   "start": 22.07,
+   "end": 23.83,
+   "text": "It carries a clean flag."
+  },
+  {
+   "start": 23.83,
+   "end": 30.03,
+   "text": "The summary is Ken interviews Vance and Beth Lynn about OLF been held on 20 slash 21 of"
+  },
+  {
+   "start": 30.03,
+   "end": 31.03,
+   "text": "2026."
+  },
+  {
+   "start": 31.03,
+   "end": 44.43,
+   "text": "Hi everybody, my name is Ken Fallon and you're listening to another episode of Hacker"
+  },
+  {
+   "start": 44.43,
+   "end": 50.67,
+   "text": "public radio. We have got a good one for you today. I am interviewing somebody"
+  },
+  {
+   "start": 50.67,
+   "end": 58.35,
+   "text": "about the OLF. I'm told it's no longer. The conference previously known as the"
+  },
+  {
+   "start": 58.35,
+   "end": 65.71,
+   "text": "Ohio Linux Fest is now being rebranded as OLF. And here to talk to me about it is?"
+  },
+  {
+   "start": 65.71,
+   "end": 70.91,
+   "text": "Hi there, I'm Vance Kogendurfer. Hello, I'm the speaker."
+  },
+  {
+   "start": 70.91,
+   "end": 72.91,
+   "text": "Hi, I recognize that voice."
+  },
+  {
+   "start": 75.01,
+   "end": 77.61,
+   "text": "I'm the speaker chair for this year's OLF."
+  },
+  {
+   "start": 78.45,
+   "end": 81.09,
+   "text": "Okay. Sorry I interrupted you there."
+  },
+  {
+   "start": 81.45,
+   "end": 86.33,
+   "text": "There is a bit of a lag, but that is to be expected when you're recording Transatlantic."
+  },
+  {
+   "start": 86.65,
+   "end": 87.55,
+   "text": "So where are you based?"
+  },
+  {
+   "start": 88.39,
+   "end": 89.89,
+   "text": "First of all, nice to meet you."
+  },
+  {
+   "start": 90.37,
+   "end": 92.57,
+   "text": "Yes, great to speak with you."
+  },
+  {
+   "start": 92.93,
+   "end": 95.57,
+   "text": "I'm actually not in Ohio."
+  },
+  {
+   "start": 95.57,
+   "end": 98.01,
+   "text": "This is maybe a little unusual."
+  },
+  {
+   "start": 98.01,
+   "end": 101.37,
+   "text": "About half of our team is outside Ohio,"
+  },
+  {
+   "start": 101.37,
+   "end": 103.97,
+   "text": "but I'm in Pittsburgh, Pennsylvania,"
+  },
+  {
+   "start": 103.97,
+   "end": 108.29,
+   "text": "which is not really very far away from there."
+  },
+  {
+   "start": 108.29,
+   "end": 111.13,
+   "text": "So, tell us what is OLF,"
+  },
+  {
+   "start": 111.13,
+   "end": 114.37,
+   "text": "and you have a cold for papers out."
+  },
+  {
+   "start": 114.37,
+   "end": 116.09,
+   "text": "So, tell us a little bit about"
+  },
+  {
+   "start": 116.09,
+   "end": 119.33,
+   "text": "the history of the conference and stuff like that."
+  },
+  {
+   "start": 119.33,
+   "end": 122.53,
+   "text": "Sure. So, as you pointed out,"
+  },
+  {
+   "start": 122.53,
+   "end": 127.37,
+   "text": "OLF, we've changed the name, we've rebranded it a little bit."
+  },
+  {
+   "start": 127.37,
+   "end": 132.45,
+   "text": "This is an annual conference for free and open source software."
+  },
+  {
+   "start": 132.45,
+   "end": 139.17,
+   "text": "It takes place every year in Columbus, Ohio, in the United States."
+  },
+  {
+   "start": 139.17,
+   "end": 148.65,
+   "text": "And we were originally started in 2003, a bunch of Linux user groups across the state of Ohio"
+  },
+  {
+   "start": 148.65,
+   "end": 152.05,
+   "text": "decided they wanted to have a gathering."
+  },
+  {
+   "start": 152.05,
+   "end": 156.69,
+   "text": "So they were able to get space on the Ohio State University"
+  },
+  {
+   "start": 156.69,
+   "end": 158.17,
+   "text": "campus."
+  },
+  {
+   "start": 158.17,
+   "end": 165.01,
+   "text": "And they held this conference that they called Ohio Linux Fest."
+  },
+  {
+   "start": 165.01,
+   "end": 169.53,
+   "text": "In recent years, we have kind of rebranded for two main reasons."
+  },
+  {
+   "start": 169.53,
+   "end": 174.81,
+   "text": "One, we've attracted people and we want to attract more people"
+  },
+  {
+   "start": 174.81,
+   "end": 178.17,
+   "text": "from outside Ohio."
+  },
+  {
+   "start": 178.17,
+   "end": 183.99,
+   "text": "And we also wanted to make it clear that it's not just about Linux,"
+  },
+  {
+   "start": 183.99,
+   "end": 188.03,
+   "text": "it's about all types of free and open source software."
+  },
+  {
+   "start": 188.63,
+   "end": 194.27,
+   "text": "So the BSDs. Exactly. Yes. BSD, even free software,"
+  },
+  {
+   "start": 194.27,
+   "end": 197.51,
+   "text": "stuff like Python that runs pretty much everywhere."
+  },
+  {
+   "start": 197.63,
+   "end": 200.83,
+   "text": "Yeah. We wanted to be, to be clear about that."
+  },
+  {
+   "start": 200.87,
+   "end": 207.63,
+   "text": "So we've kind of repurposed the abbreviation to stand for open,"
+  },
+  {
+   "start": 207.63,
+   "end": 210.83,
+   "text": "Libra free. Oh, very nice. I see what you did there."
+  },
+  {
+   "start": 212.91,
+   "end": 223.23,
+   "text": "The open Libra for you so far. I'll open. I'm actually up to it. And so it's been going on"
+  },
+  {
+   "start": 223.23,
+   "end": 230.03,
+   "text": "a while. I mean, we've covered OLF lots of times and we've had hosts involved in the"
+  },
+  {
+   "start": 230.03,
+   "end": 235.39,
+   "text": "organization as well. So this is a long tradition of having HPR there at the event."
+  },
+  {
+   "start": 235.39,
+   "end": 243.23,
+   "text": "but so I'm fairly familiar with it so but can you tell me as somebody knew you're arriving at the"
+  },
+  {
+   "start": 243.23,
+   "end": 248.51,
+   "text": "airport you make it over to the venue where is the venue by the way so this year it's going to be"
+  },
+  {
+   "start": 248.51,
+   "end": 257.39,
+   "text": "interesting we've typically been holding these in a in one of several downtown Columbus hotels"
+  },
+  {
+   "start": 257.39,
+   "end": 264.27,
+   "text": "but this year we are actually returning back to the campus of Ohio State University nice and we're"
+  },
+  {
+   "start": 264.27,
+   "end": 267.51,
+   "text": "going to be in a building there called"
+  },
+  {
+   "start": 267.51,
+   "end": 272.51,
+   "text": "tree slabber Tories. I believe, I don't know if it's the headquarters of the"
+  },
+  {
+   "start": 272.51,
+   "end": 278.75,
+   "text": "computer science or computer engineering department but I think a lot of the,"
+  },
+  {
+   "start": 278.75,
+   "end": 283.95,
+   "text": "a lot of those classes take place in that building. So I think it's a very good fit"
+  },
+  {
+   "start": 283.95,
+   "end": 288.35,
+   "text": "and will probably help us attract more students this year."
+  },
+  {
+   "start": 288.35,
+   "end": 294.35,
+   "text": "Yeah, yeah. I'm a huge fan of having it in universities like the"
+  },
+  {
+   "start": 294.35,
+   "end": 300.35,
+   "text": "Fosteim over here in Europe. So Tommy, have you been"
+  },
+  {
+   "start": 300.0,
+   "end": 302.64,
+   "text": "into the building itself yourself."
+  },
+  {
+   "start": 302.64,
+   "end": 304.64,
+   "text": "Can you describe what it's like?"
+  },
+  {
+   "start": 304.64,
+   "end": 306.12,
+   "text": "Actually, I have not."
+  },
+  {
+   "start": 306.12,
+   "end": 312.12,
+   "text": "So I'm not the good person to give a virtual sort of tour."
+  },
+  {
+   "start": 312.2,
+   "end": 315.16,
+   "text": "We have the reason that the whole reason"
+  },
+  {
+   "start": 315.16,
+   "end": 320.16,
+   "text": "that we're able to do this is we've set up a collaboration"
+  },
+  {
+   "start": 320.24,
+   "end": 323.8,
+   "text": "with two student organizations there,"
+  },
+  {
+   "start": 323.8,
+   "end": 328.8,
+   "text": "the Open Source Club and the Cybersecurity Club."
+  },
+  {
+   "start": 328.8,
+   "end": 332.28,
+   "text": "So they are the ones who were able to"
+  },
+  {
+   "start": 332.28,
+   "end": 334.46,
+   "text": "reserve that space for us."
+  },
+  {
+   "start": 334.46,
+   "end": 339.46,
+   "text": "And they are the experts on how the layout is"
+  },
+  {
+   "start": 339.56,
+   "end": 341.8,
+   "text": "and where everything is."
+  },
+  {
+   "start": 341.8,
+   "end": 345.3,
+   "text": "My understanding is we're going to have,"
+  },
+  {
+   "start": 346.36,
+   "end": 349.56,
+   "text": "there's a main floor and we will have some space"
+  },
+  {
+   "start": 349.56,
+   "end": 353.08,
+   "text": "in the lobby of that, like the check-in table"
+  },
+  {
+   "start": 353.08,
+   "end": 357.32,
+   "text": "and maybe some space for exhibitor tables there."
+  },
+  {
+   "start": 357.32,
+   "end": 365.52,
+   "text": "There's also a large auditorium, which will serve as our main stage."
+  },
+  {
+   "start": 365.52,
+   "end": 372.12,
+   "text": "Then we have a few rooms on the second floor that we will also be able to use for other"
+  },
+  {
+   "start": 372.12,
+   "end": 373.12,
+   "text": "things."
+  },
+  {
+   "start": 373.12,
+   "end": 381.96,
+   "text": "We're going to have some exhibition space up there and room for another set of presentations"
+  },
+  {
+   "start": 381.96,
+   "end": 383.96,
+   "text": "or workshops."
+  },
+  {
+   "start": 383.96,
+   "end": 389.88,
+   "text": "I'm having a quick look here at some of the photos of the building and it seems will share"
+  },
+  {
+   "start": 389.88,
+   "end": 391.28,
+   "text": "accessible to me."
+  },
+  {
+   "start": 391.28,
+   "end": 396.68,
+   "text": "A modern and off building and a nice big conference rooms that you would expect."
+  },
+  {
+   "start": 396.68,
+   "end": 397.68,
+   "text": "Very cool."
+  },
+  {
+   "start": 397.68,
+   "end": 399.32,
+   "text": "Looks like a good venue."
+  },
+  {
+   "start": 399.32,
+   "end": 405.0,
+   "text": "How accessible is it to you know to public transport or parking or the motorways and"
+  },
+  {
+   "start": 405.0,
+   "end": 406.0,
+   "text": "stuff?"
+  },
+  {
+   "start": 406.0,
+   "end": 407.0,
+   "text": "What would you call them?"
+  },
+  {
+   "start": 407.0,
+   "end": 408.0,
+   "text": "You can call them."
+  },
+  {
+   "start": 408.0,
+   "end": 418.08,
+   "text": "the transportation. There is reasonable transportation in terms of buses that run through Columbus. I"
+  },
+  {
+   "start": 418.08,
+   "end": 425.28,
+   "text": "have to admit I don't live there so I don't have a lot of firsthand experience. I will say there is"
+  },
+  {
+   "start": 426.24,
+   "end": 435.44,
+   "text": "a parking garage that is very close to the building. It's actually you have the Dries"
+  },
+  {
+   "start": 435.44,
+   "end": 439.76,
+   "text": "laboratories building and then next to it is the parking garage and then on the"
+  },
+  {
+   "start": 439.76,
+   "end": 447.68,
+   "text": "opposite side is the football stadium. So I imagine that the parking is kind of"
+  },
+  {
+   "start": 447.68,
+   "end": 455.32,
+   "text": "there more for the stadium but for our purposes it's nice to have it"
+  },
+  {
+   "start": 455.32,
+   "end": 463.92,
+   "text": "right nearby. Yep, yep. So I very close to I-70 and I-71 I guess for people"
+  },
+  {
+   "start": 463.92,
+   "end": 472.08,
+   "text": "using US motorways or interest states as a gives you a location. So in the show"
+  },
+  {
+   "start": 472.08,
+   "end": 477.84,
+   "text": "notes for this episode I will have a breakdown I've already done it of the"
+  },
+  {
+   "start": 477.84,
+   "end": 483.92,
+   "text": "accessibility how far away it is car and bus from the States even from Canada"
+  },
+  {
+   "start": 483.92,
+   "end": 491.76,
+   "text": "within three hours. So kind of a nice central northern central area anybody"
+  },
+  {
+   "start": 491.76,
+   "end": 497.08,
+   "text": "should be able to make the way down and make a nice weekend of it. The question is how long"
+  },
+  {
+   "start": 497.08,
+   "end": 504.52,
+   "text": "is it on for many days? It's a two-day conference or I suppose maybe more accurately it's going"
+  },
+  {
+   "start": 504.52,
+   "end": 511.64,
+   "text": "to be more like one and a half days. So we're going to have some activities on the afternoon"
+  },
+  {
+   "start": 511.64,
+   "end": 519.88,
+   "text": "of Friday. Oh, I didn't give you the dates. So that would be Friday November 20th, 2026."
+  },
+  {
+   "start": 519.88,
+   "end": 528.88,
+   "text": "And then we will have the all day on Saturday, November 21, 2026."
+  },
+  {
+   "start": 528.88,
+   "end": 541.4,
+   "text": "And the activities on Friday, we are going to have the auditorium I was mentioning."
+  },
+  {
+   "start": 541.4,
+   "end": 545.88,
+   "text": "That is going to be in use for classes during the day on Friday."
+  },
+  {
+   "start": 545.88,
+   "end": 551.38,
+   "text": "So we will not have it until the end of the day, but we will have those other spaces."
+  },
+  {
+   "start": 551.38,
+   "end": 561.06,
+   "text": "So we'll be trying to have some workshops in there that we can and then we're going"
+  },
+  {
+   "start": 561.06,
+   "end": 569.28,
+   "text": "in the evening or early evening, we will have a sort of a welcoming keynote address once"
+  },
+  {
+   "start": 569.28,
+   "end": 576.08,
+   "text": "were able to get into the auditorium and then after that on Friday we will have what"
+  },
+  {
+   "start": 576.08,
+   "end": 582.64,
+   "text": "we call birds of a feather sessions. Remind people what that is. Yeah so a birds of a feather"
+  },
+  {
+   "start": 582.64,
+   "end": 591.96,
+   "text": "session is an interactive sort of thing. It can take the form of a presentation that's"
+  },
+  {
+   "start": 591.96,
+   "end": 596.96,
+   "text": "maybe a little bit out of the normal scope of what it is."
+  },
+  {
+   "start": 597.16,
+   "end": 600.0,
+   "text": "Really, it's about getting people who are"
+  },
+  {
+   "start": 600.0,
+   "end": 601.0,
+   "text": "and"
+  },
+  {
+   "start": 600.0,
+   "end": 607.0,
+   "text": "Together, who are interested in a particular subject, together to talk about it."
+  },
+  {
+   "start": 607.0,
+   "end": 608.0,
+   "text": "Yeah."
+  },
+  {
+   "start": 608.0,
+   "end": 617.0,
+   "text": "So, if you have people who are interested in podcasting, say, they can get together and talk about the different things that they use."
+  },
+  {
+   "start": 617.0,
+   "end": 621.0,
+   "text": "What type of software, what type of hardware?"
+  },
+  {
+   "start": 621.0,
+   "end": 627.0,
+   "text": "Are these birds of sessions sessions?"
+  },
+  {
+   "start": 627.0,
+   "end": 635.8,
+   "text": "Are they done? Do you have to? Are they spontaneous on the spot sort of things or do you need to put in the"
+  },
+  {
+   "start": 635.8,
+   "end": 643.88,
+   "text": "cold for papers to have one of those events? Yeah, that's a great point. So what we will do is I would say"
+  },
+  {
+   "start": 643.88,
+   "end": 654.68,
+   "text": "about a couple of weeks before the event we will put out a form where people can submit topics if they"
+  },
+  {
+   "start": 654.68,
+   "end": 663.64,
+   "text": "want to. But if we have any time slots that are still open, we will just have a whiteboard"
+  },
+  {
+   "start": 663.64,
+   "end": 672.44,
+   "text": "at the registration table and people can just claim one of those spots. So it's very much,"
+  },
+  {
+   "start": 672.44,
+   "end": 679.08,
+   "text": "it's intended to be somewhat spontaneous. However, it's always nice if you can"
+  },
+  {
+   "start": 679.08,
+   "end": 685.3,
+   "text": "then announce it ahead of time because then people will, you know, perhaps be motivated"
+  },
+  {
+   "start": 685.3,
+   "end": 687.4,
+   "text": "to stick around."
+  },
+  {
+   "start": 687.4,
+   "end": 688.4,
+   "text": "Yeah."
+  },
+  {
+   "start": 688.4,
+   "end": 693.44,
+   "text": "It sounds a bit like a camp sort of, some stuff is scheduled yet, just the flexibility"
+  },
+  {
+   "start": 693.44,
+   "end": 701.36,
+   "text": "in there for people to spontaneously get it enthused into doing an event."
+  },
+  {
+   "start": 701.36,
+   "end": 704.04,
+   "text": "Yeah, it's very similar to that."
+  },
+  {
+   "start": 704.04,
+   "end": 705.04,
+   "text": "Cool."
+  },
+  {
+   "start": 705.04,
+   "end": 711.52,
+   "text": "And anyone who doesn't know really what we're talking about, have a listen to episode 4256"
+  },
+  {
+   "start": 711.52,
+   "end": 718.72,
+   "text": "link in the show notes. And that's where Lyle and Taj give a talk, Birds of a Feather talk,"
+  },
+  {
+   "start": 718.72,
+   "end": 728.88,
+   "text": "at OLF 2024 about Hacker Public Radio. Nice, nice. So cool. So what time of Friday does it start?"
+  },
+  {
+   "start": 728.88,
+   "end": 738.6,
+   "text": "We are planning to start about noon. So we, one of the unfortunate things, we are kind"
+  },
+  {
+   "start": 738.6,
+   "end": 747.44,
+   "text": "of still pulling together the schedule. I would definitely encourage people if you go to our"
+  },
+  {
+   "start": 747.44,
+   "end": 755.12,
+   "text": "website, probably the best thing to keep an eye on is the news page and your website is"
+  },
+  {
+   "start": 755.12,
+   "end": 758.36,
+   "text": "That is OLFconference.org."
+  },
+  {
+   "start": 758.36,
+   "end": 759.82,
+   "text": "All one word."
+  },
+  {
+   "start": 759.82,
+   "end": 761.16,
+   "text": "Yes."
+  },
+  {
+   "start": 761.16,
+   "end": 764.0,
+   "text": "OLFconference.org."
+  },
+  {
+   "start": 764.0,
+   "end": 765.44,
+   "text": "Links and shows."
+  },
+  {
+   "start": 765.44,
+   "end": 766.16,
+   "text": "Yep."
+  },
+  {
+   "start": 766.16,
+   "end": 767.16,
+   "text": "Great."
+  },
+  {
+   "start": 767.16,
+   "end": 774.0,
+   "text": "And there's a news page and we will put up one announcing when and where it will be."
+  },
+  {
+   "start": 774.0,
+   "end": 781.92,
+   "text": "We've put up one opening the call for presentations and we will put up more as the schedule starts"
+  },
+  {
+   "start": 781.92,
+   "end": 788.16,
+   "text": "to come together and a lot of things start to gel."
+  },
+  {
+   "start": 788.16,
+   "end": 794.28,
+   "text": "Yeah, yeah, cool. Well, listen, I know that it's going to be an awesome event because it"
+  },
+  {
+   "start": 794.28,
+   "end": 799.76,
+   "text": "always is when you have that amount of people. So people now have several months in order"
+  },
+  {
+   "start": 799.76,
+   "end": 804.72,
+   "text": "to get their partner sorted out. A little bit of a hint that we'll be heading over"
+  },
+  {
+   "start": 804.72,
+   "end": 814.08,
+   "text": "Ohio way for a romantic weekend around the 21st. Where would they be booking hotels? Is there"
+  },
+  {
+   "start": 814.08,
+   "end": 819.68,
+   "text": "sufficient hotels in town or do you have like a a hotel, a deal with a hotel or not now?"
+  },
+  {
+   "start": 821.2,
+   "end": 829.52,
+   "text": "We do not currently have any group rate booked with a hotel. I'm it's unclear to me if that's"
+  },
+  {
+   "start": 829.52,
+   "end": 838.0,
+   "text": "going to happen. That was always one of the challenges with holding the event in a hotel"
+  },
+  {
+   "start": 838.0,
+   "end": 846.16,
+   "text": "is we would have a contract with them, but it required us to book a minimum number of"
+  },
+  {
+   "start": 846.16,
+   "end": 855.74,
+   "text": "rooms and if we didn't, they would charge us a pretty extortionate penalty. So there"
+  },
+  {
+   "start": 855.74,
+   "end": 861.18,
+   "text": "There is actually one hotel directly on the campus, which is right nearby."
+  },
+  {
+   "start": 861.18,
+   "end": 865.94,
+   "text": "I don't know much about it."
+  },
+  {
+   "start": 865.94,
+   "end": 872.66,
+   "text": "And I've been told that there are others that are close and may even have a shuttle, a shuttle"
+  },
+  {
+   "start": 872.66,
+   "end": 876.82,
+   "text": "that runs between the hotel and campus."
+  },
+  {
+   "start": 876.82,
+   "end": 883.5,
+   "text": "As we get those details a little bit clearer understood, then we'll post that information"
+  },
+  {
+   "start": 883.5,
+   "end": 885.1,
+   "text": "to the website right now."
+  },
+  {
+   "start": 885.1,
+   "end": 896.5,
+   "text": "Perfect. We only have a page right now that kind of gives a map and gives some directions."
+  },
+  {
+   "start": 896.5,
+   "end": 899.98,
+   "text": "So we'll be adding more information."
+  },
+  {
+   "start": 900.0,
+   "end": 907.64,
+   "text": "it becomes available. No bother. Well we have the big thing now which is the day."
+  },
+  {
+   "start": 907.64,
+   "end": 917.88,
+   "text": "Which is starting on the 20th, Friday the 20th, as 12. Yep, at noon and then running"
+  },
+  {
+   "start": 917.88,
+   "end": 926.72,
+   "text": "through Sunday evening. Probably till about eight o'clock or perhaps later we"
+  },
+  {
+   "start": 926.72,
+   "end": 930.72,
+   "text": "Traditionally, we've had an after party,"
+  },
+  {
+   "start": 930.72,
+   "end": 934.88,
+   "text": "and so we'll have to see what we can line up"
+  },
+  {
+   "start": 934.88,
+   "end": 936.8,
+   "text": "in regard to that."
+  },
+  {
+   "start": 936.8,
+   "end": 941.8,
+   "text": "So what is the attendance size?"
+  },
+  {
+   "start": 944.08,
+   "end": 945.8,
+   "text": "Yeah, so it's very quite a bit."
+  },
+  {
+   "start": 945.8,
+   "end": 950.24,
+   "text": "So in past years, we had several years"
+  },
+  {
+   "start": 950.24,
+   "end": 953.6,
+   "text": "that were, we had about 500 people."
+  },
+  {
+   "start": 953.6,
+   "end": 958.6,
+   "text": "That, of course, dropped off during a pandemic."
+  },
+  {
+   "start": 959.92,
+   "end": 964.92,
+   "text": "In 2020, we did our first online version,"
+  },
+  {
+   "start": 967.48,
+   "end": 971.88,
+   "text": "that was purely online."
+  },
+  {
+   "start": 971.88,
+   "end": 976.88,
+   "text": "And since then, we've been getting about 150 to 200 people."
+  },
+  {
+   "start": 979.0,
+   "end": 981.72,
+   "text": "We haven't been able to get back up."
+  },
+  {
+   "start": 981.72,
+   "end": 992.44,
+   "text": "However, ever since that online event, we have also been streaming at least the main stage presentations."
+  },
+  {
+   "start": 992.44,
+   "end": 998.44,
+   "text": "So we've had a number of people who have quote unquote attended online by watching the live stream"
+  },
+  {
+   "start": 999.16,
+   "end": 1004.52,
+   "text": "or by watching the videos after the fact. Yeah, that's actually what it's going to be in the next"
+  },
+  {
+   "start": 1004.52,
+   "end": 1011.64,
+   "text": "question. Are the videos available after the fact? Yes, so if you go, we've been streaming this"
+  },
+  {
+   "start": 1011.64,
+   "end": 1020.76,
+   "text": "using YouTube. Our channel is just named OLF conference. If you again, link in"
+  },
+  {
+   "start": 1020.76,
+   "end": 1029.36,
+   "text": "chat. Yep, great. Thank you. And if you look under the live tab, you will see the"
+  },
+  {
+   "start": 1029.36,
+   "end": 1036.28,
+   "text": "stream videos, which are just kind of the raw footage that was streamed. If you look"
+  },
+  {
+   "start": 1036.28,
+   "end": 1042.6,
+   "text": "under the videos tab and this isn't every year but sometimes we've had a volunteer"
+  },
+  {
+   "start": 1042.6,
+   "end": 1049.64,
+   "text": "who cut up the stream into individual talks so that you could just watch a"
+  },
+  {
+   "start": 1049.64,
+   "end": 1057.32,
+   "text": "particular presentation but if you are looking for a year and you don't see it"
+  },
+  {
+   "start": 1057.32,
+   "end": 1065.24,
+   "text": "under the videos tab then check under the live tab or the streams tab to see"
+  },
+  {
+   "start": 1065.24,
+   "end": 1072.8,
+   "text": "the raw version. I have it right here. Cool, cool, cool, cool. So how many rooms"
+  },
+  {
+   "start": 1072.8,
+   "end": 1077.98,
+   "text": "are there again? So you've got the further session, you've got downstairs, the"
+  },
+  {
+   "start": 1077.98,
+   "end": 1082.78,
+   "text": "reception area. In the reception area is there going to be like tables? Is HP"
+  },
+  {
+   "start": 1082.78,
+   "end": 1088.2,
+   "text": "Oregon to have a table? You certainly could if you can find someone to to"
+  },
+  {
+   "start": 1088.2,
+   "end": 1095.0,
+   "text": "manage it. So that's a good question. We have our expo and I always have to"
+  },
+  {
+   "start": 1095.0,
+   "end": 1102.28,
+   "text": "to train myself not to say vendor Expo because while we do have commercial companies, we do"
+  },
+  {
+   "start": 1102.28,
+   "end": 1112.04,
+   "text": "offer tables to nonprofits like free software projects and projects like HPR. There's only"
+  },
+  {
+   "start": 1112.04,
+   "end": 1121.8,
+   "text": "space in the lobby I think for one or two tables. So there, we will probably have one or two"
+  },
+  {
+   "start": 1121.8,
+   "end": 1123.72,
+   "text": "to exhibitors there."
+  },
+  {
+   "start": 1123.72,
+   "end": 1125.88,
+   "text": "And then one of those other rooms"
+  },
+  {
+   "start": 1125.88,
+   "end": 1129.36,
+   "text": "will be where the rest of the exhibitors are."
+  },
+  {
+   "start": 1129.36,
+   "end": 1134.24,
+   "text": "And our idea is to, because that room is,"
+  },
+  {
+   "start": 1134.24,
+   "end": 1139.24,
+   "text": "there's enough space in it that we can have exhibitors"
+  },
+  {
+   "start": 1139.32,
+   "end": 1141.18,
+   "text": "and also have some other tables."
+  },
+  {
+   "start": 1141.18,
+   "end": 1143.48,
+   "text": "And we were thinking of also using that"
+  },
+  {
+   "start": 1143.48,
+   "end": 1145.8,
+   "text": "as sort of a demo space."
+  },
+  {
+   "start": 1145.8,
+   "end": 1149.28,
+   "text": "If people had projects that they wanted to come"
+  },
+  {
+   "start": 1149.28,
+   "end": 1153.84,
+   "text": "and show off, they would be able to have a little space"
+  },
+  {
+   "start": 1153.84,
+   "end": 1156.24,
+   "text": "where they could do that."
+  },
+  {
+   "start": 1156.24,
+   "end": 1157.64,
+   "text": "Yeah, nice."
+  },
+  {
+   "start": 1157.64,
+   "end": 1163.16,
+   "text": "In Uncamp, they had a separate ballroom,"
+  },
+  {
+   "start": 1163.16,
+   "end": 1167.12,
+   "text": "small little ballroom, where the tables were around the edge."
+  },
+  {
+   "start": 1167.12,
+   "end": 1169.04,
+   "text": "And then in the center, you had round tables"
+  },
+  {
+   "start": 1169.04,
+   "end": 1171.32,
+   "text": "where people were hacking and learning, soldering,"
+  },
+  {
+   "start": 1171.32,
+   "end": 1174.28,
+   "text": "or table for stickers."
+  },
+  {
+   "start": 1174.28,
+   "end": 1175.84,
+   "text": "And there was a giveaway stuff."
+  },
+  {
+   "start": 1175.84,
+   "end": 1183.04,
+   "text": "And then at the entrance, they had their sales booth and stuff where they were selling cups and t-shirts and merch."
+  },
+  {
+   "start": 1183.04,
+   "end": 1184.84,
+   "text": "So yeah, that would be great."
+  },
+  {
+   "start": 1184.84,
+   "end": 1190.14,
+   "text": "And the atmosphere in there is really nice and chill because you can take a break from it."
+  },
+  {
+   "start": 1190.14,
+   "end": 1194.34,
+   "text": "You can pull up a chair and sit down and actually talk to people."
+  },
+  {
+   "start": 1194.34,
+   "end": 1198.34,
+   "text": "It's a and still hack away on your day. Really nice."
+  },
+  {
+   "start": 1198.34,
+   "end": 1199.94,
+   "text": "And yeah, coming on back."
+  },
+  {
+   "start": 1200.24,
+   "end": 1202.96,
+   "text": "So we've got that. Anything else you wanted to say about that?"
+  },
+  {
+   "start": 1203.84,
+   "end": 1208.72,
+   "text": "Yes, so I mentioned, you know, we have the space in the lobby."
+  },
+  {
+   "start": 1208.72,
+   "end": 1215.48,
+   "text": "We'll have the auditorium also, and then we will have actually three rooms upstairs."
+  },
+  {
+   "start": 1215.48,
+   "end": 1217.48,
+   "text": "There will be two classrooms."
+  },
+  {
+   "start": 1217.48,
+   "end": 1220.32,
+   "text": "One of those will be the exhibition space."
+  },
+  {
+   "start": 1220.32,
+   "end": 1230.12,
+   "text": "The other one will be we're looking to try to get some people to do more instructional."
+  },
+  {
+   "start": 1230.12,
+   "end": 1237.72,
+   "text": "type of sessions in the other classroom, maybe reaching out to the faculty there at the university."
+  },
+  {
+   "start": 1237.72,
+   "end": 1241.28,
+   "text": "And then we also have a conference room."
+  },
+  {
+   "start": 1241.28,
+   "end": 1248.04,
+   "text": "And I have to admit, I don't remember exactly what is being planned for that."
+  },
+  {
+   "start": 1248.04,
+   "end": 1253.48,
+   "text": "So we'll have to figure out those details."
+  },
+  {
+   "start": 1253.48,
+   "end": 1261.22,
+   "text": "I love it, but it's cool the way how far you are ahead already so far ahead of the conference."
+  },
+  {
+   "start": 1261.22,
+   "end": 1262.22,
+   "text": "It's good."
+  },
+  {
+   "start": 1262.22,
+   "end": 1269.1,
+   "text": "I'm picturing this in my mind and I'm also looking to see what are flights to the US now"
+  },
+  {
+   "start": 1269.1,
+   "end": 1270.84,
+   "text": "at the moment."
+  },
+  {
+   "start": 1270.84,
+   "end": 1276.92,
+   "text": "Unfortunately they'd have to look at my social media so perhaps I can get in."
+  },
+  {
+   "start": 1276.92,
+   "end": 1280.52,
+   "text": "So I'm afraid I'm going to be an online attendee this year."
+  },
+  {
+   "start": 1280.52,
+   "end": 1287.4,
+   "text": "No, I understand perfectly. I mean we have had some people come in well as you as you mentioned you know Canada is"
+  },
+  {
+   "start": 1287.72,
+   "end": 1289.64,
+   "text": "very close by"
+  },
+  {
+   "start": 1289.64,
+   "end": 1293.74,
+   "text": "But we we have had people come in from farther away at times"
+  },
+  {
+   "start": 1295.68,
+   "end": 1300.28,
+   "text": "So we're certainly would love to have you come in Columbus actually"
+  },
+  {
+   "start": 1301.32,
+   "end": 1303.32,
+   "text": "the airport does"
+  },
+  {
+   "start": 1303.32,
+   "end": 1310.74,
+   "text": "there are direct flights to quite a few places and we'll see you know you can"
+  },
+  {
+   "start": 1310.74,
+   "end": 1318.02,
+   "text": "see if you are able to get a reasonably direct flight from wherever you are."
+  },
+  {
+   "start": 1318.02,
+   "end": 1321.98,
+   "text": "So we were talking about the rooms we're not really sure what's going on there"
+  },
+  {
+   "start": 1321.98,
+   "end": 1325.94,
+   "text": "are you gonna have like a schedule track that's what they we're here to talk"
+  },
+  {
+   "start": 1325.94,
+   "end": 1328.94,
+   "text": "about the call for papers so first of all let's talk about the call for papers"
+  },
+  {
+   "start": 1328.94,
+   "end": 1337.42,
+   "text": "and on what it is and what that entails. Go. Okay. So just a moment. Let me let me introduce"
+  },
+  {
+   "start": 1338.94,
+   "end": 1347.42,
+   "text": "Beth Lynn Eicher is our conference chair for this year. I am the speaker chair and Beth Lynn has"
+  },
+  {
+   "start": 1347.42,
+   "end": 1355.42,
+   "text": "just joined us. So I'll continue with the call for presentations but you know any future questions"
+  },
+  {
+   "start": 1355.42,
+   "end": 1359.42,
+   "text": "she might want to jump in on those."
+  },
+  {
+   "start": 1359.42,
+   "end": 1363.42,
+   "text": "Fantastic introduction. You're taking the way, Vance."
+  },
+  {
+   "start": 1363.42,
+   "end": 1367.42,
+   "text": "Okay, great. So our call for presentations,"
+  },
+  {
+   "start": 1367.42,
+   "end": 1371.42,
+   "text": "we've been talking a little bit, I guess, about the bad news"
+  },
+  {
+   "start": 1371.42,
+   "end": 1375.42,
+   "text": "is that we don't have a lot of details about"
+  },
+  {
+   "start": 1375.42,
+   "end": 1379.42,
+   "text": "what is going to happen up on our website yet,"
+  },
+  {
+   "start": 1379.42,
+   "end": 1383.42,
+   "text": "but the good news is that you can be"
+  },
+  {
+   "start": 1383.42,
+   "end": 1387.38,
+   "text": "one of the people who contributes to what we have."
+  },
+  {
+   "start": 1387.38,
+   "end": 1391.28,
+   "text": "We have a call for presentations that is open."
+  },
+  {
+   "start": 1391.28,
+   "end": 1394.9,
+   "text": "We accept proposals from anyone."
+  },
+  {
+   "start": 1394.9,
+   "end": 1397.16,
+   "text": "I will say there is a limitation."
+  },
+  {
+   "start": 1397.16,
+   "end": 1401.86,
+   "text": "We do only want people who are able to physically"
+  },
+  {
+   "start": 1401.86,
+   "end": 1404.96,
+   "text": "come to Columbus and present there."
+  },
+  {
+   "start": 1406.26,
+   "end": 1410.4,
+   "text": "So, other than that,"
+  },
+  {
+   "start": 1410.4,
+   "end": 1414.12,
+   "text": "Anyone is welcome to put in a proposal."
+  },
+  {
+   "start": 1414.12,
+   "end": 1417.76,
+   "text": "We want you to give some details about the subject"
+  },
+  {
+   "start": 1417.76,
+   "end": 1419.4,
+   "text": "that you're going to cover,"
+  },
+  {
+   "start": 1419.4,
+   "end": 1422.88,
+   "text": "a little bit of information about yourself."
+  },
+  {
+   "start": 1422.88,
+   "end": 1425.76,
+   "text": "And while we do ask,"
+  },
+  {
+   "start": 1425.76,
+   "end": 1429.36,
+   "text": "if you can provide some description"
+  },
+  {
+   "start": 1429.36,
+   "end": 1432.04,
+   "text": "of your past experience,"
+  },
+  {
+   "start": 1432.04,
+   "end": 1434.64,
+   "text": "that is not a requirement."
+  },
+  {
+   "start": 1434.64,
+   "end": 1438.04,
+   "text": "So if this is your first time speaking,"
+  },
+  {
+   "start": 1438.04,
+   "end": 1441.32,
+   "text": "we would be perfectly fine with that."
+  },
+  {
+   "start": 1441.32,
+   "end": 1446.32,
+   "text": "We want to give as many people an opportunity as we can."
+  },
+  {
+   "start": 1446.56,
+   "end": 1450.0,
+   "text": "And what we'll do is go through all the proposals"
+  },
+  {
+   "start": 1450.0,
+   "end": 1453.52,
+   "text": "and select the ones that look the strongest."
+  },
+  {
+   "start": 1453.52,
+   "end": 1454.36,
+   "text": "Super."
+  },
+  {
+   "start": 1454.36,
+   "end": 1459.6,
+   "text": "I will say we have a sort of soft deadline"
+  },
+  {
+   "start": 1459.6,
+   "end": 1462.52,
+   "text": "or a cutoff of October 9."
+  },
+  {
+   "start": 1464.16,
+   "end": 1467.04,
+   "text": "What we're going to do is we're going to look at"
+  },
+  {
+   "start": 1467.04,
+   "end": 1471.36,
+   "text": "everything that's come in then and decide which ones to accept."
+  },
+  {
+   "start": 1471.36,
+   "end": 1476.2,
+   "text": "We will still leave the call for presentations open."
+  },
+  {
+   "start": 1476.2,
+   "end": 1482.48,
+   "text": "And if we have any open slots, we will fill them using the proposals"
+  },
+  {
+   "start": 1482.48,
+   "end": 1487.52,
+   "text": "we get after the October 9th."
+  },
+  {
+   "start": 1487.52,
+   "end": 1491.24,
+   "text": "So at some point, once we get enough,"
+  },
+  {
+   "start": 1491.24,
+   "end": 1494.0,
+   "text": "we'll probably formally close it."
+  },
+  {
+   "start": 1494.0,
+   "end": 1498.48,
+   "text": "but that's the approach that we're taking this year."
+  },
+  {
+   "start": 1498.48,
+   "end": 1500.12,
+   "text": "And I'm imagining."
+  },
+  {
+   "start": 1500.0,
+   "end": 1504.0,
+   "text": "These talks need to be somehow related to tech or freely open source."
+  },
+  {
+   "start": 1504.0,
+   "end": 1511.0,
+   "text": "Yeah, so it should relate to free and open source software in whatever form."
+  },
+  {
+   "start": 1511.0,
+   "end": 1517.0,
+   "text": "As I said, we are not just about Linux, it's about any sort of free and open source software."
+  },
+  {
+   "start": 1517.0,
+   "end": 1518.0,
+   "text": "Okay."
+  },
+  {
+   "start": 1518.0,
+   "end": 1525.0,
+   "text": "I'm just looking at the call for papers and it seems reasonable, your name."
+  },
+  {
+   "start": 1525.0,
+   "end": 1528.96,
+   "text": "Basically what topic is, bit of biography, etc, etc, etc."
+  },
+  {
+   "start": 1528.96,
+   "end": 1530.04,
+   "text": "So very good."
+  },
+  {
+   "start": 1530.04,
+   "end": 1535.88,
+   "text": "But, Lyn, I believe I've interviewed you before about OLF in the past."
+  },
+  {
+   "start": 1535.88,
+   "end": 1539.8,
+   "text": "Well, it's a pleasure to be back on your show."
+  },
+  {
+   "start": 1539.8,
+   "end": 1541.68,
+   "text": "Thank you so much for having me."
+  },
+  {
+   "start": 1541.68,
+   "end": 1546.04,
+   "text": "Can you tell folks a little bit about yourself and how you got involved in OLF?"
+  },
+  {
+   "start": 1546.04,
+   "end": 1547.68,
+   "text": "Oh, goodness."
+  },
+  {
+   "start": 1547.68,
+   "end": 1554.68,
+   "text": "The year was 2003 and it was the inaugural Ohio"
+  },
+  {
+   "start": 1554.68,
+   "end": 1563.28,
+   "text": "wooden fest and imagine that we were at the Ohio State"
+  },
+  {
+   "start": 1563.28,
+   "end": 1570.98,
+   "text": "University in three laboratories there in the auditorium."
+  },
+  {
+   "start": 1570.98,
+   "end": 1582.14,
+   "text": "And it was a quite the event because there were a lot of user groups who came together"
+  },
+  {
+   "start": 1582.14,
+   "end": 1585.3,
+   "text": "to make it possible."
+  },
+  {
+   "start": 1585.3,
+   "end": 1597.54,
+   "text": "And even though geographically living in Pittsburgh, we were invited to attend and just"
+  },
+  {
+   "start": 1597.54,
+   "end": 1607.06,
+   "text": "take it all in that it was very possible to attract world-class speakers to come to Central"
+  },
+  {
+   "start": 1607.06,
+   "end": 1619.1,
+   "text": "Ohio to talk to user groups about all things free software. It was a wonderful event. I almost"
+  },
+  {
+   "start": 1619.1,
+   "end": 1628.86,
+   "text": "didn't attend it because I registered late. But at the end of the show I happened to comment"
+  },
+  {
+   "start": 1628.86,
+   "end": 1640.7,
+   "text": "on how did we really pull this off for exactly zero money to be able to attract these wonderful"
+  },
+  {
+   "start": 1640.7,
+   "end": 1649.88,
+   "text": "speakers and the answer was really the community just came together that way."
+  },
+  {
+   "start": 1649.88,
+   "end": 1660.18,
+   "text": "So it's a great and kept in touch and though in the hold I became a part of the"
+  },
+  {
+   "start": 1660.18,
+   "end": 1670.98,
+   "text": "the planning committee and later years when we became a nonprofit organization I became"
+  },
+  {
+   "start": 1670.98,
+   "end": 1677.24,
+   "text": "an officer thereof and I'm currently the president of the Ohio Linux Web"
+  },
+  {
+   "start": 1677.24,
+   "end": 1685.26,
+   "text": "Corporation. That is but you kind of got ruled into this. You got"
+  },
+  {
+   "start": 1685.26,
+   "end": 1705.26,
+   "text": "I got roped into it. I definitely can say that. I'm pretty excited that we're going to be returning to the Ohio State University."
+  },
+  {
+   "start": 1705.26,
+   "end": 1710.26,
+   "text": "And we will be at once again at Dries Labs."
+  },
+  {
+   "start": 1712.14,
+   "end": 1717.14,
+   "text": "That's where the computer science and engineering core"
+  },
+  {
+   "start": 1718.06,
+   "end": 1722.66,
+   "text": "of the excitement is on campus."
+  },
+  {
+   "start": 1722.66,
+   "end": 1727.66,
+   "text": "Many classes do take place within this very room."
+  },
+  {
+   "start": 1727.66,
+   "end": 1742.46,
+   "text": "within this very room. And that is a part of why we have to get started so late on Friday night,"
+  },
+  {
+   "start": 1742.46,
+   "end": 1752.7,
+   "text": "because there are classes scheduled in these rooms for most of the day, but what we'll be doing is"
+  },
+  {
+   "start": 1752.7,
+   "end": 1762.78,
+   "text": "will be hanging out in Dries Labs in Lohabi as students attend classes during the day."
+  },
+  {
+   "start": 1762.78,
+   "end": 1771.34,
+   "text": "And as our attendees reach Columbus will be able to greet people with a good old-fashioned"
+  },
+  {
+   "start": 1771.34,
+   "end": 1773.02,
+   "text": "free software cheer."
+  },
+  {
+   "start": 1773.02,
+   "end": 1774.98,
+   "text": "Excellent."
+  },
+  {
+   "start": 1774.98,
+   "end": 1780.54,
+   "text": "You mentioned something there in your child which I forgot to ask and that was how much"
+  },
+  {
+   "start": 1780.54,
+   "end": 1789.5,
+   "text": "is the event. What are tickets? What do tickets cost? We are again going retro with scaling back"
+  },
+  {
+   "start": 1789.5,
+   "end": 1799.9,
+   "text": "to a gratis emission that we will offer some way for folks to purchase what we"
+  },
+  {
+   "start": 1800.0,
+   "end": 1811.88,
+   "text": "called a supporter pass which will include some other amenities to thank you for thanking us to put on the show."
+  },
+  {
+   "start": 1811.88,
+   "end": 1829.0,
+   "text": "But basically what we want is people to plan ahead and attend the event and if you walk in we might have to charge some sort of nominal fee."
+  },
+  {
+   "start": 1829.0,
+   "end": 1843.0,
+   "text": "But ultimately we want it to be accessible to all, especially for the students because that is definitely the future free software."
+  },
+  {
+   "start": 1843.0,
+   "end": 1854.0,
+   "text": "Very good. I know that I'd camp had like five pounds thing and you could go up to 50 pounds."
+  },
+  {
+   "start": 1854.0,
+   "end": 1859.84,
+   "text": "any idea what they expected would be and if you know poor-18 students would they"
+  },
+  {
+   "start": 1859.84,
+   "end": 1865.28,
+   "text": "get him free or passing the Rylids and stuff? Can you give me an idea of the"
+  },
+  {
+   "start": 1865.28,
+   "end": 1873.16,
+   "text": "range of price? That students, no matter if they walk through the door on the day"
+  },
+  {
+   "start": 1873.16,
+   "end": 1880.48,
+   "text": "of or if they register in advance are for free. Yeah. Anybody can register in"
+  },
+  {
+   "start": 1880.48,
+   "end": 1889.28,
+   "text": "in advance for free. If you do not register, then you and you still would like to show up."
+  },
+  {
+   "start": 1889.92,
+   "end": 1898.32,
+   "text": "You can do so and if you're not a student and you have the means that will probably be around"
+  },
+  {
+   "start": 1898.32,
+   "end": 1904.0,
+   "text": "ten dollars and we just are thrilled to have everybody."
+  },
+  {
+   "start": 1904.0,
+   "end": 1909.68,
+   "text": "Cool. How are you affording the venue?"
+  },
+  {
+   "start": 1909.68,
+   "end": 1922.48,
+   "text": "The venue has actually been donated through the other insistence from the open source club"
+  },
+  {
+   "start": 1922.48,
+   "end": 1930.32,
+   "text": "and the cyber security clubs there at the Ohio State University."
+  },
+  {
+   "start": 1930.32,
+   "end": 1932.16,
+   "text": "That is fantastic."
+  },
+  {
+   "start": 1932.16,
+   "end": 1938.0,
+   "text": "That's great to see because that's one of the most difficult things."
+  },
+  {
+   "start": 1938.0,
+   "end": 1942.48,
+   "text": "If you've got the venue at least sorted, everything else can fold into place afterwards."
+  },
+  {
+   "start": 1942.48,
+   "end": 1945.48,
+   "text": "Have you been to the venue yourself?"
+  },
+  {
+   "start": 1945.48,
+   "end": 1946.72,
+   "text": "Because we're kind of guessing."
+  },
+  {
+   "start": 1946.72,
+   "end": 1949.48,
+   "text": "Have you visited the venue before?"
+  },
+  {
+   "start": 1949.48,
+   "end": 1957.64,
+   "text": "I had attended during the first year, but that is the last and only time that I've been"
+  },
+  {
+   "start": 1957.64,
+   "end": 1958.64,
+   "text": "in the venue."
+  },
+  {
+   "start": 1958.64,
+   "end": 1967.0,
+   "text": "So it's been a goodness over 20 years since I've been in the building."
+  },
+  {
+   "start": 1967.0,
+   "end": 1974.0,
+   "text": "I have a lot of things to know about the layout."
+  },
+  {
+   "start": 1974.0,
+   "end": 1985.4,
+   "text": "So we're going to work that out remotely that we have a highly excellent crew of students"
+  },
+  {
+   "start": 1985.4,
+   "end": 1996.6,
+   "text": "who are driving the organizing and on the campus front with the logistics thereof."
+  },
+  {
+   "start": 1996.6,
+   "end": 2007.2,
+   "text": "So there are some of those details to work out, but what we'll be able to do is we will"
+  },
+  {
+   "start": 2007.2,
+   "end": 2017.0,
+   "text": "most assuredly be able to land the floor plans from there and it is much of everybody from"
+  },
+  {
+   "start": 2017.0,
+   "end": 2019.08,
+   "text": "the community involved."
+  },
+  {
+   "start": 2019.08,
+   "end": 2020.08,
+   "text": "Fantastic."
+  },
+  {
+   "start": 2020.08,
+   "end": 2021.08,
+   "text": "Fantastic."
+  },
+  {
+   "start": 2021.08,
+   "end": 2027.16,
+   "text": "looking at the prices and it's about a thousand dollars to two thousand dollars"
+  },
+  {
+   "start": 2027.16,
+   "end": 2032.6,
+   "text": "to get me out there. I don't think my wife's gonna be too happy with that. We'll see."
+  },
+  {
+   "start": 2032.6,
+   "end": 2040.76,
+   "text": "Maybe next year. Maybe next year. So let's see how we're doing history. I've covered"
+  },
+  {
+   "start": 2040.76,
+   "end": 2045.48,
+   "text": "the how much. I covered the where. It's going to be in Dries Laboratories in the"
+  },
+  {
+   "start": 2045.48,
+   "end": 2049.76,
+   "text": "Ohio State University. It's going to be on Friday the 20th of November going"
+  },
+  {
+   "start": 2049.76,
+   "end": 2054.04,
+   "text": "through all day Saturday, all day Sunday with a possible after-party"
+  },
+  {
+   "start": 2054.04,
+   "end": 2058.52,
+   "text": "after. So I would advise you to get there on the Thursday and plan to come back on"
+  },
+  {
+   "start": 2058.52,
+   "end": 2064.4,
+   "text": "the Monday. It is for anybody who's interested, not just Linux, but freely"
+  },
+  {
+   "start": 2064.4,
+   "end": 2071.6,
+   "text": "you'll be in open source software. Why? Because. And it is an event open to"
+  },
+  {
+   "start": 2071.6,
+   "end": 2077.28,
+   "text": "anybody in who can basically make it over there. Is that basically a summary of"
+  },
+  {
+   "start": 2077.28,
+   "end": 2079.72,
+   "text": "of the who were what and why."
+  },
+  {
+   "start": 2079.72,
+   "end": 2082.44,
+   "text": "Just we will not have any action."
+  },
+  {
+   "start": 2082.44,
+   "end": 2083.44,
+   "text": "Yeah."
+  },
+  {
+   "start": 2083.44,
+   "end": 2086.68,
+   "text": "Yes, so it will be Friday and Saturday."
+  },
+  {
+   "start": 2086.68,
+   "end": 2089.16,
+   "text": "We do not have anything planned for Sunday,"
+  },
+  {
+   "start": 2089.16,
+   "end": 2092.28,
+   "text": "so that can be your travel day back home."
+  },
+  {
+   "start": 2092.28,
+   "end": 2094.2,
+   "text": "OK, so it's Friday and Saturday."
+  },
+  {
+   "start": 2094.2,
+   "end": 2095.24,
+   "text": "So, yeah."
+  },
+  {
+   "start": 2095.24,
+   "end": 2096.28,
+   "text": "Yes, yes."
+  },
+  {
+   "start": 2096.28,
+   "end": 2097.28,
+   "text": "Very good."
+  },
+  {
+   "start": 2097.28,
+   "end": 2097.92,
+   "text": "Good."
+  },
+  {
+   "start": 2097.92,
+   "end": 2098.92,
+   "text": "We got that certified."
+  },
+  {
+   "start": 2100.0,
+   "end": 2104.24,
+   "text": "So, who are your prospective attendees?"
+  },
+  {
+   "start": 2104.24,
+   "end": 2106.8,
+   "text": "People who listen to HBR, I guess."
+  },
+  {
+   "start": 2106.8,
+   "end": 2108.36,
+   "text": "Certainly."
+  },
+  {
+   "start": 2108.36,
+   "end": 2113.92,
+   "text": "As I mentioned earlier, we are hoping to get more students attending."
+  },
+  {
+   "start": 2113.92,
+   "end": 2119.48,
+   "text": "We've had some in past years, but not as many as we would like."
+  },
+  {
+   "start": 2119.48,
+   "end": 2124.72,
+   "text": "So, hopefully the campus location will help us there."
+  },
+  {
+   "start": 2124.72,
+   "end": 2129.72,
+   "text": "And it's really anybody who is interested in free software."
+  },
+  {
+   "start": 2130.22,
+   "end": 2135.22,
+   "text": "It doesn't really matter too much about your experience level."
+  },
+  {
+   "start": 2135.42,
+   "end": 2142.42,
+   "text": "I will say we have very few of our presentations normally"
+  },
+  {
+   "start": 2144.32,
+   "end": 2147.32,
+   "text": "are aimed at a very high level."
+  },
+  {
+   "start": 2147.32,
+   "end": 2152.32,
+   "text": "So, you know, we're not having people like,"
+  },
+  {
+   "start": 2154.72,
+   "end": 2159.12,
+   "text": "You know, Greg Crow Hartman, you know, or Linus Torvalds,"
+  },
+  {
+   "start": 2159.12,
+   "end": 2162.8,
+   "text": "you know, talking about very technical details"
+  },
+  {
+   "start": 2162.8,
+   "end": 2164.84,
+   "text": "within the kernel."
+  },
+  {
+   "start": 2164.84,
+   "end": 2170.84,
+   "text": "It does tend to be aimed at a more general sort of free"
+  },
+  {
+   "start": 2170.84,
+   "end": 2177.92,
+   "text": "software audience rather than a kind of specific niche."
+  },
+  {
+   "start": 2177.92,
+   "end": 2183.48,
+   "text": "So we do try to appeal more widely as we can."
+  },
+  {
+   "start": 2183.48,
+   "end": 2190.48,
+   "text": "But it very much depends on what the people who put in proposals want to talk about."
+  },
+  {
+   "start": 2190.48,
+   "end": 2200.4,
+   "text": "So if they want to talk about something that is very specialized, we'll consider that."
+  },
+  {
+   "start": 2200.4,
+   "end": 2204.44,
+   "text": "We would probably tend to, you know, all other things being equal."
+  },
+  {
+   "start": 2204.44,
+   "end": 2210.4,
+   "text": "We would probably tend to favor a presentation that has a broader appeal."
+  },
+  {
+   "start": 2210.4,
+   "end": 2214.96,
+   "text": "But yeah, that's kind of the feel that we're going for."
+  },
+  {
+   "start": 2214.96,
+   "end": 2218.44,
+   "text": "And the proposals that we get typically"
+  },
+  {
+   "start": 2218.44,
+   "end": 2221.44,
+   "text": "are applicable to a wider group."
+  },
+  {
+   "start": 2221.44,
+   "end": 2222.28,
+   "text": "Cool."
+  },
+  {
+   "start": 2222.28,
+   "end": 2223.84,
+   "text": "I'm looking here at the culture."
+  },
+  {
+   "start": 2223.84,
+   "end": 2228.56,
+   "text": "I would say that is pretty accurate."
+  },
+  {
+   "start": 2228.56,
+   "end": 2233.0,
+   "text": "I think that there's also an opportunity"
+  },
+  {
+   "start": 2233.0,
+   "end": 2237.2,
+   "text": "if you wanted to give a presentation where"
+  },
+  {
+   "start": 2237.2,
+   "end": 2248.08,
+   "text": "somebody can dabble in a project that they've never seen before and just have a little bit of a"
+  },
+  {
+   "start": 2249.04,
+   "end": 2259.2,
+   "text": "glimpse about what it is all about to see if you would like to start using that project or that"
+  },
+  {
+   "start": 2259.2,
+   "end": 2273.52,
+   "text": "approach to your your solution where it wouldn't necessarily be a very in-depth talk, but it"
+  },
+  {
+   "start": 2273.52,
+   "end": 2281.92,
+   "text": "could be specialized, but not as the oh my goodness you would have had to have a lot of background"
+  },
+  {
+   "start": 2281.92,
+   "end": 2292.75,
+   "text": "information to possibly understand it. Yeah, I see that. Yeah, I see you're looking for"
+  },
+  {
+   "start": 2292.75,
+   "end": 2299.71,
+   "text": "general system admins, stuff DevOps, emergent technologies, cloud computing, machine learning,"
+  },
+  {
+   "start": 2299.71,
+   "end": 2307.71,
+   "text": "big data, IPv6, performance tuning, scalable distributions, media, production, web operations,"
+  },
+  {
+   "start": 2307.71,
+   "end": 2313.79,
+   "text": "virtualization, containers, database and storage, and unveiling new free open source"
+  },
+  {
+   "start": 2313.79,
+   "end": 2320.59,
+   "text": "software. But possible topics including career development, management, contributing to an open source"
+  },
+  {
+   "start": 2322.19,
+   "end": 2328.59,
+   "text": "as an individual or business and community involvement and people networking. So those are kind of"
+  },
+  {
+   "start": 2328.59,
+   "end": 2335.39,
+   "text": "what's on the call for papers, but sounds very similar to a HBR, but in person to be honest."
+  },
+  {
+   "start": 2335.39,
+   "end": 2337.95,
+   "text": "I would say that's an accurate description. Yeah."
+  },
+  {
+   "start": 2339.79,
+   "end": 2346.35,
+   "text": "So people should definitely try and come and attend. I'm really, really get excited when I see"
+  },
+  {
+   "start": 2346.35,
+   "end": 2351.63,
+   "text": "these events coming up and it's great to see that after the pandemic that we're back to meeting"
+  },
+  {
+   "start": 2351.63,
+   "end": 2357.39,
+   "text": "in person again. I can't stress it enough. I will just put in a plug here. If anybody is going to"
+  },
+  {
+   "start": 2357.39,
+   "end": 2363.31,
+   "text": "OLF, please give us a shout if you would be interested in doing a table. If you had two or three people"
+  },
+  {
+   "start": 2363.31,
+   "end": 2368.59,
+   "text": "do in a table that gives plenty of time for people to go around and attend talks, but it"
+  },
+  {
+   "start": 2368.59,
+   "end": 2373.19,
+   "text": "also gives you time to have somewhere where you can sit permanently, have a coffee and"
+  },
+  {
+   "start": 2373.19,
+   "end": 2379.47,
+   "text": "have the people come to you. So please do that looking for volunteers to request a table"
+  },
+  {
+   "start": 2379.47,
+   "end": 2386.51,
+   "text": "for OLF called for your tables is now open as well as the call for papers. So what's involved"
+  },
+  {
+   "start": 2386.51,
+   "end": 2390.27,
+   "text": "in the planning, who's involved in that and where does it go from here? Because we're"
+  },
+  {
+   "start": 2390.27,
+   "end": 2396.51,
+   "text": "like at early stages at this point in the whole planning stage I guess."
+  },
+  {
+   "start": 2396.51,
+   "end": 2399.95,
+   "text": "Yes so we have a team of about six people."
+  },
+  {
+   "start": 2400.62,
+   "end": 2407.62,
+   "text": "So there's Beth Lynn and myself. We also have Michael Schulfice. He's our"
+  },
+  {
+   "start": 2407.62,
+   "end": 2414.54,
+   "text": "treasure and he also runs our web infrastructure and typically handles"
+  },
+  {
+   "start": 2414.54,
+   "end": 2425.74,
+   "text": "the registration and check-in stuff. We have Sam Javer. He is our AV guru. He has"
+  },
+  {
+   "start": 2425.74,
+   "end": 2430.02,
+   "text": "been responsible for doing the live"
+  },
+  {
+   "start": 2430.02,
+   "end": 2433.9,
+   "text": "streaming in the past few years and had"
+  },
+  {
+   "start": 2433.9,
+   "end": 2438.22,
+   "text": "he's been a huge help to us not only"
+  },
+  {
+   "start": 2438.22,
+   "end": 2440.26,
+   "text": "in being able to carry this stuff out"
+  },
+  {
+   "start": 2440.26,
+   "end": 2445.98,
+   "text": "but also you know one of our biggest"
+  },
+  {
+   "start": 2445.98,
+   "end": 2448.9,
+   "text": "expenses I guess our biggest expense"
+  },
+  {
+   "start": 2448.9,
+   "end": 2453.9,
+   "text": "other than the actual space that we"
+  },
+  {
+   "start": 2453.9,
+   "end": 2461.74,
+   "text": "Reserve is also for an AV contractor and he has helped us to cut down that expense"
+  },
+  {
+   "start": 2461.74,
+   "end": 2468.78,
+   "text": "because he has a whole bunch of his own equipment and has all this knowledge"
+  },
+  {
+   "start": 2468.78,
+   "end": 2479.18,
+   "text": "and so that's been super hopeful contribution to our team."
+  },
+  {
+   "start": 2479.18,
+   "end": 2486.18,
+   "text": "I also want to mention, so Susan Rose manages our social media."
+  },
+  {
+   "start": 2486.18,
+   "end": 2499.18,
+   "text": "I have to admit, I basically avoid all social media myself, so I'm not super up on what has been, you know,"
+  },
+  {
+   "start": 2499.18,
+   "end": 2508.18,
+   "text": "what's currently being updated on there. I know we have a Twitter account and maybe she's been posting things to LinkedIn."
+  },
+  {
+   "start": 2508.18,
+   "end": 2511.18,
+   "text": "And another person."
+  },
+  {
+   "start": 2511.18,
+   "end": 2514.18,
+   "text": "It's been mostly to our Facebook."
+  },
+  {
+   "start": 2514.18,
+   "end": 2537.18,
+   "text": "Oh, okay. Great. And I'll let maybe Beth Lynn talk about a sort of an advisor who is John Mad Dog Hall, who has come and spoken as a keynote at every or I think you may have missed one or two years."
+  },
+  {
+   "start": 2537.18,
+   "end": 2546.3,
+   "text": "over the past couple of decades but he's been a recurring real great place to have"
+  },
+  {
+   "start": 2546.3,
+   "end": 2554.14,
+   "text": "in our event. Beth Lynn why don't you talk about him a little. Absolutely so"
+  },
+  {
+   "start": 2554.14,
+   "end": 2563.9,
+   "text": "John Mandog Hall had decided to get involved with the Ohio and Expasse on our"
+  },
+  {
+   "start": 2563.9,
+   "end": 2578.78,
+   "text": "second year in 04 and it was such a big help to have his mentoring regarding how to transform"
+  },
+  {
+   "start": 2578.78,
+   "end": 2593.14,
+   "text": "a one-off event to a conference that professionals would like to attend perennially as well as"
+  },
+  {
+   "start": 2593.14,
+   "end": 2606.04,
+   "text": "the obvious in student crew, but he's always really had quite the care of, so where are"
+  },
+  {
+   "start": 2606.04,
+   "end": 2614.72,
+   "text": "the students? Probably because he got his nickname of Mad Dog from back in the time that he was"
+  },
+  {
+   "start": 2614.72,
+   "end": 2622.48,
+   "text": "a college professor. And I would definitely let him tell that story before it. I would even"
+  },
+  {
+   "start": 2622.48,
+   "end": 2632.96,
+   "text": "making the attempt to do so but trust me it's a good one and he was very very"
+  },
+  {
+   "start": 2632.96,
+   "end": 2641.04,
+   "text": "excited to share that we would be once again back at the Ohio State University"
+  },
+  {
+   "start": 2641.04,
+   "end": 2651.44,
+   "text": "especially since he was not at the inaugural Linux Fest either so it will"
+  },
+  {
+   "start": 2651.44,
+   "end": 2661.72,
+   "text": "So it's his first time being at OSU campus and he's quite interested in meeting all the"
+  },
+  {
+   "start": 2661.72,
+   "end": 2664.64,
+   "text": "students that attend as well."
+  },
+  {
+   "start": 2664.64,
+   "end": 2668.8,
+   "text": "Absolute legend in Free Libre open source circles."
+  },
+  {
+   "start": 2668.8,
+   "end": 2670.84,
+   "text": "This is fantastic."
+  },
+  {
+   "start": 2670.84,
+   "end": 2673.72,
+   "text": "So he will be attending this year, will he?"
+  },
+  {
+   "start": 2673.72,
+   "end": 2677.0,
+   "text": "Yes, he will."
+  },
+  {
+   "start": 2677.0,
+   "end": 2694.0,
+   "text": "I think that he was interested in talking about freebox.org that he had some part in the initial"
+  },
+  {
+   "start": 2694.0,
+   "end": 2699.96,
+   "text": "developments of that project and I suppose he would"
+  },
+  {
+   "start": 2700.0,
+   "end": 2710.16,
+   "text": "like to talk about actual applications as the project moves forward. If you're not familiar,"
+  },
+  {
+   "start": 2710.16,
+   "end": 2720.16,
+   "text": "you can download it yourself and run it on a Pi or you could run it on x8664 hardware."
+  },
+  {
+   "start": 2720.16,
+   "end": 2731.16,
+   "text": "And if you don't want to do either of those, they do have hardware for sale that ships with it."
+  },
+  {
+   "start": 2731.16,
+   "end": 2740.16,
+   "text": "I do believe that the hardware for sale might actually be coming out of the European Union."
+  },
+  {
+   "start": 2740.16,
+   "end": 2748.86,
+   "text": "So definitely allow for lots of shipping time for that to happen."
+  },
+  {
+   "start": 2749.28,
+   "end": 2765.76,
+   "text": "But it is very interesting to hear about how a free software project will enable and empower people to continue to have"
+  },
+  {
+   "start": 2765.76,
+   "end": 2794.76,
+   "text": "or preserve their own dominion over their own data and allow them to federate their data because a concept that we often forget about is when you trust a big company with your data, okay, not only do you potentially become the product,"
+  },
+  {
+   "start": 2794.76,
+   "end": 2799.76,
+   "text": "but you also are entrusting that they will be there"
+  },
+  {
+   "start": 2801.72,
+   "end": 2806.4,
+   "text": "and they will continue to behave nicely to you"
+  },
+  {
+   "start": 2806.4,
+   "end": 2809.96,
+   "text": "as the user forever."
+  },
+  {
+   "start": 2809.96,
+   "end": 2814.96,
+   "text": "So these types of projects that will empower people"
+  },
+  {
+   "start": 2816.4,
+   "end": 2820.04,
+   "text": "to gain control over their data"
+  },
+  {
+   "start": 2820.04,
+   "end": 2830.04,
+   "text": "and the media I think is hyper important in 2026. Couldn't agree more and I think the website is"
+  },
+  {
+   "start": 2830.04,
+   "end": 2840.36,
+   "text": "freedombox at freedombox.org. Cool cool cool cool cool. Just going through the notes here that we had,"
+  },
+  {
+   "start": 2840.36,
+   "end": 2848.04,
+   "text": "was there anything else guys that we didn't cover that we should have covered? Just a little bit of"
+  },
+  {
+   "start": 2848.04,
+   "end": 2855.06,
+   "text": "background. As we talked about the registration, that isn't open yet. Again, I"
+  },
+  {
+   "start": 2855.06,
+   "end": 2866.76,
+   "text": "would direct people to the news page to see when we open registration. Traditionally,"
+  },
+  {
+   "start": 2866.76,
+   "end": 2874.62,
+   "text": "we did not charge an admission fee. We kind of ran into some trouble, as I"
+  },
+  {
+   "start": 2874.62,
+   "end": 2883.46,
+   "text": "mentioned before with the hotel costs and so to avoid having a bunch of people"
+  },
+  {
+   "start": 2883.46,
+   "end": 2889.08,
+   "text": "who registered and then didn't show up we started charging a fee in the last"
+  },
+  {
+   "start": 2889.08,
+   "end": 2896.14,
+   "text": "two years but fortunately now with the situation we are able to offer that free"
+  },
+  {
+   "start": 2896.14,
+   "end": 2904.3,
+   "text": "registration tier, but if you choose to, you can buy a more expensive ticket and"
+  },
+  {
+   "start": 2904.3,
+   "end": 2911.86,
+   "text": "most of that extra expense is just going towards running the event because"
+  },
+  {
+   "start": 2911.86,
+   "end": 2916.14,
+   "text": "there are still some expenses. I think, you know, we'll have coffee and things like"
+  },
+  {
+   "start": 2916.14,
+   "end": 2922.94,
+   "text": "that available. I should also point out, Becklin mentioned that, you know, we're a"
+  },
+  {
+   "start": 2922.94,
+   "end": 2930.42,
+   "text": "non-profit, we're actually a charitable organization. None of the people who are"
+  },
+  {
+   "start": 2930.42,
+   "end": 2936.58,
+   "text": "on the staff or involved, none of us are getting paid to do this. It's an entirely"
+  },
+  {
+   "start": 2936.58,
+   "end": 2944.82,
+   "text": "volunteer thing and we do it because we love the community, we love learning and"
+  },
+  {
+   "start": 2944.82,
+   "end": 2950.54,
+   "text": "seeing a lot more about free software and we just, we want to make it as"
+  },
+  {
+   "start": 2950.54,
+   "end": 2958.42,
+   "text": "as accessible to as many people as possible. So this location is going to allow us to do"
+  },
+  {
+   "start": 2958.42,
+   "end": 2959.42,
+   "text": "that."
+  },
+  {
+   "start": 2959.42,
+   "end": 2964.98,
+   "text": "Yeah, it looks really nice from the photos that I see online and it's really good to"
+  },
+  {
+   "start": 2964.98,
+   "end": 2974.06,
+   "text": "be going back to the roots again and back to the core getting a really calm express to"
+  },
+  {
+   "start": 2974.06,
+   "end": 2979.42,
+   "text": "people. If you've not been to a freely-boven source event like OLF, that's the Stolworth,"
+  },
+  {
+   "start": 2979.42,
+   "end": 2985.5,
+   "text": "the example I gave in the States we were at oil F here we're a foster but I'll camp these are like"
+  },
+  {
+   "start": 2985.5,
+   "end": 2991.66,
+   "text": "the big conferences in your areas if you had never been to one and you have the option to go make a"
+  },
+  {
+   "start": 2991.66,
+   "end": 2997.26,
+   "text": "weekend of it and nip over on the Thursday then you have the whole Sunday to chill out with your"
+  },
+  {
+   "start": 2997.26,
+   "end": 3001.98,
+   "text": "with your friends and stuff and then head off home"
+  },
+  {
+   "start": 3000.0,
+   "end": 3004.72,
+   "text": "There's nothing like being there in person, meeting like-minded people, and they just go,"
+  },
+  {
+   "start": 3004.72,
+   "end": 3010.16,
+   "text": "oh my god, there are people in the world who, your conversation doesn't, the first 10 minutes of"
+  },
+  {
+   "start": 3010.16,
+   "end": 3014.96,
+   "text": "your conversation doesn't go into a discussion about what licensing is, you're straight into the"
+  },
+  {
+   "start": 3014.96,
+   "end": 3023.84,
+   "text": "me so it matters. It's fantastic to immerse yourself in that sort of an event. I'm only sorry that I"
+  },
+  {
+   "start": 3023.84,
+   "end": 3029.36,
+   "text": "will be able to attend in person, but no doubt, there will be a HPR correspondent on site,"
+  },
+  {
+   "start": 3029.36,
+   "end": 3036.08,
+   "text": "bringing us live updates in air quotes after the fact. Guys, was there anything else or do we"
+  },
+  {
+   "start": 3036.08,
+   "end": 3044.32,
+   "text": "I think we covered everything? I would like people to subscribe to our YouTube channel."
+  },
+  {
+   "start": 3045.04,
+   "end": 3051.36,
+   "text": "I believe that's all that's covered. Yeah, go to link. Especially if you can attend and"
+  },
+  {
+   "start": 3051.36,
+   "end": 3060.58,
+   "text": "Yeah, if you cannot attend in person, just definitely go ahead and subscribe."
+  },
+  {
+   "start": 3060.58,
+   "end": 3070.0,
+   "text": "That will give you access to alerts regarding scheduling the live stream."
+  },
+  {
+   "start": 3070.0,
+   "end": 3075.8,
+   "text": "And then you can definitely look in from wherever you are."
+  },
+  {
+   "start": 3075.8,
+   "end": 3076.8,
+   "text": "Perfect."
+  },
+  {
+   "start": 3076.8,
+   "end": 3080.72,
+   "text": "I'll have links obviously to all of this stuff in the show notes."
+  },
+  {
+   "start": 3080.72,
+   "end": 3085.36,
+   "text": "Do you guys have maybe I'll get in contact with the"
+  },
+  {
+   "start": 3087.04,
+   "end": 3088.64,
+   "text": "with the"
+  },
+  {
+   "start": 3088.64,
+   "end": 3094.84,
+   "text": "Organizers see maybe if you're on master done or peer tube or matrix or some of the other"
+  },
+  {
+   "start": 3095.72,
+   "end": 3101.76,
+   "text": "Channels like that. See if we can put the links in there. Yeah, there there is an"
+  },
+  {
+   "start": 3101.76,
+   "end": 3106.2,
+   "text": "and Ohio Linux matrix channel."
+  },
+  {
+   "start": 3106.2,
+   "end": 3110.72,
+   "text": "I'll have to send the link for later,"
+  },
+  {
+   "start": 3110.72,
+   "end": 3113.44,
+   "text": "but that does exist."
+  },
+  {
+   "start": 3113.44,
+   "end": 3114.52,
+   "text": "Cool, cool."
+  },
+  {
+   "start": 3114.52,
+   "end": 3116.12,
+   "text": "We'll get all those links."
+  },
+  {
+   "start": 3117.16,
+   "end": 3118.56,
+   "text": "We can put them into the show notes"
+  },
+  {
+   "start": 3118.56,
+   "end": 3121.24,
+   "text": "of the this episode before it goes out."
+  },
+  {
+   "start": 3123.52,
+   "end": 3127.92,
+   "text": "How about we schedule closer to the event,"
+  },
+  {
+   "start": 3127.92,
+   "end": 3133.52,
+   "text": "a follow up and see where you are with the scheduling and stuff, just give people maybe"
+  },
+  {
+   "start": 3133.52,
+   "end": 3140.16,
+   "text": "an half hour episode of what's coming up closer at the beginning of October sometime like that."
+  },
+  {
+   "start": 3140.16,
+   "end": 3148.24,
+   "text": "Sound like a plan? Yeah, that would be fantastic. Probably about mid-October, we would have a better"
+  },
+  {
+   "start": 3148.24,
+   "end": 3156.4,
+   "text": "sense of exactly what the presentations will be and be able to update you with a little bit more"
+  },
+  {
+   "start": 3156.4,
+   "end": 3163.48,
+   "text": "meet about what is going to be in the actual event. Yeah, because let's face it,"
+  },
+  {
+   "start": 3163.48,
+   "end": 3168.44,
+   "text": "you're going to a new and new old venue. The whole thing is going to be a lot"
+  },
+  {
+   "start": 3168.44,
+   "end": 3172.16,
+   "text": "different. I think it's from the sound of it, from what you're saying about the venue"
+  },
+  {
+   "start": 3172.16,
+   "end": 3177.6,
+   "text": "itself sounds like a fantastic venue. But then hopefully you'll have a lot more"
+  },
+  {
+   "start": 3177.6,
+   "end": 3182.64,
+   "text": "locked down as to what the call for papers are and the participation is"
+  },
+  {
+   "start": 3182.64,
+   "end": 3187.96,
+   "text": "going to be. So, I'm looking forward to seeing how it turns out. Absolutely, and"
+  },
+  {
+   "start": 3187.96,
+   "end": 3199.32,
+   "text": "thanks so much for hosting us on this. It was great. There are a couple of the"
+  },
+  {
+   "start": 3199.32,
+   "end": 3205.96,
+   "text": "HPR hosts who have been involved. There was Murph. He was actually the"
+  },
+  {
+   "start": 3205.96,
+   "end": 3211.52,
+   "text": "reason why I started recording episodes for HPR. He did a presentation at"
+  },
+  {
+   "start": 3211.52,
+   "end": 3220.18,
+   "text": "last year's OOLF about how easy it is to create and upload episodes and make"
+  },
+  {
+   "start": 3220.18,
+   "end": 3228.78,
+   "text": "them available over HPR. There's also Ahuka who has been putting up a lot of"
+  },
+  {
+   "start": 3228.78,
+   "end": 3236.6,
+   "text": "episodes about games and various science fiction authors. He was actually for"
+  },
+  {
+   "start": 3236.6,
+   "end": 3242.62,
+   "text": "several years involved with the organizing team. Yeah as I say we have a"
+  },
+  {
+   "start": 3242.62,
+   "end": 3250.1,
+   "text": "long history with the with the oil f it is the u.s. conference as far as hpr is"
+  },
+  {
+   "start": 3250.1,
+   "end": 3260.62,
+   "text": "concerned okay guys with that we love hpr so if there's nothing else shall we"
+  },
+  {
+   "start": 3260.62,
+   "end": 3268.66,
+   "text": "call all altars and absolutely go thanks for having us no bother tune in"
+  },
+  {
+   "start": 3268.66,
+   "end": 3274.26,
+   "text": "tomorrow for another exciting episode of Hacker Public Radio."
+  },
+  {
+   "start": 3274.26,
+   "end": 3279.7,
+   "text": "You have been listening to the Hacker Public Radio podcast at hicapublicradio.org."
+  },
+  {
+   "start": 3279.7,
+   "end": 3283.82,
+   "text": "Today's show was contributed by a HBR listener like yourself."
+  },
+  {
+   "start": 3283.82,
+   "end": 3289.38,
+   "text": "If you ever thought of recording a podcast, then visit the HBR site to find out how easy"
+  },
+  {
+   "start": 3289.38,
+   "end": 3290.9,
+   "text": "it really is."
+  },
+  {
+   "start": 3290.9,
+   "end": 3297.46,
+   "text": "Hosting for HBR has been kindly provided by Anomesthost.com, the internet archive,"
+  },
+  {
+   "start": 3297.46,
+   "end": 3302.66,
+   "text": "on net and the HDR community content delivery network."
+  },
+  {
+   "start": 3302.66,
+   "end": 3307.66,
+   "text": "Unless otherwise stated, today's show is released under a Creative Commons"
+  },
+  {
+   "start": 3307.66,
+   "end": 3312.3,
+   "text": "Attribution, share alike, 4.0 international advice."
+  }
+ ]
+}

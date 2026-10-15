@@ -1,0 +1,756 @@
+{
+ "episode": "hpr4746",
+ "duration_s": 783.36,
+ "segments": [
+  {
+   "start": 5.71,
+   "end": 12.71,
+   "text": "This is Hacker Public Radio Episode 4746 from onday 12th October 2026."
+  },
+  {
+   "start": 12.71,
+   "end": 15.71,
+   "text": "Today's show is entitled, Monotone."
+  },
+  {
+   "start": 15.71,
+   "end": 19.71,
+   "text": "It is the 40th show of Lee, and is about 12 minutes long."
+  },
+  {
+   "start": 19.71,
+   "end": 21.71,
+   "text": "It carries a clean flag."
+  },
+  {
+   "start": 21.71,
+   "end": 25.71,
+   "text": "The summary is, lead us some audio and textual analysis in Python."
+  },
+  {
+   "start": 25.71,
+   "end": 41.89,
+   "text": "Hi, I'm Lee."
+  },
+  {
+   "start": 41.89,
+   "end": 44.89,
+   "text": "Today I'm going to start talking about some satire,"
+  },
+  {
+   "start": 44.89,
+   "end": 48.89,
+   "text": "then move on to some computer-based audio and semantic analysis."
+  },
+  {
+   "start": 48.89,
+   "end": 53.75,
+   "text": "and finally tried to draw some sort of conclusion linking the two."
+  },
+  {
+   "start": 53.75,
+   "end": 59.27,
+   "text": "End-gate.com is a satirical tech blog that basically reads what the Hacker News website"
+  },
+  {
+   "start": 59.27,
+   "end": 65.99,
+   "text": "is posting, then reposts it with a sarcastic comment. In July I saw a repost on Mastodon"
+  },
+  {
+   "start": 65.99,
+   "end": 71.55,
+   "text": "mentioning Hacker Public Radio. Apparently HBR has been mentioned on Hacker News and therefore"
+  },
+  {
+   "start": 71.55,
+   "end": 78.31,
+   "text": "fell victim to the end-gated treatment. There were two main assertions. First the HPR"
+  },
+  {
+   "start": 78.31,
+   "end": 85.47,
+   "text": "is hosted by some in quotes, tech wizards with emojis, and I'll leave that one alone"
+  },
+  {
+   "start": 85.47,
+   "end": 90.67,
+   "text": "as it's clearly true considering contributors like my dear old mum where she talked about"
+  },
+  {
+   "start": 90.67,
+   "end": 96.73,
+   "text": "being a Telax operator in the 1970s and my blue-haired Dutch friend, Beno, who goes around"
+  },
+  {
+   "start": 96.73,
+   "end": 102.39,
+   "text": "cycling and playing Pokemon Go on this iPhone. The second assertion was that the content"
+  },
+  {
+   "start": 102.39,
+   "end": 107.59,
+   "text": "and delivery is extremely modern-time, while the mix of shows is incoherent in quotes"
+  },
+  {
+   "start": 107.59,
+   "end": 113.59,
+   "text": "a cacophony, and finally the dearth of eager new contributors was mentioned. As that's"
+  },
+  {
+   "start": 113.59,
+   "end": 118.39,
+   "text": "old territory from previous discussions on the topic, I also leave that subject be for"
+  },
+  {
+   "start": 118.39,
+   "end": 124.95,
+   "text": "now. What was most interesting to me was the assertion of monotonicity, since it was referred"
+  },
+  {
+   "start": 124.95,
+   "end": 130.35,
+   "text": "to more than once in the tweet. This certainly sounded like something worth investigating,"
+  },
+  {
+   "start": 130.35,
+   "end": 135.71,
+   "text": "as to me this sounded like an accurate impression, but I couldn't now down it's exact veracity."
+  },
+  {
+   "start": 135.71,
+   "end": 139.03,
+   "text": "But how would we test this impression?"
+  },
+  {
+   "start": 139.03,
+   "end": 144.07,
+   "text": "As it turned out, monotone is a slippery word, as it can refer to both the sound of someone's"
+  },
+  {
+   "start": 144.07,
+   "end": 149.83,
+   "text": "speech, as well as a range of expression, both in sentiment and semantics."
+  },
+  {
+   "start": 149.83,
+   "end": 153.55,
+   "text": "For me, the easiest area to tackle first was sound, though."
+  },
+  {
+   "start": 153.55,
+   "end": 157.91,
+   "text": "As you probably are well aware, sound is a wive that travels through the air and consists"
+  },
+  {
+   "start": 157.91,
+   "end": 160.35,
+   "text": "of a mixture of different frequencies."
+  },
+  {
+   "start": 160.35,
+   "end": 166.23,
+   "text": "At any instant, we can both perceive whether the pitch of someone's voice is high or low,"
+  },
+  {
+   "start": 166.23,
+   "end": 168.91,
+   "text": "as well as how much variation there is."
+  },
+  {
+   "start": 168.91,
+   "end": 172.41,
+   "text": "It turns out this is also something a computer can measure."
+  },
+  {
+   "start": 172.41,
+   "end": 176.87,
+   "text": "If the variation in pitch is scanned, then we call that speech monotone."
+  },
+  {
+   "start": 176.87,
+   "end": 179.75,
+   "text": "Okay, so how would I begin?"
+  },
+  {
+   "start": 179.75,
+   "end": 184.41,
+   "text": "I couldn't just examine Hackapublic radio, episode audio, and isolation, as that would"
+  },
+  {
+   "start": 184.41,
+   "end": 186.27,
+   "text": "give me no point of comparison."
+  },
+  {
+   "start": 186.27,
+   "end": 191.95,
+   "text": "Luckily, I had handy downloads from other podcasts, Darknet Diaries, Destination Linux,"
+  },
+  {
+   "start": 191.95,
+   "end": 194.83,
+   "text": "the Bugcast, Linux Matters and Smothers."
+  },
+  {
+   "start": 194.83,
+   "end": 199.63,
+   "text": "My first task was choosing what episodes or sections of episodes to compare."
+  },
+  {
+   "start": 199.63,
+   "end": 203.63,
+   "text": "Rather than analyse every single episode, which could be hundreds of gigabytes of audio"
+  },
+  {
+   "start": 203.63,
+   "end": 208.03,
+   "text": "data, it was more practical to systematically select a random sample."
+  },
+  {
+   "start": 208.03,
+   "end": 212.75,
+   "text": "Also, to keep this grounded in more or less recent times, for what I think was the longest"
+  },
+  {
+   "start": 212.75,
+   "end": 219.31,
+   "text": "running podcast APR, I limited the research to just episodes later than 3000."
+  },
+  {
+   "start": 219.31,
+   "end": 224.27,
+   "text": "Then rather than just feeding these episodes into an audio analyzer, I needed to be selective"
+  },
+  {
+   "start": 224.27,
+   "end": 229.51,
+   "text": "so as not to include stuff that's not talking like static noise and music. Thankfully, a"
+  },
+  {
+   "start": 229.51,
+   "end": 234.87,
+   "text": "whole Linux to noise ratio can be calculated for audio samples. And this metric let me filter"
+  },
+  {
+   "start": 234.87,
+   "end": 240.23,
+   "text": "out parts of just noise. Then the music detector algorithm could be used to filter out jingles"
+  },
+  {
+   "start": 240.23,
+   "end": 246.71,
+   "text": "and such. To help get just speech I could also apply a technical voice activity detection,"
+  },
+  {
+   "start": 246.71,
+   "end": 250.31,
+   "text": "which triggers when it hears talking versus any other kind of sound."
+  },
+  {
+   "start": 250.31,
+   "end": 255.87,
+   "text": "Now the frequency data I was getting had to be converted from hertz, which varies logarithmically"
+  },
+  {
+   "start": 255.87,
+   "end": 262.43,
+   "text": "with pitch to semitones, which change linearly with pitch. Thus we could get a real meaningful"
+  },
+  {
+   "start": 262.43,
+   "end": 267.83,
+   "text": "and fair measurement of how audibly monotone the speech was. For the speech clip sampled"
+  },
+  {
+   "start": 267.83,
+   "end": 274.37,
+   "text": "in every episode a medium pitch was derived as well as a statistical measure of the variation"
+  },
+  {
+   "start": 274.37,
+   "end": 279.71,
+   "text": "in the pitch. This technique allowed a range of different people to be fairly compared,"
+  },
+  {
+   "start": 279.71,
+   "end": 283.75,
+   "text": "whatever their baseline pitch was, which for a mouse beaker for example you might expect"
+  },
+  {
+   "start": 283.75,
+   "end": 289.51,
+   "text": "to be lower. And guess what, the raw data from this experiment does bear out the initial"
+  },
+  {
+   "start": 289.51,
+   "end": 295.99,
+   "text": "assertion, speech in HP and I tend to be significantly more one-a-tane. But finding a statistical"
+  },
+  {
+   "start": 295.99,
+   "end": 299.35,
+   "text": "differences one thing. Understanding why it was there is another."
+  },
+  {
+   "start": 300.0,
+   "end": 303.24,
+   "text": "I considered several explanations."
+  },
+  {
+   "start": 303.24,
+   "end": 307.16,
+   "text": "First what came to mind was that tech hobbyist communities might have a higher prevalence of"
+  },
+  {
+   "start": 307.16,
+   "end": 312.72,
+   "text": "neurodivergent contributors, but we might imagine have less expressive speech."
+  },
+  {
+   "start": 312.72,
+   "end": 317.6,
+   "text": "Well this did not bear out, literature on the subject, if anything suggests autistic people"
+  },
+  {
+   "start": 317.6,
+   "end": 320.96,
+   "text": "can on the whole have a wider pitch range in their speech."
+  },
+  {
+   "start": 320.96,
+   "end": 322.8,
+   "text": "This actually surprised me."
+  },
+  {
+   "start": 322.8,
+   "end": 325.44,
+   "text": "They're not considered whether acts are played apart."
+  },
+  {
+   "start": 325.44,
+   "end": 327.96,
+   "text": "The difference between American or British contributors."
+  },
+  {
+   "start": 327.96,
+   "end": 331.56,
+   "text": "Why, anecdotally, that seemed a plausible factor."
+  },
+  {
+   "start": 331.56,
+   "end": 335.68,
+   "text": "I could not find much real evidence about this."
+  },
+  {
+   "start": 335.68,
+   "end": 340.32,
+   "text": "Then also another factor that there are contributors using English as a second language."
+  },
+  {
+   "start": 340.32,
+   "end": 344.28,
+   "text": "Actually, this is plausible since there is evidence that there is generally less pitch"
+  },
+  {
+   "start": 344.28,
+   "end": 346.52,
+   "text": "variation in that case."
+  },
+  {
+   "start": 346.52,
+   "end": 351.32,
+   "text": "But this scenario does not seem to account for the majority of shows."
+  },
+  {
+   "start": 351.32,
+   "end": 355.12,
+   "text": "Other demographic factors such as age and gender will possible candidates that might"
+  },
+  {
+   "start": 355.12,
+   "end": 360.48,
+   "text": "contribute in some way to the observed result. And while yes I considered these factors,"
+  },
+  {
+   "start": 360.48,
+   "end": 365.2,
+   "text": "I am clear in my own mind that it's totally okay for different communities to have different"
+  },
+  {
+   "start": 365.2,
+   "end": 370.72,
+   "text": "demographics. Understanding why something is observed is not the same as saying what should"
+  },
+  {
+   "start": 370.72,
+   "end": 376.4,
+   "text": "be observed. But after considering all those things, the simplest explanation seemed not"
+  },
+  {
+   "start": 376.4,
+   "end": 382.64,
+   "text": "to be who was recording but how the podcast was recorded. Research on speech shows that a"
+  },
+  {
+   "start": 382.64,
+   "end": 388.0,
+   "text": "a person reading from notes naturally has a flat pitch pattern than two or more people"
+  },
+  {
+   "start": 388.0,
+   "end": 391.88,
+   "text": "having a live conversation. And we would indeed know that while there are interviews"
+  },
+  {
+   "start": 391.88,
+   "end": 396.84,
+   "text": "and conversations in HPR, there are also a lot of episodes like this one with one person"
+  },
+  {
+   "start": 396.84,
+   "end": 402.12,
+   "text": "expanding on their chosen topic. This contrasted to the comparison podcast that were often"
+  },
+  {
+   "start": 402.12,
+   "end": 407.8,
+   "text": "consistently to or more hosts speaking. I did go down the rabbit hole trying to prove"
+  },
+  {
+   "start": 407.8,
+   "end": 412.84,
+   "text": "how many hosts per HPI episode there was, without having to listen to everyone in the"
+  },
+  {
+   "start": 412.84,
+   "end": 418.08,
+   "text": "sample. First I tried scanning metadata and transcripts, then even applying clustering"
+  },
+  {
+   "start": 418.08,
+   "end": 423.64,
+   "text": "techniques to the sound. What I did discover was that even solo shows often appear to have"
+  },
+  {
+   "start": 423.64,
+   "end": 427.88,
+   "text": "more than one contributor because noise and other artifacts were being picked up as a"
+  },
+  {
+   "start": 427.88,
+   "end": 432.64,
+   "text": "distinct audio source. In the end I gave this up and just accepted what I knew in the first"
+  },
+  {
+   "start": 432.64,
+   "end": 438.16,
+   "text": "place a lot of shows are silo recordings. In any case this had answered any part of my"
+  },
+  {
+   "start": 438.16,
+   "end": 444.48,
+   "text": "original question, yes the audio is more one-at-one, but what about the words and ideas themselves?"
+  },
+  {
+   "start": 444.48,
+   "end": 449.4,
+   "text": "How could I tell if these dominant leads had just a single, subject and flat sentiment,"
+  },
+  {
+   "start": 449.4,
+   "end": 452.4,
+   "text": "whether they represented a range of themes and emotions?"
+  },
+  {
+   "start": 452.4,
+   "end": 458.1,
+   "text": "Well to start with I needed textual transcripts, thankfully the website already provided fairly"
+  },
+  {
+   "start": 458.1,
+   "end": 462.9,
+   "text": "good ones, but just in case I needed to derive my own, a tool like Whisper could do a reasonable"
+  },
+  {
+   "start": 462.9,
+   "end": 468.5,
+   "text": "job of converting speech to text. I'll qualify this by saying the quality of transcription"
+  },
+  {
+   "start": 468.5,
+   "end": 473.82,
+   "text": "is dependent on the source audio, and even then, proper nouns especially often be misheard."
+  },
+  {
+   "start": 473.82,
+   "end": 478.74,
+   "text": "But once I had the text I saw there were actually a lot of different properties and"
+  },
+  {
+   "start": 478.74,
+   "end": 484.3,
+   "text": "metrics that could be potentially applied. One of them is wording beddings, which are"
+  },
+  {
+   "start": 484.3,
+   "end": 489.38,
+   "text": "often used in AI and can represent words in the multi-dimensional vector space, where similar"
+  },
+  {
+   "start": 489.38,
+   "end": 494.06,
+   "text": "meaning words are close to each other. So with this technique, how scared the words were"
+  },
+  {
+   "start": 494.06,
+   "end": 499.14,
+   "text": "in this space would indicate what range of different meanings were contained. There was"
+  },
+  {
+   "start": 499.14,
+   "end": 504.78,
+   "text": "also variation in sentence length, variation in grammar and sentence structure, there's"
+  },
+  {
+   "start": 504.78,
+   "end": 511.3,
+   "text": "emotional tone that can be measured with sentiment scoring algorithms, there's how often a narrative"
+  },
+  {
+   "start": 511.3,
+   "end": 516.42,
+   "text": "uses words that pivot in a different direction like however or on the other hand."
+  },
+  {
+   "start": 516.42,
+   "end": 522.18,
+   "text": "How often does the person ask questions whether rhetorical or to another speaker?"
+  },
+  {
+   "start": 522.18,
+   "end": 526.3,
+   "text": "There's also how compressible the text is. Text with lots of structural patterns that"
+  },
+  {
+   "start": 526.3,
+   "end": 533.74,
+   "text": "compress as well is seen as containing less original and unique ideas and linguistic variety."
+  },
+  {
+   "start": 533.74,
+   "end": 538.02,
+   "text": "So for reference material to be used as a point of comparison, I was best not to use"
+  },
+  {
+   "start": 538.02,
+   "end": 543.1,
+   "text": "a large body of multi-host shows I had before. Also I didn't necessarily have transcripts for"
+  },
+  {
+   "start": 543.1,
+   "end": 548.22,
+   "text": "those. Instead I used TED Talk which are publicly available and do have transcripts."
+  },
+  {
+   "start": 548.22,
+   "end": 553.18,
+   "text": "So after applying all this analysis the results were mixed. So it turned out, HPR episodes"
+  },
+  {
+   "start": 553.18,
+   "end": 558.9,
+   "text": "did register as having less emotional swing and more repeated vocab and phrasing. On the"
+  },
+  {
+   "start": 558.9,
+   "end": 563.54,
+   "text": "other hand the range of topics or themes covered by episode tended to be much greater for the"
+  },
+  {
+   "start": 563.54,
+   "end": 569.2,
+   "text": "the HPR shows. The conclusion is, while the delivery tends to be perhaps more flat, what"
+  },
+  {
+   "start": 569.2,
+   "end": 574.06,
+   "text": "is talked about is not just narrowing minded or stuck on one topic, if anything, the reverse"
+  },
+  {
+   "start": 574.06,
+   "end": 580.04,
+   "text": "is true. What's my impression of this whole process? I did get to use a lot of interesting"
+  },
+  {
+   "start": 580.04,
+   "end": 586.16,
+   "text": "tools, predominantly open source libraries available for the Python programming language."
+  },
+  {
+   "start": 586.16,
+   "end": 590.44,
+   "text": "Python is a tool of choice for lots of data scientists, as it has a lot of math, stats"
+  },
+  {
+   "start": 590.44,
+   "end": 595.0,
+   "text": "the machine learning libraries and it can work at a high level defining the actual task being"
+  },
+  {
+   "start": 595.0,
+   "end": 599.96,
+   "text": "performed in straightforward code that can interface with low level libraries that crunch"
+  },
+  {
+   "start": 600.0,
+   "end": 602.68,
+   "text": "large amounts of data efficiently."
+  },
+  {
+   "start": 602.68,
+   "end": 607.92,
+   "text": "In the code I used for this analysis was Librosa for basic audio analysis, then Parcel"
+  },
+  {
+   "start": 607.92,
+   "end": 615.32,
+   "text": "Math, Phonetics and WebRTC, VOD for voice detection, ScienceKit Learn or SK Learn for"
+  },
+  {
+   "start": 615.32,
+   "end": 621.0,
+   "text": "Pattern Detection, Spacy for Understanding Natural Language, Let's Curricionous for Tracking"
+  },
+  {
+   "start": 621.0,
+   "end": 627.36,
+   "text": "Bret for Vocabulary and Vader Sentiment for Detecting Emotional Variation."
+  },
+  {
+   "start": 627.36,
+   "end": 631.8,
+   "text": "And if the hoodlies libraries are also often used common python modules or packages such"
+  },
+  {
+   "start": 631.8,
+   "end": 636.48,
+   "text": "as NumPy, SciPy, Mapplotlib and Pandas."
+  },
+  {
+   "start": 636.48,
+   "end": 641.72,
+   "text": "In any case I'll try to put some code snippets from the scripts I ran in the show notes."
+  },
+  {
+   "start": 641.72,
+   "end": 645.52,
+   "text": "So let's get back to the veracity of the original critique."
+  },
+  {
+   "start": 645.52,
+   "end": 650.28,
+   "text": "Ironically the same human that lets us poke fun at big hype, read and startups and industry"
+  },
+  {
+   "start": 650.28,
+   "end": 655.04,
+   "text": "goings on has been aimed at something that is almost the exact opposite of what engaging"
+  },
+  {
+   "start": 655.04,
+   "end": 662.16,
+   "text": "normally targets. For one, the project is non-commercial, not a Silicon Valley startup at all. The"
+  },
+  {
+   "start": 662.16,
+   "end": 667.16,
+   "text": "project encourages anyone to contribute audio about anything tech related that deeply interests"
+  },
+  {
+   "start": 667.16,
+   "end": 672.92,
+   "text": "them which leads to a neglected mix of content. The modern time drawing tribe comes from the"
+  },
+  {
+   "start": 672.92,
+   "end": 678.04,
+   "text": "idea of amateur volunteers recording rather than just polished professional podcasters,"
+  },
+  {
+   "start": 678.04,
+   "end": 682.76,
+   "text": "so the audio quality and presentation wildly varies, something that the satire ruthlessly"
+  },
+  {
+   "start": 682.76,
+   "end": 689.46,
+   "text": "exaggerates. Going back to the no new contributors issue, the project operates on the volunteer"
+  },
+  {
+   "start": 689.46,
+   "end": 693.76,
+   "text": "queue. Regular hosts drop off and new hosts come in sporadically. They're an actual"
+  },
+  {
+   "start": 693.76,
+   "end": 700.56,
+   "text": "hyathesis in a decades long life cycle of ups and downs. Also there's a difference between"
+  },
+  {
+   "start": 700.56,
+   "end": 705.24,
+   "text": "inclusivity and engagement. There's a real friction involved in the motivation and effort"
+  },
+  {
+   "start": 705.24,
+   "end": 709.84,
+   "text": "needed to pick up a mic, record something, edit it and put it out there. This can be"
+  },
+  {
+   "start": 709.84,
+   "end": 715.8,
+   "text": "intimidating for passive listeners, however welcoming in the community is."
+  },
+  {
+   "start": 715.8,
+   "end": 721.28,
+   "text": "My eventual takeaway is this satire brand relies on zero sentimentality. When this way"
+  },
+  {
+   "start": 721.28,
+   "end": 726.08,
+   "text": "of seeing the world is applied to high-flying startups and arrogant tech founders, the cynicism"
+  },
+  {
+   "start": 726.08,
+   "end": 731.28,
+   "text": "lands well. When aimed at what might be argued to be an innocent, volunteer-run labour of"
+  },
+  {
+   "start": 731.28,
+   "end": 736.24,
+   "text": "love, it comes across as a bit harsh, but that's the indiscriminate nature of a satirical"
+  },
+  {
+   "start": 736.24,
+   "end": 743.24,
+   "text": "lens at work. And to be honest, I think in today's world we need satire more than ever."
+  },
+  {
+   "start": 766.24,
+   "end": 771.44,
+   "text": "our LinkedInnet and the HBR Community Content Delivery Network."
+  },
+  {
+   "start": 771.44,
+   "end": 776.8,
+   "text": "Unless otherwise stated, today's show is released under a Creative Commons"
+  },
+  {
+   "start": 776.8,
+   "end": 781.24,
+   "text": "attribution share a light 4.0 international life."
+  }
+ ]
+}
