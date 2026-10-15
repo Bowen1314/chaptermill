@@ -1,0 +1,22 @@
+{
+ "episodes": {
+  "hpr4740": {
+   "identical": true,
+   "segments": 149,
+   "clean_segments": 149
+  },
+  "hpr4743": {
+   "identical": true,
+   "segments": 206,
+   "clean_segments": 206
+  },
+  "hpr4747": {
+   "identical": true,
+   "segments": 229,
+   "clean_segments": 229
+  }
+ },
+ "segments": 584,
+ "all_identical": true,
+ "summary": "identical"
+}

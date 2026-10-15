@@ -1,0 +1,327 @@
+{
+ "catalog_id": "chaos-hpr-20261015",
+ "status": "COMPLETED",
+ "wall_clock_s": 748.3,
+ "spent_usd": 0.021406,
+ "activities_scheduled": {
+  "fetch_feed": 1,
+  "download_audio": 3,
+  "probe_audio": 3,
+  "transcribe_chunk": 13,
+  "merge_transcript": 3,
+  "llm_turn": 18,
+  "read_transcript": 10,
+  "search_transcript": 9,
+  "validate_notes": 4,
+  "write_outputs": 3
+ },
+ "activity_attempts": {
+  "fetch_feed": 1,
+  "download_audio": 6,
+  "probe_audio": 3,
+  "transcribe_chunk": 21,
+  "merge_transcript": 3,
+  "llm_turn": 26,
+  "read_transcript": 11,
+  "search_transcript": 10,
+  "validate_notes": 4,
+  "write_outputs": 3
+ },
+ "retried_attempts_by_activity": {
+  "download_audio": 3,
+  "transcribe_chunk": 8,
+  "llm_turn": 8,
+  "search_transcript": 1,
+  "read_transcript": 1
+ },
+ "activity_final_timeouts": {},
+ "workflow_task_timeouts": 0,
+ "workflow_task_failures": 0,
+ "ledger": {
+  "http_calls_sent": 19,
+  "completions_ok": 18,
+  "unique_completions": 18,
+  "duplicate_completions": 0,
+  "sent_without_outcome": 1,
+  "injected_faults": 6,
+  "http_errors": {},
+  "timeouts": 0,
+  "usd": 0.021406,
+  "prompt_tokens": 98739,
+  "completion_tokens": 2764
+ },
+ "episodes": [
+  {
+   "key": "hpr4747",
+   "status": "done",
+   "error": ""
+  },
+  {
+   "key": "hpr4743",
+   "status": "done",
+   "error": ""
+  },
+  {
+   "key": "hpr4740",
+   "status": "done",
+   "error": ""
+  }
+ ],
+ "retries": [
+  {
+   "activity": "download_audio",
+   "attempt": 2,
+   "last_failure": "[injected fault] connection reset while downloading hpr4743",
+   "workflow": "chaos-hpr-20261015--hpr4743"
+  },
+  {
+   "activity": "download_audio",
+   "attempt": 3,
+   "last_failure": "[injected fault] connection reset while downloading hpr4747",
+   "workflow": "chaos-hpr-20261015--hpr4747"
+  },
+  {
+   "activity": "transcribe_chunk",
+   "attempt": 3,
+   "last_failure": "activity Heartbeat timeout",
+   "workflow": "chaos-hpr-20261015--hpr4747"
+  },
+  {
+   "activity": "llm_turn",
+   "attempt": 2,
+   "last_failure": "[injected fault] provider returned 503",
+   "workflow": "chaos-hpr-20261015--hpr4743"
+  },
+  {
+   "activity": "search_transcript",
+   "attempt": 2,
+   "last_failure": "[injected fault] transcript store unavailable",
+   "workflow": "chaos-hpr-20261015--hpr4743"
+  },
+  {
+   "activity": "llm_turn",
+   "attempt": 2,
+   "last_failure": "[injected fault] provider returned 503",
+   "workflow": "chaos-hpr-20261015--hpr4743"
+  },
+  {
+   "activity": "transcribe_chunk",
+   "attempt": 4,
+   "last_failure": "activity Heartbeat timeout",
+   "workflow": "chaos-hpr-20261015--hpr4740"
+  },
+  {
+   "activity": "transcribe_chunk",
+   "attempt": 3,
+   "last_failure": "activity Heartbeat timeout",
+   "workflow": "chaos-hpr-20261015--hpr4747"
+  },
+  {
+   "activity": "llm_turn",
+   "attempt": 3,
+   "last_failure": "[injected fault] provider returned 503",
+   "workflow": "chaos-hpr-20261015--hpr4747"
+  },
+  {
+   "activity": "transcribe_chunk",
+   "attempt": 2,
+   "last_failure": "activity Heartbeat timeout",
+   "workflow": "chaos-hpr-20261015--hpr4740"
+  },
+  {
+   "activity": "llm_turn",
+   "attempt": 3,
+   "last_failure": "activity Heartbeat timeout",
+   "workflow": "chaos-hpr-20261015--hpr4747"
+  },
+  {
+   "activity": "read_transcript",
+   "attempt": 2,
+   "last_failure": "[injected fault] transcript store unavailable",
+   "workflow": "chaos-hpr-20261015--hpr4740"
+  },
+  {
+   "activity": "llm_turn",
+   "attempt": 3,
+   "last_failure": "activity Heartbeat timeout",
+   "workflow": "chaos-hpr-20261015--hpr4740"
+  }
+ ],
+ "kills": 9,
+ "server_kills": 1,
+ "faults": "llm=0.3,download=0.5,tool=0.15",
+ "faults_human": "30% of model API calls answered with a 503 (first two attempts only); 50% of audio downloads cut off (first two attempts only); 15% of transcript tool calls failing (first two attempts only)",
+ "seed": 7,
+ "events": [
+  {
+   "t": 0.0,
+   "wall": "15:40:25",
+   "action": "start",
+   "only": "hpr4747,hpr4743,hpr4740"
+  },
+  {
+   "t": 69.8,
+   "wall": "15:41:34",
+   "action": "kill",
+   "n": 1,
+   "server_too": false,
+   "stages": {
+    "hpr4740": "queued",
+    "hpr4743": "transcribing (chunks 1/4, turns 0)",
+    "hpr4747": "transcribing (chunks 0/6, turns 0)"
+   }
+  },
+  {
+   "t": 77.9,
+   "wall": "15:41:42",
+   "action": "worker_restarted"
+  },
+  {
+   "t": 165.9,
+   "wall": "15:43:11",
+   "action": "kill",
+   "n": 2,
+   "server_too": false,
+   "stages": {
+    "hpr4740": "queued",
+    "hpr4743": "transcribing (chunks 2/4, turns 0)",
+    "hpr4747": "transcribing (chunks 0/6, turns 0)"
+   }
+  },
+  {
+   "t": 172.1,
+   "wall": "15:43:17",
+   "action": "worker_restarted"
+  },
+  {
+   "t": 254.3,
+   "wall": "15:44:39",
+   "action": "kill",
+   "n": 3,
+   "server_too": true,
+   "stages": {
+    "hpr4740": "transcribing (chunks 0/3, turns 0)",
+    "hpr4743": "done",
+    "hpr4747": "transcribing (chunks 2/6, turns 0)"
+   }
+  },
+  {
+   "t": 267.6,
+   "wall": "15:44:52",
+   "action": "server_restarted"
+  },
+  {
+   "t": 267.6,
+   "wall": "15:44:52",
+   "action": "worker_restarted"
+  },
+  {
+   "t": 320.0,
+   "wall": "15:45:45",
+   "action": "kill",
+   "n": 4,
+   "server_too": false,
+   "stages": {
+    "hpr4740": "transcribing (chunks 0/3, turns 0)",
+    "hpr4743": "done",
+    "hpr4747": "transcribing (chunks 4/6, turns 0)"
+   }
+  },
+  {
+   "t": 332.7,
+   "wall": "15:45:57",
+   "action": "worker_restarted"
+  },
+  {
+   "t": 381.7,
+   "wall": "15:46:46",
+   "action": "kill",
+   "n": 5,
+   "server_too": false,
+   "stages": {
+    "hpr4740": "transcribing (chunks 0/3, turns 0)",
+    "hpr4743": "done",
+    "hpr4747": "transcribing (chunks 5/6, turns 0)"
+   }
+  },
+  {
+   "t": 393.4,
+   "wall": "15:46:58",
+   "action": "worker_restarted"
+  },
+  {
+   "t": 450.5,
+   "wall": "15:47:55",
+   "action": "kill",
+   "n": 6,
+   "server_too": false,
+   "stages": {
+    "hpr4740": "transcribing (chunks 0/3, turns 0)",
+    "hpr4743": "done",
+    "hpr4747": "transcribing (chunks 5/6, turns 0)"
+   }
+  },
+  {
+   "t": 456.9,
+   "wall": "15:48:02",
+   "action": "worker_restarted"
+  },
+  {
+   "t": 532.7,
+   "wall": "15:49:17",
+   "action": "kill",
+   "n": 7,
+   "server_too": false,
+   "stages": {
+    "hpr4740": "transcribing (chunks 0/3, turns 0)",
+    "hpr4743": "done",
+    "hpr4747": "transcribing (chunks 5/6, turns 0)"
+   }
+  },
+  {
+   "t": 550.2,
+   "wall": "15:49:35",
+   "action": "worker_restarted"
+  },
+  {
+   "t": 604.7,
+   "wall": "15:50:29",
+   "action": "kill",
+   "n": 8,
+   "server_too": false,
+   "stages": {
+    "hpr4740": "transcribing (chunks 1/3, turns 0)",
+    "hpr4743": "done",
+    "hpr4747": "transcribing (chunks 5/6, turns 0)"
+   }
+  },
+  {
+   "t": 613.1,
+   "wall": "15:50:38",
+   "action": "worker_restarted"
+  },
+  {
+   "t": 701.1,
+   "wall": "15:52:06",
+   "action": "kill",
+   "n": 9,
+   "server_too": false,
+   "stages": {
+    "hpr4740": "writing notes (chunks 3/3, turns 3)",
+    "hpr4743": "done",
+    "hpr4747": "done"
+   }
+  },
+  {
+   "t": 720.5,
+   "wall": "15:52:25",
+   "action": "worker_restarted"
+  },
+  {
+   "t": 748.3,
+   "wall": "15:52:53",
+   "action": "closed",
+   "status": "COMPLETED"
+  }
+ ]
+}

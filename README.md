@@ -56,6 +56,16 @@ CatalogWorkflow (one per run)
 
 Audio, transcripts and chunk results stay on disk; workflow history carries only file paths and the agent's conversation, so histories stay small.
 
+## Results from the demo runs (2026-10-15)
+
+On a shared home server (Intel i3-6100, 3.8 GB RAM, one spinning disk):
+
+* **Clean run:** 9 Hacker Public Radio episodes, 4.3 h of audio, in 44 minutes. Transcription ran at 9.8× real time. 74 model replies, none bought twice, $0.125 in total ($0.029 per audio hour). The validator rejected 4 submissions; the model fixed each one in its next submission. The first run finished 7 of 9: on the two longest episodes the agent used all its turns reading and never submitted, so I added the turn-budget warning (`agent.WARN_AT_TURNS_LEFT`) and re-ran those two, with every chunk and the first nine replies of each coming from cache.
+* **Chaos run:** 3 episodes, 9 SIGKILLs of the worker (one together with the Temporal server), plus injected 503s, cut-off downloads and failing tool calls. 3 of 3 finished in 12.5 minutes with no manual help; 88 activity attempts for 67 activities; transcripts identical, segment for segment, to the clean run; 18 model replies, none bought twice; 1 request was in flight at a kill and had to be asked again.
+* **Transcript difference** from the transcripts Hacker Public Radio publishes: 12.6% of words overall (`scripts/agreement.py`). HPR's transcripts are also Whisper output and not proofread, so this is not an error rate.
+
+The raw reports are in `demo/run.json`, `demo/chaos.json` and `demo/compare.json`.
+
 ## Run it
 
 Requirements: Python 3.10+, `ffmpeg`, the [Temporal CLI](https://docs.temporal.io/cli), and an OpenAI-compatible endpoint whose model supports tool calling (a hosted open-weight model, or your own vLLM / llama.cpp server).

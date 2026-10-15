@@ -161,9 +161,9 @@ function chaosSection() {
         cmp ? (cmp.all_identical ? `Yes, segment for segment (${num(cmp.segments)} segments)` : `No: ${cmp.summary}`) : "not compared")),
       h("tr", {}, h("th", {}, "Model replies received"), h("td", {}, `${L.completions_ok} (${L.unique_completions} distinct requests)`)),
       h("tr", {}, h("th", {}, "Model replies bought twice"), h("td", { class: L.duplicate_completions === 0 ? "good" : "" }, String(L.duplicate_completions))),
-      h("tr", {}, h("th", {}, "Requests in flight when the worker died"), h("td", {}, `${L.sent_without_outcome} (sent, reply lost with the process, re-sent on retry; these may have been billed)`)),
+      h("tr", {}, h("th", {}, "Requests in flight when the worker died"), h("td", {}, L.sent_without_outcome ? `${L.sent_without_outcome} (the reply died with the process and the retry asked again; the provider may have billed ${L.sent_without_outcome === 1 ? "it" : "them"} anyway)` : "0")),
       h("tr", {}, h("th", {}, "Injected model API 503s / real HTTP errors"), h("td", {}, `${L.injected_faults} / ${Object.values(L.http_errors || {}).reduce((a, b) => a + b, 0)}`)),
-      h("tr", {}, h("th", {}, "Workflow tasks that timed out (worker gone)"), h("td", {}, String(c.workflow_task_timeouts))),
+      h("tr", {}, h("th", {}, "Workflow tasks that timed out"), h("td", {}, String(c.workflow_task_timeouts))),
       h("tr", {}, h("th", {}, "Model cost of the chaos run"), h("td", {}, usd(L.usd))),
     )));
   const retryTable = retried.length ? h("div", { class: "tablewrap" }, h("table", {},
@@ -193,9 +193,10 @@ function costSection() {
   const perHour = run.usd_per_audio_hour;
   const backlog = 150; // hours: e.g. 300 episodes of 30 minutes
   const speed = run.transcribe_s / run.audio_s;
+  const pace = run.wall_clock_s ? run.wall_clock_s / run.audio_s : null;
   const ours = h("p", {},
     `This run paid ${usd(run.usd, 3)} in model calls for ${hours(run.audio_s)} of audio, or ${usd(perHour, 3)} per audio hour at Nebius list prices for ${np.model} ($${np.input_per_m.toFixed(2)} in / $${np.output_per_m.toFixed(2)} out per million tokens). `,
-    `Transcription is free and local; on this machine it runs at ${(1 / speed).toFixed(1)}× real time, so a ${backlog}-hour back catalog (300 half-hour episodes) is about ${Math.round(backlog * speed)} hours of CPU and about ${usd(perHour * backlog, 2)} of model calls. I did not measure the electricity.`);
+    `Transcription is free and local; on this machine it runs at ${(1 / speed).toFixed(1)}× real time, so a ${backlog}-hour back catalog (300 half-hour episodes) is about ${Math.round(backlog * speed)} hours of transcription${pace ? ` (about ${Math.round(backlog * pace)} hours of wall clock at this run's pace, agent included)` : ""} and about ${usd(perHour * backlog, 2)} of model calls. I did not measure the electricity.`);
   const table = h("div", { class: "tablewrap" }, h("table", {},
     h("thead", {}, h("tr", {}, h("th", {}, "Hosted service"), h("th", {}, "Price"), h("th", {}, "What it includes"))),
     h("tbody", {}, DATA.prices.map((p) => h("tr", {}, h("td", {}, h("a", { href: p.url }, p.name)), h("td", {}, p.price), h("td", {}, p.allowance))))));
